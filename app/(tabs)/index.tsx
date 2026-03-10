@@ -547,6 +547,9 @@ export default function GameScreen() {
                 { color: COLORS.primary },
                 GLOW.primary,
               ]}
+              numberOfLines={1}
+              adjustsFontSizeToFit
+              minimumFontScale={0.5}
             >
               {currentPlayer.secret.toUpperCase()}
             </Text>
@@ -792,7 +795,12 @@ export default function GameScreen() {
               <Text style={styles.roleLabel}>
                 {getTranslation("secretWordLabel")}
               </Text>
-              <Text style={[styles.secretWordLarge, GLOW.primary]}>
+              <Text 
+                style={[styles.secretWordLarge, GLOW.primary]}
+                numberOfLines={1}
+                adjustsFontSizeToFit
+                minimumFontScale={0.5}
+              >
                 {secretWord.toUpperCase()}
               </Text>
             </View>
@@ -1031,6 +1039,7 @@ const styles = StyleSheet.create({
     letterSpacing: 2,
     textAlign: "center",
     fontFamily: FONT_FAMILY,
+    width: '100%',
   },
   roleLabel: {
     color: COLORS.textSecondary,
@@ -1213,6 +1222,7 @@ const styles = StyleSheet.create({
     letterSpacing: 3,
     textAlign: "center",
     fontFamily: FONT_FAMILY,
+    width: '100%',
   },
   endActions: {
     width: "100%",

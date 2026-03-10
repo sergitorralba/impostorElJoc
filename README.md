@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# The Imposter (L'impostor)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A neon-themed, multi-language social deduction game built with React Native and Expo. Perfect for parties, "The Imposter" challenges players to identify the "lone wolf" among them using subtle clues and clever discussion.
 
-## Get started
+## 🎮 How to Play
 
-1. Install dependencies
+1.  **Setup:** 3 or more players enter their names and select a Game Mode (Adults +18 or Kids).
+2.  **The Secret:** Each player swiped up to reveal their identity.
+    *   **Civilians:** Receive a secret word (e.g., "Coffee").
+    *   **Imposter(s):** Receive a subtle clue related to the word (e.g., "Breakfast drink").
+3.  **The Discussion:** Players take turns saying one word related to their secret. Civilians try to find the Imposter, while the Imposter tries to blend in by guessing the secret word from others' clues.
+4.  **The Verdict:** After two rounds, players must vote.
+    *   **Public Agreement:** Everyone agrees on a suspect.
+    *   **Secret Vote:** Players pass the phone to vote privately.
+5.  **Winning:**
+    *   The Civilians win if they catch the Imposter.
+    *   The Imposter wins if they remain undetected or successfully guess the secret word.
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+*   **Neon Aesthetic:** Modern, high-contrast dark theme with glowing UI elements.
+*   **Dynamic Role Assignment:** Logic scales from single imposters to multiple suspects based on player count.
+*   **Multi-language Support:** Play in English, Spanish, Catalan, or Dutch.
+*   **Adaptive UI:** Secret words auto-scale their font size to fit any screen or word length.
+*   **Tactile Feedback:** Full Haptic integration for an immersive physical experience.
+*   **System "Bugs":** 
+    *   **Extra Imposter:** A 20% chance of an additional imposter appearing after 5 consecutive games.
+    *   **Chaos Mode:** A rare state where *everyone* might be an imposter.
+*   **Persistence:** Session recovery ensures games aren't lost if the app closes.
 
-   ```bash
-   npx expo start
-   ```
+## 🛠 Technical Stack
 
-In the output, you'll find options to open the app in a
+*   **Framework:** React Native / Expo (SDK 54).
+*   **State Management:** Zustand with Persistence middleware.
+*   **Navigation:** Expo Router (File-based routing).
+*   **Gestures:** React Native Gesture Handler for "paper-lift" reveals.
+*   **Storage:** AsyncStorage for saving game history and players.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
+*   Node.js (v20+)
+*   npm
+*   Android Studio (for local builds)
 
-## Get a fresh project
+### Installation
+1.  Clone the repository.
+2.  Run `npm install`.
+3.  Start the development server:
+    ```bash
+    npx expo start
+    ```
 
-When you're ready, run:
-
+### Building the APK (Local)
+To generate an APK using your local Android SDK:
 ```bash
-npm run reset-project
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export ANDROID_HOME=$HOME/Library/Android/sdk
+npx eas-cli build --platform android --profile preview --local
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📝 License
+Proprietary / Private. Created for Sergi Torralba.

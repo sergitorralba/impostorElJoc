@@ -1,0 +1,50 @@
+appId: host.exp.exponent # Standard for Expo Go, change to your bundle ID for production builds
+---
+- clearState
+- launchApp
+- tapOn: "EN"
+- assertVisible: "SELECT MODE"
+- tapOn: "ADULT"
+- assertVisible: "PLAYER SETUP"
+- tapOn: "Player Name"
+- inputText: "Alice"
+- tapOn: "+"
+- tapOn: "Player Name"
+- inputText: "Bob"
+- tapOn: "+"
+- tapOn: "Player Name"
+- inputText: "Charlie"
+- tapOn: "+"
+- tapOn: "START GAME"
+# Player 1 Reveal
+- assertVisible: "Pass the phone to:.*"
+- swipe:
+    start: 50%, 80%
+    end: 50%, 20%
+- assertVisible: "YOUR ROLE: .*"
+- tapOn: "I UNDERSTAND"
+# Player 2 Reveal
+- assertVisible: "Pass the phone to:.*"
+- swipe:
+    start: 50%, 80%
+    end: 50%, 20%
+- assertVisible: "YOUR ROLE: .*"
+- tapOn: "I UNDERSTAND"
+# Player 3 Reveal
+- assertVisible: "Pass the phone to:.*"
+- swipe:
+    start: 50%, 80%
+    end: 50%, 20%
+- assertVisible: "YOUR ROLE: .*"
+- tapOn: "I UNDERSTAND"
+# Play Phase
+- assertVisible: "ACTION TIME"
+- tapOn: "DECISION METHOD"
+# Vote Choice
+- tapOn: "PUBLIC AGREEMENT"
+# Select Suspect
+- tapOn: "Alice"
+# Results
+- assertVisible: "TERMINATED"
+- tapOn: "REBOOT SESSION"
+- assertVisible: "SELECT LANGUAGE"
