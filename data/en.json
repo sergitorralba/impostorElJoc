@@ -1,112 +1,8648 @@
 {
-  "airplane": { "clues": ["sky", "wings", "pilot", "engines", "altitude"], "category": "Tech" },
-  "pizza": { "clues": ["round", "delivery", "slices", "cheese", "hot"], "category": "Food" },
-  "lion": { "clues": ["mane", "king", "roar", "savannah", "feline"], "category": "Animals" },
-  "beach": { "clues": ["sand", "ocean", "waves", "towel", "sun"], "category": "Nature" },
-  "laptop": { "clues": ["keyboard", "screen", "portable", "battery", "data"], "category": "Tech" },
-  "bicycle": { "clues": ["pedals", "wheels", "chain", "helmet", "two"], "category": "Sports" },
-  "coffee": { "clues": ["mug", "morning", "bitter", "caffeine", "beans"], "category": "Food" },
-  "mountain": { "clues": ["peak", "climb", "hiking", "high", "snow"], "category": "Nature" },
-  "guitar": { "clues": ["strings", "acoustic", "music", "pick", "six"], "category": "Hobbies" },
-  "doctor": { "clues": ["hospital", "clinic", "health", "medicine", "coat"], "category": "Jobs" },
-  "umbrella": { "clues": ["rain", "dry", "handle", "shadow", "foldable"], "category": "Objects" },
-  "pencil": { "clues": ["writing", "graphite", "sharpener", "eraser", "drawing"], "category": "Objects" },
-  "forest": { "clues": ["trees", "green", "woods", "wildlife", "paths"], "category": "Nature" },
-  "elephant": { "clues": ["trunk", "tusks", "ears", "large", "grey"], "category": "Animals" },
-  "camera": { "clues": ["lens", "photo", "flash", "zoom", "shutter"], "category": "Tech" },
-  "bread": { "clues": ["bakery", "toast", "flour", "crust", "slices"], "category": "Food" },
-  "clock": { "clues": ["time", "hands", "tick", "alarm", "numbers"], "category": "Objects" },
-  "football": { "clues": ["goal", "pitch", "match", "kick", "team"], "category": "Sports" },
-  "train": { "clues": ["tracks", "station", "platform", "ticket", "locomotive"], "category": "Travel" },
-  "car": { "clues": ["road", "steering", "wheels", "engine", "driver"], "category": "Travel" },
-  "river": { "clues": ["flow", "bank", "water", "fishing", "current"], "category": "Nature" },
-  "ocean": { "clues": ["salt", "deep", "blue", "marine", "ships"], "category": "Nature" },
-  "window": { "clues": ["glass", "view", "frame", "curtains", "light"], "category": "Home" },
-  "chair": { "clues": ["sit", "legs", "back", "rest", "wood"], "category": "Home" },
-  "bed": { "clues": ["sleep", "pillow", "mattress", "dreams", "night"], "category": "Home" },
-  "shoes": { "clues": ["feet", "walk", "laces", "sole", "pair"], "category": "Clothing" },
-  "shirt": { "clues": ["buttons", "sleeves", "fabric", "collar", "wear"], "category": "Clothing" },
-  "hat": { "clues": ["head", "shade", "cap", "brim", "style"], "category": "Clothing" },
-  "grass": { "clues": ["green", "lawn", "mow", "garden", "yard"], "category": "Nature" },
-  "sun": { "clues": ["bright", "hot", "sky", "yellow", "day"], "category": "Nature" },
-  "moon": { "clues": ["night", "orbit", "sky", "lunar", "round"], "category": "Nature" },
-  "stars": { "clues": ["night", "sky", "bright", "space", "shining"], "category": "Nature" },
-  "flower": { "clues": ["petals", "bloom", "scent", "garden", "stem"], "category": "Nature" },
-  "dog": { "clues": ["bark", "pet", "puppy", "loyal", "tail"], "category": "Animals" },
-  "cat": { "clues": ["meow", "purr", "feline", "claws", "whisker"], "category": "Animals" },
-  "bird": { "clues": ["feathers", "fly", "wings", "nest", "beak"], "category": "Animals" },
-  "fish": { "clues": ["swim", "water", "scales", "fins", "gill"], "category": "Animals" },
-  "apple": { "clues": ["fruit", "red", "crunchy", "tree", "sweet"], "category": "Food" },
-  "banana": { "clues": ["fruit", "yellow", "peel", "curve", "tropical"], "category": "Food" },
-  "orange": { "clues": ["fruit", "juice", "peel", "round", "citrus"], "category": "Food" },
-  "water": { "clues": ["drink", "glass", "clear", "liquid", "thirst"], "category": "Food" },
-  "milk": { "clues": ["white", "drink", "dairy", "cow", "calcium"], "category": "Food" },
-  "tea": { "clues": ["cup", "leaves", "hot", "kettle", "steeping"], "category": "Food" },
-  "book": { "clues": ["read", "pages", "library", "cover", "author"], "category": "Hobbies" },
-  "pen": { "clues": ["ink", "write", "paper", "cap", "draw"], "category": "Objects" },
-  "fridge": { "clues": ["cold", "food", "kitchen", "appliance", "ice"], "category": "Home" },
-  "mirror": { "clues": ["reflection", "glass", "wall", "bathroom", "face"], "category": "Home" },
-  "wallet": { "clues": ["money", "cards", "leather", "pocket", "cash"], "category": "Objects" },
-  "keys": { "clues": ["lock", "door", "metal", "ring", "pocket"], "category": "Objects" },
-  "spoon": { "clues": ["soup", "eat", "metal", "handle", "kitchen"], "category": "Home" },
-  "fork": { "clues": ["prongs", "eat", "metal", "handle", "kitchen"], "category": "Home" },
-  "plate": { "clues": ["food", "round", "ceramic", "kitchen", "flat"], "category": "Home" },
-  "toilet": { "clues": ["flush", "bathroom", "paper", "water", "seat"], "category": "Home" },
-  "sink": { "clues": ["tap", "water", "wash", "kitchen", "bathroom"], "category": "Home" },
-  "door": { "clues": ["handle", "open", "close", "entrance", "wood"], "category": "Home" },
-  "wall": { "clues": ["brick", "paint", "room", "vertical", "structure"], "category": "Home" },
-  "stairs": { "clues": ["climb", "up", "down", "steps", "railing"], "category": "Home" },
-  "elevator": { "clues": ["lift", "up", "down", "button", "floor"], "category": "Tech" },
-  "garden": { "clues": ["plants", "soil", "yard", "outside", "watering"], "category": "Nature" },
-  "school": { "clues": ["learn", "teacher", "students", "books", "classes"], "category": "Places" },
-  "market": { "clues": ["buy", "sell", "food", "fresh", "stalls"], "category": "Places" },
-  "restaurant": { "clues": ["menu", "waiter", "meal", "chef", "eat"], "category": "Places" },
-  "cinema": { "clues": ["movie", "film", "screen", "popcorn", "theater"], "category": "Places" },
-  "bank": { "clues": ["money", "safe", "account", "vault", "cash"], "category": "Places" },
-  "church": { "clues": ["bells", "pray", "cross", "steeple", "service"], "category": "Places" },
-  "castle": { "clues": ["king", "stone", "moat", "tower", "history"], "category": "Places" },
-  "island": { "clues": ["isolated", "palm", "tropical", "beach", "coast"], "category": "Places" },
-  "desert": { "clues": ["sand", "cactus", "camel", "dunes", "dry"], "category": "Nature" },
-  "jungle": { "clues": ["wild", "thick", "monkeys", "vines", "amazon"], "category": "Nature" },
-  "fire": { "clues": ["hot", "flame", "smoke", "burn", "wood"], "category": "Nature" },
-  "earth": { "clues": ["ground", "planet", "dirt", "rock", "soil"], "category": "Nature" },
-  "gold": { "clues": ["shiny", "expensive", "metal", "wealth", "yellow"], "category": "Objects" },
-  "diamond": { "clues": ["hard", "shiny", "expensive", "ring", "gem"], "category": "Objects" },
-  "plastic": { "clues": ["recycling", "bottle", "cheap", "manmade", "light"], "category": "Objects" },
-  "wood": { "clues": ["tree", "brown", "timber", "hard", "natural"], "category": "Objects" },
-  "leather": { "clues": ["skin", "tough", "shoes", "jacket", "brown"], "category": "Objects" },
-  "rock": { "clues": ["hard", "stone", "ground", "heavy", "pebble"], "category": "Nature" },
-  "smoke": { "clues": ["grey", "cloud", "fire", "air", "smell"], "category": "Nature" },
-  "lightning": { "clues": ["bright", "thunder", "flash", "fast", "bolt"], "category": "Nature" },
-  "storm": { "clues": ["dark", "thunder", "bad", "dangerous", "clouds"], "category": "Nature" },
-  "hail": { "clues": ["ice", "hard", "small", "balls", "winter"], "category": "Nature" },
-  "heart": { "clues": ["beat", "blood", "chest", "love", "pump"], "category": "Body" },
-  "brain": { "clues": ["think", "mind", "smart", "memory", "head"], "category": "Body" },
-  "eye": { "clues": ["see", "sight", "look", "blink", "vision"], "category": "Body" },
-  "ear": { "clues": ["hear", "sound", "listen", "lobe", "audio"], "category": "Body" },
-  "nose": { "clues": ["smell", "sniff", "nostril", "breath", "face"], "category": "Body" },
-  "mouth": { "clues": ["speak", "eat", "lips", "taste", "smile"], "category": "Body" },
-  "hand": { "clues": ["fingers", "palm", "grip", "hold", "touch"], "category": "Body" },
-  "leg": { "clues": ["walk", "knee", "run", "muscle", "long"], "category": "Body" },
-  "hair": { "clues": ["style", "cut", "brush", "grow", "strands"], "category": "Body" },
-  "blood": { "clues": ["red", "veins", "liquid", "cut", "circulation"], "category": "Body" },
-  "bone": { "clues": ["white", "skeleton", "hard", "structure", "break"], "category": "Body" },
-  "dream": { "clues": ["sleep", "night", "mind", "story", "vision"], "category": "Body" },
-  "laugh": { "clues": ["funny", "smile", "sound", "happy", "joke"], "category": "Body" },
-  "cry": { "clues": ["tear", "sad", "unhappy", "eyes", "weep"], "category": "Body" },
-  "shout": { "clues": ["loud", "voice", "scream", "angry", "call"], "category": "Body" },
-  "whisper": { "clues": ["secret", "quiet", "soft", "ear", "low"], "category": "Body" },
-  "jump": { "clues": ["high", "spring", "legs", "up", "leap"], "category": "Body" },
-  "dance": { "clues": ["rhythm", "music", "party", "steps", "move"], "category": "Hobbies" },
-  "sing": { "clues": ["voice", "song", "tune", "mouth", "melody"], "category": "Hobbies" },
-  "write": { "clues": ["words", "story", "hand", "composition", "text"], "category": "Hobbies" },
-  "read": { "clues": ["words", "vision", "story", "page", "information"], "category": "Hobbies" },
-  "draw": { "clues": ["sketch", "picture", "paper", "creation", "art"], "category": "Hobbies" },
-  "paint": { "clues": ["canvas", "brush", "wet", "artwork", "masterpiece"], "category": "Hobbies" },
-  "cook": { "clues": ["chef", "meal", "recipe", "preparation", "delicious"], "category": "Hobbies" },
-  "love": { "clues": ["passion", "partner", "romance", "deep", "affection"], "category": "Objects" },
-  "fear": { "clues": ["scary", "shiver", "danger", "darkness", "intimidated"], "category": "Objects" },
-  "anger": { "clues": ["mad", "red", "furious", "intense", "frustrated"], "category": "Objects" },
-  "trust": { "clues": ["honest", "loyalty", "believe", "safety", "reliance"], "category": "Objects" },
-  "hope": { "clues": ["future", "wish", "optimism", "longing", "positive"], "category": "Objects" }
+  "dog": {
+    "clues": [
+      "bark",
+      "leash",
+      "paw",
+      "tail",
+      "loyal"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cat": {
+    "clues": [
+      "meow",
+      "purr",
+      "whiskers",
+      "claws",
+      "kitten"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "bird": {
+    "clues": [
+      "wings",
+      "beak",
+      "nest",
+      "fly",
+      "feathers"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "fish": {
+    "clues": [
+      "water",
+      "scales",
+      "fins",
+      "swim",
+      "gill"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "apple": {
+    "clues": [
+      "fruit",
+      "red",
+      "crunchy",
+      "tree",
+      "sweet"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "banana": {
+    "clues": [
+      "fruit",
+      "yellow",
+      "peel",
+      "curve",
+      "tropical"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sun": {
+    "clues": [
+      "bright",
+      "hot",
+      "sky",
+      "yellow",
+      "day"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "moon": {
+    "clues": [
+      "night",
+      "orbit",
+      "sky",
+      "lunar",
+      "round"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "star": {
+    "clues": [
+      "night",
+      "sky",
+      "twinkle",
+      "far",
+      "space"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "flower": {
+    "clues": [
+      "petals",
+      "bloom",
+      "scent",
+      "garden",
+      "stem"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "table": {
+    "clues": [
+      "legs",
+      "flat",
+      "wood",
+      "dining",
+      "four"
+    ],
+    "category": "Furniture",
+    "kidsMode": true
+  },
+  "chair": {
+    "clues": [
+      "sit",
+      "back",
+      "rest",
+      "wood",
+      "legs"
+    ],
+    "category": "Furniture",
+    "kidsMode": true
+  },
+  "bed": {
+    "clues": [
+      "sleep",
+      "pillow",
+      "mattress",
+      "dream",
+      "night"
+    ],
+    "category": "Furniture",
+    "kidsMode": true
+  },
+  "pen": {
+    "clues": [
+      "ink",
+      "write",
+      "paper",
+      "cap",
+      "draw"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "book": {
+    "clues": [
+      "read",
+      "pages",
+      "library",
+      "cover",
+      "story"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "house": {
+    "clues": [
+      "home",
+      "roof",
+      "door",
+      "window",
+      "live"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "car": {
+    "clues": [
+      "road",
+      "wheels",
+      "engine",
+      "drive",
+      "steering"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "ball": {
+    "clues": [
+      "round",
+      "bounce",
+      "play",
+      "kick",
+      "throw"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "doll": {
+    "clues": [
+      "toy",
+      "hair",
+      "dress",
+      "play",
+      "small"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "toy": {
+    "clues": [
+      "play",
+      "fun",
+      "kid",
+      "box",
+      "gift"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "milk": {
+    "clues": [
+      "white",
+      "drink",
+      "dairy",
+      "cow",
+      "glass"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "water": {
+    "clues": [
+      "drink",
+      "clear",
+      "wet",
+      "liquid",
+      "thirst"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "bread": {
+    "clues": [
+      "loaf",
+      "toast",
+      "slice",
+      "sandwich",
+      "bakery"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "rice": {
+    "clues": [
+      "white",
+      "grain",
+      "bowl",
+      "asian",
+      "small"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "tree": {
+    "clues": [
+      "leaves",
+      "trunk",
+      "wood",
+      "branch",
+      "green"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "grass": {
+    "clues": [
+      "green",
+      "lawn",
+      "mow",
+      "garden",
+      "yard"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "bee": {
+    "clues": [
+      "honey",
+      "sting",
+      "yellow",
+      "buzz",
+      "flower"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "ant": {
+    "clues": [
+      "small",
+      "hill",
+      "six",
+      "bug",
+      "strong"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "rain": {
+    "clues": [
+      "water",
+      "clouds",
+      "wet",
+      "umbrella",
+      "sky"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "snow": {
+    "clues": [
+      "white",
+      "cold",
+      "winter",
+      "flake",
+      "soft"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "cold": {
+    "clues": [
+      "ice",
+      "winter",
+      "shiver",
+      "freeze",
+      "low"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "hot": {
+    "clues": [
+      "sun",
+      "fire",
+      "heat",
+      "burn",
+      "sweat"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "big": {
+    "clues": [
+      "large",
+      "huge",
+      "giant",
+      "size",
+      "elephant"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "small": {
+    "clues": [
+      "tiny",
+      "little",
+      "size",
+      "mouse",
+      "ant"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "red": {
+    "clues": [
+      "apple",
+      "blood",
+      "fire",
+      "stop",
+      "color"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "blue": {
+    "clues": [
+      "sky",
+      "ocean",
+      "water",
+      "color",
+      "clear"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "green": {
+    "clues": [
+      "grass",
+      "leaf",
+      "nature",
+      "go",
+      "color"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "yellow": {
+    "clues": [
+      "sun",
+      "banana",
+      "lemon",
+      "bright",
+      "color"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "box": {
+    "clues": [
+      "cardboard",
+      "inside",
+      "square",
+      "lid",
+      "pack"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "bag": {
+    "clues": [
+      "carry",
+      "handle",
+      "stuff",
+      "paper",
+      "plastic"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "cup": {
+    "clues": [
+      "drink",
+      "handle",
+      "ceramic",
+      "kitchen",
+      "coffee"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "fork": {
+    "clues": [
+      "eat",
+      "prongs",
+      "metal",
+      "handle",
+      "kitchen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "spoon": {
+    "clues": [
+      "eat",
+      "soup",
+      "metal",
+      "handle",
+      "kitchen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "shirt": {
+    "clues": [
+      "wear",
+      "buttons",
+      "sleeves",
+      "fabric",
+      "collar"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "shoe": {
+    "clues": [
+      "foot",
+      "walk",
+      "laces",
+      "sole",
+      "pair"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "hat": {
+    "clues": [
+      "head",
+      "cap",
+      "brim",
+      "shade",
+      "wear"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "sock": {
+    "clues": [
+      "foot",
+      "pair",
+      "soft",
+      "shoe",
+      "warm"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "door": {
+    "clues": [
+      "open",
+      "close",
+      "handle",
+      "entrance",
+      "wood"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "window": {
+    "clues": [
+      "glass",
+      "view",
+      "frame",
+      "curtain",
+      "light"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "phone": {
+    "clues": [
+      "call",
+      "screen",
+      "mobile",
+      "battery",
+      "talk"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "strategy": {
+    "clues": [
+      "plan",
+      "game",
+      "win",
+      "chess",
+      "thought"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "irony": {
+    "clues": [
+      "opposite",
+      "funny",
+      "sarcasm",
+      "speech",
+      "literary"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "sarcasm": {
+    "clues": [
+      "joke",
+      "mock",
+      "tone",
+      "sharp",
+      "speech"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cryptography": {
+    "clues": [
+      "codes",
+      "secret",
+      "hide",
+      "math",
+      "key"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "blockchain": {
+    "clues": [
+      "crypto",
+      "ledger",
+      "chain",
+      "money",
+      "secure"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "algorithm": {
+    "clues": [
+      "step",
+      "math",
+      "computer",
+      "solve",
+      "logic"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "paradigm": {
+    "clues": [
+      "shift",
+      "model",
+      "pattern",
+      "thought",
+      "framework"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metabolism": {
+    "clues": [
+      "body",
+      "energy",
+      "food",
+      "speed",
+      "process"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "photosynthesis": {
+    "clues": [
+      "plant",
+      "sun",
+      "green",
+      "grow",
+      "food"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "hierarchy": {
+    "clues": [
+      "order",
+      "rank",
+      "level",
+      "power",
+      "structure"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "bureaucracy": {
+    "clues": [
+      "red tape",
+      "office",
+      "slow",
+      "rules",
+      "government"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "philosophy": {
+    "clues": [
+      "think",
+      "mind",
+      "truth",
+      "wisdom",
+      "question"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "existentialism": {
+    "clues": [
+      "life",
+      "choice",
+      "being",
+      "meaning",
+      "freedom"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "quantum": {
+    "clues": [
+      "small",
+      "physics",
+      "state",
+      "jump",
+      "theory"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "relativity": {
+    "clues": [
+      "einstein",
+      "physics",
+      "time",
+      "speed",
+      "theory"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "infrastructure": {
+    "clues": [
+      "build",
+      "road",
+      "base",
+      "public",
+      "system"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "logistics": {
+    "clues": [
+      "move",
+      "plan",
+      "supply",
+      "chain",
+      "storage"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "investment": {
+    "clues": [
+      "money",
+      "future",
+      "growth",
+      "risk",
+      "stock"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "inflation": {
+    "clues": [
+      "price",
+      "money",
+      "rise",
+      "economy",
+      "value"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "deflation": {
+    "clues": [
+      "price",
+      "money",
+      "fall",
+      "economy",
+      "value"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "diplomacy": {
+    "clues": [
+      "peace",
+      "talks",
+      "nations",
+      "tact",
+      "embassy"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "geopolitics": {
+    "clues": [
+      "world",
+      "power",
+      "map",
+      "strategy",
+      "nations"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "architecture": {
+    "clues": [
+      "build",
+      "design",
+      "house",
+      "blueprint",
+      "style"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "renaissance": {
+    "clues": [
+      "art",
+      "history",
+      "old",
+      "italy",
+      "rebirth"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "baroque": {
+    "clues": [
+      "style",
+      "art",
+      "fancy",
+      "detail",
+      "old"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "impressionism": {
+    "clues": [
+      "paint",
+      "light",
+      "style",
+      "brush",
+      "french"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "thermodynamics": {
+    "clues": [
+      "heat",
+      "energy",
+      "work",
+      "physics",
+      "laws"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "entropy": {
+    "clues": [
+      "chaos",
+      "disorder",
+      "physics",
+      "loss",
+      "science"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mutation": {
+    "clues": [
+      "change",
+      "dna",
+      "science",
+      "random",
+      "new"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "evolution": {
+    "clues": [
+      "change",
+      "old",
+      "life",
+      "darwin",
+      "grow"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ecosystem": {
+    "clues": [
+      "nature",
+      "life",
+      "balance",
+      "place",
+      "web"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sustainability": {
+    "clues": [
+      "green",
+      "future",
+      "keep",
+      "earth",
+      "safe"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "resilience": {
+    "clues": [
+      "strong",
+      "back",
+      "tough",
+      "keep",
+      "power"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "diversity": {
+    "clues": [
+      "range",
+      "mix",
+      "many",
+      "kind",
+      "people"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "inclusion": {
+    "clues": [
+      "all",
+      "part",
+      "join",
+      "welcome",
+      "open"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "integrity": {
+    "clues": [
+      "honest",
+      "good",
+      "moral",
+      "truth",
+      "value"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "transparency": {
+    "clues": [
+      "clear",
+      "open",
+      "see",
+      "honest",
+      "public"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "accountability": {
+    "clues": [
+      "duty",
+      "answer",
+      "own",
+      "result",
+      "blame"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "leadership": {
+    "clues": [
+      "guide",
+      "team",
+      "power",
+      "vision",
+      "head"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "innovation": {
+    "clues": [
+      "new",
+      "idea",
+      "change",
+      "create",
+      "fresh"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "entrepreneur": {
+    "clues": [
+      "business",
+      "founder",
+      "risk",
+      "idea",
+      "owner"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "venture": {
+    "clues": [
+      "risk",
+      "new",
+      "start",
+      "money",
+      "project"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "portfolio": {
+    "clues": [
+      "mix",
+      "work",
+      "stock",
+      "collection",
+      "set"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "dividend": {
+    "clues": [
+      "share",
+      "pay",
+      "profit",
+      "stock",
+      "gain"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "liability": {
+    "clues": [
+      "legal",
+      "debt",
+      "risk",
+      "fault",
+      "pay"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "asset": {
+    "clues": [
+      "own",
+      "value",
+      "good",
+      "wealth",
+      "item"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "mortgage": {
+    "clues": [
+      "loan",
+      "bank",
+      "house",
+      "interest",
+      "debt"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "insurance": {
+    "clues": [
+      "policy",
+      "risk",
+      "premium",
+      "coverage",
+      "safety"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pension": {
+    "clues": [
+      "retirement",
+      "money",
+      "old",
+      "fund",
+      "save"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "retirement": {
+    "clues": [
+      "old",
+      "stop",
+      "work",
+      "life",
+      "end"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "elephant": {
+    "clues": [
+      "trunk",
+      "tusks",
+      "large",
+      "grey",
+      "ears"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "giraffe": {
+    "clues": [
+      "neck",
+      "spots",
+      "tall",
+      "yellow",
+      "africa"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "lion": {
+    "clues": [
+      "roar",
+      "mane",
+      "king",
+      "cat",
+      "wild"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tiger": {
+    "clues": [
+      "stripes",
+      "orange",
+      "cat",
+      "jungle",
+      "roar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "penguin": {
+    "clues": [
+      "ice",
+      "waddle",
+      "black",
+      "white",
+      "swim"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "monkey": {
+    "clues": [
+      "banana",
+      "tail",
+      "climb",
+      "tree",
+      "swing"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "zebra": {
+    "clues": [
+      "stripes",
+      "black",
+      "white",
+      "horse",
+      "africa"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "kangaroo": {
+    "clues": [
+      "hop",
+      "pouch",
+      "australia",
+      "jump",
+      "pocket"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cow": {
+    "clues": [
+      "milk",
+      "moo",
+      "farm",
+      "grass",
+      "horns"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pig": {
+    "clues": [
+      "pink",
+      "oink",
+      "mud",
+      "farm",
+      "snout"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "sheep": {
+    "clues": [
+      "wool",
+      "baa",
+      "white",
+      "farm",
+      "fluffy"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "horse": {
+    "clues": [
+      "ride",
+      "neigh",
+      "farm",
+      "gallop",
+      "saddle"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "chicken": {
+    "clues": [
+      "egg",
+      "cluck",
+      "farm",
+      "wings",
+      "beak"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "duck": {
+    "clues": [
+      "quack",
+      "pond",
+      "feathers",
+      "beak",
+      "water"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "rabbit": {
+    "clues": [
+      "carrot",
+      "ears",
+      "hop",
+      "soft",
+      "long"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "turtle": {
+    "clues": [
+      "shell",
+      "slow",
+      "water",
+      "green",
+      "crawl"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "snake": {
+    "clues": [
+      "slither",
+      "hiss",
+      "long",
+      "scale",
+      "poison"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "spider": {
+    "clues": [
+      "web",
+      "legs",
+      "eight",
+      "crawl",
+      "insect"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "butterfly": {
+    "clues": [
+      "wings",
+      "colors",
+      "fly",
+      "cocoon",
+      "flower"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "frog": {
+    "clues": [
+      "jump",
+      "green",
+      "croak",
+      "pond",
+      "tongue"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "orange": {
+    "clues": [
+      "fruit",
+      "juice",
+      "color",
+      "peel",
+      "round"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "strawberry": {
+    "clues": [
+      "fruit",
+      "red",
+      "sweet",
+      "seeds",
+      "berry"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "grape": {
+    "clues": [
+      "fruit",
+      "purple",
+      "green",
+      "bunch",
+      "vine"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "watermelon": {
+    "clues": [
+      "fruit",
+      "green",
+      "red",
+      "seeds",
+      "big"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pizza": {
+    "clues": [
+      "cheese",
+      "slice",
+      "round",
+      "dough",
+      "tomato"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "burger": {
+    "clues": [
+      "meat",
+      "bun",
+      "cheese",
+      "fast",
+      "food"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sandwich": {
+    "clues": [
+      "bread",
+      "lunch",
+      "ham",
+      "cheese",
+      "slice"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "egg": {
+    "clues": [
+      "white",
+      "yellow",
+      "shell",
+      "breakfast",
+      "chicken"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "cheese": {
+    "clues": [
+      "yellow",
+      "milk",
+      "mouse",
+      "slice",
+      "holes"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "icecream": {
+    "clues": [
+      "cold",
+      "sweet",
+      "cone",
+      "scoop",
+      "dessert"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "cookie": {
+    "clues": [
+      "sweet",
+      "bake",
+      "chocolate",
+      "round",
+      "crunchy"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "cake": {
+    "clues": [
+      "birthday",
+      "sweet",
+      "candle",
+      "bake",
+      "party"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "juice": {
+    "clues": [
+      "drink",
+      "fruit",
+      "glass",
+      "liquid",
+      "sweet"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "soup": {
+    "clues": [
+      "bowl",
+      "hot",
+      "spoon",
+      "liquid",
+      "dinner"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "chocolate": {
+    "clues": [
+      "brown",
+      "sweet",
+      "candy",
+      "bar",
+      "cocoa"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "potato": {
+    "clues": [
+      "brown",
+      "vegetable",
+      "fry",
+      "ground",
+      "mash"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "tomato": {
+    "clues": [
+      "red",
+      "vegetable",
+      "salad",
+      "sauce",
+      "round"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "carrot": {
+    "clues": [
+      "orange",
+      "vegetable",
+      "rabbit",
+      "crunchy",
+      "root"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "onion": {
+    "clues": [
+      "cry",
+      "vegetable",
+      "white",
+      "rings",
+      "strong"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "garlic": {
+    "clues": [
+      "smell",
+      "white",
+      "clove",
+      "strong",
+      "cook"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "mountain": {
+    "clues": [
+      "high",
+      "peak",
+      "climb",
+      "snow",
+      "rock"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "river": {
+    "clues": [
+      "water",
+      "flow",
+      "fish",
+      "bank",
+      "long"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "ocean": {
+    "clues": [
+      "water",
+      "blue",
+      "salt",
+      "big",
+      "fish"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "lake": {
+    "clues": [
+      "water",
+      "quiet",
+      "boat",
+      "fish",
+      "surround"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "forest": {
+    "clues": [
+      "trees",
+      "green",
+      "wood",
+      "animals",
+      "bear"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "desert": {
+    "clues": [
+      "sand",
+      "hot",
+      "dry",
+      "cactus",
+      "camel"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "island": {
+    "clues": [
+      "ocean",
+      "beach",
+      "palm tree",
+      "water",
+      "sea"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "cloud": {
+    "clues": [
+      "white",
+      "sky",
+      "rain",
+      "fluffy",
+      "gray"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "rainbow": {
+    "clues": [
+      "colors",
+      "sky",
+      "rain",
+      "sun",
+      "arch"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "fire": {
+    "clues": [
+      "hot",
+      "red",
+      "burn",
+      "wood",
+      "smoke"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "wind": {
+    "clues": [
+      "air",
+      "blow",
+      "breeze",
+      "storm",
+      "kite"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "thunder": {
+    "clues": [
+      "loud",
+      "storm",
+      "sky",
+      "sound",
+      "light"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "lightning": {
+    "clues": [
+      "flash",
+      "storm",
+      "sky",
+      "bright",
+      "electric"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "winter": {
+    "clues": [
+      "cold",
+      "snow",
+      "ice",
+      "season",
+      "jacket"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "summer": {
+    "clues": [
+      "hot",
+      "sun",
+      "beach",
+      "season",
+      "vacation"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "spring": {
+    "clues": [
+      "flowers",
+      "green",
+      "season",
+      "grow",
+      "rain"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "autumn": {
+    "clues": [
+      "leaves",
+      "brown",
+      "season",
+      "fall",
+      "cool"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "pencil": {
+    "clues": [
+      "write",
+      "draw",
+      "lead",
+      "eraser",
+      "wood"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "computer": {
+    "clues": [
+      "screen",
+      "keyboard",
+      "mouse",
+      "internet",
+      "tech"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "television": {
+    "clues": [
+      "screen",
+      "watch",
+      "shows",
+      "remote",
+      "movie"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "radio": {
+    "clues": [
+      "music",
+      "listen",
+      "sound",
+      "speaker",
+      "tune"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "bicycle": {
+    "clues": [
+      "wheels",
+      "ride",
+      "pedal",
+      "helmet",
+      "two"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "airplane": {
+    "clues": [
+      "fly",
+      "sky",
+      "wings",
+      "pilot",
+      "airport"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "train": {
+    "clues": [
+      "track",
+      "rails",
+      "engine",
+      "station",
+      "wheels"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "boat": {
+    "clues": [
+      "water",
+      "sail",
+      "ocean",
+      "river",
+      "ship"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "bus": {
+    "clues": [
+      "road",
+      "school",
+      "wheels",
+      "stop",
+      "drive"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "rocket": {
+    "clues": [
+      "space",
+      "fly",
+      "moon",
+      "star",
+      "fire"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "school": {
+    "clues": [
+      "learn",
+      "teacher",
+      "books",
+      "kids",
+      "classroom"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "hospital": {
+    "clues": [
+      "doctor",
+      "sick",
+      "nurse",
+      "medicine",
+      "help"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "park": {
+    "clues": [
+      "play",
+      "grass",
+      "trees",
+      "bench",
+      "slide"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "beach": {
+    "clues": [
+      "sand",
+      "ocean",
+      "sun",
+      "swim",
+      "waves"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "market": {
+    "clues": [
+      "food",
+      "buy",
+      "shop",
+      "fruit",
+      "sell"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "library": {
+    "clues": [
+      "books",
+      "read",
+      "quiet",
+      "study",
+      "shelf"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cinema": {
+    "clues": [
+      "movie",
+      "popcorn",
+      "screen",
+      "watch",
+      "seat"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "doctor": {
+    "clues": [
+      "help",
+      "sick",
+      "hospital",
+      "medicine",
+      "white"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "teacher": {
+    "clues": [
+      "school",
+      "learn",
+      "kids",
+      "books",
+      "class"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "police": {
+    "clues": [
+      "help",
+      "car",
+      "badge",
+      "law",
+      "uniform"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "chef": {
+    "clues": [
+      "cook",
+      "food",
+      "kitchen",
+      "hat",
+      "restaurant"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "pilot": {
+    "clues": [
+      "airplane",
+      "fly",
+      "sky",
+      "cockpit",
+      "uniform"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "astronaut": {
+    "clues": [
+      "space",
+      "helmet",
+      "stars",
+      "moon",
+      "suit"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "firefighter": {
+    "clues": [
+      "fire",
+      "water",
+      "truck",
+      "hose",
+      "help"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "singer": {
+    "clues": [
+      "music",
+      "voice",
+      "song",
+      "microphone",
+      "stage"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "painter": {
+    "clues": [
+      "art",
+      "colors",
+      "brush",
+      "canvas",
+      "picture"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "farmer": {
+    "clues": [
+      "animals",
+      "tractor",
+      "crops",
+      "land",
+      "food"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "piano": {
+    "clues": [
+      "music",
+      "keys",
+      "black",
+      "white",
+      "sound"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "guitar": {
+    "clues": [
+      "music",
+      "strings",
+      "play",
+      "sound",
+      "instrument"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "drum": {
+    "clues": [
+      "music",
+      "beat",
+      "hit",
+      "sticks",
+      "sound"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "violin": {
+    "clues": [
+      "music",
+      "strings",
+      "bow",
+      "sound",
+      "small"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "mirror": {
+    "clues": [
+      "look",
+      "see",
+      "glass",
+      "reflect",
+      "face"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "clock": {
+    "clues": [
+      "time",
+      "hands",
+      "tick",
+      "numbers",
+      "wall"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "watch": {
+    "clues": [
+      "time",
+      "wrist",
+      "hands",
+      "numbers",
+      "wear"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hammer": {
+    "clues": [
+      "tool",
+      "nail",
+      "hit",
+      "wood",
+      "build"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ladder": {
+    "clues": [
+      "climb",
+      "high",
+      "steps",
+      "tall",
+      "reach"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "key": {
+    "clues": [
+      "door",
+      "open",
+      "lock",
+      "metal",
+      "small"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "umbrella": {
+    "clues": [
+      "rain",
+      "wet",
+      "dry",
+      "handle",
+      "sky"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "soap": {
+    "clues": [
+      "wash",
+      "clean",
+      "water",
+      "bubbles",
+      "bathroom"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "towel": {
+    "clues": [
+      "dry",
+      "water",
+      "soft",
+      "bathroom",
+      "beach"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "toothbrush": {
+    "clues": [
+      "teeth",
+      "clean",
+      "mouth",
+      "wash",
+      "paste"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "glasses": {
+    "clues": [
+      "eyes",
+      "see",
+      "wear",
+      "frame",
+      "lens"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "wallet": {
+    "clues": [
+      "money",
+      "cards",
+      "pocket",
+      "leather",
+      "pay"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "whale": {
+    "clues": [
+      "ocean",
+      "huge",
+      "blowhole",
+      "blue",
+      "mammal"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "shark": {
+    "clues": [
+      "teeth",
+      "ocean",
+      "fin",
+      "bite",
+      "scary"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "octopus": {
+    "clues": [
+      "legs",
+      "eight",
+      "ink",
+      "ocean",
+      "tentacles"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "crab": {
+    "clues": [
+      "claws",
+      "beach",
+      "pinch",
+      "shell",
+      "sideways"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "jellyfish": {
+    "clues": [
+      "sting",
+      "clear",
+      "ocean",
+      "tentacles",
+      "soft"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pony": {
+    "clues": [
+      "small",
+      "ride",
+      "horse",
+      "mane",
+      "kid"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "goose": {
+    "clues": [
+      "honk",
+      "feathers",
+      "pond",
+      "white",
+      "angry"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "turkey": {
+    "clues": [
+      "gobble",
+      "thanksgiving",
+      "feathers",
+      "dinner",
+      "large"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mouse": {
+    "clues": [
+      "cheese",
+      "squeak",
+      "small",
+      "tail",
+      "trap"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "rat": {
+    "clues": [
+      "tail",
+      "sewer",
+      "large",
+      "squeak",
+      "cheese"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "hamster": {
+    "clues": [
+      "wheel",
+      "cage",
+      "pet",
+      "small",
+      "cheeks"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "guinea pig": {
+    "clues": [
+      "pet",
+      "squeak",
+      "furry",
+      "small",
+      "cage"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "squirrel": {
+    "clues": [
+      "nut",
+      "tail",
+      "tree",
+      "climb",
+      "park"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "owl": {
+    "clues": [
+      "night",
+      "hoot",
+      "wise",
+      "eyes",
+      "fly"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "eagle": {
+    "clues": [
+      "fly",
+      "bird",
+      "strong",
+      "nest",
+      "wings"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "parrot": {
+    "clues": [
+      "talk",
+      "colors",
+      "bird",
+      "pirate",
+      "mimic"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "sparrow": {
+    "clues": [
+      "bird",
+      "small",
+      "brown",
+      "fly",
+      "nest"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pigeon": {
+    "clues": [
+      "city",
+      "gray",
+      "bird",
+      "park",
+      "coo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "bear": {
+    "clues": [
+      "honey",
+      "forest",
+      "hibernate",
+      "fur",
+      "claws"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "wolf": {
+    "clues": [
+      "howl",
+      "pack",
+      "forest",
+      "dog",
+      "wild"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "fox": {
+    "clues": [
+      "red",
+      "tail",
+      "sly",
+      "forest",
+      "smart"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "deer": {
+    "clues": [
+      "antlers",
+      "forest",
+      "woods",
+      "run",
+      "brown"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "moose": {
+    "clues": [
+      "huge",
+      "antlers",
+      "canada",
+      "forest",
+      "large"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "beaver": {
+    "clues": [
+      "dam",
+      "tail",
+      "wood",
+      "water",
+      "teeth"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "otter": {
+    "clues": [
+      "water",
+      "cute",
+      "swim",
+      "river",
+      "play"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "seal": {
+    "clues": [
+      "water",
+      "beach",
+      "bark",
+      "swim",
+      "fur"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "walrus": {
+    "clues": [
+      "tusks",
+      "ocean",
+      "large",
+      "beach",
+      "cold"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "dolphin": {
+    "clues": [
+      "ocean",
+      "smart",
+      "jump",
+      "fin",
+      "swim"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "butter": {
+    "clues": [
+      "yellow",
+      "bread",
+      "toast",
+      "dairy",
+      "melt"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "jam": {
+    "clues": [
+      "sweet",
+      "fruit",
+      "bread",
+      "jar",
+      "sticky"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "honey": {
+    "clues": [
+      "bees",
+      "sweet",
+      "yellow",
+      "sticky",
+      "jar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "cereal": {
+    "clues": [
+      "bowl",
+      "milk",
+      "morning",
+      "breakfast",
+      "crunchy"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "oatmeal": {
+    "clues": [
+      "hot",
+      "bowl",
+      "morning",
+      "breakfast",
+      "healthy"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pancake": {
+    "clues": [
+      "flat",
+      "round",
+      "breakfast",
+      "syrup",
+      "cook"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "waffle": {
+    "clues": [
+      "square",
+      "syrup",
+      "breakfast",
+      "grid",
+      "cook"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "muffin": {
+    "clues": [
+      "cupcake",
+      "breakfast",
+      "bake",
+      "sweet",
+      "berry"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "donut": {
+    "clues": [
+      "hole",
+      "round",
+      "sweet",
+      "sprinkles",
+      "bake"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "yogurt": {
+    "clues": [
+      "cup",
+      "spoon",
+      "dairy",
+      "fruit",
+      "healthy"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pasta": {
+    "clues": [
+      "noodles",
+      "italian",
+      "sauce",
+      "bowl",
+      "fork"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "spaghetti": {
+    "clues": [
+      "long",
+      "noodles",
+      "sauce",
+      "fork",
+      "meatballs"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "macaroni": {
+    "clues": [
+      "cheese",
+      "elbows",
+      "bowl",
+      "yellow",
+      "pasta"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "salad": {
+    "clues": [
+      "green",
+      "bowl",
+      "vegetables",
+      "healthy",
+      "lettuce"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "corn": {
+    "clues": [
+      "yellow",
+      "cob",
+      "kernels",
+      "farm",
+      "sweet"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "peas": {
+    "clues": [
+      "green",
+      "round",
+      "small",
+      "pod",
+      "vegetable"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "broccoli": {
+    "clues": [
+      "green",
+      "tree",
+      "vegetable",
+      "healthy",
+      "floret"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "paranoia": {
+    "clues": [
+      "scared",
+      "shadow",
+      "untrust",
+      "feeling",
+      "mind"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "conspiracy": {
+    "clues": [
+      "secret",
+      "plan",
+      "group",
+      "hidden",
+      "theory"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "betrayal": {
+    "clues": [
+      "trust",
+      "broken",
+      "friend",
+      "back",
+      "hurt"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "manipulation": {
+    "clues": [
+      "control",
+      "mind",
+      "secret",
+      "influence",
+      "skill"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "propaganda": {
+    "clues": [
+      "media",
+      "info",
+      "biased",
+      "public",
+      "control"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "censorship": {
+    "clues": [
+      "speech",
+      "hide",
+      "media",
+      "block",
+      "control"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "surveillance": {
+    "clues": [
+      "watch",
+      "camera",
+      "spy",
+      "secret",
+      "security"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metaphor": {
+    "clues": [
+      "speech",
+      "like",
+      "word",
+      "compare",
+      "art"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "paradox": {
+    "clues": [
+      "puzzle",
+      "logic",
+      "weird",
+      "thought",
+      "contradiction"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "synergy": {
+    "clues": [
+      "together",
+      "more",
+      "group",
+      "work",
+      "effect"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "deadline": {
+    "clues": [
+      "time",
+      "finish",
+      "late",
+      "work",
+      "date"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "merger": {
+    "clues": [
+      "join",
+      "company",
+      "business",
+      "two",
+      "buy"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "monopoly": {
+    "clues": [
+      "game",
+      "control",
+      "one",
+      "market",
+      "power"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "recruitment": {
+    "clues": [
+      "job",
+      "hire",
+      "work",
+      "interview",
+      "new"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "redundancy": {
+    "clues": [
+      "repeat",
+      "extra",
+      "lose",
+      "work",
+      "more"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "leverage": {
+    "clues": [
+      "debt",
+      "power",
+      "money",
+      "business",
+      "margin"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "bankruptcy": {
+    "clues": [
+      "money",
+      "lose",
+      "broke",
+      "business",
+      "fail"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "deficit": {
+    "clues": [
+      "money",
+      "debt",
+      "less",
+      "budget",
+      "loss"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "liquidity": {
+    "clues": [
+      "cash",
+      "money",
+      "easy",
+      "flow",
+      "asset"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "equities": {
+    "clues": [
+      "stock",
+      "share",
+      "market",
+      "money",
+      "value"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "derivative": {
+    "clues": [
+      "math",
+      "finance",
+      "complex",
+      "value",
+      "contract"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "commodity": {
+    "clues": [
+      "gold",
+      "oil",
+      "trade",
+      "good",
+      "market"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "subsidy": {
+    "clues": [
+      "gov",
+      "money",
+      "help",
+      "support",
+      "pay"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "tariff": {
+    "clues": [
+      "tax",
+      "trade",
+      "import",
+      "border",
+      "price"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "quota": {
+    "clues": [
+      "limit",
+      "number",
+      "target",
+      "amount",
+      "reach"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hegemony": {
+    "clues": [
+      "power",
+      "control",
+      "leader",
+      "nation",
+      "rule"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "altruism": {
+    "clues": [
+      "give",
+      "help",
+      "good",
+      "kind",
+      "others"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nihilism": {
+    "clues": [
+      "nothing",
+      "life",
+      "meaning",
+      "dark",
+      "belief"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "stoicism": {
+    "clues": [
+      "calm",
+      "strong",
+      "mind",
+      "control",
+      "ancient"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "hedonism": {
+    "clues": [
+      "pleasure",
+      "fun",
+      "enjoy",
+      "desire",
+      "life"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "epistemology": {
+    "clues": [
+      "know",
+      "truth",
+      "think",
+      "mind",
+      "philosophy"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ontological": {
+    "clues": [
+      "being",
+      "nature",
+      "exist",
+      "philosophy",
+      "real"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "dialectic": {
+    "clues": [
+      "talk",
+      "idea",
+      "two",
+      "truth",
+      "debate"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "aesthetic": {
+    "clues": [
+      "art",
+      "beauty",
+      "look",
+      "style",
+      "design"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "abstract": {
+    "clues": [
+      "art",
+      "idea",
+      "shape",
+      "modern",
+      "sense"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "minimalism": {
+    "clues": [
+      "simple",
+      "less",
+      "art",
+      "clean",
+      "style"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "surrealism": {
+    "clues": [
+      "dream",
+      "art",
+      "strange",
+      "dali",
+      "mind"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "enlightenment": {
+    "clues": [
+      "reason",
+      "history",
+      "think",
+      "light",
+      "science"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "totalitarianism": {
+    "clues": [
+      "control",
+      "power",
+      "state",
+      "leader",
+      "rule"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "feudalism": {
+    "clues": [
+      "king",
+      "land",
+      "knight",
+      "history",
+      "system"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "colonialism": {
+    "clues": [
+      "empire",
+      "land",
+      "history",
+      "power",
+      "take"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "secularism": {
+    "clues": [
+      "world",
+      "state",
+      "religion",
+      "modern",
+      "free"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "capitalism": {
+    "clues": [
+      "money",
+      "market",
+      "business",
+      "profit",
+      "system"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "socialism": {
+    "clues": [
+      "group",
+      "public",
+      "state",
+      "share",
+      "system"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "democracy": {
+    "clues": [
+      "vote",
+      "people",
+      "power",
+      "system",
+      "leader"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "oligarchy": {
+    "clues": [
+      "few",
+      "power",
+      "rich",
+      "group",
+      "rule"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "osmosis": {
+    "clues": [
+      "water",
+      "move",
+      "cell",
+      "science",
+      "slow"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "symbiosis": {
+    "clues": [
+      "together",
+      "life",
+      "two",
+      "help",
+      "bond"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mitosis": {
+    "clues": [
+      "cell",
+      "split",
+      "copy",
+      "grow",
+      "science"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "gravity": {
+    "clues": [
+      "fall",
+      "earth",
+      "down",
+      "space",
+      "force"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "magnetism": {
+    "clues": [
+      "pull",
+      "metal",
+      "pole",
+      "force",
+      "north"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "electricity": {
+    "clues": [
+      "power",
+      "wire",
+      "light",
+      "shock",
+      "current"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "volcano": {
+    "clues": [
+      "lava",
+      "hot",
+      "mountain",
+      "fire",
+      "smoke"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "earthquake": {
+    "clues": [
+      "shake",
+      "ground",
+      "move",
+      "scary",
+      "crack"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "hurricane": {
+    "clues": [
+      "wind",
+      "storm",
+      "rain",
+      "ocean",
+      "strong"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tornado": {
+    "clues": [
+      "wind",
+      "spin",
+      "funnel",
+      "storm",
+      "scary"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "drought": {
+    "clues": [
+      "dry",
+      "water",
+      "no rain",
+      "land",
+      "thirst"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "harvest": {
+    "clues": [
+      "farm",
+      "food",
+      "pick",
+      "autumn",
+      "crops"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "agriculture": {
+    "clues": [
+      "farm",
+      "grow",
+      "food",
+      "land",
+      "plants"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sculpture": {
+    "clues": [
+      "art",
+      "stone",
+      "shape",
+      "statue",
+      "museum"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "literature": {
+    "clues": [
+      "books",
+      "write",
+      "read",
+      "story",
+      "word"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "poetry": {
+    "clues": [
+      "rhyme",
+      "write",
+      "verse",
+      "words",
+      "soul"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "journalism": {
+    "clues": [
+      "news",
+      "write",
+      "media",
+      "report",
+      "truth"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "prophecy": {
+    "clues": [
+      "future",
+      "tell",
+      "dream",
+      "fate",
+      "old"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nostalgia": {
+    "clues": [
+      "past",
+      "memory",
+      "miss",
+      "feeling",
+      "old"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "melancholy": {
+    "clues": [
+      "sad",
+      "feeling",
+      "blue",
+      "quiet",
+      "mood"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "euphoria": {
+    "clues": [
+      "happy",
+      "high",
+      "feeling",
+      "great",
+      "joy"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "adrenaline": {
+    "clues": [
+      "fast",
+      "body",
+      "scared",
+      "rush",
+      "heart"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "serotonin": {
+    "clues": [
+      "happy",
+      "brain",
+      "feeling",
+      "chem",
+      "mood"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "dopamine": {
+    "clues": [
+      "reward",
+      "brain",
+      "feeling",
+      "want",
+      "joy"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cortisol": {
+    "clues": [
+      "stress",
+      "brain",
+      "body",
+      "feeling",
+      "hormone"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "synapse": {
+    "clues": [
+      "brain",
+      "link",
+      "nerve",
+      "think",
+      "space"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "neuron": {
+    "clues": [
+      "brain",
+      "cell",
+      "think",
+      "body",
+      "signal"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hemisphere": {
+    "clues": [
+      "half",
+      "earth",
+      "north",
+      "south",
+      "globe"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "atmosphere": {
+    "clues": [
+      "air",
+      "earth",
+      "sky",
+      "gas",
+      "layer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "stratosphere": {
+    "clues": [
+      "sky",
+      "high",
+      "air",
+      "ozone",
+      "layer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ionosphere": {
+    "clues": [
+      "sky",
+      "space",
+      "radio",
+      "layer",
+      "gas"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biosphere": {
+    "clues": [
+      "life",
+      "earth",
+      "nature",
+      "all",
+      "zone"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "troposphere": {
+    "clues": [
+      "sky",
+      "air",
+      "weather",
+      "cloud",
+      "layer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biodiversity": {
+    "clues": [
+      "nature",
+      "many",
+      "kinds",
+      "life",
+      "range"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "geology": {
+    "clues": [
+      "rocks",
+      "earth",
+      "study",
+      "old",
+      "ground"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "meteorology": {
+    "clues": [
+      "weather",
+      "sky",
+      "study",
+      "rain",
+      "storm"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "astronomy": {
+    "clues": [
+      "stars",
+      "space",
+      "study",
+      "telescope",
+      "sky"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "paleontology": {
+    "clues": [
+      "dinosaur",
+      "fossils",
+      "old",
+      "study",
+      "bones"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "anthropology": {
+    "clues": [
+      "people",
+      "culture",
+      "study",
+      "old",
+      "human"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sociology": {
+    "clues": [
+      "group",
+      "people",
+      "study",
+      "society",
+      "rules"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "psychology": {
+    "clues": [
+      "mind",
+      "think",
+      "study",
+      "feel",
+      "human"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "archeology": {
+    "clues": [
+      "dig",
+      "old",
+      "study",
+      "history",
+      "found"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biotechnology": {
+    "clues": [
+      "life",
+      "tech",
+      "dna",
+      "science",
+      "new"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "nanotechnology": {
+    "clues": [
+      "tiny",
+      "tech",
+      "small",
+      "science",
+      "future"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cybernetics": {
+    "clues": [
+      "robot",
+      "human",
+      "link",
+      "tech",
+      "mind"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "artificial intelligence": {
+    "clues": [
+      "computer",
+      "smart",
+      "robot",
+      "future",
+      "think"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cloud computing": {
+    "clues": [
+      "internet",
+      "server",
+      "data",
+      "storage",
+      "online"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "big data": {
+    "clues": [
+      "info",
+      "huge",
+      "computer",
+      "numbers",
+      "set"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "internet of things": {
+    "clues": [
+      "link",
+      "home",
+      "smart",
+      "tech",
+      "web"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "virtual reality": {
+    "clues": [
+      "game",
+      "headset",
+      "eyes",
+      "world",
+      "fake"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "augmented reality": {
+    "clues": [
+      "phone",
+      "view",
+      "overlay",
+      "world",
+      "mix"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "quantum computing": {
+    "clues": [
+      "fast",
+      "math",
+      "science",
+      "physics",
+      "super"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "teleportation": {
+    "clues": [
+      "move",
+      "fast",
+      "space",
+      "sci-fi",
+      "vanish"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "interstellar": {
+    "clues": [
+      "stars",
+      "space",
+      "ship",
+      "far",
+      "travel"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "multiverse": {
+    "clues": [
+      "worlds",
+      "many",
+      "space",
+      "sci-fi",
+      "parallel"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "time travel": {
+    "clues": [
+      "past",
+      "future",
+      "clock",
+      "machine",
+      "move"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "superconductivity": {
+    "clues": [
+      "power",
+      "cold",
+      "fast",
+      "metal",
+      "physics"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "fluid dynamics": {
+    "clues": [
+      "water",
+      "flow",
+      "air",
+      "physics",
+      "move"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "astrophysics": {
+    "clues": [
+      "stars",
+      "physics",
+      "space",
+      "math",
+      "sky"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "microbiology": {
+    "clues": [
+      "small",
+      "life",
+      "germs",
+      "scope",
+      "cells"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "genetics": {
+    "clues": [
+      "dna",
+      "life",
+      "family",
+      "born",
+      "genes"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "immunology": {
+    "clues": [
+      "body",
+      "fight",
+      "sick",
+      "cells",
+      "protect"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "neuroscience": {
+    "clues": [
+      "brain",
+      "nerves",
+      "think",
+      "study",
+      "body"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "endocrinology": {
+    "clues": [
+      "body",
+      "hormone",
+      "gland",
+      "blood",
+      "system"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "toxicology": {
+    "clues": [
+      "poison",
+      "bad",
+      "study",
+      "harm",
+      "chem"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "pharmacology": {
+    "clues": [
+      "drugs",
+      "medicine",
+      "pill",
+      "study",
+      "health"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "anatomy": {
+    "clues": [
+      "body",
+      "parts",
+      "bones",
+      "study",
+      "structure"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "physiology": {
+    "clues": [
+      "body",
+      "work",
+      "how",
+      "study",
+      "living"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "botany": {
+    "clues": [
+      "plants",
+      "green",
+      "study",
+      "flower",
+      "tree"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "zoology": {
+    "clues": [
+      "animals",
+      "wild",
+      "study",
+      "life",
+      "fauna"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ecology": {
+    "clues": [
+      "nature",
+      "links",
+      "study",
+      "place",
+      "living"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "climatology": {
+    "clues": [
+      "weather",
+      "long",
+      "study",
+      "earth",
+      "hot"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "oceanography": {
+    "clues": [
+      "sea",
+      "water",
+      "study",
+      "deep",
+      "blue"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "seismology": {
+    "clues": [
+      "earthquake",
+      "shake",
+      "study",
+      "wave",
+      "ground"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "volcanology": {
+    "clues": [
+      "lava",
+      "hot",
+      "study",
+      "mountain",
+      "fire"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "stock market": {
+    "clues": [
+      "money",
+      "trade",
+      "shares",
+      "bull",
+      "bear"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "cryptocurrency": {
+    "clues": [
+      "bitcoin",
+      "digital",
+      "wallet",
+      "mining",
+      "blockchain"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "real estate": {
+    "clues": [
+      "house",
+      "property",
+      "buy",
+      "sell",
+      "agent"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "tax": {
+    "clues": [
+      "money",
+      "government",
+      "pay",
+      "income",
+      "audit"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "speculation": {
+    "clues": [
+      "risk",
+      "money",
+      "guess",
+      "market",
+      "bet"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "arbitrage": {
+    "clues": [
+      "trade",
+      "profit",
+      "price",
+      "market",
+      "gap"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "startup": {
+    "clues": [
+      "new",
+      "company",
+      "tech",
+      "venture",
+      "growth"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "corporate": {
+    "clues": [
+      "office",
+      "big",
+      "business",
+      "suit",
+      "hierarchy"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "sovereignty": {
+    "clues": [
+      "power",
+      "nation",
+      "free",
+      "rule",
+      "border"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "constitution": {
+    "clues": [
+      "laws",
+      "rights",
+      "paper",
+      "government",
+      "rules"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "legislation": {
+    "clues": [
+      "laws",
+      "vote",
+      "bill",
+      "government",
+      "rules"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "judiciary": {
+    "clues": [
+      "court",
+      "judge",
+      "law",
+      "trial",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "prosecution": {
+    "clues": [
+      "court",
+      "trial",
+      "lawyer",
+      "guilty",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "testimony": {
+    "clues": [
+      "witness",
+      "court",
+      "truth",
+      "speak",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "verdict": {
+    "clues": [
+      "guilty",
+      "judge",
+      "end",
+      "trial",
+      "jury"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "precedent": {
+    "clues": [
+      "past",
+      "law",
+      "rule",
+      "court",
+      "case"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "jurisdiction": {
+    "clues": [
+      "area",
+      "power",
+      "law",
+      "limit",
+      "court"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "negligence": {
+    "clues": [
+      "careless",
+      "law",
+      "fault",
+      "harm",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ethics": {
+    "clues": [
+      "right",
+      "wrong",
+      "rules",
+      "moral",
+      "think"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metaphysics": {
+    "clues": [
+      "reality",
+      "being",
+      "mind",
+      "beyond",
+      "philosophy"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "logic": {
+    "clues": [
+      "math",
+      "think",
+      "truth",
+      "reason",
+      "steps"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "rhetoric": {
+    "clues": [
+      "speak",
+      "persuade",
+      "words",
+      "art",
+      "speech"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "semantics": {
+    "clues": [
+      "meaning",
+      "words",
+      "language",
+      "logic",
+      "study"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cognition": {
+    "clues": [
+      "think",
+      "mind",
+      "brain",
+      "know",
+      "process"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "perception": {
+    "clues": [
+      "see",
+      "hear",
+      "mind",
+      "senses",
+      "view"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "consciousness": {
+    "clues": [
+      "awake",
+      "mind",
+      "self",
+      "being",
+      "aware"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "unconscious": {
+    "clues": [
+      "sleep",
+      "mind",
+      "hidden",
+      "dream",
+      "brain"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "monetary policy": {
+    "clues": [
+      "money",
+      "bank",
+      "interest",
+      "economy",
+      "control"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "fiscal year": {
+    "clues": [
+      "money",
+      "time",
+      "budget",
+      "report",
+      "company"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "equity": {
+    "clues": [
+      "value",
+      "stock",
+      "share",
+      "ownership",
+      "capital"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "capital gains": {
+    "clues": [
+      "money",
+      "profit",
+      "tax",
+      "sell",
+      "investment"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "net worth": {
+    "clues": [
+      "value",
+      "money",
+      "rich",
+      "total",
+      "assets"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "recession": {
+    "clues": [
+      "economy",
+      "bad",
+      "down",
+      "crisis",
+      "market"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "globalization": {
+    "clues": [
+      "world",
+      "trade",
+      "links",
+      "spread",
+      "culture"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "polarization": {
+    "clues": [
+      "two",
+      "apart",
+      "politics",
+      "split",
+      "opinion"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "radicalization": {
+    "clues": [
+      "extreme",
+      "idea",
+      "change",
+      "politics",
+      "danger"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "secularization": {
+    "clues": [
+      "world",
+      "religion",
+      "less",
+      "society",
+      "modern"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "urbanization": {
+    "clues": [
+      "city",
+      "move",
+      "build",
+      "growth",
+      "town"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "automation": {
+    "clues": [
+      "robot",
+      "work",
+      "machine",
+      "fast",
+      "tech"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "digitization": {
+    "clues": [
+      "paper",
+      "computer",
+      "scan",
+      "data",
+      "tech"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "modernization": {
+    "clues": [
+      "new",
+      "update",
+      "change",
+      "better",
+      "current"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "peanut butter": {
+    "clues": [
+      "sandwich",
+      "nut",
+      "sticky",
+      "jelly",
+      "brown"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ice cream cone": {
+    "clues": [
+      "cold",
+      "sweet",
+      "scoop",
+      "crunchy",
+      "summer"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "hot dog": {
+    "clues": [
+      "sausage",
+      "bun",
+      "ketchup",
+      "mustard",
+      "ballpark"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "french fries": {
+    "clues": [
+      "potato",
+      "salty",
+      "ketchup",
+      "fast food",
+      "yellow"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "teddy bear": {
+    "clues": [
+      "soft",
+      "toy",
+      "sleep",
+      "furry",
+      "hug"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "fire truck": {
+    "clues": [
+      "red",
+      "siren",
+      "ladder",
+      "water",
+      "fireman"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "police car": {
+    "clues": [
+      "blue",
+      "siren",
+      "lights",
+      "cop",
+      "fast"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "school bus": {
+    "clues": [
+      "yellow",
+      "kids",
+      "wheels",
+      "morning",
+      "stop"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "roller coaster": {
+    "clues": [
+      "fast",
+      "ride",
+      "scream",
+      "track",
+      "park"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "birthday cake": {
+    "clues": [
+      "candles",
+      "sweet",
+      "party",
+      "wish",
+      "slice"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "tooth fairy": {
+    "clues": [
+      "pillow",
+      "money",
+      "tooth",
+      "night",
+      "magic"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "Easter bunny": {
+    "clues": [
+      "eggs",
+      "basket",
+      "rabbit",
+      "spring",
+      "hidden"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "Santa Claus": {
+    "clues": [
+      "red",
+      "beard",
+      "gifts",
+      "reindeer",
+      "Christmas"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "North Pole": {
+    "clues": [
+      "cold",
+      "snow",
+      "Santa",
+      "ice",
+      "top"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "Milky Way": {
+    "clues": [
+      "stars",
+      "galaxy",
+      "night",
+      "sky",
+      "space"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "shooting star": {
+    "clues": [
+      "wish",
+      "night",
+      "sky",
+      "fast",
+      "light"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "sand castle": {
+    "clues": [
+      "beach",
+      "bucket",
+      "sand",
+      "ocean",
+      "build"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "sea shell": {
+    "clues": [
+      "beach",
+      "ocean",
+      "sand",
+      "ear",
+      "hard"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "jelly fish": {
+    "clues": [
+      "sting",
+      "ocean",
+      "clear",
+      "tentacles",
+      "swim"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "star fish": {
+    "clues": [
+      "ocean",
+      "five",
+      "sand",
+      "arms",
+      "sea"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tree house": {
+    "clues": [
+      "build",
+      "climb",
+      "wood",
+      "backyard",
+      "secret"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "bird house": {
+    "clues": [
+      "wood",
+      "nest",
+      "garden",
+      "small",
+      "hole"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "piggy bank": {
+    "clues": [
+      "money",
+      "coins",
+      "save",
+      "pink",
+      "slot"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "comic book": {
+    "clues": [
+      "hero",
+      "pictures",
+      "read",
+      "story",
+      "pages"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "video game": {
+    "clues": [
+      "play",
+      "screen",
+      "controller",
+      "fun",
+      "console"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "board game": {
+    "clues": [
+      "dice",
+      "play",
+      "table",
+      "pieces",
+      "cards"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "jump rope": {
+    "clues": [
+      "hop",
+      "exercise",
+      "playground",
+      "swing",
+      "feet"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "pogo stick": {
+    "clues": [
+      "bounce",
+      "jump",
+      "spring",
+      "handle",
+      "up and down"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hula hoop": {
+    "clues": [
+      "round",
+      "waist",
+      "spin",
+      "circle",
+      "plastic"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "rubber duck": {
+    "clues": [
+      "bath",
+      "yellow",
+      "water",
+      "float",
+      "squeak"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "snow man": {
+    "clues": [
+      "carrot",
+      "cold",
+      "winter",
+      "build",
+      "white"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "rain forest": {
+    "clues": [
+      "trees",
+      "green",
+      "monkeys",
+      "wet",
+      "jungle"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "hot air balloon": {
+    "clues": [
+      "fly",
+      "basket",
+      "sky",
+      "float",
+      "fire"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "space ship": {
+    "clues": [
+      "stars",
+      "fly",
+      "rocket",
+      "moon",
+      "astronaut"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "monster truck": {
+    "clues": [
+      "big",
+      "wheels",
+      "loud",
+      "crush",
+      "jump"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "dump truck": {
+    "clues": [
+      "dirt",
+      "big",
+      "construction",
+      "wheels",
+      "lift"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "garbage truck": {
+    "clues": [
+      "trash",
+      "smell",
+      "morning",
+      "bin",
+      "wheels"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "ice cream truck": {
+    "clues": [
+      "music",
+      "summer",
+      "sweet",
+      "cold",
+      "street"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "ferris wheel": {
+    "clues": [
+      "round",
+      "high",
+      "fair",
+      "view",
+      "ride"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "merry go round": {
+    "clues": [
+      "horses",
+      "spin",
+      "music",
+      "fair",
+      "ride"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "water slide": {
+    "clues": [
+      "wet",
+      "pool",
+      "fast",
+      "swim",
+      "summer"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "swimming pool": {
+    "clues": [
+      "water",
+      "swim",
+      "blue",
+      "wet",
+      "splash"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "play ground": {
+    "clues": [
+      "slide",
+      "swing",
+      "park",
+      "kids",
+      "outside"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "hop scotch": {
+    "clues": [
+      "jump",
+      "chalk",
+      "numbers",
+      "ground",
+      "game"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "tic tac toe": {
+    "clues": [
+      "paper",
+      "game",
+      "cross",
+      "circle",
+      "line"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "hide and seek": {
+    "clues": [
+      "find",
+      "count",
+      "game",
+      "hidden",
+      "ready or not"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "rock paper scissors": {
+    "clues": [
+      "hands",
+      "game",
+      "shoot",
+      "three",
+      "fist"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "musical chairs": {
+    "clues": [
+      "game",
+      "music",
+      "sit",
+      "party",
+      "stop"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "tooth brush": {
+    "clues": [
+      "teeth",
+      "clean",
+      "paste",
+      "morning",
+      "mouth"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hair brush": {
+    "clues": [
+      "hair",
+      "comb",
+      "head",
+      "morning",
+      "smooth"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "alarm clock": {
+    "clues": [
+      "morning",
+      "wake up",
+      "loud",
+      "time",
+      "beep"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "living room": {
+    "clues": [
+      "sofa",
+      "tv",
+      "house",
+      "sit",
+      "family"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "dining room": {
+    "clues": [
+      "table",
+      "eat",
+      "chairs",
+      "dinner",
+      "house"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "bed room": {
+    "clues": [
+      "sleep",
+      "bed",
+      "pillow",
+      "house",
+      "night"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "bath room": {
+    "clues": [
+      "shower",
+      "toilet",
+      "wash",
+      "house",
+      "clean"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "washing machine": {
+    "clues": [
+      "clothes",
+      "clean",
+      "water",
+      "soap",
+      "spin"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "vacuum cleaner": {
+    "clues": [
+      "carpet",
+      "floor",
+      "loud",
+      "dust",
+      "clean"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "remote control": {
+    "clues": [
+      "tv",
+      "buttons",
+      "channel",
+      "couch",
+      "hand"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "cell phone": {
+    "clues": [
+      "call",
+      "pocket",
+      "talk",
+      "screen",
+      "mobile"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "smart phone": {
+    "clues": [
+      "apps",
+      "screen",
+      "internet",
+      "pocket",
+      "games"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "lap top": {
+    "clues": [
+      "computer",
+      "screen",
+      "keyboard",
+      "portable",
+      "work"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "credit card": {
+    "clues": [
+      "money",
+      "buy",
+      "plastic",
+      "wallet",
+      "pay"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "gift card": {
+    "clues": [
+      "money",
+      "present",
+      "store",
+      "birthday",
+      "plastic"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "shopping mall": {
+    "clues": [
+      "stores",
+      "buy",
+      "clothes",
+      "big",
+      "food court"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "grocery store": {
+    "clues": [
+      "food",
+      "buy",
+      "cart",
+      "apples",
+      "milk"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "pet shop": {
+    "clues": [
+      "animals",
+      "dogs",
+      "cats",
+      "buy",
+      "fish"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "toy store": {
+    "clues": [
+      "play",
+      "buy",
+      "kids",
+      "games",
+      "dolls"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "candy shop": {
+    "clues": [
+      "sweet",
+      "sugar",
+      "buy",
+      "chocolate",
+      "colors"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "amusement park": {
+    "clues": [
+      "rides",
+      "fun",
+      "summer",
+      "roller coaster",
+      "fair"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "water park": {
+    "clues": [
+      "slides",
+      "wet",
+      "swim",
+      "summer",
+      "pool"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "zoo keeper": {
+    "clues": [
+      "animals",
+      "work",
+      "zoo",
+      "feed",
+      "lion"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "fire fighter": {
+    "clues": [
+      "fire",
+      "water",
+      "work",
+      "truck",
+      "help"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "police officer": {
+    "clues": [
+      "cop",
+      "badge",
+      "law",
+      "help",
+      "car"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "movie star": {
+    "clues": [
+      "famous",
+      "film",
+      "screen",
+      "acting",
+      "hollywood"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "rock star": {
+    "clues": [
+      "music",
+      "famous",
+      "guitar",
+      "sing",
+      "concert"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "super hero": {
+    "clues": [
+      "cape",
+      "strong",
+      "powers",
+      "save",
+      "comic"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "secret agent": {
+    "clues": [
+      "spy",
+      "hidden",
+      "mission",
+      "smart",
+      "clues"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "fairy tale": {
+    "clues": [
+      "story",
+      "magic",
+      "king",
+      "queen",
+      "once upon a time"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "nursery rhyme": {
+    "clues": [
+      "song",
+      "kids",
+      "rhyme",
+      "sing",
+      "old"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "lullaby": {
+    "clues": [
+      "song",
+      "sleep",
+      "night",
+      "baby",
+      "soft"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "bedtime story": {
+    "clues": [
+      "book",
+      "sleep",
+      "night",
+      "read",
+      "dream"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "coloring book": {
+    "clues": [
+      "crayons",
+      "draw",
+      "pictures",
+      "pages",
+      "fill"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "picture book": {
+    "clues": [
+      "read",
+      "kids",
+      "drawings",
+      "pages",
+      "story"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "funny bone": {
+    "clues": [
+      "elbow",
+      "laugh",
+      "hit",
+      "weird",
+      "arm"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "high five": {
+    "clues": [
+      "hands",
+      "slap",
+      "good job",
+      "friend",
+      "up"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "thumbs up": {
+    "clues": [
+      "hand",
+      "good",
+      "yes",
+      "finger",
+      "sign"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "pinky swear": {
+    "clues": [
+      "promise",
+      "finger",
+      "friend",
+      "secret",
+      "hand"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "belly button": {
+    "clues": [
+      "tummy",
+      "round",
+      "middle",
+      "body",
+      "small"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "ice cubes": {
+    "clues": [
+      "cold",
+      "water",
+      "drink",
+      "freezer",
+      "hard"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "potato chips": {
+    "clues": [
+      "salty",
+      "crunchy",
+      "snack",
+      "bag",
+      "potato"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "apple juice": {
+    "clues": [
+      "drink",
+      "fruit",
+      "sweet",
+      "yellow",
+      "cup"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "bubble gum": {
+    "clues": [
+      "pink",
+      "chew",
+      "blow",
+      "sweet",
+      "sticky"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pop corn": {
+    "clues": [
+      "movie",
+      "salty",
+      "white",
+      "snack",
+      "butter"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pajamas": {
+    "clues": [
+      "sleep",
+      "clothes",
+      "night",
+      "soft",
+      "bed"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "rain coat": {
+    "clues": [
+      "wet",
+      "weather",
+      "yellow",
+      "jacket",
+      "dry"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "swim suit": {
+    "clues": [
+      "water",
+      "pool",
+      "beach",
+      "summer",
+      "clothes"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "sun glasses": {
+    "clues": [
+      "eyes",
+      "bright",
+      "summer",
+      "dark",
+      "wear"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "flip flops": {
+    "clues": [
+      "feet",
+      "beach",
+      "summer",
+      "shoes",
+      "sandals"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "tennis shoes": {
+    "clues": [
+      "feet",
+      "run",
+      "sport",
+      "laces",
+      "walk"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "winter boots": {
+    "clues": [
+      "snow",
+      "cold",
+      "feet",
+      "warm",
+      "heavy"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "baseball cap": {
+    "clues": [
+      "head",
+      "sun",
+      "hat",
+      "sport",
+      "brim"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "social media": {
+    "clues": [
+      "phone",
+      "online",
+      "friends",
+      "likes",
+      "post"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "machine learning": {
+    "clues": [
+      "data",
+      "computer",
+      "algorithm",
+      "learn",
+      "tech"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cyber security": {
+    "clues": [
+      "hack",
+      "protect",
+      "safe",
+      "password",
+      "online"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "climate change": {
+    "clues": [
+      "earth",
+      "warm",
+      "weather",
+      "future",
+      "green"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "global warming": {
+    "clues": [
+      "hot",
+      "ice",
+      "earth",
+      "weather",
+      "gas"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "renewable energy": {
+    "clues": [
+      "sun",
+      "wind",
+      "green",
+      "power",
+      "clean"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "solar panel": {
+    "clues": [
+      "sun",
+      "roof",
+      "power",
+      "energy",
+      "glass"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "wind turbine": {
+    "clues": [
+      "wind",
+      "fan",
+      "power",
+      "energy",
+      "white"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "freedom of speech": {
+    "clues": [
+      "talk",
+      "right",
+      "free",
+      "law",
+      "say"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "political party": {
+    "clues": [
+      "vote",
+      "group",
+      "election",
+      "left",
+      "right"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "prime minister": {
+    "clues": [
+      "leader",
+      "government",
+      "power",
+      "uk",
+      "vote"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "foreign policy": {
+    "clues": [
+      "world",
+      "nation",
+      "plan",
+      "talk",
+      "border"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "international law": {
+    "clues": [
+      "world",
+      "rules",
+      "nations",
+      "legal",
+      "court"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nuclear power": {
+    "clues": [
+      "energy",
+      "atom",
+      "plant",
+      "danger",
+      "fission"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "industrial revolution": {
+    "clues": [
+      "history",
+      "factory",
+      "steam",
+      "change",
+      "old"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "classic literature": {
+    "clues": [
+      "books",
+      "old",
+      "read",
+      "famous",
+      "author"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "science fiction": {
+    "clues": [
+      "future",
+      "space",
+      "aliens",
+      "story",
+      "tech"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "historical fiction": {
+    "clues": [
+      "past",
+      "story",
+      "history",
+      "real",
+      "fake"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "graphic novel": {
+    "clues": [
+      "book",
+      "pictures",
+      "comic",
+      "story",
+      "adult"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "academy award": {
+    "clues": [
+      "oscar",
+      "movie",
+      "famous",
+      "win",
+      "gold"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "world cup": {
+    "clues": [
+      "soccer",
+      "football",
+      "world",
+      "game",
+      "trophy"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "Olympic games": {
+    "clues": [
+      "world",
+      "sports",
+      "medal",
+      "gold",
+      "every four years"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "grand slam": {
+    "clues": [
+      "tennis",
+      "win",
+      "four",
+      "major",
+      "trophy"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "home run": {
+    "clues": [
+      "baseball",
+      "hit",
+      "run",
+      "score",
+      "game"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "penalty kick": {
+    "clues": [
+      "soccer",
+      "goal",
+      "foul",
+      "ball",
+      "one on one"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "slam dunk": {
+    "clues": [
+      "basketball",
+      "jump",
+      "hoop",
+      "score",
+      "rim"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "board of directors": {
+    "clues": [
+      "business",
+      "group",
+      "boss",
+      "company",
+      "meetings"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "chief executive": {
+    "clues": [
+      "ceo",
+      "boss",
+      "leader",
+      "company",
+      "work"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "human resources": {
+    "clues": [
+      "work",
+      "hiring",
+      "people",
+      "office",
+      "staff"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "public relations": {
+    "clues": [
+      "image",
+      "news",
+      "people",
+      "media",
+      "talk"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "customer service": {
+    "clues": [
+      "help",
+      "phone",
+      "buy",
+      "store",
+      "problem"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "supply chain": {
+    "clues": [
+      "move",
+      "goods",
+      "factory",
+      "shop",
+      "logistics"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "quality control": {
+    "clues": [
+      "check",
+      "good",
+      "factory",
+      "test",
+      "standards"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "intellectual property": {
+    "clues": [
+      "idea",
+      "own",
+      "law",
+      "patent",
+      "copy"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "terms of service": {
+    "clues": [
+      "rules",
+      "read",
+      "online",
+      "legal",
+      "agree"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "privacy policy": {
+    "clues": [
+      "data",
+      "online",
+      "secret",
+      "rules",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "user interface": {
+    "clues": [
+      "screen",
+      "look",
+      "buttons",
+      "app",
+      "design"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "user experience": {
+    "clues": [
+      "feel",
+      "use",
+      "app",
+      "easy",
+      "design"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "space station": {
+    "clues": [
+      "space",
+      "live",
+      "stars",
+      "orbit",
+      "astronaut"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "black hole": {
+    "clues": [
+      "space",
+      "dark",
+      "gravity",
+      "pull",
+      "star"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "big bang": {
+    "clues": [
+      "start",
+      "world",
+      "space",
+      "theory",
+      "explosion"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "natural selection": {
+    "clues": [
+      "darwin",
+      "nature",
+      "live",
+      "evolve",
+      "change"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "genetic engineering": {
+    "clues": [
+      "dna",
+      "change",
+      "science",
+      "lab",
+      "life"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "immune system": {
+    "clues": [
+      "body",
+      "fight",
+      "sick",
+      "protect",
+      "cells"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "blood pressure": {
+    "clues": [
+      "heart",
+      "doctor",
+      "body",
+      "health",
+      "number"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mental health": {
+    "clues": [
+      "mind",
+      "feel",
+      "think",
+      "happy",
+      "doctor"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "emotional intelligence": {
+    "clues": [
+      "feel",
+      "know",
+      "people",
+      "smart",
+      "mind"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "critical thinking": {
+    "clues": [
+      "think",
+      "smart",
+      "logic",
+      "fact",
+      "mind"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "time management": {
+    "clues": [
+      "clock",
+      "work",
+      "plan",
+      "fast",
+      "task"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "work life balance": {
+    "clues": [
+      "home",
+      "job",
+      "time",
+      "happy",
+      "rest"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "impostor syndrome": {
+    "clues": [
+      "fake",
+      "smart",
+      "feel",
+      "fear",
+      "work"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "real estate agent": {
+    "clues": [
+      "house",
+      "sell",
+      "buy",
+      "work",
+      "agent"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "investment bank": {
+    "clues": [
+      "money",
+      "wall street",
+      "stock",
+      "rich",
+      "firm"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "venture capital": {
+    "clues": [
+      "money",
+      "startup",
+      "risk",
+      "new",
+      "fund"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "social security": {
+    "clues": [
+      "money",
+      "old",
+      "government",
+      "pay",
+      "help"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "minimum wage": {
+    "clues": [
+      "pay",
+      "money",
+      "work",
+      "low",
+      "law"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "unemployment rate": {
+    "clues": [
+      "work",
+      "no job",
+      "percent",
+      "economy",
+      "numbers"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "consumer electronics": {
+    "clues": [
+      "buy",
+      "tv",
+      "phone",
+      "tech",
+      "store"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "high definition": {
+    "clues": [
+      "screen",
+      "clear",
+      "tv",
+      "look",
+      "video"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "streaming service": {
+    "clues": [
+      "movie",
+      "online",
+      "watch",
+      "tv",
+      "subscription"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "search engine": {
+    "clues": [
+      "google",
+      "find",
+      "internet",
+      "look",
+      "web"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cyber attack": {
+    "clues": [
+      "hack",
+      "bad",
+      "internet",
+      "computer",
+      "war"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "mass media": {
+    "clues": [
+      "news",
+      "tv",
+      "people",
+      "watch",
+      "info"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "fake news": {
+    "clues": [
+      "lie",
+      "online",
+      "news",
+      "media",
+      "story"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "civil rights": {
+    "clues": [
+      "law",
+      "people",
+      "free",
+      "right",
+      "march"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "human rights": {
+    "clues": [
+      "world",
+      "people",
+      "free",
+      "law",
+      "right"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "united nations": {
+    "clues": [
+      "world",
+      "group",
+      "peace",
+      "nations",
+      "ny"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "european union": {
+    "clues": [
+      "europe",
+      "group",
+      "euro",
+      "nations",
+      "brussels"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "middle class": {
+    "clues": [
+      "people",
+      "money",
+      "average",
+      "group",
+      "society"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "working class": {
+    "clues": [
+      "people",
+      "job",
+      "money",
+      "manual",
+      "group"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "standard of living": {
+    "clues": [
+      "life",
+      "money",
+      "good",
+      "how",
+      "country"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cost of living": {
+    "clues": [
+      "money",
+      "price",
+      "city",
+      "high",
+      "pay"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "gentrification": {
+    "clues": [
+      "city",
+      "neighborhood",
+      "new",
+      "rich",
+      "change"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "urban sprawl": {
+    "clues": [
+      "city",
+      "growth",
+      "cars",
+      "far",
+      "houses"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "public transport": {
+    "clues": [
+      "bus",
+      "train",
+      "city",
+      "ride",
+      "people"
+    ],
+    "category": "Travel",
+    "kidsMode": false
+  },
+  "fossil fuels": {
+    "clues": [
+      "oil",
+      "gas",
+      "coal",
+      "energy",
+      "bad"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "carbon footprint": {
+    "clues": [
+      "earth",
+      "bad",
+      "gas",
+      "you",
+      "green"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "natural resources": {
+    "clues": [
+      "earth",
+      "wood",
+      "oil",
+      "water",
+      "nature"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "genetic diversity": {
+    "clues": [
+      "life",
+      "kinds",
+      "genes",
+      "nature",
+      "range"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mass extinction": {
+    "clues": [
+      "dead",
+      "all",
+      "animals",
+      "history",
+      "end"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "particle physics": {
+    "clues": [
+      "small",
+      "atom",
+      "science",
+      "lab",
+      "energy"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "dark energy": {
+    "clues": [
+      "space",
+      "secret",
+      "theory",
+      "universe",
+      "force"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "quantum entanglement": {
+    "clues": [
+      "link",
+      "physics",
+      "fast",
+      "weird",
+      "two"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "string theory": {
+    "clues": [
+      "math",
+      "universe",
+      "small",
+      "physics",
+      "vibrate"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "general relativity": {
+    "clues": [
+      "einstein",
+      "space",
+      "time",
+      "gravity",
+      "mass"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cognitive dissonance": {
+    "clues": [
+      "mind",
+      "two",
+      "conflict",
+      "think",
+      "feel"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "behavioral economics": {
+    "clues": [
+      "money",
+      "people",
+      "why",
+      "buy",
+      "mind"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "game theory": {
+    "clues": [
+      "math",
+      "plan",
+      "win",
+      "choice",
+      "others"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "existential crisis": {
+    "clues": [
+      "life",
+      "why",
+      "scared",
+      "mind",
+      "meaning"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "moral philosophy": {
+    "clues": [
+      "right",
+      "wrong",
+      "think",
+      "rules",
+      "good"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "social contract": {
+    "clues": [
+      "rules",
+      "people",
+      "government",
+      "society",
+      "agree"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "separation of powers": {
+    "clues": [
+      "law",
+      "government",
+      "three",
+      "court",
+      "leader"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "checks and balances": {
+    "clues": [
+      "power",
+      "government",
+      "limit",
+      "rules",
+      "fair"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "due process": {
+    "clues": [
+      "law",
+      "court",
+      "rights",
+      "fair",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "civil disobedience": {
+    "clues": [
+      "protest",
+      "law",
+      "no",
+      "peace",
+      "march"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "non-profit organization": {
+    "clues": [
+      "help",
+      "money",
+      "charity",
+      "work",
+      "good"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "corporate social responsibility": {
+    "clues": [
+      "business",
+      "good",
+      "earth",
+      "help",
+      "duty"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "insider trading": {
+    "clues": [
+      "stock",
+      "secret",
+      "money",
+      "illegal",
+      "jail"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "money laundering": {
+    "clues": [
+      "crime",
+      "clean",
+      "hidden",
+      "cash",
+      "bank"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "tax haven": {
+    "clues": [
+      "money",
+      "country",
+      "hide",
+      "low",
+      "island"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "conflict of interest": {
+    "clues": [
+      "job",
+      "two",
+      "problem",
+      "secret",
+      "fair"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "brain drain": {
+    "clues": [
+      "country",
+      "leave",
+      "smart",
+      "work",
+      "move"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "glass ceiling": {
+    "clues": [
+      "work",
+      "woman",
+      "limit",
+      "top",
+      "hidden"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "affirmative action": {
+    "clues": [
+      "help",
+      "group",
+      "fair",
+      "work",
+      "policy"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cancel culture": {
+    "clues": [
+      "online",
+      "bad",
+      "stop",
+      "famous",
+      "social media"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "librarian": {
+    "clues": [
+      "books",
+      "quiet",
+      "read",
+      "library",
+      "shelf"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "scientist": {
+    "clues": [
+      "lab",
+      "experiment",
+      "coat",
+      "science",
+      "test"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "mechanic": {
+    "clues": [
+      "car",
+      "tools",
+      "fix",
+      "garage",
+      "oil"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "photographer": {
+    "clues": [
+      "camera",
+      "picture",
+      "flash",
+      "smile",
+      "lens"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "detective": {
+    "clues": [
+      "clues",
+      "magnifying glass",
+      "mystery",
+      "solve",
+      "spy"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "gardener": {
+    "clues": [
+      "plants",
+      "flowers",
+      "dirt",
+      "garden",
+      "grow"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "dentist": {
+    "clues": [
+      "teeth",
+      "clean",
+      "smile",
+      "chair",
+      "mouth"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "nurse": {
+    "clues": [
+      "hospital",
+      "help",
+      "sick",
+      "doctor",
+      "medicine"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "baker": {
+    "clues": [
+      "bread",
+      "flour",
+      "oven",
+      "cook",
+      "cake"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "artist": {
+    "clues": [
+      "paint",
+      "brush",
+      "canvas",
+      "colors",
+      "picture"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "musician": {
+    "clues": [
+      "instrument",
+      "play",
+      "music",
+      "song",
+      "stage"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "athlete": {
+    "clues": [
+      "sport",
+      "run",
+      "fast",
+      "win",
+      "gym"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "reporter": {
+    "clues": [
+      "news",
+      "talk",
+      "tv",
+      "microphone",
+      "story"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "captain": {
+    "clues": [
+      "ship",
+      "sea",
+      "boat",
+      "water",
+      "hat"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "knight": {
+    "clues": [
+      "armor",
+      "sword",
+      "castle",
+      "horse",
+      "shield"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "wizard": {
+    "clues": [
+      "magic",
+      "wand",
+      "hat",
+      "spell",
+      "cloak"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "dragon": {
+    "clues": [
+      "fire",
+      "fly",
+      "scales",
+      "wings",
+      "scary"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "unicorn": {
+    "clues": [
+      "horn",
+      "horse",
+      "magic",
+      "white",
+      "rainbow"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mermaid": {
+    "clues": [
+      "ocean",
+      "tail",
+      "swim",
+      "hair",
+      "sea"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "alien": {
+    "clues": [
+      "space",
+      "green",
+      "stars",
+      "ship",
+      "ufo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "monster": {
+    "clues": [
+      "scary",
+      "night",
+      "closet",
+      "big",
+      "hairy"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "dinosaur": {
+    "clues": [
+      "bones",
+      "old",
+      "huge",
+      "roar",
+      "t-rex"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "robot": {
+    "clues": [
+      "metal",
+      "beep",
+      "computer",
+      "battery",
+      "future"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "castle": {
+    "clues": [
+      "king",
+      "queen",
+      "stone",
+      "tower",
+      "old"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "palace": {
+    "clues": [
+      "royal",
+      "big",
+      "house",
+      "gold",
+      "prince"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "pyramid": {
+    "clues": [
+      "egypt",
+      "triangle",
+      "stone",
+      "desert",
+      "old"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "waterfall": {
+    "clues": [
+      "water",
+      "river",
+      "drop",
+      "wet",
+      "high"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "cave": {
+    "clues": [
+      "dark",
+      "rock",
+      "mountain",
+      "bats",
+      "inside"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "jungle": {
+    "clues": [
+      "trees",
+      "monkeys",
+      "wet",
+      "green",
+      "wild"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "valley": {
+    "clues": [
+      "low",
+      "hills",
+      "between",
+      "green",
+      "flat"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "canyon": {
+    "clues": [
+      "deep",
+      "rock",
+      "river",
+      "red",
+      "walls"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "swamp": {
+    "clues": [
+      "wet",
+      "mud",
+      "alligator",
+      "green",
+      "water"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "glacier": {
+    "clues": [
+      "ice",
+      "cold",
+      "blue",
+      "slow",
+      "huge"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "savannah": {
+    "clues": [
+      "africa",
+      "grass",
+      "lion",
+      "dry",
+      "animals"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tundra": {
+    "clues": [
+      "cold",
+      "no trees",
+      "ice",
+      "arctic",
+      "snow"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "prairie": {
+    "clues": [
+      "grass",
+      "flat",
+      "wind",
+      "farm",
+      "cows"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "meadow": {
+    "clues": [
+      "flowers",
+      "grass",
+      "green",
+      "sun",
+      "bees"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "orchard": {
+    "clues": [
+      "fruit",
+      "trees",
+      "apples",
+      "farm",
+      "pick"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "vineyard": {
+    "clues": [
+      "grapes",
+      "wine",
+      "rows",
+      "farm",
+      "purple"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "lighthouse": {
+    "clues": [
+      "ocean",
+      "light",
+      "shore",
+      "tower",
+      "ship"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "skyscraper": {
+    "clues": [
+      "city",
+      "tall",
+      "glass",
+      "high",
+      "building"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "stadium": {
+    "clues": [
+      "sport",
+      "crowd",
+      "game",
+      "seats",
+      "team"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "museum": {
+    "clues": [
+      "old",
+      "art",
+      "history",
+      "building",
+      "look"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "aquarium": {
+    "clues": [
+      "fish",
+      "water",
+      "shark",
+      "glass",
+      "blue"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "planetarium": {
+    "clues": [
+      "stars",
+      "space",
+      "dark",
+      "dome",
+      "planets"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "observatory": {
+    "clues": [
+      "telescope",
+      "stars",
+      "space",
+      "mountain",
+      "look"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "laboratory": {
+    "clues": [
+      "science",
+      "test",
+      "experiment",
+      "glass",
+      "scientist"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "university": {
+    "clues": [
+      "learn",
+      "books",
+      "students",
+      "big",
+      "study"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "factory": {
+    "clues": [
+      "make",
+      "smoke",
+      "machine",
+      "work",
+      "building"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "warehouse": {
+    "clues": [
+      "boxes",
+      "big",
+      "store",
+      "goods",
+      "empty"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "harbor": {
+    "clues": [
+      "ship",
+      "boat",
+      "water",
+      "dock",
+      "sea"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "airport": {
+    "clues": [
+      "plane",
+      "fly",
+      "travel",
+      "luggage",
+      "gate"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "station": {
+    "clues": [
+      "train",
+      "bus",
+      "wait",
+      "travel",
+      "stop"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "bridge": {
+    "clues": [
+      "water",
+      "cross",
+      "road",
+      "over",
+      "high"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "tunnel": {
+    "clues": [
+      "dark",
+      "under",
+      "road",
+      "mountain",
+      "through"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "monument": {
+    "clues": [
+      "statue",
+      "old",
+      "famous",
+      "stone",
+      "history"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "fountain": {
+    "clues": [
+      "water",
+      "park",
+      "statue",
+      "wish",
+      "splash"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "portrait": {
+    "clues": [
+      "face",
+      "art",
+      "picture",
+      "paint",
+      "person"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "landscape": {
+    "clues": [
+      "nature",
+      "art",
+      "picture",
+      "paint",
+      "view"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "mural": {
+    "clues": [
+      "wall",
+      "art",
+      "paint",
+      "big",
+      "city"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "graffiti": {
+    "clues": [
+      "wall",
+      "spray",
+      "art",
+      "street",
+      "letters"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "mosaic": {
+    "clues": [
+      "tiles",
+      "small",
+      "art",
+      "pattern",
+      "colors"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "origami": {
+    "clues": [
+      "paper",
+      "fold",
+      "japan",
+      "shape",
+      "bird"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "pottery": {
+    "clues": [
+      "clay",
+      "wheel",
+      "bowl",
+      "fire",
+      "hands"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "weaving": {
+    "clues": [
+      "thread",
+      "cloth",
+      "loom",
+      "pattern",
+      "yarn"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "embroidery": {
+    "clues": [
+      "needle",
+      "thread",
+      "cloth",
+      "pattern",
+      "sew"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "knitting": {
+    "clues": [
+      "needles",
+      "yarn",
+      "sweater",
+      "wool",
+      "loop"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "jewelry": {
+    "clues": [
+      "gold",
+      "rings",
+      "neck",
+      "shiny",
+      "wear"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tiara": {
+    "clues": [
+      "princess",
+      "head",
+      "shiny",
+      "crown",
+      "gold"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "trophy": {
+    "clues": [
+      "win",
+      "gold",
+      "cup",
+      "sport",
+      "first"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "medal": {
+    "clues": [
+      "win",
+      "gold",
+      "neck",
+      "sport",
+      "award"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "compass": {
+    "clues": [
+      "north",
+      "direction",
+      "needle",
+      "map",
+      "lost"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "telescope": {
+    "clues": [
+      "stars",
+      "look",
+      "space",
+      "far",
+      "lens"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "microscope": {
+    "clues": [
+      "small",
+      "look",
+      "science",
+      "lab",
+      "cells"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "binoculars": {
+    "clues": [
+      "look",
+      "far",
+      "eyes",
+      "birds",
+      "nature"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "magnifying glass": {
+    "clues": [
+      "look",
+      "small",
+      "detective",
+      "big",
+      "clues"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "backpack": {
+    "clues": [
+      "school",
+      "carry",
+      "books",
+      "straps",
+      "bag"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "suitcase": {
+    "clues": [
+      "travel",
+      "clothes",
+      "airport",
+      "wheels",
+      "pack"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "flashlight": {
+    "clues": [
+      "dark",
+      "light",
+      "night",
+      "battery",
+      "beam"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "lantern": {
+    "clues": [
+      "light",
+      "camping",
+      "handle",
+      "fire",
+      "night"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "candle": {
+    "clues": [
+      "fire",
+      "wax",
+      "light",
+      "cake",
+      "burn"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "match": {
+    "clues": [
+      "fire",
+      "box",
+      "strike",
+      "stick",
+      "light"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "lighter": {
+    "clues": [
+      "fire",
+      "thumb",
+      "flick",
+      "flame",
+      "smoke"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "bonfire": {
+    "clues": [
+      "fire",
+      "big",
+      "outside",
+      "wood",
+      "night"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "campfire": {
+    "clues": [
+      "fire",
+      "camping",
+      "wood",
+      "marshmallows",
+      "night"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tent": {
+    "clues": [
+      "camping",
+      "sleep",
+      "outside",
+      "fabric",
+      "woods"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "sleeping bag": {
+    "clues": [
+      "camping",
+      "sleep",
+      "warm",
+      "tent",
+      "zip"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hammock": {
+    "clues": [
+      "swing",
+      "sleep",
+      "trees",
+      "rope",
+      "outside"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "picnic": {
+    "clues": [
+      "basket",
+      "park",
+      "eat",
+      "blanket",
+      "outside"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "barbecue": {
+    "clues": [
+      "grill",
+      "meat",
+      "outside",
+      "smoke",
+      "eat"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "party": {
+    "clues": [
+      "fun",
+      "music",
+      "friends",
+      "dance",
+      "cake"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "parade": {
+    "clues": [
+      "marching",
+      "music",
+      "street",
+      "crowd",
+      "floats"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "carnival": {
+    "clues": [
+      "rides",
+      "games",
+      "fair",
+      "fun",
+      "cotton candy"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "circus": {
+    "clues": [
+      "tent",
+      "clowns",
+      "animals",
+      "show",
+      "trapeze"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "theatre": {
+    "clues": [
+      "show",
+      "stage",
+      "acting",
+      "seats",
+      "curtain"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "opera": {
+    "clues": [
+      "singing",
+      "music",
+      "stage",
+      "loud",
+      "theatre"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "ballet": {
+    "clues": [
+      "dance",
+      "music",
+      "stage",
+      "toes",
+      "shoes"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "concert": {
+    "clues": [
+      "music",
+      "band",
+      "sing",
+      "crowd",
+      "stage"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "festival": {
+    "clues": [
+      "music",
+      "outside",
+      "big",
+      "many",
+      "crowd"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "orchestra": {
+    "clues": [
+      "music",
+      "many",
+      "violins",
+      "conductor",
+      "play"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "symphony": {
+    "clues": [
+      "music",
+      "long",
+      "orchestra",
+      "loud",
+      "beautiful"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "melody": {
+    "clues": [
+      "music",
+      "song",
+      "tune",
+      "sing",
+      "notes"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "rhythm": {
+    "clues": [
+      "music",
+      "beat",
+      "dance",
+      "drum",
+      "tap"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "harmony": {
+    "clues": [
+      "music",
+      "voices",
+      "together",
+      "sing",
+      "nice"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "lyrics": {
+    "clues": [
+      "song",
+      "words",
+      "sing",
+      "music",
+      "write"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "tempo": {
+    "clues": [
+      "music",
+      "speed",
+      "fast",
+      "slow",
+      "beat"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "volume": {
+    "clues": [
+      "music",
+      "loud",
+      "soft",
+      "sound",
+      "turn"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "echo": {
+    "clues": [
+      "sound",
+      "repeat",
+      "cave",
+      "voice",
+      "wall"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "vibration": {
+    "clues": [
+      "shake",
+      "move",
+      "sound",
+      "fast",
+      "touch"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "friction": {
+    "clues": [
+      "rub",
+      "heat",
+      "slow",
+      "stop",
+      "touch"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "inertia": {
+    "clues": [
+      "move",
+      "stay",
+      "physics",
+      "stop",
+      "rest"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "velocity": {
+    "clues": [
+      "speed",
+      "fast",
+      "direction",
+      "move",
+      "physics"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "pressure": {
+    "clues": [
+      "push",
+      "force",
+      "weight",
+      "air",
+      "heavy"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "temperature": {
+    "clues": [
+      "hot",
+      "cold",
+      "degrees",
+      "weather",
+      "heat"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "evaporation": {
+    "clues": [
+      "water",
+      "steam",
+      "sun",
+      "up",
+      "dry"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "condensation": {
+    "clues": [
+      "water",
+      "cloud",
+      "glass",
+      "wet",
+      "cold"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "precipitation": {
+    "clues": [
+      "rain",
+      "snow",
+      "water",
+      "sky",
+      "fall"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "metamorphosis": {
+    "clues": [
+      "change",
+      "butterfly",
+      "grow",
+      "frog",
+      "life"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "respiration": {
+    "clues": [
+      "breathe",
+      "air",
+      "lungs",
+      "life",
+      "oxygen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "digestion": {
+    "clues": [
+      "eat",
+      "stomach",
+      "food",
+      "body",
+      "process"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "circulation": {
+    "clues": [
+      "blood",
+      "heart",
+      "body",
+      "flow",
+      "round"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "skeleton": {
+    "clues": [
+      "bones",
+      "body",
+      "white",
+      "inside",
+      "hard"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "muscle": {
+    "clues": [
+      "strong",
+      "body",
+      "move",
+      "arm",
+      "flesh"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "brain": {
+    "clues": [
+      "think",
+      "head",
+      "mind",
+      "smart",
+      "control"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "heart": {
+    "clues": [
+      "blood",
+      "beat",
+      "chest",
+      "life",
+      "love"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "lungs": {
+    "clues": [
+      "breathe",
+      "air",
+      "chest",
+      "oxygen",
+      "smoke"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "stomach": {
+    "clues": [
+      "food",
+      "eat",
+      "belly",
+      "hunger",
+      "full"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "liver": {
+    "clues": [
+      "body",
+      "inside",
+      "organ",
+      "blood",
+      "clean"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "kidneys": {
+    "clues": [
+      "body",
+      "inside",
+      "two",
+      "water",
+      "clean"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "intestines": {
+    "clues": [
+      "body",
+      "inside",
+      "long",
+      "food",
+      "stomach"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "bacteria": {
+    "clues": [
+      "small",
+      "germs",
+      "sick",
+      "life",
+      "clean"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "virus": {
+    "clues": [
+      "small",
+      "sick",
+      "germs",
+      "flu",
+      "catch"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "antibody": {
+    "clues": [
+      "body",
+      "fight",
+      "germs",
+      "healthy",
+      "cells"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vaccine": {
+    "clues": [
+      "shot",
+      "doctor",
+      "medicine",
+      "healthy",
+      "needle"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "antibiotic": {
+    "clues": [
+      "medicine",
+      "doctor",
+      "germs",
+      "pill",
+      "sick"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vitamins": {
+    "clues": [
+      "healthy",
+      "food",
+      "pill",
+      "good",
+      "body"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "minerals": {
+    "clues": [
+      "healthy",
+      "rocks",
+      "body",
+      "food",
+      "iron"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "proteins": {
+    "clues": [
+      "meat",
+      "strong",
+      "food",
+      "body",
+      "muscle"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "carbohydrates": {
+    "clues": [
+      "bread",
+      "energy",
+      "food",
+      "sugar",
+      "pasta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "glucose": {
+    "clues": [
+      "sugar",
+      "energy",
+      "blood",
+      "body",
+      "sweet"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cholesterol": {
+    "clues": [
+      "blood",
+      "heart",
+      "fat",
+      "health",
+      "bad"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hormones": {
+    "clues": [
+      "body",
+      "grow",
+      "chemicals",
+      "feel",
+      "change"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "enzymes": {
+    "clues": [
+      "body",
+      "food",
+      "break down",
+      "process",
+      "cells"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "heredity": {
+    "clues": [
+      "family",
+      "born",
+      "genes",
+      "traits",
+      "parents"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "conservation": {
+    "clues": [
+      "save",
+      "earth",
+      "nature",
+      "green",
+      "protect"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "pollution": {
+    "clues": [
+      "dirty",
+      "smoke",
+      "trash",
+      "bad",
+      "earth"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "recycling": {
+    "clues": [
+      "bin",
+      "paper",
+      "plastic",
+      "green",
+      "reuse"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "composting": {
+    "clues": [
+      "dirt",
+      "food",
+      "garden",
+      "rot",
+      "green"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "geosphere": {
+    "clues": [
+      "rocks",
+      "earth",
+      "ground",
+      "metal",
+      "stone"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hydrosphere": {
+    "clues": [
+      "water",
+      "earth",
+      "ocean",
+      "river",
+      "ice"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mesosphere": {
+    "clues": [
+      "sky",
+      "space",
+      "middle",
+      "cold",
+      "layer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "thermosphere": {
+    "clues": [
+      "sky",
+      "space",
+      "hot",
+      "high",
+      "layer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "exosphere": {
+    "clues": [
+      "space",
+      "sky",
+      "outer",
+      "edge",
+      "layer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "magnetosphere": {
+    "clues": [
+      "earth",
+      "poles",
+      "shield",
+      "space",
+      "force"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "equator": {
+    "clues": [
+      "middle",
+      "earth",
+      "hot",
+      "line",
+      "globe"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "longitude": {
+    "clues": [
+      "map",
+      "line",
+      "earth",
+      "up",
+      "globe"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "latitude": {
+    "clues": [
+      "map",
+      "line",
+      "earth",
+      "across",
+      "globe"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "coordinates": {
+    "clues": [
+      "map",
+      "place",
+      "numbers",
+      "find",
+      "spot"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "topography": {
+    "clues": [
+      "map",
+      "hills",
+      "shape",
+      "ground",
+      "height"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "navigation": {
+    "clues": [
+      "find",
+      "map",
+      "way",
+      "travel",
+      "ship"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "expedition": {
+    "clues": [
+      "travel",
+      "explore",
+      "search",
+      "find",
+      "group"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "imagination": {
+    "clues": [
+      "mind",
+      "dream",
+      "pretend",
+      "thought",
+      "create"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "friendship": {
+    "clues": [
+      "together",
+      "help",
+      "kind",
+      "play",
+      "share"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "curiosity": {
+    "clues": [
+      "learn",
+      "ask",
+      "why",
+      "smart",
+      "search"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "adventure": {
+    "clues": [
+      "travel",
+      "fun",
+      "explore",
+      "outside",
+      "search"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "holiday": {
+    "clues": [
+      "fun",
+      "no school",
+      "party",
+      "summer",
+      "rest"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "morning": {
+    "clues": [
+      "sun",
+      "wake up",
+      "breakfast",
+      "start",
+      "light"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "evening": {
+    "clues": [
+      "night",
+      "sun sets",
+      "dinner",
+      "dark",
+      "rest"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "yesterday": {
+    "clues": [
+      "past",
+      "before",
+      "time",
+      "done",
+      "old"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "tomorrow": {
+    "clues": [
+      "future",
+      "after",
+      "wait",
+      "next",
+      "soon"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "shadow": {
+    "clues": [
+      "dark",
+      "sun",
+      "shape",
+      "ground",
+      "black"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "reflection": {
+    "clues": [
+      "mirror",
+      "water",
+      "see",
+      "glass",
+      "face"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "magnet": {
+    "clues": [
+      "pull",
+      "metal",
+      "pole",
+      "stick",
+      "north"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  }
 }

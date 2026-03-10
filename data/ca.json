@@ -1,111 +1,8560 @@
 {
-  "avio": { "clues": ["cel", "ales", "pilot", "motors", "altitud"], "category": "Tech" },
-  "pizza": { "clues": ["rodona", "entrega", "porcions", "formatge", "calenta"], "category": "Menjar" },
-  "lleó": { "clues": ["melena", "rei", "rugit", "savana", "felí"], "category": "Animals" },
-  "platja": { "clues": ["sorra", "oceà", "ones", "tovallola", "sol"], "category": "Natura" },
-  "portàtil": { "clues": ["teclat", "pantalla", "portàtil", "bateria", "dades"], "category": "Tech" },
-  "bicicleta": { "clues": ["pedals", "rodes", "cadena", "casc", "dues"], "category": "Esports" },
-  "cafè": { "clues": ["tassa", "matí", "amarg", "cafeïna", "grans"], "category": "Menjar" },
-  "muntanya": { "clues": ["pic", "escalar", "senderisme", "alt", "neu"], "category": "Natura" },
-  "guitarra": { "clues": ["cordes", "acústica", "música", "pua", "sis"], "category": "Hobbies" },
-  "doctor": { "clues": ["hospital", "clínica", "salut", "medicina", "bata"], "category": "Treballs" },
-  "paraguas": { "clues": ["pluja", "sec", "mànec", "ombra", "plegable"], "category": "Objectes" },
-  "llapis": { "clues": ["escriptura", "grafit", "maquineta", "goma", "dibuix"], "category": "Objectes" },
-  "bosc": { "clues": ["arbres", "verd", "selva", "vida", "senders"], "category": "Natura" },
-  "elefant": { "clues": ["trompa", "claus", "orelles", "gran", "gris"], "category": "Animals" },
-  "càmera": { "clues": ["lent", "foto", "flaix", "zoom", "obturador"], "category": "Tech" },
-  "pa": { "clues": ["fleca", "torrada", "farina", "crosta", "llonzes"], "category": "Menjar" },
-  "rellotge": { "clues": ["temps", "agulles", "tic-tac", "alarma", "números"], "category": "Objectes" },
-  "futbol": { "clues": ["gol", "camp", "partit", "puntada", "equip"], "category": "Esports" },
-  "tren": { "clues": ["vies", "estació", "andana", "bitllet", "locomotora"], "category": "Viatges" },
-  "cotxe": { "clues": ["carretera", "volant", "rodes", "motor", "conductor"], "category": "Viatges" },
-  "riu": { "clues": ["flux", "vorera", "aigua", "pesca", "corrent"], "category": "Natura" },
-  "oceà": { "clues": ["sal", "profund", "blau", "marí", "vaixells"], "category": "Natura" },
-  "finestra": { "clues": ["vidre", "vista", "marc", "cortines", "llum"], "category": "Llar" },
-  "cadira": { "clues": ["seure", "potes", "respatller", "repòs", "fusta"], "category": "Llar" },
-  "llit": { "clues": ["dormir", "coixí", "colchó", "somnis", "nit"], "category": "Llar" },
-  "sabates": { "clues": ["peus", "caminar", "cordons", "sola", "parell"], "category": "Roba" },
-  "camisa": { "clues": ["botons", "mànegues", "roba", "coll", "vestir"], "category": "Roba" },
-  "barret": { "clues": ["cap", "ombra", "gorra", "ala", "estil"], "category": "Ropa" },
-  "gespa": { "clues": ["verd", "jardí", "tallar", "pati", "camp"], "category": "Natura" },
-  "sol": { "clues": ["brillant", "calent", "cel", "groc", "dia"], "category": "Natura" },
-  "lluna": { "clues": ["nit", "òrbita", "cel", "lunar", "rodona"], "category": "Natura" },
-  "estrelles": { "clues": ["nit", "cel", "brillants", "espai", "llum"], "category": "Natura" },
-  "flor": { "clues": ["pètals", "florir", "aroma", "jardí", "tija"], "category": "Natura" },
-  "gos": { "clues": ["lladrar", "mascota", "catxell", "lleial", "cua"], "category": "Animals" },
-  "gat": { "clues": ["miolar", "ronronar", "felí", "uncles", "bigotis"], "category": "Animals" },
-  "ocell": { "clues": ["plomes", "volar", "ales", "niu", "bec"], "category": "Animals" },
-  "peix": { "clues": ["nedar", "aigua", "escates", "aletes", "brànquies"], "category": "Animals" },
-  "poma": { "clues": ["fruita", "vermella", "cruixent", "arbre", "dolç"], "category": "Menjar" },
-  "plàtan": { "clues": ["fruita", "groc", "pelar", "corba", "tropical"], "category": "Menjar" },
-  "taronja": { "clues": ["fruita", "suc", "pelar", "rodona", "cítric"], "category": "Menjar" },
-  "aigua": { "clues": ["beure", "got", "clar", "líquid", "set"], "category": "Menjar" },
-  "llet": { "clues": ["blanca", "beure", "lacti", "vaca", "calci"], "category": "Menjar" },
-  "te": { "clues": ["tassa", "fulles", "calent", "tetera", "infusió"], "category": "Menjar" },
-  "llibre": { "clues": ["llegir", "pàgines", "biblioteca", "portada", "autor"], "category": "Hobbies" },
-  "bolígraf": { "clues": ["tinta", "escriure", "paper", "tap", "dibuixar"], "category": "Objectes" },
-  "nevera": { "clues": ["fred", "menjar", "cuina", "aparell", "gel"], "category": "Llar" },
-  "mirall": { "clues": ["reflex", "vidre", "paret", "bany", "cara"], "category": "Llar" },
-  "cartera": { "clues": ["diners", "targetes", "cuir", "butxaca", "efectiu"], "category": "Objectes" },
-  "claus": { "clues": ["ferradura", "porta", "metall", "clauer", "butxaca"], "category": "Objectes" },
-  "cullera": { "clues": ["sopa", "menjar", "metall", "mànec", "cuina"], "category": "Llar" },
-  "forquilla": { "clues": ["puntes", "menjar", "metall", "mànec", "cuina"], "category": "Llar" },
-  "plat": { "clues": ["menjar", "rodó", "ceràmica", "cuina", "pla"], "category": "Llar" },
-  "lavabo": { "clues": ["cisterna", "bany", "paper", "aigua", "assegut"], "category": "Llar" },
-  "porta": { "clues": ["pom", "obrir", "tancar", "entrada", "fusta"], "category": "Llar" },
-  "paret": { "clues": ["totxo", "pintura", "habitació", "vertical", "estructura"], "category": "Llar" },
-  "escales": { "clues": ["pujar", "dalt", "baix", "graons", "barana"], "category": "Llar" },
-  "ascensor": { "clues": ["elevador", "dalt", "baix", "botó", "pis"], "category": "Tech" },
-  "jardí": { "clues": ["plantes", "terra", "pati", "exterior", "reg"], "category": "Natura" },
-  "escola": { "clues": ["aprendre", "mestre", "estudiants", "llibres", "classes"], "category": "Lugares" },
-  "mercat": { "clues": ["comprar", "vendre", "menjar", "fresc", "parades"], "category": "Lugares" },
-  "restaurant": { "clues": ["menú", "cambrer", "menjar", "xef", "menjar"], "category": "Lugares" },
-  "cinema": { "clues": ["pel·lícula", "film", "pantalla", "crispetes", "teatre"], "category": "Lugares" },
-  "banc": { "clues": ["diners", "segur", "compte", "caixa", "efectiu"], "category": "Lugares" },
-  "església": { "clues": ["campanes", "pregar", "creu", "campanar", "servei"], "category": "Lugares" },
-  "castell": { "clues": ["rei", "pedra", "fossat", "torre", "història"], "category": "Lugares" },
-  "illa": { "clues": ["aïllada", "palmera", "tropical", "platja", "costa"], "category": "Lugares" },
-  "desert": { "clues": ["sorra", "cactus", "camell", "dunes", "sec"], "category": "Natura" },
-  "selva": { "clues": ["salvatge", "espessa", "micos", "lianes", "amazones"], "category": "Natura" },
-  "foc": { "clues": ["calent", "flama", "fum", "cremar", "fusta"], "category": "Natura" },
-  "terra": { "clues": ["sòl", "planeta", "brut", "roca", "terra"], "category": "Natura" },
-  "or": { "clues": ["brillant", "car", "metall", "riquesa", "groc"], "category": "Objectes" },
-  "diamant": { "clues": ["dur", "brillant", "car", "anell", "gemma"], "category": "Objectes" },
-  "plàstic": { "clues": ["reciclatge", "ampolla", "barat", "artificial", "lleuger"], "category": "Objectes" },
-  "fusta": { "clues": ["arbre", "marró", "tronc", "dur", "natural"], "category": "Objectes" },
-  "cuir": { "clues": ["pell", "resistent", "sabates", "jaqueta", "marró"], "category": "Objectes" },
-  "roca": { "clues": ["dur", "pedra", "sòl", "pesant", "còdol"], "category": "Natura" },
-  "fum": { "clues": ["gris", "núvol", "foc", "aire", "olor"], "category": "Natura" },
-  "llamp": { "clues": ["brillant", "trons", "flash", "ràpid", "descàrrega"], "category": "Natura" },
-  "tempesta": { "clues": ["fosc", "trons", "dolent", "perillós", "núvols"], "category": "Natura" },
-  "calamarsa": { "clues": ["gel", "dur", "petit", "boles", "hivern"], "category": "Natura" },
-  "cor": { "clues": ["batec", "sang", "pit", "amor", "bomba"], "category": "Cos" },
-  "cervell": { "clues": ["pensar", "ment", "intel·ligent", "memòria", "cap"], "category": "Cos" },
-  "ull": { "clues": ["veure", "vista", "mirar", "parpellejar", "visió"], "category": "Cos" },
-  "orella": { "clues": ["sentir", "so", "escoltar", "lòbul", "àudio"], "category": "Cos" },
-  "nas": { "clues": ["olorar", "olfacte", "fossa", "alè", "cara"], "category": "Cos" },
-  "boca": { "clues": ["parlar", "menjar", "llavis", "gust", "somriure"], "category": "Cos" },
-  "mà": { "clues": ["dedos", "palma", "agafar", "sostenir", "tocar"], "category": "Cos" },
-  "cama": { "clues": ["caminar", "genoll", "córrer", "múscul", "llarga"], "category": "Cos" },
-  "pèl": { "clues": ["estil", "tallar", "cepillo", "créixer", "fils"], "category": "Cos" },
-  "sang": { "clues": ["vermella", "venes", "líquid", "tall", "circulació"], "category": "Cos" },
-  "os": { "clues": ["blanc", "esquelet", "dur", "estructura", "trencar"], "category": "Cos" },
-  "somni": { "clues": ["dormir", "nit", "ment", "història", "visió"], "category": "Cos" },
-  "riure": { "clues": ["divertit", "somriure", "so", "feliç", "acudit"], "category": "Cos" },
-  "plorar": { "clues": ["llàgrima", "trist", "infeliç", "ulls", "plorar"], "category": "Cos" },
-  "cridar": { "clues": ["fort", "veu", "esgarip", "enfadat", "trucar"], "category": "Cos" },
-  "xiuxiuejar": { "clues": ["secret", "quiet", "suau", "orella", "baix"], "category": "Cos" },
-  "saltar": { "clues": ["alt", "impuls", "cames", "amunt", "botar"], "category": "Cos" },
-  "ballar": { "clues": ["ritme", "música", "festa", "passos", "moure's"], "category": "Hobbies" },
-  "cantar": { "clues": ["veu", "cançó", "tò", "boca", "melodia"], "category": "Hobbies" },
-  "escriure": { "clues": ["paraules", "història", "mà", "composició", "text"], "category": "Hobbies" },
-  "llegir": { "clues": ["paraules", "visió", "història", "pàgina", "informació"], "category": "Hobbies" },
-  "dibuixar": { "clues": ["esbós", "imatge", "paper", "creació", "art"], "category": "Hobbies" },
-  "pintar": { "clues": ["llenç", "pincell", "mullat", "obra", "mestra"], "category": "Hobbies" },
-  "cuinar": { "clues": ["xef", "menjar", "recepta", "preparació", "deliciós"], "category": "Hobbies" },
-  "amor": { "clues": ["passió", "parella", "romanç", "profund", "afecte"], "category": "Objectes" },
-  "por": { "clues": ["espantat", "tremolor", "perill", "foscor", "intimidat"], "category": "Objectes" },
-  "ira": { "clues": ["enfadat", "vermell", "furiós", "intens", "frustrat"], "category": "Objectes" },
-  "confiança": { "clues": ["honest", "lleialtat", "creure", "seguretat", "suport"], "category": "Objectes" },
-  "esperança": { "clues": ["futur", "desig", "optimisme", "anhel", "positiu"], "category": "Objectes" }
+  "gos": {
+    "clues": [
+      "lladrar",
+      "corretja",
+      "pata",
+      "cua",
+      "lleial"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "gat": {
+    "clues": [
+      "miolar",
+      "ronronar",
+      "bigotis",
+      "uncles",
+      "gatet"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "ocell": {
+    "clues": [
+      "ales",
+      "bec",
+      "niu",
+      "volar",
+      "plomes"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "peix": {
+    "clues": [
+      "aigua",
+      "escates",
+      "aletes",
+      "nedar",
+      "brànquies"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "poma": {
+    "clues": [
+      "vermella",
+      "fruita",
+      "blanca",
+      "arbre",
+      "sana"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "plàtan": {
+    "clues": [
+      "groc",
+      "fruita",
+      "curba",
+      "mico",
+      "pelar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sol": {
+    "clues": [
+      "brillant",
+      "calent",
+      "cel",
+      "groc",
+      "dia"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "lluna": {
+    "clues": [
+      "nit",
+      "òrbita",
+      "cel",
+      "lunar",
+      "rodona"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "estrella": {
+    "clues": [
+      "nit",
+      "cel",
+      "brillar",
+      "lluny",
+      "espai"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "flor": {
+    "clues": [
+      "pètals",
+      "florir",
+      "aroma",
+      "jardí",
+      "tija"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "taula": {
+    "clues": [
+      "potes",
+      "plana",
+      "fusta",
+      "menjar",
+      "quatre"
+    ],
+    "category": "Mobles",
+    "kidsMode": true
+  },
+  "cadira": {
+    "clues": [
+      "seure",
+      "respatller",
+      "repòs",
+      "fusta",
+      "potes"
+    ],
+    "category": "Mobles",
+    "kidsMode": true
+  },
+  "llit": {
+    "clues": [
+      "dormir",
+      "coixí",
+      "colchó",
+      "somni",
+      "nit"
+    ],
+    "category": "Mobles",
+    "kidsMode": true
+  },
+  "llapis": {
+    "clues": [
+      "escriure",
+      "dibuixar",
+      "mina",
+      "esborrador",
+      "fusta"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "llibre": {
+    "clues": [
+      "llegir",
+      "pàgines",
+      "biblioteca",
+      "portada",
+      "conte"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "casa": {
+    "clues": [
+      "llar",
+      "teulada",
+      "porta",
+      "finestra",
+      "viure"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cotxe": {
+    "clues": [
+      "carretera",
+      "rodes",
+      "motor",
+      "conduir",
+      "volant"
+    ],
+    "category": "Viatges",
+    "kidsMode": true
+  },
+  "pilota": {
+    "clues": [
+      "rodona",
+      "botar",
+      "jugar",
+      "xut",
+      "llançar"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "nina": {
+    "clues": [
+      "joguina",
+      "pèl",
+      "vestit",
+      "jugar",
+      "petita"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "joguina": {
+    "clues": [
+      "jugar",
+      "diversió",
+      "nen",
+      "caixa",
+      "regal"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "llet": {
+    "clues": [
+      "vaca",
+      "blanc",
+      "beure",
+      "esmorzar",
+      "got"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "aigua": {
+    "clues": [
+      "beure",
+      "clara",
+      "mullat",
+      "líquid",
+      "set"
+    ],
+    "category": "Menjar",
+    "kidsMode": true
+  },
+  "pa": {
+    "clues": [
+      "barra",
+      "entrepà",
+      "farina",
+      "forn",
+      "miga"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "arròs": {
+    "clues": [
+      "blanc",
+      "gra",
+      "bol",
+      "petit",
+      "menjar"
+    ],
+    "category": "Menjar",
+    "kidsMode": true
+  },
+  "arbre": {
+    "clues": [
+      "fulles",
+      "tronc",
+      "fusta",
+      "branca",
+      "verd"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "gespa": {
+    "clues": [
+      "verda",
+      "jardí",
+      "tallar",
+      "pati",
+      "camp"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "abella": {
+    "clues": [
+      "mel",
+      "picar",
+      "groc",
+      "zumzeig",
+      "flor"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "formiga": {
+    "clues": [
+      "petit",
+      "fort",
+      "fila",
+      "insecte",
+      "forat"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pluja": {
+    "clues": [
+      "aigua",
+      "núvols",
+      "mullat",
+      "paraguas",
+      "cel"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "neu": {
+    "clues": [
+      "blanca",
+      "fred",
+      "hivern",
+      "borrim",
+      "suau"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "fred": {
+    "clues": [
+      "gel",
+      "hivern",
+      "tremolar",
+      "congelar",
+      "baix"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "calor": {
+    "clues": [
+      "sol",
+      "foc",
+      "temperatura",
+      "cremar",
+      "suar"
+    ],
+    "category": "Natura",
+    "kidsMode": true
+  },
+  "gran": {
+    "clues": [
+      "enorme",
+      "gegant",
+      "mida",
+      "elefant",
+      "alt"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "petit": {
+    "clues": [
+      "diminut",
+      "xic",
+      "mida",
+      "ratolí",
+      "formiga"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "vermell": {
+    "clues": [
+      "poma",
+      "sang",
+      "foc",
+      "parar",
+      "color"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "blau": {
+    "clues": [
+      "cel",
+      "oceà",
+      "aigua",
+      "color",
+      "clar"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "verd": {
+    "clues": [
+      "gespa",
+      "fulla",
+      "natura",
+      "seguir",
+      "color"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "groc": {
+    "clues": [
+      "sol",
+      "plàtan",
+      "llimona",
+      "brillant",
+      "color"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "caixa": {
+    "clues": [
+      "cartró",
+      "dintre",
+      "quadrada",
+      "tap",
+      "paquet"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "bossa": {
+    "clues": [
+      "portar",
+      "nansa",
+      "coses",
+      "paper",
+      "plàstic"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "tassa": {
+    "clues": [
+      "beure",
+      "nansa",
+      "ceràmica",
+      "cuina",
+      "cafè"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "forquilla": {
+    "clues": [
+      "menjar",
+      "puntas",
+      "metall",
+      "mànec",
+      "cuina"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "cullera": {
+    "clues": [
+      "menjar",
+      "sopa",
+      "metall",
+      "mànec",
+      "cuina"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "camisa": {
+    "clues": [
+      "vestir",
+      "botons",
+      "mànegues",
+      "roba",
+      "coll"
+    ],
+    "category": "Roba",
+    "kidsMode": true
+  },
+  "sabata": {
+    "clues": [
+      "peu",
+      "caminar",
+      "cordons",
+      "sola",
+      "parell"
+    ],
+    "category": "Roba",
+    "kidsMode": true
+  },
+  "gorra": {
+    "clues": [
+      "cap",
+      "visera",
+      "ala",
+      "ombra",
+      "vestir"
+    ],
+    "category": "Roba",
+    "kidsMode": true
+  },
+  "calcetí": {
+    "clues": [
+      "peu",
+      "parell",
+      "suau",
+      "sabata",
+      "calent"
+    ],
+    "category": "Roba",
+    "kidsMode": true
+  },
+  "porta": {
+    "clues": [
+      "obrir",
+      "tancar",
+      "pom",
+      "entrada",
+      "fusta"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "finestra": {
+    "clues": [
+      "cristal",
+      "vista",
+      "marc",
+      "cortina",
+      "llum"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "telèfon": {
+    "clues": [
+      "trucar",
+      "pantalla",
+      "mòbil",
+      "bateria",
+      "parlar"
+    ],
+    "category": "Objectes",
+    "kidsMode": true
+  },
+  "estratègia": {
+    "clues": [
+      "pla",
+      "joc",
+      "guanyar",
+      "escacs",
+      "pensament"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "ironia": {
+    "clues": [
+      "oposat",
+      "graciós",
+      "sarcasme",
+      "discurs",
+      "literari"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "sarcasme": {
+    "clues": [
+      "broma",
+      "burla",
+      "tò",
+      "afilat",
+      "discurs"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "criptografia": {
+    "clues": [
+      "codis",
+      "secret",
+      "ocultar",
+      "mates",
+      "clau"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "blockchain": {
+    "clues": [
+      "cripto",
+      "cadena",
+      "registre",
+      "segur",
+      "digital"
+    ],
+    "category": "Tecnologia",
+    "kidsMode": false
+  },
+  "algoritme": {
+    "clues": [
+      "pas",
+      "mates",
+      "ordinador",
+      "resoldre",
+      "lògica"
+    ],
+    "category": "Tecnologia",
+    "kidsMode": false
+  },
+  "paradigma": {
+    "clues": [
+      "canvi",
+      "model",
+      "patró",
+      "pensament",
+      "marc"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "metabolisme": {
+    "clues": [
+      "cos",
+      "energia",
+      "menjar",
+      "velocitat",
+      "procés"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "fotosíntesi": {
+    "clues": [
+      "planta",
+      "sol",
+      "verd",
+      "créixer",
+      "menjar"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "jerarquia": {
+    "clues": [
+      "ordre",
+      "rang",
+      "nivell",
+      "poder",
+      "estructura"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "birocràcia": {
+    "clues": [
+      "paper",
+      "oficina",
+      "lent",
+      "regla",
+      "sistema"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "filosofia": {
+    "clues": [
+      "pensar",
+      "ment",
+      "veritat",
+      "saviesa",
+      "pregunta"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "existencialisme": {
+    "clues": [
+      "vida",
+      "elecció",
+      "ser",
+      "sentit",
+      "llibertat"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "quàntic": {
+    "clues": [
+      "petit",
+      "física",
+      "estat",
+      "salt",
+      "teoria"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "relativitat": {
+    "clues": [
+      "einstein",
+      "física",
+      "temps",
+      "velocitat",
+      "teoria"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "infraestructura": {
+    "clues": [
+      "construir",
+      "carretera",
+      "pont",
+      "obres",
+      "servei"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "logística": {
+    "clues": [
+      "moure",
+      "pla",
+      "subministrament",
+      "cadena",
+      "magatzem"
+    ],
+    "category": "Negocis",
+    "kidsMode": false
+  },
+  "inversió": {
+    "clues": [
+      "diners",
+      "futur",
+      "creixement",
+      "risc",
+      "borsa"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "inflació": {
+    "clues": [
+      "preu",
+      "diners",
+      "pujar",
+      "economia",
+      "valor"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "deflació": {
+    "clues": [
+      "preu",
+      "diners",
+      "baixar",
+      "economia",
+      "valor"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "diplomàcia": {
+    "clues": [
+      "pau",
+      "xerrada",
+      "nacions",
+      "ambaixada",
+      "política"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "geopolítica": {
+    "clues": [
+      "món",
+      "poder",
+      "mapa",
+      "estratègia",
+      "nacions"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "arquitectura": {
+    "clues": [
+      "construir",
+      "disseny",
+      "casa",
+      "plànol",
+      "estil"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "renaixement": {
+    "clues": [
+      "art",
+      "història",
+      "vell",
+      "itàlia",
+      "renaixença"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "barroc": {
+    "clues": [
+      "estil",
+      "art",
+      "luxós",
+      "detall",
+      "antic"
+    ],
+    "category": "Història",
+    "kidsMode": false
+  },
+  "impressionisme": {
+    "clues": [
+      "pintar",
+      "llum",
+      "estil",
+      "pincell",
+      "francès"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "termodinàmica": {
+    "clues": [
+      "calor",
+      "energia",
+      "treball",
+      "física",
+      "lleis"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "entropia": {
+    "clues": [
+      "caos",
+      "desordre",
+      "física",
+      "pèrdua",
+      "ciència"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mutació": {
+    "clues": [
+      "canvi",
+      "adn",
+      "ciència",
+      "atzar",
+      "nou"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "evolució": {
+    "clues": [
+      "canvi",
+      "vell",
+      "vida",
+      "darwin",
+      "créixer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ecosistema": {
+    "clues": [
+      "naturalesa",
+      "vida",
+      "equilibri",
+      "lloc",
+      "xarxa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sostenibilitat": {
+    "clues": [
+      "verd",
+      "futur",
+      "mantenir",
+      "terra",
+      "segur"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "resiliència": {
+    "clues": [
+      "fort",
+      "tornar",
+      "dur",
+      "mantenir",
+      "poder"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "diversitat": {
+    "clues": [
+      "rang",
+      "barreja",
+      "molts",
+      "classe",
+      "gent"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "inclusió": {
+    "clues": [
+      "tots",
+      "part",
+      "unir-se",
+      "benvinguda",
+      "obert"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "integritat": {
+    "clues": [
+      "bo",
+      "veritat",
+      "honest",
+      "moral",
+      "valor"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "transparència": {
+    "clues": [
+      "clar",
+      "obert",
+      "veure",
+      "honest",
+      "públic"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "responsabilitat": {
+    "clues": [
+      "deure",
+      "resposta",
+      "propi",
+      "resultat",
+      "culpa"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "lideratge": {
+    "clues": [
+      "guiar",
+      "equip",
+      "poder",
+      "visió",
+      "cap"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "innovació": {
+    "clues": [
+      "nou",
+      "idea",
+      "canvi",
+      "crear",
+      "fresc"
+    ],
+    "category": "Abstracte",
+    "kidsMode": false
+  },
+  "emprenedor": {
+    "clues": [
+      "començar",
+      "risc",
+      "propi",
+      "negoci",
+      "idea"
+    ],
+    "category": "Negocis",
+    "kidsMode": false
+  },
+  "capital": {
+    "clues": [
+      "risc",
+      "nou",
+      "començar",
+      "diners",
+      "projecte"
+    ],
+    "category": "Negocis",
+    "kidsMode": false
+  },
+  "cartera": {
+    "clues": [
+      "diners",
+      "targetes",
+      "butxaca",
+      "cuir",
+      "pagar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "dividend": {
+    "clues": [
+      "acció",
+      "pagar",
+      "benefici",
+      "borsa",
+      "guany"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "passiu": {
+    "clues": [
+      "deute",
+      "risc",
+      "propi",
+      "legal",
+      "cost"
+    ],
+    "category": "Negocis",
+    "kidsMode": false
+  },
+  "actiu": {
+    "clues": [
+      "propi",
+      "valor",
+      "bo",
+      "riquesa",
+      "article"
+    ],
+    "category": "Negocis",
+    "kidsMode": false
+  },
+  "hipoteca": {
+    "clues": [
+      "préstec",
+      "banc",
+      "casa",
+      "interès",
+      "deute"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "assegurança": {
+    "clues": [
+      "pòlissa",
+      "risc",
+      "prima",
+      "cobertura",
+      "seguretat"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pensió": {
+    "clues": [
+      "vell",
+      "pagar",
+      "estalviar",
+      "treball",
+      "fons"
+    ],
+    "category": "Negocis",
+    "kidsMode": false
+  },
+  "jubilació": {
+    "clues": [
+      "pensió",
+      "diners",
+      "vell",
+      "retirada",
+      "estalviar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "elefant": {
+    "clues": [
+      "trompa",
+      "ullals",
+      "gran",
+      "gris",
+      "orelles"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "girafa": {
+    "clues": [
+      "coll",
+      "taques",
+      "alt",
+      "groc",
+      "àfrica"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "lleó": {
+    "clues": [
+      "rugit",
+      "melena",
+      "rei",
+      "gat",
+      "salvatge"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tigre": {
+    "clues": [
+      "ratlles",
+      "taronja",
+      "gat",
+      "selva",
+      "rugit"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pingüí": {
+    "clues": [
+      "gel",
+      "caminar",
+      "negre",
+      "blanc",
+      "nedar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mico": {
+    "clues": [
+      "plàtan",
+      "cua",
+      "enfilalar-se",
+      "arbre",
+      "columpiar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "zebra": {
+    "clues": [
+      "ratlles",
+      "negre",
+      "blanc",
+      "cavall",
+      "àfrica"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cangur": {
+    "clues": [
+      "saltar",
+      "bossa",
+      "austràlia",
+      "salt",
+      "butxaca"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "vaca": {
+    "clues": [
+      "llet",
+      "muu",
+      "granja",
+      "pastura",
+      "corns"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "porc": {
+    "clues": [
+      "rosa",
+      "oink",
+      "fang",
+      "granja",
+      "morro"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "ovella": {
+    "clues": [
+      "llana",
+      "beee",
+      "blanc",
+      "granja",
+      "suau"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cavall": {
+    "clues": [
+      "muntar",
+      "galop",
+      "renill",
+      "selleta",
+      "granja"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pollastre": {
+    "clues": [
+      "ou",
+      "piu",
+      "granja",
+      "ales",
+      "bec"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "ànec": {
+    "clues": [
+      "quac",
+      "aigua",
+      "estany",
+      "bec",
+      "caminar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "conill": {
+    "clues": [
+      "pastanaga",
+      "orelles",
+      "saltar",
+      "suau",
+      "llarg"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tortuga": {
+    "clues": [
+      "carapassa",
+      "lent",
+      "aigua",
+      "verd",
+      "arrossegar-se"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "serp": {
+    "clues": [
+      "lliscar",
+      "xiulet",
+      "llarg",
+      "escata",
+      "verí"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "aranya": {
+    "clues": [
+      "telaranya",
+      "potes",
+      "vuit",
+      "gatejar",
+      "insecte"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "papallona": {
+    "clues": [
+      "ales",
+      "colors",
+      "volar",
+      "capoll",
+      "flor"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "granota": {
+    "clues": [
+      "saltar",
+      "verd",
+      "croac",
+      "estany",
+      "llengua"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "taronja": {
+    "clues": [
+      "fruita",
+      "suc",
+      "color",
+      "pela",
+      "rodó"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "maduixa": {
+    "clues": [
+      "fruita",
+      "vermell",
+      "dolç",
+      "llavors",
+      "baia"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "raïm": {
+    "clues": [
+      "fruita",
+      "lila",
+      "verd",
+      "raïm",
+      "vinya"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sindria": {
+    "clues": [
+      "fruita",
+      "verd",
+      "vermell",
+      "llavors",
+      "gran"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pizza": {
+    "clues": [
+      "formatge",
+      "tall",
+      "rodó",
+      "massa",
+      "tomàquet"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "hamburguesa": {
+    "clues": [
+      "carn",
+      "pa",
+      "formatge",
+      "ràpid",
+      "menjar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "entrepà": {
+    "clues": [
+      "pa",
+      "dinar",
+      "pernil",
+      "formatge",
+      "tall"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ou": {
+    "clues": [
+      "blanc",
+      "groc",
+      "carapassa",
+      "esmorzar",
+      "pollastre"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "formatge": {
+    "clues": [
+      "llet",
+      "ratolí",
+      "tall",
+      "entrepà",
+      "forats"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "gelat": {
+    "clues": [
+      "fred",
+      "dolç",
+      "con",
+      "bola",
+      "postres"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "galeta": {
+    "clues": [
+      "dolç",
+      "enfornar",
+      "xocolata",
+      "rodó",
+      "cruixent"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pastís": {
+    "clues": [
+      "aniversari",
+      "dolç",
+      "espelma",
+      "enfornar",
+      "festa"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "suc": {
+    "clues": [
+      "beure",
+      "fruita",
+      "got",
+      "líquid",
+      "dolç"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sopa": {
+    "clues": [
+      "calent",
+      "bol",
+      "culler",
+      "líquid",
+      "sopar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "xocolata": {
+    "clues": [
+      "marró",
+      "dolç",
+      "caramel",
+      "barra",
+      "cacau"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "patata": {
+    "clues": [
+      "marró",
+      "verdura",
+      "fregir",
+      "terra",
+      "puré"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "tomàquet": {
+    "clues": [
+      "vermell",
+      "verdura",
+      "amanida",
+      "salsa",
+      "rodó"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pastanaga": {
+    "clues": [
+      "taronja",
+      "verdura",
+      "conill",
+      "cruixent",
+      "arrel"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ceba": {
+    "clues": [
+      "plorar",
+      "verdura",
+      "blanc",
+      "anells",
+      "fort"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "all": {
+    "clues": [
+      "olor",
+      "blanc",
+      "gra",
+      "fort",
+      "cuinar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "muntanya": {
+    "clues": [
+      "alt",
+      "cim",
+      "escalar",
+      "neu",
+      "roca"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "riu": {
+    "clues": [
+      "aigua",
+      "fluir",
+      "peix",
+      "vorera",
+      "llarg"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "oceà": {
+    "clues": [
+      "aigua",
+      "blau",
+      "sal",
+      "gran",
+      "peix"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "llac": {
+    "clues": [
+      "aigua",
+      "tranquil",
+      "bot",
+      "peix",
+      "envoltar"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "bosc": {
+    "clues": [
+      "arbres",
+      "verd",
+      "fusta",
+      "salvatge",
+      "animals"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "desert": {
+    "clues": [
+      "sorra",
+      "calent",
+      "sec",
+      "cactus",
+      "camell"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "illa": {
+    "clues": [
+      "aigua",
+      "platja",
+      "terra",
+      "palmera",
+      "mar"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "núvol": {
+    "clues": [
+      "blanc",
+      "cel",
+      "pluja",
+      "esponjós",
+      "gris"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "arc de sant martí": {
+    "clues": [
+      "colors",
+      "cel",
+      "pluja",
+      "sol",
+      "arc"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "foc": {
+    "clues": [
+      "calent",
+      "vermell",
+      "cremar",
+      "fusta",
+      "fum"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "vent": {
+    "clues": [
+      "aire",
+      "bufar",
+      "brisa",
+      "tempesta",
+      "estel"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tron": {
+    "clues": [
+      "fort",
+      "tempesta",
+      "cel",
+      "so",
+      "llum"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "llamp": {
+    "clues": [
+      "flaix",
+      "tempesta",
+      "cel",
+      "brillant",
+      "elèctric"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "hivern": {
+    "clues": [
+      "fred",
+      "neu",
+      "gel",
+      "estació",
+      "jaqueta"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "estiu": {
+    "clues": [
+      "calent",
+      "sol",
+      "platja",
+      "estació",
+      "vacances"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "primavera": {
+    "clues": [
+      "flors",
+      "verd",
+      "estació",
+      "créixer",
+      "pluja"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tardor": {
+    "clues": [
+      "fulles",
+      "marró",
+      "estació",
+      "caure",
+      "fresc"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "ordinador": {
+    "clues": [
+      "pantalla",
+      "teclat",
+      "ratolí",
+      "internet",
+      "tecnologia"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "televisió": {
+    "clues": [
+      "pantalla",
+      "mirar",
+      "programes",
+      "comandament",
+      "pel·lícula"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ràdio": {
+    "clues": [
+      "música",
+      "escoltar",
+      "so",
+      "altaveu",
+      "sintonitzar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "bicicleta": {
+    "clues": [
+      "rodes",
+      "muntar",
+      "pedal",
+      "casc",
+      "dos"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "avió": {
+    "clues": [
+      "volar",
+      "cel",
+      "ales",
+      "pilot",
+      "aeroport"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "tren": {
+    "clues": [
+      "via",
+      "rails",
+      "motor",
+      "estació",
+      "rodes"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "vaixell": {
+    "clues": [
+      "aigua",
+      "navegar",
+      "oceà",
+      "riu",
+      "vaixell"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "autobús": {
+    "clues": [
+      "carretera",
+      "escola",
+      "rodes",
+      "parada",
+      "conduir"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "coet": {
+    "clues": [
+      "espai",
+      "volar",
+      "lluna",
+      "estrella",
+      "foc"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "escola": {
+    "clues": [
+      "aprendre",
+      "mestre",
+      "llibres",
+      "nens",
+      "aula"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "hospital": {
+    "clues": [
+      "doctor",
+      "malalt",
+      "infermera",
+      "medicina",
+      "ajuda"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parc": {
+    "clues": [
+      "jugar",
+      "pastura",
+      "arbres",
+      "banc",
+      "tobogan"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "platja": {
+    "clues": [
+      "sorra",
+      "oceà",
+      "sol",
+      "nedar",
+      "ones"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "mercat": {
+    "clues": [
+      "menjar",
+      "comprar",
+      "botiga",
+      "fruita",
+      "vendre"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "biblioteca": {
+    "clues": [
+      "llibres",
+      "llegir",
+      "silenci",
+      "estudiar",
+      "prestatge"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cinema": {
+    "clues": [
+      "pel·lícula",
+      "crispetes",
+      "pantalla",
+      "mirar",
+      "cadira"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "doctor": {
+    "clues": [
+      "ajuda",
+      "malalt",
+      "hospital",
+      "medicina",
+      "blanc"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "mestre": {
+    "clues": [
+      "escola",
+      "aprendre",
+      "nens",
+      "llibres",
+      "clase"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "policia": {
+    "clues": [
+      "ajuda",
+      "cotxe",
+      "placa",
+      "llei",
+      "uniforme"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "cuiner": {
+    "clues": [
+      "cuinar",
+      "menjar",
+      "cuina",
+      "gorra",
+      "restaurant"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "pilot": {
+    "clues": [
+      "avió",
+      "volar",
+      "cel",
+      "cabina",
+      "uniforme"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "astronauta": {
+    "clues": [
+      "espai",
+      "casc",
+      "estels",
+      "lluna",
+      "traje"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "bomber": {
+    "clues": [
+      "foc",
+      "aigua",
+      "camió",
+      "mànega",
+      "ajuda"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "cantant": {
+    "clues": [
+      "música",
+      "veu",
+      "cançó",
+      "micròfon",
+      "escenari"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "pintor": {
+    "clues": [
+      "art",
+      "colors",
+      "pincell",
+      "llenç",
+      "quadre"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "pagès": {
+    "clues": [
+      "animals",
+      "tractor",
+      "cultius",
+      "terra",
+      "menjar"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "piano": {
+    "clues": [
+      "música",
+      "tecles",
+      "negre",
+      "blanc",
+      "so"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "guitarra": {
+    "clues": [
+      "música",
+      "cordes",
+      "tocar",
+      "so",
+      "instrument"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tambor": {
+    "clues": [
+      "música",
+      "ritme",
+      "colpejar",
+      "baquetes",
+      "so"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "violí": {
+    "clues": [
+      "música",
+      "cordes",
+      "arc",
+      "so",
+      "petit"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "mirall": {
+    "clues": [
+      "mirar",
+      "veure",
+      "cristall",
+      "reflectir",
+      "cara"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "rellotge": {
+    "clues": [
+      "temps",
+      "agulles",
+      "tic-tac",
+      "números",
+      "paret"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "rellotge de polsera": {
+    "clues": [
+      "temps",
+      "poinc",
+      "agulles",
+      "números",
+      "portar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "martell": {
+    "clues": [
+      "eina",
+      "clau",
+      "colpejar",
+      "fusta",
+      "construir"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "escala": {
+    "clues": [
+      "pujar",
+      "alt",
+      "graons",
+      "alt",
+      "arribar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "clau": {
+    "clues": [
+      "porta",
+      "obrir",
+      "panell",
+      "metall",
+      "petit"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "paracaigudes": {
+    "clues": [
+      "aire",
+      "saltar",
+      "avió",
+      "tela",
+      "caure"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "sabó": {
+    "clues": [
+      "rentar",
+      "netejar",
+      "aigua",
+      "bulles",
+      "bany"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tovallola": {
+    "clues": [
+      "secar",
+      "aigua",
+      "suau",
+      "bany",
+      "platja"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "cepillo de dents": {
+    "clues": [
+      "dents",
+      "netejar",
+      "pasta",
+      "matí",
+      "boca"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ulleres": {
+    "clues": [
+      "ulls",
+      "veure",
+      "portar",
+      "muntura",
+      "lent"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "balena": {
+    "clues": [
+      "oceà",
+      "enorme",
+      "buf",
+      "blau",
+      "mamífer",
+      "gran"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tauró": {
+    "clues": [
+      "dents",
+      "oceà",
+      "aleta",
+      "mordida",
+      "por"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pop": {
+    "clues": [
+      "potes",
+      "vuit",
+      "tinta",
+      "oceà",
+      "tentacles"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cranc": {
+    "clues": [
+      "pinces",
+      "platja",
+      "picar",
+      "petxina",
+      "costat"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "medusa": {
+    "clues": [
+      "picar",
+      "transparent",
+      "oceà",
+      "tentacles",
+      "tova"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "dofí": {
+    "clues": [
+      "oceà",
+      "intel·ligent",
+      "saltar",
+      "aleta",
+      "nedar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "ase": {
+    "clues": [
+      "orelles",
+      "granja",
+      "carrega",
+      "gris",
+      "braolar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "llop": {
+    "clues": [
+      "udolar",
+      "manda",
+      "bosc",
+      "gos",
+      "salvatge"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "guineu": {
+    "clues": [
+      "vermell",
+      "cua",
+      "astut",
+      "bosc",
+      "llest"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cérvol": {
+    "clues": [
+      "corns",
+      "bosc",
+      "córrer",
+      "marró",
+      "bambi"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mussol": {
+    "clues": [
+      "nit",
+      "ulular",
+      "savi",
+      "ulls",
+      "volar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "àliga": {
+    "clues": [
+      "volar",
+      "ocell",
+      "fort",
+      "niu",
+      "ales"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "lloro": {
+    "clues": [
+      "parlar",
+      "colors",
+      "ocell",
+      "pirata",
+      "repetir"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "colom": {
+    "clues": [
+      "ciutat",
+      "gris",
+      "ocell",
+      "parc",
+      "pau"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mosquit": {
+    "clues": [
+      "picar",
+      "sang",
+      "volar",
+      "estiu",
+      "molest"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "grill": {
+    "clues": [
+      "nit",
+      "cantar",
+      "saltar",
+      "verd",
+      "insecte"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "caragol": {
+    "clues": [
+      "lent",
+      "casa",
+      "babes",
+      "jardí",
+      "petxina"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cocodril": {
+    "clues": [
+      "dents",
+      "riu",
+      "verd",
+      "gran",
+      "rèptil"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pa amb tomàquet": {
+    "clues": [
+      "pa",
+      "tomàquet",
+      "oli",
+      "típic",
+      "català"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "escudella": {
+    "clues": [
+      "sopa",
+      "nadal",
+      "galets",
+      "carn d'olla",
+      "calent"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "calçot": {
+    "clues": [
+      "ceba",
+      "salsa",
+      "romesco",
+      "hivern",
+      "foc"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "botifarra": {
+    "clues": [
+      "carn",
+      "porc",
+      "brasa",
+      "mongetes",
+      "sopar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "crema catalana": {
+    "clues": [
+      "postres",
+      "dolç",
+      "cremat",
+      "sucre",
+      "cullereta"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "coca": {
+    "clues": [
+      "dolç",
+      "sant joan",
+      "pinyons",
+      "forn",
+      "festa"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "panetone": {
+    "clues": [
+      "castanyada",
+      "dolç",
+      "pinyons",
+      "tots sants",
+      "petit"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "canelons": {
+    "clues": [
+      "nadal",
+      "pasta",
+      "beixamel",
+      "sant esteve",
+      "farcit"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "fideuà": {
+    "clues": [
+      "fideus",
+      "marisc",
+      "all i oli",
+      "paella",
+      "peix"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "arròs a la cubana": {
+    "clues": [
+      "ou",
+      "tomàquet",
+      "plàtan",
+      "arròs",
+      "dinar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "espaguetis": {
+    "clues": [
+      "pasta",
+      "llargs",
+      "tomàquet",
+      "forquilla",
+      "menjar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "macarrons": {
+    "clues": [
+      "pasta",
+      "formatge",
+      "tomàquet",
+      "forn",
+      "dinar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "llenties": {
+    "clues": [
+      "culler",
+      "ferro",
+      "menjar",
+      "guisat",
+      "plat"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "cigrons": {
+    "clues": [
+      "llegum",
+      "groc",
+      "boleta",
+      "comida",
+      "plat"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "mantega": {
+    "clues": [
+      "torrada",
+      "esmorzar",
+      "groc",
+      "untar",
+      "llet"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "iogurt": {
+    "clues": [
+      "culler",
+      "llet",
+      "fruita",
+      "postres",
+      "got"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "paranoia": {
+    "clues": [
+      "por",
+      "ombra",
+      "desconfiança",
+      "ment",
+      "persecució"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "conspiració": {
+    "clues": [
+      "secret",
+      "plan",
+      "grup",
+      "ocult",
+      "teoria"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "traïció": {
+    "clues": [
+      "confiança",
+      "trencada",
+      "amic",
+      "esquena",
+      "mentida"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "manipulació": {
+    "clues": [
+      "control",
+      "ment",
+      "secret",
+      "influència",
+      "habilitat"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "propaganda": {
+    "clues": [
+      "mitjans",
+      "informació",
+      "biaix",
+      "públic",
+      "control"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "censura": {
+    "clues": [
+      "parlar",
+      "ocultar",
+      "mitjans",
+      "bloquejar",
+      "prohibir"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "vigilància": {
+    "clues": [
+      "mirar",
+      "càmera",
+      "espia",
+      "secret",
+      "seguretat"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metàfora": {
+    "clues": [
+      "parlar",
+      "com",
+      "paraula",
+      "comparar",
+      "art"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "paradoja": {
+    "clues": [
+      "trencaclosques",
+      "lògica",
+      "estrany",
+      "pensament",
+      "contradicció"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "sinergia": {
+    "clues": [
+      "junts",
+      "més",
+      "grup",
+      "treball",
+      "efecte"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "termini": {
+    "clues": [
+      "temps",
+      "acabar",
+      "tard",
+      "treball",
+      "data"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "fusió": {
+    "clues": [
+      "unir",
+      "empresa",
+      "negoci",
+      "dos",
+      "comprar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "monopoli": {
+    "clues": [
+      "joc",
+      "control",
+      "un",
+      "mercat",
+      "poder"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "reclutament": {
+    "clues": [
+      "feina",
+      "contractar",
+      "entrevista",
+      "nou",
+      "personal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "descomiadament": {
+    "clues": [
+      "perdre",
+      "feina",
+      "fora",
+      "atur",
+      "adeu"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "apalancament": {
+    "clues": [
+      "poder",
+      "usar",
+      "avantatge",
+      "negoci",
+      "diners"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "fallida": {
+    "clues": [
+      "diners",
+      "perdre",
+      "arruïnat",
+      "negoci",
+      "fallar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "dèficit": {
+    "clues": [
+      "diners",
+      "deute",
+      "menys",
+      "pressupost",
+      "pèrdua"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "liquiditat": {
+    "clues": [
+      "efectiu",
+      "diners",
+      "fàcil",
+      "flux",
+      "actiu"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "actius": {
+    "clues": [
+      "possessió",
+      "valor",
+      "bé",
+      "riquesa",
+      "objecte"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "passius": {
+    "clues": [
+      "deute",
+      "risc",
+      "deure",
+      "cost",
+      "legal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "materies primeres": {
+    "clues": [
+      "or",
+      "petroli",
+      "comerç",
+      "bé",
+      "mercat"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "subsidi": {
+    "clues": [
+      "govern",
+      "diners",
+      "ajuda",
+      "suport",
+      "pagar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "aranzel": {
+    "clues": [
+      "impost",
+      "comerç",
+      "importar",
+      "frontera",
+      "preu"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "quota": {
+    "clues": [
+      "límit",
+      "número",
+      "objectiu",
+      "quantitat",
+      "arribar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hegemonia": {
+    "clues": [
+      "poder",
+      "control",
+      "líder",
+      "nació",
+      "comandament"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "altruisme": {
+    "clues": [
+      "donar",
+      "ajuda",
+      "bo",
+      "generós",
+      "altres"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nihilisme": {
+    "clues": [
+      "res",
+      "vida",
+      "sentit",
+      "fosc",
+      "creença"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "estoïcisme": {
+    "clues": [
+      "calma",
+      "fort",
+      "ment",
+      "control",
+      "antic"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "hedonisme": {
+    "clues": [
+      "plaer",
+      "diversió",
+      "gaudir",
+      "desig",
+      "vida"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "epistemologia": {
+    "clues": [
+      "saber",
+      "veritat",
+      "pensar",
+      "ment",
+      "filosofia"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ontologia": {
+    "clues": [
+      "ser",
+      "naturalesa",
+      "existir",
+      "filosofia",
+      "real"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "dialèctica": {
+    "clues": [
+      "parlar",
+      "idea",
+      "dos",
+      "veritat",
+      "debat"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "estètica": {
+    "clues": [
+      "arte",
+      "bellesa",
+      "aspecte",
+      "estil",
+      "disseny"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "abstracte": {
+    "clues": [
+      "art",
+      "idea",
+      "forma",
+      "modern",
+      "sentit"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "minimalisme": {
+    "clues": [
+      "simple",
+      "menys",
+      "art",
+      "net",
+      "estil"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "surrealisme": {
+    "clues": [
+      "somni",
+      "art",
+      "estrany",
+      "dalí",
+      "ment"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "il·lustració": {
+    "clues": [
+      "raó",
+      "història",
+      "pensar",
+      "llum",
+      "ciència"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "totalitarisme": {
+    "clues": [
+      "control",
+      "poder",
+      "estat",
+      "líder",
+      "comandament"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "feudalisme": {
+    "clues": [
+      "rei",
+      "terra",
+      "cavaller",
+      "història",
+      "sistema"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "colonialisme": {
+    "clues": [
+      "imperi",
+      "terra",
+      "història",
+      "poder",
+      "conquesta"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "laïcisme": {
+    "clues": [
+      "món",
+      "estat",
+      "religió",
+      "modern",
+      "lliure"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "capitalisme": {
+    "clues": [
+      "diners",
+      "mercat",
+      "negoci",
+      "benefici",
+      "sistema"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "socialisme": {
+    "clues": [
+      "grup",
+      "públic",
+      "estat",
+      "compartir",
+      "sistema"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "democràcia": {
+    "clues": [
+      "votar",
+      "poble",
+      "poder",
+      "sistema",
+      "líder"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "oligarquia": {
+    "clues": [
+      "pocs",
+      "poder",
+      "rics",
+      "grup",
+      "comandament"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "osmosi": {
+    "clues": [
+      "aigua",
+      "moure",
+      "cèl·lula",
+      "ciència",
+      "lent"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "simbiosi": {
+    "clues": [
+      "junts",
+      "vida",
+      "dos",
+      "ajuda",
+      "vincle"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mitosi": {
+    "clues": [
+      "cèl·lula",
+      "dividir",
+      "còpia",
+      "créixer",
+      "ciència"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "gravetat": {
+    "clues": [
+      "caure",
+      "terra",
+      "avall",
+      "espai",
+      "força"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "magnetisme": {
+    "clues": [
+      "atracte",
+      "metall",
+      "pol",
+      "força",
+      "nord"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "electricitat": {
+    "clues": [
+      "energia",
+      "cable",
+      "llum",
+      "descarrega",
+      "corrent"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "volcà": {
+    "clues": [
+      "lava",
+      "foc",
+      "muntanya",
+      "calent",
+      "erupció"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "terratrèmol": {
+    "clues": [
+      "tremolar",
+      "terra",
+      "moure",
+      "por",
+      "esquerda"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "huracà": {
+    "clues": [
+      "vent",
+      "tempesta",
+      "pluja",
+      "oceà",
+      "fort"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tornado": {
+    "clues": [
+      "vent",
+      "gir",
+      "embut",
+      "tempesta",
+      "por"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "sequera": {
+    "clues": [
+      "sec",
+      "aigua",
+      "sense pluja",
+      "terra",
+      "set"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "collita": {
+    "clues": [
+      "camp",
+      "menjar",
+      "recollir",
+      "tardor",
+      "cultius"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "agricultura": {
+    "clues": [
+      "camp",
+      "cultivar",
+      "menjar",
+      "terra",
+      "plantes"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "escultura": {
+    "clues": [
+      "art",
+      "pedra",
+      "forma",
+      "estàtua",
+      "mans"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "literatura": {
+    "clues": [
+      "llibres",
+      "escriure",
+      "llegir",
+      "història",
+      "paraula"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "poesia": {
+    "clues": [
+      "rima",
+      "escriure",
+      "vers",
+      "paraules",
+      "ànima"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "periodisme": {
+    "clues": [
+      "notícies",
+      "escriure",
+      "mitjans",
+      "reportar",
+      "veritat"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "profecia": {
+    "clues": [
+      "futur",
+      "dir",
+      "somni",
+      "destí",
+      "antic"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nostàlgia": {
+    "clues": [
+      "passat",
+      "record",
+      "enyorar",
+      "sentiment",
+      "vell"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "melancolia": {
+    "clues": [
+      "trist",
+      "sentiment",
+      "blau",
+      "quiet",
+      "ànim"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "eufòria": {
+    "clues": [
+      "feliç",
+      "subidón",
+      "sentiment",
+      "genial",
+      "alegria"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "adrenalina": {
+    "clues": [
+      "ràpid",
+      "cos",
+      "por",
+      "subidón",
+      "cor d'olla"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "serotonina": {
+    "clues": [
+      "feliç",
+      "cervell",
+      "sentiment",
+      "química",
+      "ànim"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "dopamina": {
+    "clues": [
+      "recompensa",
+      "cervell",
+      "sentiment",
+      "voler",
+      "alegria"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cortisol": {
+    "clues": [
+      "estrès",
+      "cervell",
+      "cos",
+      "sentiment",
+      "hormona"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sinapsi": {
+    "clues": [
+      "cervell",
+      "enllaç",
+      "nervi",
+      "pensar",
+      "espai"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "neurona": {
+    "clues": [
+      "cervell",
+      "cèl·lula",
+      "pensar",
+      "cos",
+      "senyal"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hemisferi": {
+    "clues": [
+      "meitat",
+      "terra",
+      "nord",
+      "sud",
+      "globus"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "atmosfera": {
+    "clues": [
+      "aire",
+      "terra",
+      "cel",
+      "gas",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "estratosfera": {
+    "clues": [
+      "cel",
+      "alt",
+      "aire",
+      "ozó",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ionosfera": {
+    "clues": [
+      "cel",
+      "espai",
+      "ràdio",
+      "capa",
+      "gas"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biosfera": {
+    "clues": [
+      "vida",
+      "terra",
+      "naturalesa",
+      "tot",
+      "zona"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "troposfera": {
+    "clues": [
+      "cel",
+      "aire",
+      "temps",
+      "núvol",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biodiversitat": {
+    "clues": [
+      "naturalesa",
+      "molts",
+      "tipus",
+      "vida",
+      "rang"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "geologia": {
+    "clues": [
+      "roques",
+      "terra",
+      "estudi",
+      "vell",
+      "sòl"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "meteorologia": {
+    "clues": [
+      "temps",
+      "cel",
+      "estudi",
+      "pluja",
+      "tempesta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "astronomia": {
+    "clues": [
+      "estrelles",
+      "espai",
+      "estudi",
+      "telescopi",
+      "cel"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "paleontologia": {
+    "clues": [
+      "dinosaure",
+      "fòssils",
+      "vell",
+      "estudi",
+      "ossos"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "antropologia": {
+    "clues": [
+      "gent",
+      "cultura",
+      "estudi",
+      "vell",
+      "humà"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sociologia": {
+    "clues": [
+      "grup",
+      "gent",
+      "estudi",
+      "societat",
+      "regles"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "psicologia": {
+    "clues": [
+      "ment",
+      "pensar",
+      "estudi",
+      "sentir",
+      "humà"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "arqueologia": {
+    "clues": [
+      "cavar",
+      "vell",
+      "estudi",
+      "història",
+      "trobat"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biotecnologia": {
+    "clues": [
+      "vida",
+      "tecnologia",
+      "adn",
+      "ciència",
+      "nou"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "nanotecnologia": {
+    "clues": [
+      "diminut",
+      "tecnologia",
+      "petit",
+      "ciència",
+      "futur"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cibernètica": {
+    "clues": [
+      "robot",
+      "humà",
+      "enllaç",
+      "tecnologia",
+      "ment"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "intel·ligència artificial": {
+    "clues": [
+      "ordinador",
+      "llest",
+      "robot",
+      "futur",
+      "pensar"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cadena de blocs": {
+    "clues": [
+      "cripto",
+      "llibre",
+      "cadena",
+      "diners",
+      "seguretat"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "computació al núvol": {
+    "clues": [
+      "dades",
+      "internet",
+      "servidor",
+      "guardar",
+      "núvol"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "dades massives": {
+    "clues": [
+      "info",
+      "enorme",
+      "ordinador",
+      "números",
+      "conjunt"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "internet de les coses": {
+    "clues": [
+      "enllaç",
+      "casa",
+      "intel·ligent",
+      "tech",
+      "xarxa"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "realitat virtual": {
+    "clues": [
+      "joc",
+      "ulleres",
+      "ulls",
+      "món",
+      "fals"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "realitat augmentada": {
+    "clues": [
+      "mòbil",
+      "vista",
+      "capa",
+      "món",
+      "barreja"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "computació quàntica": {
+    "clues": [
+      "ràpid",
+      "mates",
+      "ciència",
+      "física",
+      "súper"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "teletransport": {
+    "clues": [
+      "moure",
+      "ràpid",
+      "espai",
+      "ciència-ficció",
+      "desaparèixer"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "interestel·lar": {
+    "clues": [
+      "estrelles",
+      "espai",
+      "nau",
+      "lluny",
+      "viatge"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "multivers": {
+    "clues": [
+      "móns",
+      "molts",
+      "espai",
+      "ciència-ficció",
+      "paral·lel"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "viatge en el temps": {
+    "clues": [
+      "passat",
+      "futur",
+      "rellotge",
+      "màquina",
+      "moure"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "superconductivitat": {
+    "clues": [
+      "energia",
+      "fred",
+      "ràpid",
+      "metall",
+      "física"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "dinàmica de fluids": {
+    "clues": [
+      "aigua",
+      "flux",
+      "aire",
+      "física",
+      "moure"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "astrofísica": {
+    "clues": [
+      "estrelles",
+      "física",
+      "espacio",
+      "mates",
+      "cel"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "microbiologia": {
+    "clues": [
+      "petit",
+      "vida",
+      "gèrmens",
+      "microscopi",
+      "cèl·lules"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "genètica": {
+    "clues": [
+      "adn",
+      "vida",
+      "família",
+      "néixer",
+      "gens"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "inmunologia": {
+    "clues": [
+      "cos",
+      "lluitar",
+      "malalt",
+      "cèl·lules",
+      "protegir"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "neurociència": {
+    "clues": [
+      "cervell",
+      "nervis",
+      "pensar",
+      "estudi",
+      "cos"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "endocrinologia": {
+    "clues": [
+      "cos",
+      "hormona",
+      "glàndula",
+      "sang",
+      "sistema"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "toxicologia": {
+    "clues": [
+      "vení",
+      "dolent",
+      "estudi",
+      "dany",
+      "química"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "farmacologia": {
+    "clues": [
+      "droga",
+      "medicina",
+      "pastilla",
+      "estudi",
+      "salut"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "anatomia": {
+    "clues": [
+      "cos",
+      "parts",
+      "ossos",
+      "estudi",
+      "estructura"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "fisiologia": {
+    "clues": [
+      "cos",
+      "funciona",
+      "com",
+      "estudi",
+      "viu"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "botànica": {
+    "clues": [
+      "plantes",
+      "verd",
+      "estudi",
+      "flor",
+      "arbre"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "zoologia": {
+    "clues": [
+      "animals",
+      "salvatge",
+      "estudi",
+      "vida",
+      "fauna"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ecologia": {
+    "clues": [
+      "naturalesa",
+      "enllaços",
+      "estudi",
+      "lloc",
+      "viu"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "climatologia": {
+    "clues": [
+      "temps",
+      "llarg",
+      "estudi",
+      "terra",
+      "calor"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "oceanografia": {
+    "clues": [
+      "mar",
+      "aigua",
+      "estudi",
+      "profund",
+      "blau"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sismologia": {
+    "clues": [
+      "terratrèmol",
+      "tremolor",
+      "estudi",
+      "ona",
+      "sòl"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vulcanologia": {
+    "clues": [
+      "lava",
+      "calent",
+      "estudi",
+      "muntanya",
+      "foc"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "borsa de valors": {
+    "clues": [
+      "diners",
+      "accions",
+      "mercat",
+      "invertir",
+      "borsa"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "criptomoneda": {
+    "clues": [
+      "bitcoin",
+      "digital",
+      "cartera",
+      "mineria",
+      "cadena"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "immobiliària": {
+    "clues": [
+      "casa",
+      "propietat",
+      "comprar",
+      "vendre",
+      "pis"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "impost": {
+    "clues": [
+      "diners",
+      "govern",
+      "pagar",
+      "hisenda",
+      "irpf"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "especulació": {
+    "clues": [
+      "risc",
+      "diners",
+      "endevinar",
+      "mercat",
+      "aposta"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "notari": {
+    "clues": [
+      "signatura",
+      "llei",
+      "paper",
+      "oficina",
+      "legal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "autònom": {
+    "clues": [
+      "treball",
+      "propi",
+      "quota",
+      "negoci",
+      "sol"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pime": {
+    "clues": [
+      "empresa",
+      "petita",
+      "negoci",
+      "treball",
+      "catalunya"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "generalitat": {
+    "clues": [
+      "govern",
+      "política",
+      "barcelona",
+      "plaça sant jaume",
+      "poder"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ajuntament": {
+    "clues": [
+      "poble",
+      "ciutat",
+      "alcalde",
+      "govern",
+      "local"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "parlament": {
+    "clues": [
+      "lleis",
+      "votar",
+      "política",
+      "govern",
+      "parc ciutadella"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "mossos": {
+    "clues": [
+      "policia",
+      "seguretat",
+      "catalunya",
+      "ordre",
+      "llei"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "burocràcia": {
+    "clues": [
+      "paperassa",
+      "oficina",
+      "lent",
+      "regles",
+      "govern"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "sobirania": {
+    "clues": [
+      "poder",
+      "nació",
+      "lliure",
+      "comandament",
+      "frontera"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "constitució": {
+    "clues": [
+      "lleis",
+      "drets",
+      "paper",
+      "govern",
+      "regles"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "legislació": {
+    "clues": [
+      "lleis",
+      "votar",
+      "parlament",
+      "govern",
+      "regles"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "judicial": {
+    "clues": [
+      "jutjat",
+      "jutge",
+      "llei",
+      "judici",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "fiscalia": {
+    "clues": [
+      "acusar",
+      "judici",
+      "advocat",
+      "culpable",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "testimoni": {
+    "clues": [
+      "testoni",
+      "judici",
+      "veritat",
+      "parlar",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "veredicte": {
+    "clues": [
+      "culpable",
+      "jutge",
+      "fi",
+      "judici",
+      "jurat"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ètica": {
+    "clues": [
+      "bé",
+      "mal",
+      "regles",
+      "moral",
+      "pensar"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metafísica": {
+    "clues": [
+      "realitat",
+      "ser",
+      "ment",
+      "més enllà",
+      "filosofia"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "lògica": {
+    "clues": [
+      "mates",
+      "pensar",
+      "veritat",
+      "raó",
+      "passos"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "retòrica": {
+    "clues": [
+      "parlar",
+      "persuadir",
+      "paraules",
+      "art",
+      "discurs"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "semàntica": {
+    "clues": [
+      "significat",
+      "paraules",
+      "llengua",
+      "lògica",
+      "estudi"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cognició": {
+    "clues": [
+      "pensar",
+      "ment",
+      "cervell",
+      "saber",
+      "procés"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "percepció": {
+    "clues": [
+      "veure",
+      "sentir",
+      "ment",
+      "sentits",
+      "vista"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "consciència": {
+    "clues": [
+      "despert",
+      "ment",
+      "jo",
+      "ser",
+      "adormit"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "inconscient": {
+    "clues": [
+      "dormir",
+      "ment",
+      "ocult",
+      "somni",
+      "cervell"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "castells": {
+    "clues": [
+      "gent",
+      "torre",
+      "pinya",
+      "plaça",
+      "enxaneta"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "montserrat": {
+    "clues": [
+      "muntanya",
+      "monestir",
+      "roques",
+      "escolania",
+      "catalunya"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "caganer": {
+    "clues": [
+      "pessebre",
+      "nadal",
+      "amagat",
+      "figura",
+      "tradició"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "tió de nadal": {
+    "clues": [
+      "tronc",
+      "nadal",
+      "barretina",
+      "bastó",
+      "regals"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "correfoc": {
+    "clues": [
+      "foc",
+      "dimonis",
+      "diables",
+      "petards",
+      "nit"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "calçotada": {
+    "clues": [
+      "foc",
+      "ceba",
+      "salsa",
+      "romesco",
+      "amics"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sardana": {
+    "clues": [
+      "ball",
+      "cercle",
+      "mans",
+      "cobla",
+      "música"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "estatut": {
+    "clues": [
+      "llei",
+      "catalunya",
+      "autonomia",
+      "govern",
+      "paper"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "competència": {
+    "clues": [
+      "poder",
+      "llei",
+      "govern",
+      "decidir",
+      "mando"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "conveni": {
+    "clues": [
+      "acord",
+      "treball",
+      "paper",
+      "signar",
+      "regles"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hisenda": {
+    "clues": [
+      "diners",
+      "impostos",
+      "govern",
+      "pagar",
+      "gestió"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "sindicat": {
+    "clues": [
+      "treball",
+      "drets",
+      "unió",
+      "lluitar",
+      "treballadors"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "patronal": {
+    "clues": [
+      "empresa",
+      "amos",
+      "unió",
+      "negociar",
+      "treball"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "barça": {
+    "clues": [
+      "futbol",
+      "blaugrana",
+      "estadi",
+      "camp nou",
+      "equip"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "espanyol": {
+    "clues": [
+      "futbol",
+      "pericos",
+      "estadi",
+      "blanc-i-blau",
+      "equip"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "dèficit fiscal": {
+    "clues": [
+      "diners",
+      "catalunya",
+      "govern",
+      "espanya",
+      "comptes"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "autonomia": {
+    "clues": [
+      "govern",
+      "llei",
+      "poder",
+      "catalunya",
+      "estatut"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "mantega de cacauet": {
+    "clues": [
+      "entrepà",
+      "fruita seca",
+      "enganxós",
+      "melmelada",
+      "marró"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "con de gelat": {
+    "clues": [
+      "fred",
+      "dolç",
+      "bola",
+      "cruixent",
+      "estiu"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "frankfurt amb pa": {
+    "clues": [
+      "salsitxa",
+      "pa",
+      "kétxup",
+      "mostassa",
+      "menjar ràpid"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "patates fregides": {
+    "clues": [
+      "patata",
+      "salat",
+      "kétxup",
+      "bossa",
+      "grogues"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "os de peluix": {
+    "clues": [
+      "suau",
+      "joguina",
+      "dormir",
+      "pelut",
+      "abraçada"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "camió de bombers": {
+    "clues": [
+      "vermell",
+      "sirena",
+      "escala",
+      "aigua",
+      "bomber"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "cotxe de policia": {
+    "clues": [
+      "blau",
+      "sirena",
+      "llums",
+      "agent",
+      "ràpid"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "autobús escolar": {
+    "clues": [
+      "groc",
+      "nens",
+      "escola",
+      "matí",
+      "parada"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "muntanya russa": {
+    "clues": [
+      "ràpid",
+      "vagoneta",
+      "crit",
+      "via",
+      "parc d'atraccions"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "pastís d'aniversari": {
+    "clues": [
+      "espelmes",
+      "dolç",
+      "festa",
+      "desig",
+      "tall"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "l'angelet de les dents": {
+    "clues": [
+      "dent",
+      "diners",
+      "coixí",
+      "nit",
+      "màgic"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "els reis mags": {
+    "clues": [
+      "regals",
+      "camell",
+      "gener",
+      "estel",
+      "orient"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "el pare nadal": {
+    "clues": [
+      "vermell",
+      "barba",
+      "regals",
+      "ren",
+      "nadal"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "el pol nord": {
+    "clues": [
+      "fred",
+      "neu",
+      "pare nadal",
+      "gel",
+      "dalt"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "via làctia": {
+    "clues": [
+      "estels",
+      "galàxia",
+      "nit",
+      "cel",
+      "espai"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "estel fugaç": {
+    "clues": [
+      "desig",
+      "nit",
+      "cel",
+      "ràpid",
+      "llum"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "castell de sorra": {
+    "clues": [
+      "platja",
+      "cubell",
+      "sorra",
+      "mar",
+      "construir"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "petxina de mar": {
+    "clues": [
+      "platja",
+      "mar",
+      "sorra",
+      "orella",
+      "dur"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "cavall de mar": {
+    "clues": [
+      "petit",
+      "mar",
+      "cua",
+      "nedar",
+      "animal"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "estel de mar": {
+    "clues": [
+      "mar",
+      "cinc",
+      "sorra",
+      "braços",
+      "animal"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "casa de l'arbre": {
+    "clues": [
+      "construir",
+      "enfila-se",
+      "fusta",
+      "jardí",
+      "secret"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "guardiola de porquet": {
+    "clues": [
+      "diners",
+      "monedes",
+      "estalviar",
+      "rosa",
+      "escletxa"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tret de gràcia": {
+    "clues": [
+      "final",
+      "acabar",
+      "arma",
+      "sort",
+      "murt"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "videojoc de consola": {
+    "clues": [
+      "jugar",
+      "pantalla",
+      "comandament",
+      "diversió",
+      "tele"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "joc de taula": {
+    "clues": [
+      "daus",
+      "jugar",
+      "tauler",
+      "fitxes",
+      "cartes"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "corda de saltar": {
+    "clues": [
+      "saltar",
+      "exercici",
+      "pati",
+      "corda",
+      "peus"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "palo saltador": {
+    "clues": [
+      "botar",
+      "saltar",
+      "mola",
+      "mànec",
+      "amunt i avall"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hula hoop": {
+    "clues": [
+      "rodó",
+      "cintura",
+      "girar",
+      "cercle",
+      "plàstic"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ànec de goma": {
+    "clues": [
+      "bany",
+      "groc",
+      "aigua",
+      "flotar",
+      "piu"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ninot de neu": {
+    "clues": [
+      "pastanaga",
+      "fred",
+      "hivern",
+      "construir",
+      "blanc"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "selva tropical": {
+    "clues": [
+      "arbres",
+      "verd",
+      "micos",
+      "mullat",
+      "jungla"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "globus aerostàtic": {
+    "clues": [
+      "volar",
+      "cistella",
+      "cel",
+      "flotar",
+      "foc"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "nau espacial": {
+    "clues": [
+      "estels",
+      "volar",
+      "coet",
+      "lluna",
+      "astronauta"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "camió de la escombraria": {
+    "clues": [
+      "escombraria",
+      "olor",
+      "matí",
+      "cubell",
+      "rodes"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "carrito de gelats": {
+    "clues": [
+      "música",
+      "estiu",
+      "dolç",
+      "fred",
+      "carrer"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "sínia de fira": {
+    "clues": [
+      "rodó",
+      "alt",
+      "vistes",
+      "girar",
+      "atracció"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "cavallets de fira": {
+    "clues": [
+      "cavalls",
+      "girar",
+      "música",
+      "fira",
+      "atracció"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tobogan d'aigua": {
+    "clues": [
+      "mullat",
+      "piscina",
+      "ràpid",
+      "nedar",
+      "estiu"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "piscina de boles": {
+    "clues": [
+      "colors",
+      "jugar",
+      "nens",
+      "saltar",
+      "parc infantil"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parc infantil": {
+    "clues": [
+      "tobogan",
+      "columpis",
+      "nens",
+      "carrer",
+      "jugar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "fet a amagar": {
+    "clues": [
+      "buscar",
+      "comptar",
+      "joc",
+      "amagat",
+      "trobat"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "pedra paper tisora": {
+    "clues": [
+      "mans",
+      "joc",
+      "treure",
+      "tres",
+      "puny"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "joc de les cadires": {
+    "clues": [
+      "joc",
+      "música",
+      "seure",
+      "festa",
+      "parar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "cepillo del cabell": {
+    "clues": [
+      "cabell",
+      "pentinar",
+      "cap",
+      "matí",
+      "suau"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "rellotge d'alarma": {
+    "clues": [
+      "matí",
+      "despertar",
+      "soroll",
+      "hora",
+      "sonar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "sala d'estar": {
+    "clues": [
+      "sofà",
+      "tele",
+      "casa",
+      "seure",
+      "família"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "menjador de casa": {
+    "clues": [
+      "taula",
+      "menjar",
+      "cadires",
+      "sopar",
+      "casa"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cambra de bany": {
+    "clues": [
+      "dutxa",
+      "vàter",
+      "rentar-se",
+      "casa",
+      "net"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "rentadora de roba": {
+    "clues": [
+      "roba",
+      "netejar",
+      "aigua",
+      "sabó",
+      "girar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "aspiradora de pols": {
+    "clues": [
+      "catifa",
+      "terra",
+      "soroll",
+      "pols",
+      "netejar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "comandament a distància": {
+    "clues": [
+      "tele",
+      "botons",
+      "canal",
+      "sofà",
+      "mà"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "telèfon mòbil": {
+    "clues": [
+      "trucar",
+      "butxaca",
+      "parlar",
+      "pantalla",
+      "mòbil"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ordinador portàtil": {
+    "clues": [
+      "ordinador",
+      "pantalla",
+      "teclat",
+      "maletí",
+      "treballar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "targeta de crèdit": {
+    "clues": [
+      "diners",
+      "comprar",
+      "plàstic",
+      "cartera",
+      "pagar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "centre comercial": {
+    "clues": [
+      "botigues",
+      "comprar",
+      "roba",
+      "gran",
+      "cine"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "botiga d'animals": {
+    "clues": [
+      "animals",
+      "gossos",
+      "gats",
+      "comprar",
+      "peixos"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "botiga de joguines": {
+    "clues": [
+      "jugar",
+      "comprar",
+      "nens",
+      "jocs",
+      "nines"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "botiga de llaminadures": {
+    "clues": [
+      "dolç",
+      "sucre",
+      "comprar",
+      "xocolata",
+      "colors"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parc d'atraccions": {
+    "clues": [
+      "atraccions",
+      "diversió",
+      "estiu",
+      "sínia",
+      "fira"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parc aquàtic": {
+    "clues": [
+      "tobogans",
+      "mullat",
+      "nedar",
+      "estiu",
+      "piscina"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "bomber de foc": {
+    "clues": [
+      "foc",
+      "aigua",
+      "treball",
+      "camió",
+      "ajuda"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "agent de policia": {
+    "clues": [
+      "policia",
+      "placa",
+      "llei",
+      "ajuda",
+      "cotxe"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "estrella de cine": {
+    "clues": [
+      "famós",
+      "pel·lícula",
+      "pantalla",
+      "actuar",
+      "hollywood"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "estrella del rock": {
+    "clues": [
+      "música",
+      "famós",
+      "guitarra",
+      "cantar",
+      "concert"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "súper heroi": {
+    "clues": [
+      "capa",
+      "fort",
+      "poders",
+      "salvar",
+      "còmic"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "agent secret": {
+    "clues": [
+      "espia",
+      "ocult",
+      "missió",
+      "llest",
+      "pistes"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "conte de fades": {
+    "clues": [
+      "història",
+      "màgia",
+      "rei",
+      "reina",
+      "hi havia una vegada"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "cançó de bressol": {
+    "clues": [
+      "cançó",
+      "dormir",
+      "nit",
+      "bebé",
+      "suau"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "conte de bona nit": {
+    "clues": [
+      "llibre",
+      "dormir",
+      "nit",
+      "llegir",
+      "somni"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "llibre de pintar": {
+    "clues": [
+      "pintures",
+      "dibuixar",
+      "dibuixos",
+      "pàgines",
+      "omplir"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "poca-solta": {
+    "clues": [
+      "riure",
+      "broma",
+      "persona",
+      "divertit",
+      "cap"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "polze amunt": {
+    "clues": [
+      "mà",
+      "bé",
+      "sí",
+      "dedo",
+      "senyal"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "promesa de menovell": {
+    "clues": [
+      "promesa",
+      "dit",
+      "amic",
+      "secret",
+      "mà"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "llombrígol de la panxa": {
+    "clues": [
+      "panxa",
+      "rodó",
+      "mig",
+      "cos",
+      "petit"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "cubets de gel": {
+    "clues": [
+      "fred",
+      "aigua",
+      "beure",
+      "congelador",
+      "dur"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "patates de bossa": {
+    "clues": [
+      "salat",
+      "cruixent",
+      "aperitiu",
+      "bossa",
+      "patata"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "suc de poma": {
+    "clues": [
+      "beure",
+      "fruita",
+      "dolç",
+      "groc",
+      "got"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "xiclet de globus": {
+    "clues": [
+      "rosa",
+      "mastegar",
+      "globus",
+      "dolç",
+      "enganxós"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "crispetes de blat de moro": {
+    "clues": [
+      "cine",
+      "salat",
+      "blanc",
+      "aperitiu",
+      "mantega"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pijama de dormir": {
+    "clues": [
+      "dormir",
+      "roba",
+      "nit",
+      "suau",
+      "llit"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "impermeable de pluja": {
+    "clues": [
+      "mullat",
+      "temps",
+      "groc",
+      "jaqueta",
+      "sec"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "bañador de platja": {
+    "clues": [
+      "aigua",
+      "piscina",
+      "platja",
+      "estiu",
+      "roba"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "ulleres de sol": {
+    "clues": [
+      "ulls",
+      "brillant",
+      "estiu",
+      "fosc",
+      "portar"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "sabates de l'esport": {
+    "clues": [
+      "peus",
+      "córrer",
+      "esport",
+      "cordons",
+      "caminar"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "botes d'aigua": {
+    "clues": [
+      "pluja",
+      "bassals",
+      "peus",
+      "goma",
+      "mullat"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "gorra de bèisbol": {
+    "clues": [
+      "cap",
+      "sol",
+      "gorro",
+      "esport",
+      "visera"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "xarxes socials": {
+    "clues": [
+      "mòbil",
+      "internet",
+      "amics",
+      "likes",
+      "publicar"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "canvi climàtic": {
+    "clues": [
+      "terra",
+      "calor",
+      "temps",
+      "futur",
+      "verd"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "energia renovable": {
+    "clues": [
+      "sol",
+      "vient",
+      "verd",
+      "llum",
+      "neta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "panell solar": {
+    "clues": [
+      "sol",
+      "teulat",
+      "llum",
+      "energia",
+      "cristall"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "llibertat d'expressió": {
+    "clues": [
+      "parlar",
+      "dret",
+      "lliure",
+      "llei",
+      "dir"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "partit polític": {
+    "clues": [
+      "votar",
+      "grup",
+      "eleccions",
+      "esquerra",
+      "dreta"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "president de la generalitat": {
+    "clues": [
+      "líder",
+      "govern",
+      "poder",
+      "votar",
+      "catalunya"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "política exterior": {
+    "clues": [
+      "món",
+      "països",
+      "plan",
+      "parlar",
+      "frontera"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "dret internacional": {
+    "clues": [
+      "món",
+      "regles",
+      "nacions",
+      "legal",
+      "tribunal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "revolució industrial": {
+    "clues": [
+      "història",
+      "fàbrica",
+      "vapor",
+      "canvi",
+      "antic"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "literatura clàssica": {
+    "clues": [
+      "llibres",
+      "antic",
+      "llegir",
+      "famós",
+      "autor"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "ciència-ficció": {
+    "clues": [
+      "futur",
+      "espai",
+      "aliens",
+      "història",
+      "tecnologia"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "premi nobel": {
+    "clues": [
+      "famós",
+      "pau",
+      "ciència",
+      "guanyar",
+      "suècia"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "copa del món": {
+    "clues": [
+      "futbol",
+      "mundial",
+      "país",
+      "joc",
+      "trofeu"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "jocs olímpics": {
+    "clues": [
+      "món",
+      "esports",
+      "medalla",
+      "or",
+      "cada quatre anys"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "consell d'administració": {
+    "clues": [
+      "negocis",
+      "grup",
+      "caps",
+      "empresa",
+      "reunió"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "recursos humans": {
+    "clues": [
+      "treball",
+      "contractar",
+      "gent",
+      "oficina",
+      "personal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "relacions públiques": {
+    "clues": [
+      "imatge",
+      "notícies",
+      "gent",
+      "premsa",
+      "parlar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "atenció al client": {
+    "clues": [
+      "ajuda",
+      "telèfon",
+      "comprar",
+      "botiga",
+      "problema"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "cadena de subministrament": {
+    "clues": [
+      "moure",
+      "productes",
+      "fàbrica",
+      "botiga",
+      "logística"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "control de qualitat": {
+    "clues": [
+      "revisar",
+      "bo",
+      "fàbrica",
+      "provar",
+      "normes"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "propietat intel·lectual": {
+    "clues": [
+      "idea",
+      "amo",
+      "llei",
+      "patent",
+      "copiar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "política de privacitat": {
+    "clues": [
+      "dades",
+      "internet",
+      "secret",
+      "regles",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "interfície d'usuari": {
+    "clues": [
+      "pantalla",
+      "aspecte",
+      "botons",
+      "app",
+      "disseny"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "estació espacial": {
+    "clues": [
+      "espai",
+      "viure",
+      "estels",
+      "òrbita",
+      "astronauta"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "forat negre": {
+    "clues": [
+      "espai",
+      "fosc",
+      "gravetat",
+      "empassar",
+      "estel"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "selecció natural": {
+    "clues": [
+      "darwin",
+      "naturalesa",
+      "viure",
+      "evolució",
+      "canvi"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "enginyeria genètica": {
+    "clues": [
+      "adn",
+      "canviar",
+      "ciència",
+      "laboratori",
+      "vida"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sistema immunitari": {
+    "clues": [
+      "cos",
+      "lluitar",
+      "malalt",
+      "protegir",
+      "defenses"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "tensió arterial": {
+    "clues": [
+      "cor",
+      "metge",
+      "cos",
+      "salut",
+      "número"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "salut mental": {
+    "clues": [
+      "ment",
+      "sentir-se",
+      "pensar",
+      "feliç",
+      "metge"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "intel·ligència emocional": {
+    "clues": [
+      "sentir",
+      "saber",
+      "gent",
+      "llest",
+      "ment"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "pensament crític": {
+    "clues": [
+      "pensar",
+      "llest",
+      "lògica",
+      "fets",
+      "ment"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "gestió del temps": {
+    "clues": [
+      "rellotge",
+      "treball",
+      "planificar",
+      "ràpid",
+      "tasca"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "conciliació laboral": {
+    "clues": [
+      "casa",
+      "treball",
+      "temps",
+      "família",
+      "descans"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "síndrome de l'impostor": {
+    "clues": [
+      "fals",
+      "llest",
+      "sentir-se",
+      "miedo",
+      "treball"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "agent immobiliari": {
+    "clues": [
+      "casa",
+      "vendre",
+      "comprar",
+      "treball",
+      "pis"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "banc d'inversió": {
+    "clues": [
+      "diners",
+      "borsa",
+      "accions",
+      "ric",
+      "empresa"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "seguretat social": {
+    "clues": [
+      "diners",
+      "metge",
+      "govern",
+      "pagar",
+      "ajuda"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "salari mínim": {
+    "clues": [
+      "sou",
+      "diners",
+      "treball",
+      "baix",
+      "llei"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "taxa d'atur": {
+    "clues": [
+      "treball",
+      "sense feina",
+      "percentatge",
+      "economia",
+      "números"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "servei de streaming": {
+    "clues": [
+      "pel·lícula",
+      "internet",
+      "veure",
+      "tele",
+      "subscripció"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "motor de cerca": {
+    "clues": [
+      "google",
+      "buscar",
+      "internet",
+      "trobar",
+      "web"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "drets civils": {
+    "clues": [
+      "llei",
+      "gent",
+      "lliure",
+      "dret",
+      "protesta"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "nacions unides": {
+    "clues": [
+      "món",
+      "grup",
+      "pau",
+      "països",
+      "nova york"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "unió europea": {
+    "clues": [
+      "europa",
+      "grup",
+      "euro",
+      "països",
+      "brussel·les"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "classe mitjana": {
+    "clues": [
+      "gent",
+      "diners",
+      "normal",
+      "grup",
+      "societat"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "transport públic": {
+    "clues": [
+      "bus",
+      "tren",
+      "ciutat",
+      "viatge",
+      "gent"
+    ],
+    "category": "Travel",
+    "kidsMode": false
+  },
+  "combustibles fòssils": {
+    "clues": [
+      "petroli",
+      "gas",
+      "carbó",
+      "energia",
+      "dolent"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "petjada de carboni": {
+    "clues": [
+      "terra",
+      "dolent",
+      "gas",
+      "tu",
+      "verd"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "recursos naturals": {
+    "clues": [
+      "terra",
+      "fusta",
+      "petroli",
+      "aigua",
+      "naturalesa"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "crisi d'identitat": {
+    "clues": [
+      "qui soc",
+      "por",
+      "ment",
+      "canvi",
+      "sentir-se"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "filosofia moral": {
+    "clues": [
+      "bé",
+      "mal",
+      "pensar",
+      "regles",
+      "bo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "contracte social": {
+    "clues": [
+      "regles",
+      "gent",
+      "govern",
+      "societat",
+      "acord"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "divisió de poders": {
+    "clues": [
+      "llei",
+      "govern",
+      "tres",
+      "jutge",
+      "líder"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "desobediència civil": {
+    "clues": [
+      "protesta",
+      "llei",
+      "no",
+      "pau",
+      "marxa"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "organització sense ànim de lucre": {
+    "clues": [
+      "ajuda",
+      "diners",
+      "oenagé",
+      "treball",
+      "bo"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "responsabilitat social corporativa": {
+    "clues": [
+      "empresa",
+      "bo",
+      "terra",
+      "ajuda",
+      "deure"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "blanqueig de diners": {
+    "clues": [
+      "crim",
+      "netejar",
+      "ocult",
+      "efectiu",
+      "banc"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "paradís fiscal": {
+    "clues": [
+      "diners",
+      "país",
+      "amagar",
+      "baix",
+      "illa"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "conflicte d'interessos": {
+    "clues": [
+      "treball",
+      "dos",
+      "problema",
+      "secret",
+      "just"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "fuga de cervells": {
+    "clues": [
+      "país",
+      "anar-se'n",
+      "llest",
+      "treball",
+      "mudar-se"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "sostre de vidre": {
+    "clues": [
+      "treball",
+      "dona",
+      "límit",
+      "dalt",
+      "ocult"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "parc de boles": {
+    "clues": [
+      "nens",
+      "jugar",
+      "colors",
+      "saltar",
+      "aniversari"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cotó de sucre": {
+    "clues": [
+      "dolç",
+      "fira",
+      "rosa",
+      "núvol",
+      "bastó"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ou de xocolata": {
+    "clues": [
+      "sorpresa",
+      "dolç",
+      "joguina",
+      "menjar",
+      "pasqua"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "castell inflable": {
+    "clues": [
+      "saltar",
+      "aire",
+      "fira",
+      "nens",
+      "divertit"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "patinet elèctric": {
+    "clues": [
+      "rodes",
+      "carrer",
+      "ràpid",
+      "bateria",
+      "peu"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "motxilla escolar": {
+    "clues": [
+      "llibres",
+      "escola",
+      "esquena",
+      "estudiar",
+      "cremallera"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "llapis de colors": {
+    "clues": [
+      "dibuixar",
+      "pintar",
+      "estoig",
+      "arc de sant martí",
+      "punta"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "maquineta de fer punta": {
+    "clues": [
+      "llapis",
+      "punta",
+      "estoig",
+      "fusta",
+      "afilar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "goma d'esborrar": {
+    "clues": [
+      "llapis",
+      "error",
+      "estoig",
+      "netejar",
+      "paper"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tisores escolars": {
+    "clues": [
+      "tallar",
+      "paper",
+      "manualitats",
+      "escola",
+      "dits"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "pega de barra": {
+    "clues": [
+      "enganxar",
+      "paper",
+      "manualitats",
+      "estoig",
+      "blanc"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "classe de gimnàstica": {
+    "clues": [
+      "esport",
+      "córrer",
+      "escola",
+      "exercici",
+      "pati"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "esbarjo del cole": {
+    "clues": [
+      "jugar",
+      "descans",
+      "amics",
+      "esmorzar",
+      "pati"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "excursió escolar": {
+    "clues": [
+      "autobús",
+      "viatge",
+      "escola",
+      "museu",
+      "motxilla"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "classe de música": {
+    "clues": [
+      "instruments",
+      "cantar",
+      "notes",
+      "escola",
+      "so"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "biblioteca pública": {
+    "clues": [
+      "llibres",
+      "silenci",
+      "llegir",
+      "estudiar",
+      "poble"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parc de la ciutadella": {
+    "clues": [
+      "barcelona",
+      "parc",
+      "estany",
+      "mamut",
+      "passejar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "estat del benestar": {
+    "clues": [
+      "ajuda",
+      "salut",
+      "govern",
+      "diners",
+      "social"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "política monetària": {
+    "clues": [
+      "banc",
+      "diners",
+      "interès",
+      "economia",
+      "control"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "mercat de valors": {
+    "clues": [
+      "borsa",
+      "accions",
+      "diners",
+      "invertir",
+      "risc"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "capital risc": {
+    "clues": [
+      "diners",
+      "empresa",
+      "nova",
+      "risc",
+      "invertir"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "balanç de situació": {
+    "clues": [
+      "comptabilitat",
+      "empresa",
+      "diners",
+      "actius",
+      "passius"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "compte de resultats": {
+    "clues": [
+      "diners",
+      "benefici",
+      "pèrdua",
+      "empresa",
+      "any"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "auditoria externa": {
+    "clues": [
+      "revisar",
+      "comptes",
+      "empresa",
+      "legal",
+      "control"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pla de pensions": {
+    "clues": [
+      "estalviar",
+      "jubilació",
+      "diners",
+      "futur",
+      "vell"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "fons d'inversió": {
+    "clues": [
+      "estalvi",
+      "diners",
+      "borsa",
+      "banc",
+      "gestió"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hipoteca variable": {
+    "clues": [
+      "banc",
+      "casa",
+      "interès",
+      "pagament",
+      "deute"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "dret d'admissió": {
+    "clues": [
+      "entrada",
+      "local",
+      "regles",
+      "prohibit",
+      "porta"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ordenança municipal": {
+    "clues": [
+      "llei",
+      "ajuntament",
+      "poble",
+      "regles",
+      "multa"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "pressupostos generals": {
+    "clues": [
+      "diners",
+      "govern",
+      "any",
+      "estat",
+      "despesa"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "llibertat de càtedra": {
+    "clues": [
+      "ensenyar",
+      "lliure",
+      "professor",
+      "universitat",
+      "dret"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "economia submergida": {
+    "clues": [
+      "diners",
+      "negre",
+      "impostos",
+      "ocult",
+      "il·legal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "conflicte col·lectiu": {
+    "clues": [
+      "vaga",
+      "treballadors",
+      "empresa",
+      "baralla",
+      "sindicat"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "conveni sectorial": {
+    "clues": [
+      "acord",
+      "treball",
+      "regles",
+      "sou",
+      "llei"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "protecció de dades": {
+    "clues": [
+      "secret",
+      "internet",
+      "llei",
+      "privacitat",
+      "info"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "seguretat viària": {
+    "clues": [
+      "cotxe",
+      "carretera",
+      "normes",
+      "trànsit",
+      "conduir"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "educació concertada": {
+    "clues": [
+      "escola",
+      "pública",
+      "privada",
+      "diners",
+      "ensenyar"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "turisme sostenible": {
+    "clues": [
+      "viatge",
+      "naturalesa",
+      "cuidar",
+      "medi ambient",
+      "net"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "petjada ecològica": {
+    "clues": [
+      "terra",
+      "dany",
+      "naturalesa",
+      "humà",
+      "verd"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "sobirania energètica": {
+    "clues": [
+      "llum",
+      "país",
+      "independent",
+      "gas",
+      "propi"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "economia circular": {
+    "clues": [
+      "reciclar",
+      "escombraria",
+      "empresa",
+      "verd",
+      "reutilitzar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "teletreball": {
+    "clues": [
+      "casa",
+      "ordinador",
+      "oficina",
+      "treball",
+      "internet"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "transformació digital": {
+    "clues": [
+      "ordinador",
+      "canvi",
+      "empresa",
+      "modern",
+      "tech"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "escletxa digital": {
+    "clues": [
+      "internet",
+      "vell",
+      "desigualtat",
+      "accés",
+      "tech"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "comerç electrònic": {
+    "clues": [
+      "comprar",
+      "internet",
+      "casa",
+      "paquet",
+      "botiga"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "llengua materna": {
+    "clues": [
+      "parlar",
+      "casa",
+      "naixement",
+      "aprendre",
+      "família"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "immersió lingüística": {
+    "clues": [
+      "escola",
+      "llengua",
+      "aprendre",
+      "català",
+      "mètode"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "societat civil": {
+    "clues": [
+      "gent",
+      "unió",
+      "poble",
+      "associació",
+      "públic"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "diada nacional": {
+    "clues": [
+      "catalunya",
+      "festa",
+      "setembre",
+      "onze",
+      "bandera"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "castellers de vilafranca": {
+    "clues": [
+      "castells",
+      "colla",
+      "verds",
+      "vilafranca",
+      "torre"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "bibliotecari": {
+    "clues": [
+      "llibres",
+      "silenci",
+      "llegir",
+      "biblioteca",
+      "estanteria"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "científic": {
+    "clues": [
+      "laboratori",
+      "experiment",
+      "bata",
+      "ciència",
+      "prova"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "mecànic": {
+    "clues": [
+      "cotxe",
+      "eines",
+      "arreglar",
+      "taller",
+      "oli"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "fotògraf": {
+    "clues": [
+      "càmera",
+      "foto",
+      "flaix",
+      "somriure",
+      "lent"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "detectiu": {
+    "clues": [
+      "pistes",
+      "lupa",
+      "misteri",
+      "resoldre",
+      "espia"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "jardiner": {
+    "clues": [
+      "plantes",
+      "flors",
+      "tierra",
+      "jardí",
+      "créixer"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "dentista": {
+    "clues": [
+      "dents",
+      "netejar",
+      "somriure",
+      "cadira",
+      "boca"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "infermer": {
+    "clues": [
+      "hospital",
+      "ajuda",
+      "malalt",
+      "doctor",
+      "medicina"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "flequer": {
+    "clues": [
+      "pa",
+      "farina",
+      "forn",
+      "cuinar",
+      "pastís"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "artista": {
+    "clues": [
+      "pintura",
+      "pinzell",
+      "llenç",
+      "colors",
+      "quadre"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "músic": {
+    "clues": [
+      "instrument",
+      "tocar",
+      "música",
+      "cançó",
+      "escenari"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "atleta": {
+    "clues": [
+      "esport",
+      "córrer",
+      "ràpid",
+      "guanyar",
+      "gimnàs"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "reporter": {
+    "clues": [
+      "notícies",
+      "parlar",
+      "tele",
+      "micròfon",
+      "història"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "capità": {
+    "clues": [
+      "vaixell",
+      "mar",
+      "bot",
+      "aigua",
+      "gorra"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "cavaller": {
+    "clues": [
+      "armadura",
+      "espasa",
+      "castell",
+      "cavall",
+      "escut"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "mag": {
+    "clues": [
+      "màgia",
+      "varita",
+      "barret",
+      "encanteri",
+      "capa"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "drac": {
+    "clues": [
+      "foc",
+      "volar",
+      "escates",
+      "ales",
+      "por"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "unicorn": {
+    "clues": [
+      "corn",
+      "cavall",
+      "màgia",
+      "blanc",
+      "arc de sant martí"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "sirena": {
+    "clues": [
+      "oceà",
+      "cua",
+      "nedar",
+      "cabells",
+      "mar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "extraterrestre": {
+    "clues": [
+      "espai",
+      "verd",
+      "estels",
+      "nau",
+      "ovni"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "monstre": {
+    "clues": [
+      "por",
+      "nit",
+      "armari",
+      "gran",
+      "pelut"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "dinosaure": {
+    "clues": [
+      "ossos",
+      "vell",
+      "enorme",
+      "rugit",
+      "t-rex"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "robot": {
+    "clues": [
+      "metall",
+      "bip",
+      "ordinador",
+      "bateria",
+      "futur"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "castell": {
+    "clues": [
+      "rei",
+      "reina",
+      "pedra",
+      "torre",
+      "vell"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "palau": {
+    "clues": [
+      "reial",
+      "gran",
+      "casa",
+      "or",
+      "príncep"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "piràmide": {
+    "clues": [
+      "egipte",
+      "triangle",
+      "pedra",
+      "desert",
+      "vell"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cascada": {
+    "clues": [
+      "aigua",
+      "riu",
+      "caiguda",
+      "mullat",
+      "alt"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "cova": {
+    "clues": [
+      "fosc",
+      "roca",
+      "muntanya",
+      "ratpenats",
+      "dins"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "selva": {
+    "clues": [
+      "arbres",
+      "micos",
+      "mullat",
+      "verd",
+      "salvatge"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "vall": {
+    "clues": [
+      "baix",
+      "turons",
+      "entre",
+      "verd",
+      "pla"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "cañón": {
+    "clues": [
+      "profund",
+      "roca",
+      "riu",
+      "vermell",
+      "parets"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "pantà": {
+    "clues": [
+      "mullat",
+      "fang",
+      "cocodril",
+      "verd",
+      "aigua"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "glacera": {
+    "clues": [
+      "gel",
+      "fred",
+      "blau",
+      "lent",
+      "enorme"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "savana": {
+    "clues": [
+      "àfrica",
+      "herba",
+      "lleó",
+      "sec",
+      "animals"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tundra": {
+    "clues": [
+      "fred",
+      "sense arbres",
+      "gel",
+      "àrtic",
+      "neu"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "praderia": {
+    "clues": [
+      "herba",
+      "pla",
+      "vent",
+      "granja",
+      "vaques"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "prat": {
+    "clues": [
+      "flors",
+      "herba",
+      "verd",
+      "sol",
+      "abelles"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "hort": {
+    "clues": [
+      "fruita",
+      "arbres",
+      "pomes",
+      "granja",
+      "recollir"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "vinya": {
+    "clues": [
+      "raïm",
+      "vi",
+      "files",
+      "granja",
+      "lila"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "far": {
+    "clues": [
+      "oceà",
+      "llum",
+      "costa",
+      "torre",
+      "vaixell"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "gratacel": {
+    "clues": [
+      "ciutat",
+      "alt",
+      "cristall",
+      "elevat",
+      "edifici"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "estadi": {
+    "clues": [
+      "esport",
+      "públic",
+      "joc",
+      "seients",
+      "equip"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "museu": {
+    "clues": [
+      "vell",
+      "art",
+      "història",
+      "edifici",
+      "mirar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "aquari": {
+    "clues": [
+      "peixos",
+      "aigua",
+      "tauró",
+      "cristall",
+      "blau"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "planetari": {
+    "clues": [
+      "estels",
+      "espai",
+      "fosc",
+      "cúpula",
+      "planetes"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "observatori": {
+    "clues": [
+      "telescopi",
+      "estels",
+      "espai",
+      "muntanya",
+      "mirar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "laboratori": {
+    "clues": [
+      "ciència",
+      "prova",
+      "experiment",
+      "cristall",
+      "científic"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "universitat": {
+    "clues": [
+      "aprendre",
+      "llibres",
+      "estudiants",
+      "gran",
+      "estudiar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "fàbrica": {
+    "clues": [
+      "fer",
+      "fum",
+      "màquina",
+      "treball",
+      "edifici"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "magatzem": {
+    "clues": [
+      "caixes",
+      "gran",
+      "guardar",
+      "productes",
+      "buit"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "port": {
+    "clues": [
+      "vaixell",
+      "bot",
+      "aigua",
+      "moll",
+      "mar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "aeroport": {
+    "clues": [
+      "avió",
+      "volar",
+      "viatge",
+      "equipatge",
+      "porta"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "estació": {
+    "clues": [
+      "tren",
+      "autobús",
+      "esperar",
+      "viatge",
+      "parada"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "pont": {
+    "clues": [
+      "aigua",
+      "creuar",
+      "carretera",
+      "sobre",
+      "alt"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "túnel": {
+    "clues": [
+      "fosc",
+      "sota",
+      "carretera",
+      "muntanya",
+      "a través"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "monument": {
+    "clues": [
+      "estàtua",
+      "vell",
+      "famós",
+      "pedra",
+      "història"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "font": {
+    "clues": [
+      "aigua",
+      "parc",
+      "estàtua",
+      "desig",
+      "raig"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "retrat": {
+    "clues": [
+      "cara",
+      "art",
+      "quadre",
+      "pintar",
+      "persona"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "paisatge": {
+    "clues": [
+      "naturalesa",
+      "art",
+      "quadre",
+      "pintar",
+      "vista"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "mural": {
+    "clues": [
+      "paret",
+      "art",
+      "pintar",
+      "gran",
+      "ciutat"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "grafiti": {
+    "clues": [
+      "paret",
+      "esprai",
+      "art",
+      "carrer",
+      "lletres"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "mosaic": {
+    "clues": [
+      "rajoles",
+      "petit",
+      "art",
+      "patró",
+      "colors"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "origami": {
+    "clues": [
+      "paper",
+      "doblar",
+      "japó",
+      "forma",
+      "ocell"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "terrissa": {
+    "clues": [
+      "fang",
+      "roda",
+      "bol",
+      "foc",
+      "mans"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "teixit": {
+    "clues": [
+      "fil",
+      "tela",
+      "telar",
+      "patró",
+      "llana"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "brodat": {
+    "clues": [
+      "agulla",
+      "fil",
+      "tela",
+      "patró",
+      "cosir"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "punt": {
+    "clues": [
+      "agulles",
+      "llana",
+      "jersei",
+      "fil",
+      "llaç"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "joieria": {
+    "clues": [
+      "or",
+      "anells",
+      "coll",
+      "brillant",
+      "portar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tiara": {
+    "clues": [
+      "princesa",
+      "cap",
+      "brillant",
+      "corona",
+      "or"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "trofeu": {
+    "clues": [
+      "guanyar",
+      "or",
+      "copa",
+      "esport",
+      "primer"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "medalla": {
+    "clues": [
+      "guanyar",
+      "or",
+      "coll",
+      "esport",
+      "premi"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "brúixola": {
+    "clues": [
+      "nord",
+      "direcció",
+      "agulla",
+      "mapa",
+      "perdut"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "telescopi": {
+    "clues": [
+      "estels",
+      "mirar",
+      "espai",
+      "lluny",
+      "lent"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "microscopi": {
+    "clues": [
+      "petit",
+      "mirar",
+      "ciència",
+      "laboratori",
+      "cèl·lules"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "prismàtics": {
+    "clues": [
+      "mirar",
+      "lluny",
+      "ulls",
+      "ocells",
+      "naturalesa"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "lupa": {
+    "clues": [
+      "mirar",
+      "petit",
+      "detectiu",
+      "gran",
+      "pistes"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "motxilla": {
+    "clues": [
+      "escola",
+      "portar",
+      "llibres",
+      "corretges",
+      "bossa"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "maleta": {
+    "clues": [
+      "viatge",
+      "roba",
+      "aeroport",
+      "rodes",
+      "fer"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "llinterna": {
+    "clues": [
+      "fosc",
+      "llum",
+      "nit",
+      "bateria",
+      "raig"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "fanal": {
+    "clues": [
+      "llum",
+      "acampada",
+      "mànec",
+      "foc",
+      "nit"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "espelma": {
+    "clues": [
+      "foc",
+      "cera",
+      "llum",
+      "pastís",
+      "cremar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "llumí": {
+    "clues": [
+      "foc",
+      "caixa",
+      "rascar",
+      "pal",
+      "llum"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "encenedor": {
+    "clues": [
+      "foc",
+      "polze",
+      "clic",
+      "flama",
+      "fum"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "foguera": {
+    "clues": [
+      "foc",
+      "gran",
+      "fora",
+      "fusta",
+      "nit"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "foc de camp": {
+    "clues": [
+      "foc",
+      "acampada",
+      "fusta",
+      "núvols",
+      "nit"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tenda": {
+    "clues": [
+      "acampada",
+      "dormir",
+      "fora",
+      "tela",
+      "bosc"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "sac de dormir": {
+    "clues": [
+      "acampada",
+      "dormir",
+      "calent",
+      "tenda",
+      "cremallera"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hamaca": {
+    "clues": [
+      "balancí",
+      "dormir",
+      "arbres",
+      "corda",
+      "fora"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "pícnic": {
+    "clues": [
+      "cistella",
+      "parc",
+      "menjar",
+      "manta",
+      "fora"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "barbacoa": {
+    "clues": [
+      "parrilla",
+      "carn",
+      "fora",
+      "fum",
+      "menjar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "festa": {
+    "clues": [
+      "diversió",
+      "música",
+      "amics",
+      "ball",
+      "pastís"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "rua": {
+    "clues": [
+      "marchar",
+      "música",
+      "carrer",
+      "públic",
+      "carrosses"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "fira": {
+    "clues": [
+      "atraccions",
+      "jocs",
+      "diversió",
+      "cotó de sucre"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "circ": {
+    "clues": [
+      "envelat",
+      "pallassos",
+      "animals",
+      "espectacle",
+      "trapezi"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "teatre": {
+    "clues": [
+      "espectacle",
+      "escenari",
+      "actuar",
+      "seients",
+      "teló"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "òpera": {
+    "clues": [
+      "cantar",
+      "música",
+      "escenari",
+      "fort",
+      "teatre"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "ballet": {
+    "clues": [
+      "ball",
+      "música",
+      "escenari",
+      "punteres",
+      "sabates"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "concert": {
+    "clues": [
+      "música",
+      "banda",
+      "cantar",
+      "públic",
+      "escenari"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "festival": {
+    "clues": [
+      "música",
+      "fora",
+      "gran",
+      "molts",
+      "públic"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "orquestra": {
+    "clues": [
+      "música",
+      "molts",
+      "violins",
+      "director",
+      "tocar"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "simfonia": {
+    "clues": [
+      "música",
+      "llarga",
+      "orquestra",
+      "fort",
+      "bella"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "melodia": {
+    "clues": [
+      "música",
+      "cançó",
+      "to",
+      "cantar",
+      "notes"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "ritme": {
+    "clues": [
+      "música",
+      "compàs",
+      "ball",
+      "tambor",
+      "palmes"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "harmonia": {
+    "clues": [
+      "música",
+      "veus",
+      "junts",
+      "cantar",
+      "bé"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "lletra": {
+    "clues": [
+      "cançó",
+      "paraules",
+      "cantar",
+      "música",
+      "escriure"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "tempo": {
+    "clues": [
+      "música",
+      "velocitat",
+      "ràpid",
+      "lent",
+      "compàs"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "volum": {
+    "clues": [
+      "música",
+      "fort",
+      "suau",
+      "sonit",
+      "girar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "eco": {
+    "clues": [
+      "so",
+      "repetir",
+      "cova",
+      "veu",
+      "paret"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "vibració": {
+    "clues": [
+      "tremolar",
+      "moure",
+      "so",
+      "ràpid",
+      "tocar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "fricció": {
+    "clues": [
+      "fregar",
+      "calor",
+      "lent",
+      "parar",
+      "tocar"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "inèrcia": {
+    "clues": [
+      "moure",
+      "quedar-se",
+      "física",
+      "parar",
+      "repòs"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "velocitat": {
+    "clues": [
+      "ràpid",
+      "direcció",
+      "moure",
+      "física",
+      "pressa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "pressió": {
+    "clues": [
+      "empènyer",
+      "força",
+      "pes",
+      "aire",
+      "pesat"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "temperatura": {
+    "clues": [
+      "calent",
+      "fred",
+      "graus",
+      "temps",
+      "calor"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "evaporació": {
+    "clues": [
+      "aigua",
+      "vapor",
+      "sol",
+      "amunt",
+      "sec"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "condensació": {
+    "clues": [
+      "aigua",
+      "núvol",
+      "cristall",
+      "mullat",
+      "fred"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "precipitació": {
+    "clues": [
+      "pluja",
+      "neu",
+      "aigua",
+      "cel",
+      "caure"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "metamorfosi": {
+    "clues": [
+      "canvi",
+      "papallona",
+      "créixer",
+      "granota",
+      "vida"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "respiració": {
+    "clues": [
+      "respirar",
+      "aire",
+      "pulmons",
+      "vida",
+      "oxigen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "digestió": {
+    "clues": [
+      "menjar",
+      "estómac",
+      "menjar",
+      "cos",
+      "procés"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "circulació": {
+    "clues": [
+      "sang",
+      "cor",
+      "cos",
+      "flux",
+      "volta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "esquelet": {
+    "clues": [
+      "ossos",
+      "cos",
+      "blanc",
+      "dins",
+      "dur"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "múscul": {
+    "clues": [
+      "fort",
+      "cos",
+      "moure",
+      "braç",
+      "carn"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "cervell": {
+    "clues": [
+      "pensar",
+      "cap",
+      "ment",
+      "llest",
+      "control"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "cor": {
+    "clues": [
+      "sang",
+      "bategar",
+      "pit",
+      "vida",
+      "amor"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "pulmons": {
+    "clues": [
+      "respirar",
+      "aire",
+      "pit",
+      "oxigen",
+      "fum"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "estómac": {
+    "clues": [
+      "menjar",
+      "menjar",
+      "panxa",
+      "gana",
+      "ple"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "fetge": {
+    "clues": [
+      "cos",
+      "dins",
+      "òrgan",
+      "sang",
+      "netejar"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ronyons": {
+    "clues": [
+      "cos",
+      "dins",
+      "dos",
+      "aigua",
+      "netejar"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "intestins": {
+    "clues": [
+      "cos",
+      "dins",
+      "llarg",
+      "menjar",
+      "estómac"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "bacteri": {
+    "clues": [
+      "petit",
+      "germens",
+      "malalt",
+      "vida",
+      "netejar"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "virus": {
+    "clues": [
+      "petit",
+      "malalt",
+      "germens",
+      "grip",
+      "contagi"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "anticòs": {
+    "clues": [
+      "cos",
+      "lluitar",
+      "germens",
+      "sa",
+      "cèl·lules"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vacuna": {
+    "clues": [
+      "punxada",
+      "metge",
+      "medicina",
+      "sa",
+      "agulla"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "antibiòtic": {
+    "clues": [
+      "medicina",
+      "metge",
+      "germens",
+      "pastilla",
+      "malalt"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vitamines": {
+    "clues": [
+      "sa",
+      "menjar",
+      "pastilla",
+      "bo",
+      "cos"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "minerals": {
+    "clues": [
+      "sa",
+      "roques",
+      "cos",
+      "menjar",
+      "ferro"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "proteïnes": {
+    "clues": [
+      "carn",
+      "fort",
+      "menjar",
+      "cos",
+      "múscul"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "carbohidrats": {
+    "clues": [
+      "pa",
+      "energia",
+      "menjar",
+      "sucre",
+      "pasta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "glucosa": {
+    "clues": [
+      "sucre",
+      "energia",
+      "sang",
+      "cos",
+      "dolç"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "colesterol": {
+    "clues": [
+      "sang",
+      "cor",
+      "greix",
+      "salut",
+      "dolent"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hormones": {
+    "clues": [
+      "cos",
+      "créixer",
+      "químics",
+      "sentir",
+      "canvi"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "enzims": {
+    "clues": [
+      "cos",
+      "menjar",
+      "descompondre",
+      "procés",
+      "cèl·lules"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "herència": {
+    "clues": [
+      "família",
+      "néixer",
+      "gens",
+      "tret",
+      "pares"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "conservació": {
+    "clues": [
+      "salvar",
+      "terra",
+      "naturalesa",
+      "verd",
+      "protegir"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "contaminació": {
+    "clues": [
+      "brut",
+      "fum",
+      "escombraria",
+      "dolent",
+      "terra"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "reciclatge": {
+    "clues": [
+      "contenidor",
+      "paper",
+      "plàstic",
+      "verd",
+      "reutilitzar"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "compostatge": {
+    "clues": [
+      "tierra",
+      "menjar",
+      "jardí",
+      "podrir",
+      "verd"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "geosfera": {
+    "clues": [
+      "roques",
+      "terra",
+      "sòl",
+      "metall",
+      "pedra"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hidrosfera": {
+    "clues": [
+      "aigua",
+      "terra",
+      "oceà",
+      "riu",
+      "gel"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mesosfera": {
+    "clues": [
+      "cel",
+      "espai",
+      "mig",
+      "fred",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "termosfera": {
+    "clues": [
+      "cel",
+      "espai",
+      "calent",
+      "alt",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "exosfera": {
+    "clues": [
+      "espai",
+      "cel",
+      "exterior",
+      "vora",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "magnetosfera": {
+    "clues": [
+      "terra",
+      "pols",
+      "escut",
+      "espai",
+      "força"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "equador": {
+    "clues": [
+      "mig",
+      "terra",
+      "calent",
+      "línia",
+      "globus"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "longitud": {
+    "clues": [
+      "mapa",
+      "línia",
+      "terra",
+      "amunt",
+      "globus"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "latitud": {
+    "clues": [
+      "mapa",
+      "línia",
+      "terra",
+      "costat",
+      "globus"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "coordenades": {
+    "clues": [
+      "mapa",
+      "lloc",
+      "números",
+      "buscar",
+      "punt"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "topografia": {
+    "clues": [
+      "mapa",
+      "turons",
+      "forma",
+      "sòl",
+      "alçada"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "navegació": {
+    "clues": [
+      "buscar",
+      "mapa",
+      "camí",
+      "viatge",
+      "vaixell"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "expedició": {
+    "clues": [
+      "viatge",
+      "explorar",
+      "buscar",
+      "trobar",
+      "grup"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "imaginació": {
+    "clues": [
+      "ment",
+      "somni",
+      "imaginar",
+      "pensament",
+      "crear"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "amistat": {
+    "clues": [
+      "junts",
+      "ajuda",
+      "amable",
+      "jugar",
+      "compartir"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "curiositat": {
+    "clues": [
+      "aprendre",
+      "preguntar",
+      "per què",
+      "llest",
+      "buscar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "aventura": {
+    "clues": [
+      "viatge",
+      "diversió",
+      "explorar",
+      "fora",
+      "buscar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "vacances": {
+    "clues": [
+      "diversió",
+      "sense cole",
+      "festa",
+      "estiu",
+      "descans"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "matí": {
+    "clues": [
+      "sol",
+      "despertar",
+      "esmorzar",
+      "inici",
+      "llum"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tarda": {
+    "clues": [
+      "sol",
+      "berenar",
+      "jugar",
+      "abans de sopar",
+      "llum"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "nit": {
+    "clues": [
+      "lluna",
+      "estels",
+      "dormir",
+      "fosc",
+      "somni"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "ahir": {
+    "clues": [
+      "passat",
+      "abans",
+      "temps",
+      "fet",
+      "vell"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "demà": {
+    "clues": [
+      "futur",
+      "després",
+      "esperar",
+      "proper",
+      "aviat"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "ombra": {
+    "clues": [
+      "fosc",
+      "sol",
+      "forma",
+      "terra",
+      "negre"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "reflex": {
+    "clues": [
+      "mirall",
+      "aigua",
+      "veure",
+      "cristall",
+      "cara"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "imant": {
+    "clues": [
+      "atracte",
+      "metall",
+      "pol",
+      "enganxar",
+      "nord"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "paradoxa": {
+    "clues": [
+      "trencaclosques",
+      "lògica",
+      "estrany",
+      "pensament",
+      "contradicció"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "patrimoni": {
+    "clues": [
+      "història",
+      "vell",
+      "cultura",
+      "edifici",
+      "herència"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "identitat": {
+    "clues": [
+      "qui soc",
+      "ser",
+      "nom",
+      "caràcter",
+      "personal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "llibertat": {
+    "clues": [
+      "lliure",
+      "dret",
+      "volar",
+      "sense cadenes",
+      "poder"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "igualtat": {
+    "clues": [
+      "igual",
+      "just",
+      "mateix",
+      "dret",
+      "tots"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  }
 }

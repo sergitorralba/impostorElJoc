@@ -3,6 +3,7 @@ import { persist, createJSONStorage } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export type Role = 'CIVILIAN' | 'IMPOSTOR';
+export type GameMode = 'STANDARD' | 'KIDS';
 
 export interface Player {
   id: string;
@@ -15,8 +16,9 @@ interface GameState {
   players: string[]; // Names entered in SETUP
   gamePlayers: Player[];
   language: 'en' | 'es' | 'ca' | 'nl';
+  gameMode: GameMode;
   gamesPlayed: number;
-  currentPhase: 'SETUP' | 'REVEAL' | 'LOBBY' | 'VOTING_CHOICE' | 'VOTING_SECRET' | 'VOTING_AGREEMENT' | 'RESULT';
+  currentPhase: 'LANG_SELECT' | 'MODE_SELECT' | 'PLAYER_SETUP' | 'REVEAL' | 'LOBBY' | 'VOTING_CHOICE' | 'VOTING_SECRET' | 'VOTING_AGREEMENT' | 'RESULT';
   currentPlayerIndex: number;
   startingPlayerIndex: number;
   votes: Record<string, string>; // voterId -> suspectId
@@ -26,6 +28,7 @@ interface GameState {
   
   // Actions
   setLanguage: (lang: 'en' | 'es' | 'ca' | 'nl') => void;
+  setGameMode: (mode: GameMode) => void;
   addPlayer: (name: string) => void;
   removePlayer: (index: number) => void;
   startGame: (wordData: any) => void;
@@ -42,9 +45,10 @@ export const useGameStore = create<GameState>()(
     (set, get) => ({
       players: [],
       gamePlayers: [],
-      language: 'es',
+      language: 'ca',
+      gameMode: 'STANDARD',
       gamesPlayed: 0,
-      currentPhase: 'SETUP',
+      currentPhase: 'LANG_SELECT',
       currentPlayerIndex: 0,
       startingPlayerIndex: 0,
       votes: {},
@@ -52,7 +56,9 @@ export const useGameStore = create<GameState>()(
       isChaosMode: false,
       voteAttempt: 1,
 
-      setLanguage: (lang) => set({ language: lang }),
+      setLanguage: (lang) => set({ language: lang, currentPhase: 'MODE_SELECT' }),
+      
+      setGameMode: (mode) => set({ gameMode: mode, currentPhase: 'PLAYER_SETUP' }),
       
       addPlayer: (name) => set((state) => ({ players: [...state.players, name] })),
       
@@ -61,22 +67,28 @@ export const useGameStore = create<GameState>()(
       })),
 
       startGame: (wordData) => {
-        const { players, gamesPlayed } = get();
+        const { players, gamesPlayed, gameMode } = get();
         if (players.length < 3) return;
 
         const newGamesPlayed = gamesPlayed + 1;
         let impostorsCount = players.length >= 7 ? 2 : 1;
-        
-        // Bug 1: +1 Impostor
-        if (newGamesPlayed >= 3 && Math.random() < 0.3) {
-          impostorsCount += 1;
-        }
-
-        // Bug 2: Chaos Mode (All Impostors)
         let isChaosMode = false;
-        if (newGamesPlayed >= 5 && Math.random() < 0.2) {
-          isChaosMode = true;
-          impostorsCount = players.length;
+        
+        // Bug logic: Only after 5 consecutive games
+        if (gamesPlayed >= 5) {
+          const rand = Math.random();
+          if (rand < 0.2) {
+            // 20% probability of a "Bug"
+            const bugType = Math.random();
+            if (bugType < 0.5) {
+              // Chaos Mode: All Impostors
+              isChaosMode = true;
+              impostorsCount = players.length;
+            } else {
+              // Extra Impostor
+              impostorsCount += 1;
+            }
+          }
         }
 
         const playerNames = [...players];
@@ -85,12 +97,17 @@ export const useGameStore = create<GameState>()(
 
         const impostorIndices = shuffledIndices.slice(0, impostorsCount);
         
-        const words = Object.keys(wordData);
-        const secretWord = words[Math.floor(Math.random() * words.length)];
-        const data = wordData[secretWord];
+        const allWords = Object.entries(wordData);
+        const filteredWords = allWords.filter(([_, value]: any) => 
+          gameMode === 'KIDS' ? value.kidsMode === true : true
+        );
         
-        const sameClueForAllChaos = Math.random() < 0.5;
-        const sharedClue = data.clues[Math.floor(Math.random() * data.clues.length)];
+        const wordPool = filteredWords.length > 0 ? filteredWords : allWords;
+        const [secretWord, data]: [string, any] = wordPool[Math.floor(Math.random() * wordPool.length)];
+        
+        // Shuffle clues to give different ones to each imposter
+        const shuffledClues = [...data.clues].sort(() => Math.random() - 0.5);
+        let clueIndex = 0;
 
         const gamePlayers: Player[] = playerNames.map((name, index) => {
           const isImpostor = isChaosMode || impostorIndices.includes(index);
@@ -98,11 +115,9 @@ export const useGameStore = create<GameState>()(
           let secret = secretWord;
 
           if (isImpostor) {
-            if (isChaosMode && !sameClueForAllChaos) {
-              secret = data.clues[Math.floor(Math.random() * data.clues.length)];
-            } else {
-              secret = sharedClue;
-            }
+            // Assign a different clue from the shuffled list
+            secret = shuffledClues[clueIndex % shuffledClues.length];
+            clueIndex++;
           }
 
           return { id: index.toString(), name, role, secret };
@@ -166,7 +181,14 @@ export const useGameStore = create<GameState>()(
         }));
       },
 
-      resetGame: () => set({ currentPhase: 'SETUP', gamePlayers: [], votes: {}, voteAttempt: 1 })
+      resetGame: () => set({ 
+        currentPhase: 'LANG_SELECT', 
+        gamePlayers: [], 
+        players: [], // Reset names
+        gamesPlayed: 0, // Reset consecutive games
+        votes: {}, 
+        voteAttempt: 1 
+      })
     }),
     {
       name: 'impostor-game-storage',

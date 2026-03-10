@@ -1,112 +1,8559 @@
 {
-  "avion": { "clues": ["cielo", "alas", "piloto", "motores", "altitud"], "category": "Tech" },
-  "pizza": { "clues": ["redonda", "entrega", "porciones", "queso", "caliente"], "category": "Comida" },
-  "leon": { "clues": ["melena", "rey", "rugido", "sabana", "felino"], "category": "Animales" },
-  "playa": { "clues": ["arena", "oceano", "olas", "toalla", "sol"], "category": "Naturaleza" },
-  "portatil": { "clues": ["teclado", "pantalla", "portatil", "bateria", "datos"], "category": "Tech" },
-  "bicicleta": { "clues": ["pedales", "ruedas", "cadena", "casco", "dos"], "category": "Deportes" },
-  "cafe": { "clues": ["taza", "mañana", "amargo", "cafeina", "granos"], "category": "Comida" },
-  "montaña": { "clues": ["pico", "escalar", "senderismo", "alto", "nieve"], "category": "Naturaleza" },
-  "guitarra": { "clues": ["cuerdas", "acustica", "musica", "pua", "seis"], "category": "Hobbies" },
-  "doctor": { "clues": ["hospital", "clinica", "salud", "medicina", "bata"], "category": "Trabajos" },
-  "paraguas": { "clues": ["lluvia", "seco", "mango", "sombra", "plegable"], "category": "Objetos" },
-  "lapiz": { "clues": ["escritura", "grafito", "sacapuntas", "goma", "dibujo"], "category": "Objetos" },
-  "bosque": { "clues": ["arboles", "verde", "selva", "vida", "senderos"], "category": "Naturaleza" },
-  "elefante": { "clues": ["trompa", "colmillos", "orejas", "grande", "gris"], "category": "Animales" },
-  "camara": { "clues": ["lente", "foto", "flash", "zoom", "obturador"], "category": "Tech" },
-  "pan": { "clues": ["panaderia", "tostada", "harina", "corteza", "rebanadas"], "category": "Comida" },
-  "reloj": { "clues": ["tiempo", "agujas", "tic-tac", "alarma", "numeros"], "category": "Objetos" },
-  "futbol": { "clues": ["gol", "campo", "partido", "patada", "equipo"], "category": "Deportes" },
-  "tren": { "clues": ["vias", "estacion", "anden", "billete", "locomotora"], "category": "Viajes" },
-  "coche": { "clues": ["carretera", "volante", "ruedas", "motor", "conductor"], "category": "Viajes" },
-  "rio": { "clues": ["flujo", "orilla", "agua", "pesca", "corriente"], "category": "Naturaleza" },
-  "oceano": { "clues": ["sal", "profundo", "azul", "marino", "barcos"], "category": "Naturaleza" },
-  "ventana": { "clues": ["vidrio", "vista", "marco", "cortinas", "luz"], "category": "Hogar" },
-  "silla": { "clues": ["sentarse", "patas", "respaldo", "descanso", "madera"], "category": "Hogar" },
-  "cama": { "clues": ["dormir", "almohada", "colchon", "sueños", "noche"], "category": "Hogar" },
-  "zapatos": { "clues": ["pies", "caminar", "cordones", "suela", "par"], "category": "Ropa" },
-  "camisa": { "clues": ["botones", "mangas", "tela", "cuello", "vestir"], "category": "Ropa" },
-  "sombrero": { "clues": ["cabeza", "sombra", "gorra", "ala", "estilo"], "category": "Ropa" },
-  "cesped": { "clues": ["verde", "jardin", "cortar", "patio", "campo"], "category": "Naturaleza" },
-  "sol": { "clues": ["brillante", "caliente", "cielo", "amarillo", "dia"], "category": "Naturaleza" },
-  "luna": { "clues": ["noche", "orbita", "cielo", "lunar", "redonda"], "category": "Naturaleza" },
-  "estrellas": { "clues": ["noche", "cielo", "brillantes", "espacio", "luz"], "category": "Naturaleza" },
-  "flor": { "clues": ["petalos", "florecer", "aroma", "jardin", "tallo"], "category": "Naturaleza" },
-  "perro": { "clues": ["ladrar", "mascota", "cachorro", "leal", "cola"], "category": "Animales" },
-  "gato": { "clues": ["maullar", "ronronear", "felino", "garras", "bigotes"], "category": "Animales" },
-  "pajaro": { "clues": ["plumas", "volar", "alas", "nido", "pico"], "category": "Animales" },
-  "pez": { "clues": ["nadar", "agua", "escamas", "aletas", "branquias"], "category": "Animales" },
-  "manzana": { "clues": ["fruta", "roja", "crujiente", "arbol", "dulce"], "category": "Comida" },
-  "platano": { "clues": ["fruta", "amarillo", "pelar", "curva", "tropical"], "category": "Comida" },
-  "naranja": { "clues": ["fruta", "jugo", "pelar", "redonda", "citrico"], "category": "Comida" },
-  "agua": { "clues": ["beber", "vaso", "claro", "liquido", "sed"], "category": "Comida" },
-  "leche": { "clues": ["blanca", "beber", "lacteo", "vaca", "calcio"], "category": "Comida" },
-  "te": { "clues": ["taza", "hojas", "caliente", "tetera", "infusion"], "category": "Comida" },
-  "libro": { "clues": ["leer", "paginas", "biblioteca", "portada", "autor"], "category": "Hobbies" },
-  "boligrafo": { "clues": ["tinta", "escribir", "papel", "tapa", "dibujar"], "category": "Objetos" },
-  "nevera": { "clues": ["frio", "comida", "cocina", "aparato", "hielo"], "category": "Hogar" },
-  "espejo": { "clues": ["reflejo", "vidrio", "pared", "baño", "cara"], "category": "Hogar" },
-  "cartera": { "clues": ["dinero", "tarjetas", "cuero", "bolsillo", "efectivo"], "category": "Objetos" },
-  "llaves": { "clues": ["cerradura", "puerta", "metal", "llavero", "bolsillo"], "category": "Objetos" },
-  "cuchara": { "clues": ["sopa", "comer", "metal", "mango", "cocina"], "category": "Hogar" },
-  "tenedor": { "clues": ["puntas", "comer", "metal", "mango", "cocina"], "category": "Hogar" },
-  "plato": { "clues": ["comida", "redondo", "ceramica", "cocina", "plano"], "category": "Hogar" },
-  "inodoro": { "clues": ["cisterna", "baño", "papel", "agua", "asiento"], "category": "Hogar" },
-  "lavabo": { "clues": ["grifo", "agua", "lavar", "cocina", "baño"], "category": "Hogar" },
-  "puerta": { "clues": ["pomo", "abrir", "cerrar", "entrada", "madera"], "category": "Hogar" },
-  "pared": { "clues": ["ladrillo", "pintura", "habitacion", "vertical", "estructura"], "category": "Hogar" },
-  "escaleras": { "clues": ["subir", "arriba", "abajo", "escalones", "barandilla"], "category": "Hogar" },
-  "ascensor": { "clues": ["elevador", "arriba", "abajo", "boton", "piso"], "category": "Tech" },
-  "jardin": { "clues": ["plantas", "tierra", "patio", "exterior", "riego"], "category": "Naturaleza" },
-  "escuela": { "clues": ["aprender", "maestro", "estudiantes", "libros", "clases"], "category": "Lugares" },
-  "mercado": { "clues": ["comprar", "vender", "comida", "fresco", "puestos"], "category": "Lugares" },
-  "restaurante": { "clues": ["menu", "camarero", "comida", "chef", "comer"], "category": "Lugares" },
-  "cine": { "clues": ["pelicula", "film", "pantalla", "palomitas", "teatro"], "category": "Lugares" },
-  "banco": { "clues": ["dinero", "seguro", "cuenta", "boveda", "efectivo"], "category": "Lugares" },
-  "iglesia": { "clues": ["campanas", "rezar", "cruz", "campanario", "servicio"], "category": "Lugares" },
-  "castillo": { "clues": ["rey", "piedra", "foso", "torre", "historia"], "category": "Lugares" },
-  "isla": { "clues": ["aislada", "palmera", "tropical", "playa", "costa"], "category": "Lugares" },
-  "desierto": { "clues": ["arena", "cactus", "camello", "dunas", "seco"], "category": "Naturaleza" },
-  "selva": { "clues": ["salvaje", "espesa", "monos", "lianas", "amazonas"], "category": "Naturaleza" },
-  "fuego": { "clues": ["caliente", "llama", "humo", "quemar", "madera"], "category": "Naturaleza" },
-  "tierra": { "clues": ["suelo", "planeta", "sucio", "roca", "tierra"], "category": "Naturaleza" },
-  "oro": { "clues": ["brillante", "caro", "metal", "riqueza", "amarillo"], "category": "Objetos" },
-  "diamante": { "clues": ["duro", "brillante", "caro", "anillo", "gema"], "category": "Objetos" },
-  "plastico": { "clues": ["reciclaje", "botella", "barato", "artificial", "ligero"], "category": "Objetos" },
-  "madera": { "clues": ["arbol", "marron", "tronco", "duro", "natural"], "category": "Objetos" },
-  "cuero": { "clues": ["piel", "resistente", "zapatos", "chaqueta", "marron"], "category": "Objetos" },
-  "roca": { "clues": ["duro", "piedra", "suelo", "pesado", "guijarro"], "category": "Naturaleza" },
-  "humo": { "clues": ["gris", "nube", "fuego", "aire", "olor"], "category": "Naturaleza" },
-  "rayo": { "clues": ["brillante", "trueno", "flash", "rapido", "descarga"], "category": "Naturaleza" },
-  "tormenta": { "clues": ["oscuro", "trueno", "malo", "peligroso", "nubes"], "category": "Naturaleza" },
-  "granizo": { "clues": ["hielo", "duro", "pequeño", "bolas", "invierno"], "category": "Naturaleza" },
-  "corazon": { "clues": ["latido", "sangre", "pecho", "amor", "bomba"], "category": "Cuerpo" },
-  "cerebro": { "clues": ["pensar", "mente", "inteligente", "memoria", "cabeza"], "category": "Cuerpo" },
-  "ojo": { "clues": ["ver", "vista", "mirar", "parpadear", "vision"], "category": "Cuerpo" },
-  "oreja": { "clues": ["oir", "sonido", "escuchar", "lobulo", "audio"], "category": "Cuerpo" },
-  "nariz": { "clues": ["oler", "olfatear", "fosa", "aliento", "cara"], "category": "Cuerpo" },
-  "boca": { "clues": ["hablar", "comer", "labios", "gusto", "sonrisa"], "category": "Cuerpo" },
-  "mano": { "clues": ["dedos", "palma", "agarre", "sostener", "tocar"], "category": "Cuerpo" },
-  "pierna": { "clues": ["caminar", "rodilla", "correr", "musculo", "larga"], "category": "Cuerpo" },
-  "pelo": { "clues": ["estilo", "cortar", "cepillo", "crecer", "hebras"], "category": "Cuerpo" },
-  "sangre": { "clues": ["roja", "venas", "liquido", "corte", "circulacion"], "category": "Cuerpo" },
-  "hueso": { "clues": ["blanco", "esqueleto", "duro", "estructura", "romper"], "category": "Cuerpo" },
-  "sueño": { "clues": ["dormir", "noche", "mente", "historia", "vision"], "category": "Cuerpo" },
-  "risa": { "clues": ["divertido", "sonrisa", "sonido", "feliz", "chiste"], "category": "Cuerpo" },
-  "llanto": { "clues": ["lagrima", "triste", "infeliz", "ojos", "llorar"], "category": "Cuerpo" },
-  "gritar": { "clues": ["fuerte", "voz", "alarido", "enojado", "llamar"], "category": "Cuerpo" },
-  "susurrar": { "clues": ["secreto", "quieto", "suave", "oreja", "bajo"], "category": "Cuerpo" },
-  "saltar": { "clues": ["alto", "impulso", "piernas", "arriba", "brincar"], "category": "Cuerpo" },
-  "bailar": { "clues": ["ritmo", "musica", "fiesta", "pasos", "moverse"], "category": "Hobbies" },
-  "cantar": { "clues": ["voz", "cancion", "tono", "boca", "melodia"], "category": "Hobbies" },
-  "escribir": { "clues": ["palabras", "historia", "mano", "composicion", "texto"], "category": "Hobbies" },
-  "leer": { "clues": ["palabras", "vision", "historia", "pagina", "informacion"], "category": "Hobbies" },
-  "dibujar": { "clues": ["bosquejo", "imagen", "papel", "creacion", "arte"], "category": "Hobbies" },
-  "pintar": { "clues": ["lienzo", "pincel", "mojado", "obra", "maestra"], "category": "Hobbies" },
-  "cocinar": { "clues": ["chef", "comida", "receta", "preparacion", "delicioso"], "category": "Hobbies" },
-  "amor": { "clues": ["pasion", "pareja", "romance", "profundo", "afecto"], "category": "Objetos" },
-  "miedo": { "clues": ["asustado", "temblor", "peligro", "oscuridad", "intimidado"], "category": "Objetos" },
-  "ira": { "clues": ["enojado", "rojo", "furioso", "intenso", "frustrado"], "category": "Objetos" },
-  "confianza": { "clues": ["honesto", "lealtad", "creer", "seguridad", "apoyo"], "category": "Objetos" },
-  "esperanza": { "clues": ["futuro", "deseo", "optimismo", "anhelo", "positivo"], "category": "Objetos" }
+  "perro": {
+    "clues": [
+      "ladrar",
+      "correa",
+      "pata",
+      "cola",
+      "leal"
+    ],
+    "category": "Animales",
+    "kidsMode": true
+  },
+  "gato": {
+    "clues": [
+      "maullar",
+      "ronronear",
+      "bigotes",
+      "garras",
+      "gatito"
+    ],
+    "category": "Animales",
+    "kidsMode": true
+  },
+  "pajaro": {
+    "clues": [
+      "alas",
+      "pico",
+      "nido",
+      "volar",
+      "plumas"
+    ],
+    "category": "Animales",
+    "kidsMode": true
+  },
+  "pez": {
+    "clues": [
+      "agua",
+      "escamas",
+      "aletas",
+      "nadar",
+      "branquias"
+    ],
+    "category": "Animales",
+    "kidsMode": true
+  },
+  "manzana": {
+    "clues": [
+      "roja",
+      "fruta",
+      "blanca",
+      "árbol",
+      "sana"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "platano": {
+    "clues": [
+      "fruta",
+      "amarillo",
+      "pelar",
+      "curva",
+      "tropical"
+    ],
+    "category": "Comida",
+    "kidsMode": true
+  },
+  "sol": {
+    "clues": [
+      "brillante",
+      "caliente",
+      "cielo",
+      "amarillo",
+      "dia"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "luna": {
+    "clues": [
+      "noche",
+      "orbita",
+      "cielo",
+      "lunar",
+      "redonda"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "estrella": {
+    "clues": [
+      "noche",
+      "cielo",
+      "brillar",
+      "lejos",
+      "espacio"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "flor": {
+    "clues": [
+      "petalos",
+      "florecer",
+      "aroma",
+      "jardin",
+      "tallo"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "mesa": {
+    "clues": [
+      "patas",
+      "plana",
+      "madera",
+      "comer",
+      "cuatro"
+    ],
+    "category": "Muebles",
+    "kidsMode": true
+  },
+  "silla": {
+    "clues": [
+      "sentarse",
+      "respaldo",
+      "descanso",
+      "madera",
+      "patas"
+    ],
+    "category": "Muebles",
+    "kidsMode": true
+  },
+  "cama": {
+    "clues": [
+      "dormir",
+      "almohada",
+      "colchon",
+      "sueño",
+      "noche"
+    ],
+    "category": "Muebles",
+    "kidsMode": true
+  },
+  "lapiz": {
+    "clues": [
+      "tinta",
+      "escribir",
+      "papel",
+      "punta",
+      "dibujar"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "libro": {
+    "clues": [
+      "leer",
+      "paginas",
+      "biblioteca",
+      "portada",
+      "cuento"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "casa": {
+    "clues": [
+      "hogar",
+      "techo",
+      "puerta",
+      "ventana",
+      "vivir"
+    ],
+    "category": "Lugares",
+    "kidsMode": true
+  },
+  "coche": {
+    "clues": [
+      "carretera",
+      "ruedas",
+      "motor",
+      "conducir",
+      "volante"
+    ],
+    "category": "Viajes",
+    "kidsMode": true
+  },
+  "pelota": {
+    "clues": [
+      "redonda",
+      "botar",
+      "jugar",
+      "patada",
+      "lanzar"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "muñeca": {
+    "clues": [
+      "juguete",
+      "pelo",
+      "vestido",
+      "jugar",
+      "pequeña"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "juguete": {
+    "clues": [
+      "jugar",
+      "diversion",
+      "niño",
+      "caja",
+      "regalo"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "leche": {
+    "clues": [
+      "vaca",
+      "blanco",
+      "beber",
+      "desayuno",
+      "vaso"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "agua": {
+    "clues": [
+      "beber",
+      "clara",
+      "mojado",
+      "liquido",
+      "sed"
+    ],
+    "category": "Comida",
+    "kidsMode": true
+  },
+  "pan": {
+    "clues": [
+      "barra",
+      "bocadillo",
+      "harina",
+      "horno",
+      "miga"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "arroz": {
+    "clues": [
+      "blanco",
+      "grano",
+      "bol",
+      "pequeño",
+      "comer"
+    ],
+    "category": "Comida",
+    "kidsMode": true
+  },
+  "arbol": {
+    "clues": [
+      "hojas",
+      "tronco",
+      "madera",
+      "rama",
+      "verde"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "cesped": {
+    "clues": [
+      "verde",
+      "jardin",
+      "cortar",
+      "patio",
+      "campo"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "abeja": {
+    "clues": [
+      "miel",
+      "picar",
+      "amarillo",
+      "zumbar",
+      "flor"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "hormiga": {
+    "clues": [
+      "pequeño",
+      "fuerte",
+      "fila",
+      "insecto",
+      "agujero"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "lluvia": {
+    "clues": [
+      "agua",
+      "nubes",
+      "mojado",
+      "paraguas",
+      "cielo"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "nieve": {
+    "clues": [
+      "blanca",
+      "frio",
+      "invierno",
+      "copo",
+      "suave"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "frio": {
+    "clues": [
+      "hielo",
+      "invierno",
+      "temblar",
+      "congelar",
+      "bajo"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "calor": {
+    "clues": [
+      "sol",
+      "fuego",
+      "temperatura",
+      "quemar",
+      "sudar"
+    ],
+    "category": "Naturaleza",
+    "kidsMode": true
+  },
+  "grande": {
+    "clues": [
+      "enorme",
+      "gigante",
+      "tamaño",
+      "elefante",
+      "alto"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "pequeño": {
+    "clues": [
+      "diminuto",
+      "chico",
+      "tamaño",
+      "raton",
+      "hormiga"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "rojo": {
+    "clues": [
+      "manzana",
+      "sangre",
+      "fuego",
+      "parar",
+      "color"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "azul": {
+    "clues": [
+      "cielo",
+      "oceano",
+      "agua",
+      "color",
+      "claro"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "verde": {
+    "clues": [
+      "cesped",
+      "hoja",
+      "naturaleza",
+      "seguir",
+      "color"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "amarillo": {
+    "clues": [
+      "sol",
+      "platano",
+      "limon",
+      "brillante",
+      "color"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "caja": {
+    "clues": [
+      "carton",
+      "dentro",
+      "cuadrada",
+      "tapa",
+      "paquete"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "bolsa": {
+    "clues": [
+      "llevar",
+      "asa",
+      "cosas",
+      "papel",
+      "plastico"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "taza": {
+    "clues": [
+      "beber",
+      "asa",
+      "ceramica",
+      "cocina",
+      "cafe"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "tenedor": {
+    "clues": [
+      "comer",
+      "puntas",
+      "metal",
+      "mango",
+      "cocina"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "cuchara": {
+    "clues": [
+      "comer",
+      "sopa",
+      "metal",
+      "mango",
+      "cocina"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "camisa": {
+    "clues": [
+      "vestir",
+      "botones",
+      "mangas",
+      "tela",
+      "cuello"
+    ],
+    "category": "Ropa",
+    "kidsMode": true
+  },
+  "zapato": {
+    "clues": [
+      "pie",
+      "caminar",
+      "cordones",
+      "suela",
+      "par"
+    ],
+    "category": "Ropa",
+    "kidsMode": true
+  },
+  "gorra": {
+    "clues": [
+      "cabeza",
+      "visera",
+      "ala",
+      "sombra",
+      "vestir"
+    ],
+    "category": "Ropa",
+    "kidsMode": true
+  },
+  "calcetin": {
+    "clues": [
+      "pie",
+      "par",
+      "suave",
+      "zapato",
+      "caliente"
+    ],
+    "category": "Ropa",
+    "kidsMode": true
+  },
+  "puerta": {
+    "clues": [
+      "abrir",
+      "cerrar",
+      "pomo",
+      "entrada",
+      "madera"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "ventana": {
+    "clues": [
+      "cristal",
+      "vista",
+      "marco",
+      "cortina",
+      "luz"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "telefono": {
+    "clues": [
+      "llamar",
+      "pantalla",
+      "movil",
+      "bateria",
+      "hablar"
+    ],
+    "category": "Objetos",
+    "kidsMode": true
+  },
+  "estrategia": {
+    "clues": [
+      "plan",
+      "juego",
+      "ganar",
+      "ajedrez",
+      "pensamiento"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "ironia": {
+    "clues": [
+      "opuesto",
+      "gracioso",
+      "sarcasmo",
+      "discurso",
+      "literario"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "sarcasmo": {
+    "clues": [
+      "broma",
+      "burla",
+      "tono",
+      "afilado",
+      "discurso"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "criptografia": {
+    "clues": [
+      "secreto",
+      "codigo",
+      "seguro",
+      "datos",
+      "llave"
+    ],
+    "category": "Tecnologia",
+    "kidsMode": false
+  },
+  "blockchain": {
+    "clues": [
+      "cripto",
+      "cadena",
+      "registro",
+      "seguro",
+      "digital"
+    ],
+    "category": "Tecnologia",
+    "kidsMode": false
+  },
+  "algoritmo": {
+    "clues": [
+      "paso",
+      "mates",
+      "ordenador",
+      "resolver",
+      "logica"
+    ],
+    "category": "Tecnologia",
+    "kidsMode": false
+  },
+  "paradigma": {
+    "clues": [
+      "cambio",
+      "modelo",
+      "patron",
+      "pensamiento",
+      "marco"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "metabolismo": {
+    "clues": [
+      "cuerpo",
+      "energía",
+      "comida",
+      "velocidad",
+      "proceso"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "fotosintesis": {
+    "clues": [
+      "planta",
+      "sol",
+      "verde",
+      "luz",
+      "oxigeno"
+    ],
+    "category": "Ciencia",
+    "kidsMode": false
+  },
+  "jerarquia": {
+    "clues": [
+      "orden",
+      "rango",
+      "nivel",
+      "poder",
+      "estructura"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "burocracia": {
+    "clues": [
+      "papeleo",
+      "oficina",
+      "lento",
+      "reglas",
+      "gobierno"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "filosofia": {
+    "clues": [
+      "pensar",
+      "mente",
+      "vida",
+      "sabiduria",
+      "pregunta"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "existencialismo": {
+    "clues": [
+      "vida",
+      "elección",
+      "ser",
+      "sentido",
+      "libertad"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cuantico": {
+    "clues": [
+      "pequeño",
+      "fisica",
+      "estado",
+      "salto",
+      "teoria"
+    ],
+    "category": "Ciencia",
+    "kidsMode": false
+  },
+  "relatividad": {
+    "clues": [
+      "einstein",
+      "física",
+      "tiempo",
+      "velocidad",
+      "teoría"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "infraestructura": {
+    "clues": [
+      "construir",
+      "carretera",
+      "base",
+      "publico",
+      "sistema"
+    ],
+    "category": "Tecnologia",
+    "kidsMode": false
+  },
+  "logistica": {
+    "clues": [
+      "mover",
+      "plan",
+      "suministro",
+      "cadena",
+      "almacen"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "inversion": {
+    "clues": [
+      "dinero",
+      "futuro",
+      "riesgo",
+      "bolsa",
+      "ganancia"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "inflacion": {
+    "clues": [
+      "precio",
+      "dinero",
+      "subida",
+      "economia",
+      "valor"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "deflacion": {
+    "clues": [
+      "precio",
+      "dinero",
+      "bajada",
+      "economia",
+      "valor"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "diplomacia": {
+    "clues": [
+      "paz",
+      "charla",
+      "naciones",
+      "embajada",
+      "política"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "geopolitica": {
+    "clues": [
+      "mundo",
+      "poder",
+      "mapa",
+      "tierra",
+      "politica"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "arquitectura": {
+    "clues": [
+      "construir",
+      "diseño",
+      "casa",
+      "plano",
+      "estilo"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "renacimiento": {
+    "clues": [
+      "arte",
+      "historia",
+      "renacer",
+      "italia",
+      "antiguo"
+    ],
+    "category": "Historia",
+    "kidsMode": false
+  },
+  "barroco": {
+    "clues": [
+      "estilo",
+      "arte",
+      "recargado",
+      "detalle",
+      "antiguo"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "impresionismo": {
+    "clues": [
+      "pintar",
+      "luz",
+      "estilo",
+      "pincel",
+      "frances"
+    ],
+    "category": "Arte",
+    "kidsMode": false
+  },
+  "termodinamica": {
+    "clues": [
+      "calor",
+      "energia",
+      "ley",
+      "fisica",
+      "trabajo"
+    ],
+    "category": "Ciencia",
+    "kidsMode": false
+  },
+  "entropia": {
+    "clues": [
+      "desorden",
+      "caos",
+      "ley",
+      "medida",
+      "perdida"
+    ],
+    "category": "Ciencia",
+    "kidsMode": false
+  },
+  "mutacion": {
+    "clues": [
+      "cambio",
+      "adn",
+      "gen",
+      "evolucion",
+      "aleatorio"
+    ],
+    "category": "Ciencia",
+    "kidsMode": false
+  },
+  "evolucion": {
+    "clues": [
+      "cambio",
+      "tiempo",
+      "especie",
+      "darwin",
+      "crecimiento"
+    ],
+    "category": "Ciencia",
+    "kidsMode": false
+  },
+  "ecosistema": {
+    "clues": [
+      "naturaleza",
+      "vida",
+      "equilibrio",
+      "lugar",
+      "red"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sostenibilidad": {
+    "clues": [
+      "verde",
+      "futuro",
+      "mantener",
+      "tierra",
+      "seguro"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "resiliencia": {
+    "clues": [
+      "fuerte",
+      "volver",
+      "duro",
+      "mantener",
+      "poder"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "diversidad": {
+    "clues": [
+      "rango",
+      "mezcla",
+      "muchos",
+      "clase",
+      "gente"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "inclusion": {
+    "clues": [
+      "todos",
+      "parte",
+      "unirse",
+      "bienvenida",
+      "abierto"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "integridad": {
+    "clues": [
+      "bueno",
+      "verdad",
+      "honesto",
+      "moral",
+      "valor"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "transparencia": {
+    "clues": [
+      "claro",
+      "abierto",
+      "ver",
+      "honesto",
+      "publico"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "responsabilidad": {
+    "clues": [
+      "deber",
+      "respuesta",
+      "propio",
+      "resultado",
+      "culpa"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "liderazgo": {
+    "clues": [
+      "guiar",
+      "equipo",
+      "poder",
+      "vision",
+      "cabeza"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "innovacion": {
+    "clues": [
+      "nuevo",
+      "idea",
+      "cambio",
+      "crear",
+      "fresco"
+    ],
+    "category": "Abstracto",
+    "kidsMode": false
+  },
+  "emprendedor": {
+    "clues": [
+      "empezar",
+      "riesgo",
+      "propio",
+      "negocio",
+      "idea"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "capital": {
+    "clues": [
+      "riesgo",
+      "nuevo",
+      "empezar",
+      "dinero",
+      "proyecto"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "cartera": {
+    "clues": [
+      "dinero",
+      "tarjetas",
+      "bolsillo",
+      "cuero",
+      "pagar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "dividendo": {
+    "clues": [
+      "acción",
+      "pagar",
+      "beneficio",
+      "bolsa",
+      "ganancia"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pasivo": {
+    "clues": [
+      "deuda",
+      "riesgo",
+      "propio",
+      "legal",
+      "coste"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "activo": {
+    "clues": [
+      "propio",
+      "valor",
+      "bueno",
+      "riqueza",
+      "articulo"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "hipoteca": {
+    "clues": [
+      "préstamo",
+      "banco",
+      "casa",
+      "interés",
+      "deuda"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "seguro": {
+    "clues": [
+      "póliza",
+      "riesgo",
+      "prima",
+      "cobertura",
+      "seguridad"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pension": {
+    "clues": [
+      "viejo",
+      "pagar",
+      "ahorrar",
+      "trabajo",
+      "fondo"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "jubilacion": {
+    "clues": [
+      "viejo",
+      "parar",
+      "trabajo",
+      "vida",
+      "final"
+    ],
+    "category": "Negocios",
+    "kidsMode": false
+  },
+  "elefante": {
+    "clues": [
+      "trompa",
+      "colmillos",
+      "grande",
+      "gris",
+      "orejas"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "jirafa": {
+    "clues": [
+      "cuello",
+      "manchas",
+      "alto",
+      "amarillo",
+      "áfrica"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "león": {
+    "clues": [
+      "rugido",
+      "melena",
+      "rey",
+      "gato",
+      "salvaje"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tigre": {
+    "clues": [
+      "rayas",
+      "naranja",
+      "gato",
+      "selva",
+      "rugido"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pingüino": {
+    "clues": [
+      "hielo",
+      "andar",
+      "negro",
+      "blanco",
+      "nadar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mono": {
+    "clues": [
+      "plátano",
+      "cola",
+      "trepar",
+      "árbol",
+      "columpiar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cebra": {
+    "clues": [
+      "rayas",
+      "negro",
+      "blanco",
+      "caballo",
+      "áfrica"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "canguro": {
+    "clues": [
+      "saltar",
+      "bolsa",
+      "australia",
+      "salto",
+      "bolsillo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "vaca": {
+    "clues": [
+      "leche",
+      "muu",
+      "granja",
+      "pasto",
+      "cuernos"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cerdo": {
+    "clues": [
+      "rosa",
+      "oink",
+      "lodo",
+      "granja",
+      "hocico"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "oveja": {
+    "clues": [
+      "lana",
+      "bee",
+      "blanco",
+      "granja",
+      "suave"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "caballo": {
+    "clues": [
+      "montar",
+      "galope",
+      "relincho",
+      "silla",
+      "granja"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pollo": {
+    "clues": [
+      "huevo",
+      "pío",
+      "granja",
+      "alas",
+      "pico"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pato": {
+    "clues": [
+      "cuac",
+      "agua",
+      "estanque",
+      "pico",
+      "andar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "conejo": {
+    "clues": [
+      "zanahoria",
+      "orejas",
+      "saltar",
+      "suave",
+      "largo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tortuga": {
+    "clues": [
+      "caparazón",
+      "lento",
+      "agua",
+      "verde",
+      "gatear"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "serpiente": {
+    "clues": [
+      "deslizar",
+      "siseo",
+      "largo",
+      "escama",
+      "veneno"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "araña": {
+    "clues": [
+      "telaraña",
+      "patas",
+      "ocho",
+      "gatear",
+      "insecto"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mariposa": {
+    "clues": [
+      "alas",
+      "colores",
+      "volar",
+      "capullo",
+      "flor"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "rana": {
+    "clues": [
+      "saltar",
+      "verde",
+      "croar",
+      "estanque",
+      "lengua"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "naranja": {
+    "clues": [
+      "fruta",
+      "jugo",
+      "color",
+      "cáscara",
+      "redondo"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "fresa": {
+    "clues": [
+      "fruta",
+      "rojo",
+      "dulce",
+      "semillas",
+      "baya"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "uva": {
+    "clues": [
+      "fruta",
+      "morado",
+      "verde",
+      "racimo",
+      "vid"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sandía": {
+    "clues": [
+      "fruta",
+      "verde",
+      "rojo",
+      "semillas",
+      "grande"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pizza": {
+    "clues": [
+      "queso",
+      "rebanada",
+      "redondo",
+      "masa",
+      "tomate"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "hamburguesa": {
+    "clues": [
+      "carne",
+      "pan",
+      "queso",
+      "rápido",
+      "comida"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sándwich": {
+    "clues": [
+      "pan",
+      "almuerzo",
+      "jamón",
+      "queso",
+      "rebanada"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "huevo": {
+    "clues": [
+      "blanco",
+      "amarillo",
+      "cáscara",
+      "desayuno",
+      "pollo"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "queso": {
+    "clues": [
+      "leche",
+      "ratón",
+      "rebanada",
+      "bocadillo",
+      "agujeros"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "helado": {
+    "clues": [
+      "frío",
+      "dulce",
+      "cono",
+      "bola",
+      "postre"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "galleta": {
+    "clues": [
+      "dulce",
+      "hornear",
+      "chocolate",
+      "redondo",
+      "crujiente"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pastel": {
+    "clues": [
+      "cumpleaños",
+      "dulce",
+      "vela",
+      "hornear",
+      "fiesta"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "jugo": {
+    "clues": [
+      "beber",
+      "fruta",
+      "vaso",
+      "líquido",
+      "dulce"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sopa": {
+    "clues": [
+      "caliente",
+      "tazón",
+      "cuchara",
+      "líquido",
+      "cena"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "chocolate": {
+    "clues": [
+      "marrón",
+      "dulce",
+      "caramelo",
+      "barra",
+      "cacao"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "patata": {
+    "clues": [
+      "marrón",
+      "verdura",
+      "freír",
+      "suelo",
+      "puré"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "tomate": {
+    "clues": [
+      "rojo",
+      "verdura",
+      "ensalada",
+      "salsa",
+      "redondo"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "zanahoria": {
+    "clues": [
+      "naranja",
+      "verdura",
+      "conejo",
+      "crujiente",
+      "raíz"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "cebolla": {
+    "clues": [
+      "llorar",
+      "verdura",
+      "blanco",
+      "aros",
+      "fuerte"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ajo": {
+    "clues": [
+      "olor",
+      "blanco",
+      "diente",
+      "fuerte",
+      "cocinar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "montaña": {
+    "clues": [
+      "alto",
+      "cima",
+      "escalar",
+      "nieve",
+      "roca"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "río": {
+    "clues": [
+      "agua",
+      "fluir",
+      "pez",
+      "orilla",
+      "largo"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "océano": {
+    "clues": [
+      "agua",
+      "azul",
+      "sal",
+      "grande",
+      "pez"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "lago": {
+    "clues": [
+      "agua",
+      "tranquilo",
+      "bote",
+      "pez",
+      "rodear"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "bosque": {
+    "clues": [
+      "árboles",
+      "verde",
+      "madera",
+      "salvaje",
+      "animales"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "desierto": {
+    "clues": [
+      "arena",
+      "caliente",
+      "seco",
+      "cactus",
+      "camello"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "isla": {
+    "clues": [
+      "agua",
+      "playa",
+      "tierra",
+      "palmera",
+      "mar"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "nube": {
+    "clues": [
+      "blanco",
+      "cielo",
+      "lluvia",
+      "esponjoso",
+      "gris"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "arcoíris": {
+    "clues": [
+      "colores",
+      "cielo",
+      "lluvia",
+      "sol",
+      "arco"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "fuego": {
+    "clues": [
+      "caliente",
+      "rojo",
+      "quemar",
+      "madera",
+      "humo"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "viento": {
+    "clues": [
+      "aire",
+      "soplar",
+      "brisa",
+      "tormenta",
+      "cometa"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "trueno": {
+    "clues": [
+      "fuerte",
+      "tormenta",
+      "cielo",
+      "sonido",
+      "luz"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "rayo": {
+    "clues": [
+      "destello",
+      "tormenta",
+      "cielo",
+      "brillante",
+      "eléctrico"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "invierno": {
+    "clues": [
+      "frío",
+      "nieve",
+      "hielo",
+      "estación",
+      "chaqueta"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "verano": {
+    "clues": [
+      "caliente",
+      "sol",
+      "playa",
+      "estación",
+      "vacaciones"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "primavera": {
+    "clues": [
+      "flores",
+      "verde",
+      "estación",
+      "crecer",
+      "lluvia"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "otoño": {
+    "clues": [
+      "hojas",
+      "marrón",
+      "estación",
+      "caer",
+      "fresco"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "lápiz": {
+    "clues": [
+      "escribir",
+      "dibujar",
+      "mina",
+      "borrador",
+      "madera"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ordenador": {
+    "clues": [
+      "pantalla",
+      "teclado",
+      "ratón",
+      "internet",
+      "tecnología"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "televisión": {
+    "clues": [
+      "pantalla",
+      "ver",
+      "programas",
+      "mando",
+      "película"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "radio": {
+    "clues": [
+      "música",
+      "escuchar",
+      "sonido",
+      "altavoz",
+      "sintonizar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "bicicleta": {
+    "clues": [
+      "ruedas",
+      "montar",
+      "pedal",
+      "casco",
+      "dos"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "avión": {
+    "clues": [
+      "volar",
+      "cielo",
+      "alas",
+      "piloto",
+      "aeropuerto"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "tren": {
+    "clues": [
+      "vía",
+      "raíles",
+      "motor",
+      "estación",
+      "ruedas"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "barco": {
+    "clues": [
+      "agua",
+      "navegar",
+      "océano",
+      "río",
+      "buque"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "autobús": {
+    "clues": [
+      "carretera",
+      "escuela",
+      "ruedas",
+      "parada",
+      "conducir"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "cohete": {
+    "clues": [
+      "espacio",
+      "volar",
+      "luna",
+      "estrella",
+      "fuego"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "escuela": {
+    "clues": [
+      "aprender",
+      "profesor",
+      "libros",
+      "niños",
+      "aula"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "hospital": {
+    "clues": [
+      "doctor",
+      "enfermo",
+      "enfermera",
+      "medicina",
+      "ayuda"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parque": {
+    "clues": [
+      "jugar",
+      "pasto",
+      "árboles",
+      "banco",
+      "tobogán"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "playa": {
+    "clues": [
+      "arena",
+      "océano",
+      "sol",
+      "nadar",
+      "olas"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "mercado": {
+    "clues": [
+      "comida",
+      "comprar",
+      "tienda",
+      "fruta",
+      "vender"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "biblioteca": {
+    "clues": [
+      "libros",
+      "leer",
+      "silencio",
+      "estudiar",
+      "estante"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cine": {
+    "clues": [
+      "película",
+      "palomitas",
+      "pantalla",
+      "ver",
+      "asiento"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "doctor": {
+    "clues": [
+      "ayuda",
+      "enfermo",
+      "hospital",
+      "medicina",
+      "blanco"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "profesor": {
+    "clues": [
+      "escuela",
+      "aprender",
+      "niños",
+      "libros",
+      "clase"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "policía": {
+    "clues": [
+      "ayuda",
+      "coche",
+      "placa",
+      "ley",
+      "uniforme"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "cocinero": {
+    "clues": [
+      "cocinar",
+      "comida",
+      "cocina",
+      "gorro",
+      "restaurante"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "piloto": {
+    "clues": [
+      "avión",
+      "volar",
+      "cielo",
+      "cabina",
+      "uniforme"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "astronauta": {
+    "clues": [
+      "espacio",
+      "casco",
+      "estrellas",
+      "luna",
+      "traje"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "bombero": {
+    "clues": [
+      "fuego",
+      "agua",
+      "camión",
+      "manguera",
+      "ayuda"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "cantante": {
+    "clues": [
+      "música",
+      "voz",
+      "canción",
+      "micrófono",
+      "escenario"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "pintor": {
+    "clues": [
+      "arte",
+      "colores",
+      "pincel",
+      "lienzo",
+      "cuadro"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "granjero": {
+    "clues": [
+      "animales",
+      "tractor",
+      "cultivos",
+      "tierra",
+      "comida"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "piano": {
+    "clues": [
+      "música",
+      "teclas",
+      "negro",
+      "blanco",
+      "sonido"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "guitarra": {
+    "clues": [
+      "música",
+      "cuerdas",
+      "tocar",
+      "sonido",
+      "instrumento"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tambor": {
+    "clues": [
+      "música",
+      "ritmo",
+      "golpear",
+      "baquetas",
+      "sonido"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "violín": {
+    "clues": [
+      "música",
+      "cuerdas",
+      "arco",
+      "sonido",
+      "pequeño"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "espejo": {
+    "clues": [
+      "mirar",
+      "ver",
+      "cristal",
+      "reflejar",
+      "cara"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "reloj": {
+    "clues": [
+      "tiempo",
+      "manecillas",
+      "tic-tac",
+      "números",
+      "pared"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "reloj de pulsera": {
+    "clues": [
+      "tiempo",
+      "muñeca",
+      "manecillas",
+      "números",
+      "llevar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "martillo": {
+    "clues": [
+      "herramienta",
+      "clavo",
+      "golpear",
+      "madera",
+      "construir"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "escalera": {
+    "clues": [
+      "subir",
+      "alto",
+      "escalones",
+      "alto",
+      "alcanzar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "llave": {
+    "clues": [
+      "puerta",
+      "abrir",
+      "cerradura",
+      "metal",
+      "pequeño"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "paraguas": {
+    "clues": [
+      "lluvia",
+      "mojado",
+      "seco",
+      "mango",
+      "cielo"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "jabón": {
+    "clues": [
+      "lavar",
+      "limpiar",
+      "agua",
+      "burbujas",
+      "baño"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "toalla": {
+    "clues": [
+      "secar",
+      "agua",
+      "suave",
+      "baño",
+      "playa"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "cepillo de dientes": {
+    "clues": [
+      "dientes",
+      "limpiar",
+      "pasta",
+      "mañana",
+      "boca"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "gafas": {
+    "clues": [
+      "ojos",
+      "ver",
+      "llevar",
+      "montura",
+      "lente"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ballena": {
+    "clues": [
+      "océano",
+      "enorme",
+      "soplo",
+      "azul",
+      "mamífero"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tiburón": {
+    "clues": [
+      "dientes",
+      "océano",
+      "aleta",
+      "morder",
+      "miedo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pulpo": {
+    "clues": [
+      "patas",
+      "ocho",
+      "tinta",
+      "océano",
+      "tentáculos"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cangrejo": {
+    "clues": [
+      "pinzas",
+      "playa",
+      "pellizcar",
+      "concha",
+      "lado"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "medusa": {
+    "clues": [
+      "picar",
+      "transparente",
+      "océano",
+      "tentáculos",
+      "blando"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "delfín": {
+    "clues": [
+      "océano",
+      "inteligente",
+      "saltar",
+      "aleta",
+      "nadar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "burro": {
+    "clues": [
+      "orejas",
+      "granja",
+      "carga",
+      "gris",
+      "rebuzno"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "lobo": {
+    "clues": [
+      "aullar",
+      "manada",
+      "bosque",
+      "perro",
+      "salvaje"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "zorro": {
+    "clues": [
+      "rojo",
+      "cola",
+      "astuto",
+      "bosque",
+      "listo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "ciervo": {
+    "clues": [
+      "cuernos",
+      "bosque",
+      "correr",
+      "marrón",
+      "bambi"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "búho": {
+    "clues": [
+      "noche",
+      "ulular",
+      "sabio",
+      "ojos",
+      "volar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "águila": {
+    "clues": [
+      "volar",
+      "pájaro",
+      "fuerte",
+      "nido",
+      "alas"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "loro": {
+    "clues": [
+      "hablar",
+      "colores",
+      "pájaro",
+      "pirata",
+      "repetir"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "paloma": {
+    "clues": [
+      "ciudad",
+      "gris",
+      "pájaro",
+      "parque",
+      "paz"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mosquito": {
+    "clues": [
+      "picar",
+      "sangre",
+      "volar",
+      "verano",
+      "molesto"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "grillo": {
+    "clues": [
+      "noche",
+      "cantar",
+      "saltar",
+      "verde",
+      "insecto"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "caracol": {
+    "clues": [
+      "lento",
+      "casa",
+      "babas",
+      "jardín",
+      "concha"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "cocodrilo": {
+    "clues": [
+      "dientes",
+      "río",
+      "verde",
+      "grande",
+      "reptil"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "paella": {
+    "clues": [
+      "arroz",
+      "valencia",
+      "domingo",
+      "marisco",
+      "azafrán"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "tortilla": {
+    "clues": [
+      "patatas",
+      "huevo",
+      "cena",
+      "sartén",
+      "española"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "jamón": {
+    "clues": [
+      "cerdo",
+      "pata",
+      "bocadillo",
+      "salado",
+      "curado"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "chorizo": {
+    "clues": [
+      "rojo",
+      "cerdo",
+      "picante",
+      "embutido",
+      "bocadillo"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "gazpacho": {
+    "clues": [
+      "tomate",
+      "frío",
+      "beber",
+      "verano",
+      "sopa"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "churros": {
+    "clues": [
+      "chocolate",
+      "desayuno",
+      "masa",
+      "azúcar",
+      "frito"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "croqueta": {
+    "clues": [
+      "bechamel",
+      "frito",
+      "tapa",
+      "abuela",
+      "redondo"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "aceituna": {
+    "clues": [
+      "verde",
+      "aperitivo",
+      "aceite",
+      "hueso",
+      "tapa"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "calamar": {
+    "clues": [
+      "rebozado",
+      "mar",
+      "anillos",
+      "bocadillo",
+      "tinta"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "lentejas": {
+    "clues": [
+      "cuchara",
+      "hierro",
+      "comida",
+      "guiso",
+      "madre"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "garbanzos": {
+    "clues": [
+      "cocido",
+      "legumbre",
+      "amarillo",
+      "bolita",
+      "comida"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "mantequilla": {
+    "clues": [
+      "tostada",
+      "desayuno",
+      "amarillo",
+      "untar",
+      "leche"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "yogur": {
+    "clues": [
+      "cuchara",
+      "leche",
+      "fruta",
+      "postre",
+      "vaso"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "plátano": {
+    "clues": [
+      "amarillo",
+      "fruta",
+      "curva",
+      "mono",
+      "pelar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pera": {
+    "clues": [
+      "fruta",
+      "verde",
+      "agua",
+      "dulce",
+      "forma"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "cereza": {
+    "clues": [
+      "roja",
+      "fruta",
+      "verano",
+      "rabo",
+      "hueso"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "melocotón": {
+    "clues": [
+      "fruta",
+      "pelo",
+      "dulce",
+      "hueso",
+      "verano"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "paranoia": {
+    "clues": [
+      "miedo",
+      "sombra",
+      "desconfianza",
+      "mente",
+      "persecución"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "conspiración": {
+    "clues": [
+      "secreto",
+      "plan",
+      "grupo",
+      "oculto",
+      "teoría"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "traición": {
+    "clues": [
+      "confianza",
+      "rota",
+      "amigo",
+      "espalda",
+      "mentira"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "manipulación": {
+    "clues": [
+      "control",
+      "mente",
+      "secreto",
+      "influencia",
+      "habilidad"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "propaganda": {
+    "clues": [
+      "medios",
+      "información",
+      "sesgada",
+      "público",
+      "control"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "censura": {
+    "clues": [
+      "hablar",
+      "ocultar",
+      "medios",
+      "bloquear",
+      "prohibir"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "vigilancia": {
+    "clues": [
+      "mirar",
+      "cámara",
+      "espía",
+      "secreto",
+      "seguridad"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metáfora": {
+    "clues": [
+      "hablar",
+      "como",
+      "palabra",
+      "comparar",
+      "arte"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "paradoja": {
+    "clues": [
+      "puzzle",
+      "lógica",
+      "extraño",
+      "pensamiento",
+      "contradicción"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "sinergia": {
+    "clues": [
+      "juntos",
+      "más",
+      "grupo",
+      "trabajo",
+      "efecto"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "plazo": {
+    "clues": [
+      "tiempo",
+      "terminar",
+      "tarde",
+      "trabajo",
+      "fecha"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "fusión": {
+    "clues": [
+      "unir",
+      "empresa",
+      "negocio",
+      "dos",
+      "comprar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "monopolio": {
+    "clues": [
+      "juego",
+      "control",
+      "uno",
+      "mercado",
+      "poder"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "reclutamiento": {
+    "clues": [
+      "trabajo",
+      "contratar",
+      "entrevista",
+      "nuevo",
+      "personal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "despido": {
+    "clues": [
+      "perder",
+      "trabajo",
+      "fuera",
+      "paro",
+      "adiós"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "apalancamiento": {
+    "clues": [
+      "poder",
+      "usar",
+      "ventaja",
+      "negocio",
+      "dinero"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "bancarrota": {
+    "clues": [
+      "dinero",
+      "perder",
+      "arruinado",
+      "negocio",
+      "fallar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "inflación": {
+    "clues": [
+      "precio",
+      "dinero",
+      "subir",
+      "economía",
+      "valor"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "deflación": {
+    "clues": [
+      "precio",
+      "dinero",
+      "bajar",
+      "economía",
+      "valor"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "déficit": {
+    "clues": [
+      "dinero",
+      "deuda",
+      "menos",
+      "presupuesto",
+      "pérdida"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "liquidez": {
+    "clues": [
+      "efectivo",
+      "dinero",
+      "fácil",
+      "flujo",
+      "activo"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "activos": {
+    "clues": [
+      "posesión",
+      "valor",
+      "bien",
+      "riqueza",
+      "objeto"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pasivos": {
+    "clues": [
+      "deuda",
+      "riesgo",
+      "deber",
+      "coste",
+      "legal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "materias primas": {
+    "clues": [
+      "oro",
+      "petróleo",
+      "comercio",
+      "bien",
+      "mercado"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "subsidio": {
+    "clues": [
+      "gobierno",
+      "dinero",
+      "ayuda",
+      "apoyo",
+      "pagar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "arancel": {
+    "clues": [
+      "impuesto",
+      "comercio",
+      "importar",
+      "frontera",
+      "precio"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "cuota": {
+    "clues": [
+      "límite",
+      "número",
+      "objetivo",
+      "cantidad",
+      "alcanzar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hegemonía": {
+    "clues": [
+      "poder",
+      "control",
+      "líder",
+      "nación",
+      "mando"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "altruismo": {
+    "clues": [
+      "dar",
+      "ayuda",
+      "bueno",
+      "generoso",
+      "otros"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nihilismo": {
+    "clues": [
+      "nada",
+      "vida",
+      "sentido",
+      "oscuro",
+      "creencia"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "estoicismo": {
+    "clues": [
+      "calma",
+      "fuerte",
+      "mente",
+      "control",
+      "antiguo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "hedonismo": {
+    "clues": [
+      "placer",
+      "diversión",
+      "disfrutar",
+      "deseo",
+      "vida"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "epistemología": {
+    "clues": [
+      "saber",
+      "verdad",
+      "pensar",
+      "mente",
+      "filosofía"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ontología": {
+    "clues": [
+      "ser",
+      "naturaleza",
+      "existir",
+      "filosofía",
+      "real"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "dialéctica": {
+    "clues": [
+      "hablar",
+      "idea",
+      "dos",
+      "verdad",
+      "debate"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "estética": {
+    "clues": [
+      "arte",
+      "belleza",
+      "aspecto",
+      "estilo",
+      "diseño"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "abstracto": {
+    "clues": [
+      "arte",
+      "idea",
+      "forma",
+      "moderno",
+      "sentido"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "minimalismo": {
+    "clues": [
+      "simple",
+      "menos",
+      "arte",
+      "limpio",
+      "estilo"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "surrealismo": {
+    "clues": [
+      "sueño",
+      "arte",
+      "extraño",
+      "dalí",
+      "mente"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "ilustración": {
+    "clues": [
+      "razón",
+      "historia",
+      "pensar",
+      "luz",
+      "ciencia"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "totalitarismo": {
+    "clues": [
+      "control",
+      "poder",
+      "estado",
+      "líder",
+      "mando"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "feudalismo": {
+    "clues": [
+      "rey",
+      "tierra",
+      "caballero",
+      "historia",
+      "sistema"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "colonialismo": {
+    "clues": [
+      "imperio",
+      "tierra",
+      "historia",
+      "poder",
+      "conquista"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "laicismo": {
+    "clues": [
+      "mundo",
+      "estado",
+      "religión",
+      "moderno",
+      "libre"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "capitalismo": {
+    "clues": [
+      "dinero",
+      "mercado",
+      "negocio",
+      "beneficio",
+      "sistema"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "socialismo": {
+    "clues": [
+      "grupo",
+      "público",
+      "estado",
+      "compartir",
+      "sistema"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "democracia": {
+    "clues": [
+      "votar",
+      "pueblo",
+      "poder",
+      "sistema",
+      "líder"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "oligarquía": {
+    "clues": [
+      "pocos",
+      "poder",
+      "ricos",
+      "grupo",
+      "mando"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "entropía": {
+    "clues": [
+      "caos",
+      "desorden",
+      "física",
+      "pérdida",
+      "ciencia"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cuántico": {
+    "clues": [
+      "pequeño",
+      "física",
+      "estado",
+      "salto",
+      "teoría"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ósmosis": {
+    "clues": [
+      "agua",
+      "mover",
+      "célula",
+      "ciencia",
+      "lento"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "fotosíntesis": {
+    "clues": [
+      "planta",
+      "sol",
+      "verde",
+      "crecer",
+      "comida"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "simbiosis": {
+    "clues": [
+      "juntos",
+      "vida",
+      "dos",
+      "ayuda",
+      "vínculo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mitosis": {
+    "clues": [
+      "célula",
+      "dividir",
+      "copia",
+      "crecer",
+      "ciencia"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mutación": {
+    "clues": [
+      "cambio",
+      "adn",
+      "ciencia",
+      "azar",
+      "nuevo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "gravedad": {
+    "clues": [
+      "caer",
+      "tierra",
+      "abajo",
+      "espacio",
+      "fuerza"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "magnetismo": {
+    "clues": [
+      "atraer",
+      "metal",
+      "polo",
+      "fuerza",
+      "norte"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "electricidad": {
+    "clues": [
+      "energía",
+      "cable",
+      "luz",
+      "calambrazo",
+      "corriente"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "volcán": {
+    "clues": [
+      "lava",
+      "fuego",
+      "montaña",
+      "caliente",
+      "erupción"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "terremoto": {
+    "clues": [
+      "temblar",
+      "suelo",
+      "mover",
+      "miedo",
+      "grieta"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "huracán": {
+    "clues": [
+      "viento",
+      "tormenta",
+      "lluvia",
+      "océano",
+      "fuerte"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tornado": {
+    "clues": [
+      "viento",
+      "giro",
+      "embudo",
+      "tormenta",
+      "miedo"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "sequía": {
+    "clues": [
+      "seco",
+      "agua",
+      "sin lluvia",
+      "tierra",
+      "sed"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "cosecha": {
+    "clues": [
+      "campo",
+      "comida",
+      "recoger",
+      "otoño",
+      "cultivos"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "agricultura": {
+    "clues": [
+      "campo",
+      "cultivar",
+      "comida",
+      "tierra",
+      "plantas"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "escultura": {
+    "clues": [
+      "arte",
+      "piedra",
+      "forma",
+      "estatua",
+      "manos"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "literatura": {
+    "clues": [
+      "libros",
+      "escribir",
+      "leer",
+      "historia",
+      "palabra"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "poesía": {
+    "clues": [
+      "rima",
+      "escribir",
+      "verso",
+      "palabras",
+      "alma"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "periodismo": {
+    "clues": [
+      "noticias",
+      "escribir",
+      "medios",
+      "reportar",
+      "verdad"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "profecía": {
+    "clues": [
+      "futuro",
+      "decir",
+      "sueño",
+      "destino",
+      "antiguo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nostalgia": {
+    "clues": [
+      "pasado",
+      "recuerdo",
+      "extrañar",
+      "sentimiento",
+      "viejo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "melancolía": {
+    "clues": [
+      "triste",
+      "sentimiento",
+      "azul",
+      "quieto",
+      "ánimo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "euforia": {
+    "clues": [
+      "feliz",
+      "subidón",
+      "sentimiento",
+      "genial",
+      "alegría"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "adrenalina": {
+    "clues": [
+      "rápido",
+      "cuerpo",
+      "miedo",
+      "subidón",
+      "corazón"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "serotonina": {
+    "clues": [
+      "feliz",
+      "cerebro",
+      "sentimiento",
+      "química",
+      "ánimo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "dopamina": {
+    "clues": [
+      "recompensa",
+      "cerebro",
+      "sentimiento",
+      "querer",
+      "alegría"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cortisol": {
+    "clues": [
+      "estrés",
+      "cerebro",
+      "cuerpo",
+      "sentimiento",
+      "hormona"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sinapsis": {
+    "clues": [
+      "cerebro",
+      "enlace",
+      "nervio",
+      "pensar",
+      "espacio"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "neurona": {
+    "clues": [
+      "cerebro",
+      "célula",
+      "pensar",
+      "cuerpo",
+      "señal"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hemisferio": {
+    "clues": [
+      "mitad",
+      "tierra",
+      "norte",
+      "sur",
+      "globo"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "atmósfera": {
+    "clues": [
+      "aire",
+      "tierra",
+      "cielo",
+      "gas",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "estratosfera": {
+    "clues": [
+      "cielo",
+      "alto",
+      "aire",
+      "ozono",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ionosfera": {
+    "clues": [
+      "cielo",
+      "espacio",
+      "radio",
+      "capa",
+      "gas"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biosfera": {
+    "clues": [
+      "vida",
+      "tierra",
+      "naturaleza",
+      "todo",
+      "zona"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "troposfera": {
+    "clues": [
+      "cielo",
+      "aire",
+      "tiempo",
+      "nube",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biodiversidad": {
+    "clues": [
+      "naturaleza",
+      "muchos",
+      "tipos",
+      "vida",
+      "rango"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "geología": {
+    "clues": [
+      "rocas",
+      "tierra",
+      "estudio",
+      "viejo",
+      "suelo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "meteorología": {
+    "clues": [
+      "tiempo",
+      "cielo",
+      "estudio",
+      "lluvia",
+      "tormenta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "astronomía": {
+    "clues": [
+      "estrellas",
+      "espacio",
+      "estudio",
+      "telescopio",
+      "cielo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "paleontología": {
+    "clues": [
+      "dinosaurio",
+      "fósiles",
+      "viejo",
+      "estudio",
+      "huesos"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "antropología": {
+    "clues": [
+      "gente",
+      "cultura",
+      "estudio",
+      "viejo",
+      "humano"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sociología": {
+    "clues": [
+      "grupo",
+      "gente",
+      "estudio",
+      "sociedad",
+      "reglas"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "psicología": {
+    "clues": [
+      "mente",
+      "pensar",
+      "estudio",
+      "sentir",
+      "humano"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "arqueología": {
+    "clues": [
+      "cavar",
+      "viejo",
+      "estudio",
+      "historia",
+      "encontrado"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "criptografía": {
+    "clues": [
+      "códigos",
+      "secreto",
+      "ocultar",
+      "mates",
+      "llave"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "biotecnología": {
+    "clues": [
+      "vida",
+      "tecnología",
+      "adn",
+      "ciencia",
+      "nuevo"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "nanotecnología": {
+    "clues": [
+      "diminuto",
+      "tecnología",
+      "pequeño",
+      "ciencia",
+      "futuro"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cibernética": {
+    "clues": [
+      "robot",
+      "humano",
+      "enlace",
+      "tecnología",
+      "mente"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "inteligencia artificial": {
+    "clues": [
+      "ordenador",
+      "listo",
+      "robot",
+      "futuro",
+      "pensar"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cadena de bloques": {
+    "clues": [
+      "cripto",
+      "libro",
+      "cadena",
+      "dinero",
+      "seguro"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "computación en la nube": {
+    "clues": [
+      "datos",
+      "internet",
+      "servidor",
+      "guardar",
+      "nube"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "macrodatos": {
+    "clues": [
+      "info",
+      "enorme",
+      "ordenador",
+      "números",
+      "conjunto"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "internet de las cosas": {
+    "clues": [
+      "enlace",
+      "casa",
+      "inteligente",
+      "tech",
+      "red"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "realidad virtual": {
+    "clues": [
+      "juego",
+      "gafas",
+      "ojos",
+      "mundo",
+      "falso"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "realidad aumentada": {
+    "clues": [
+      "móvil",
+      "vista",
+      "capa",
+      "mundo",
+      "mezcla"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "computación cuántica": {
+    "clues": [
+      "rápido",
+      "mates",
+      "ciencia",
+      "física",
+      "súper"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "teletransporte": {
+    "clues": [
+      "mover",
+      "rápido",
+      "espacio",
+      "ciencia ficción",
+      "desaparecer"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "interestelar": {
+    "clues": [
+      "estrellas",
+      "espacio",
+      "nave",
+      "lejos",
+      "viaje"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "multiverso": {
+    "clues": [
+      "mundos",
+      "muchos",
+      "espacio",
+      "ciencia ficción",
+      "paralelo"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "viaje en el tiempo": {
+    "clues": [
+      "pasado",
+      "futuro",
+      "reloj",
+      "máquina",
+      "mover"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "superconductividad": {
+    "clues": [
+      "energía",
+      "frío",
+      "rápido",
+      "metal",
+      "física"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "termodinámica": {
+    "clues": [
+      "calor",
+      "energía",
+      "trabajo",
+      "física",
+      "leyes"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "dinámica de fluidos": {
+    "clues": [
+      "agua",
+      "flujo",
+      "aire",
+      "física",
+      "mover"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "astrofísica": {
+    "clues": [
+      "estrellas",
+      "física",
+      "espacio",
+      "mates",
+      "cielo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "microbiología": {
+    "clues": [
+      "pequeño",
+      "vida",
+      "gérmenes",
+      "microscopio",
+      "células"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "genética": {
+    "clues": [
+      "adn",
+      "vida",
+      "familia",
+      "nacer",
+      "genes"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "inmunología": {
+    "clues": [
+      "cuerpo",
+      "luchar",
+      "enfermo",
+      "células",
+      "proteger"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "neurociencia": {
+    "clues": [
+      "cerebro",
+      "nervios",
+      "pensar",
+      "estudio",
+      "cuerpo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "endocrinología": {
+    "clues": [
+      "cuerpo",
+      "hormona",
+      "glándula",
+      "sangre",
+      "sistema"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "toxicología": {
+    "clues": [
+      "veneno",
+      "malo",
+      "estudio",
+      "daño",
+      "química"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "farmacología": {
+    "clues": [
+      "drogas",
+      "medicina",
+      "pastilla",
+      "estudio",
+      "salud"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "anatomía": {
+    "clues": [
+      "cuerpo",
+      "partes",
+      "huesos",
+      "estudio",
+      "estructura"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "fisiología": {
+    "clues": [
+      "cuerpo",
+      "funciona",
+      "cómo",
+      "estudio",
+      "vivo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "botánica": {
+    "clues": [
+      "plantas",
+      "verde",
+      "estudio",
+      "flor",
+      "árbol"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "zoología": {
+    "clues": [
+      "animales",
+      "salvaje",
+      "estudio",
+      "vida",
+      "fauna"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ecología": {
+    "clues": [
+      "naturaleza",
+      "enlaces",
+      "estudio",
+      "lugar",
+      "vivo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "climatología": {
+    "clues": [
+      "tiempo",
+      "largo",
+      "estudio",
+      "tierra",
+      "calor"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "oceanografía": {
+    "clues": [
+      "mar",
+      "agua",
+      "estudio",
+      "profundo",
+      "azul"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sismología": {
+    "clues": [
+      "terremoto",
+      "temblor",
+      "estudio",
+      "onda",
+      "suelo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vulcanología": {
+    "clues": [
+      "lava",
+      "caliente",
+      "estudio",
+      "montaña",
+      "fuego"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "bolsa de valores": {
+    "clues": [
+      "dinero",
+      "acciones",
+      "mercado",
+      "ibex",
+      "invertir"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "criptomoneda": {
+    "clues": [
+      "bitcoin",
+      "digital",
+      "cartera",
+      "minería",
+      "cadena"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "bienes raíces": {
+    "clues": [
+      "casa",
+      "propiedad",
+      "comprar",
+      "vender",
+      "inmueble"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "impuesto": {
+    "clues": [
+      "dinero",
+      "gobierno",
+      "pagar",
+      "hacienda",
+      "irpf"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "jubilación": {
+    "clues": [
+      "pensión",
+      "dinero",
+      "viejo",
+      "retirada",
+      "ahorrar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "inversión": {
+    "clues": [
+      "diners",
+      "futuro",
+      "crecimiento",
+      "riesgo",
+      "bolsa"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "especulación": {
+    "clues": [
+      "riesgo",
+      "dinero",
+      "adivinar",
+      "mercado",
+      "apuesta"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "notario": {
+    "clues": [
+      "firma",
+      "ley",
+      "papel",
+      "oficina",
+      "legal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "autónomo": {
+    "clues": [
+      "trabajo",
+      "propio",
+      "cuota",
+      "negocio",
+      "solo"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pyme": {
+    "clues": [
+      "empresa",
+      "pequeña",
+      "negocio",
+      "trabajo",
+      "españa"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "baja laboral": {
+    "clues": [
+      "enfermo",
+      "trabajo",
+      "médico",
+      "descanso",
+      "dinero"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "subvención": {
+    "clues": [
+      "ayuda",
+      "dinero",
+      "gobierno",
+      "proyecto",
+      "apoyo"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "geopolítica": {
+    "clues": [
+      "mundo",
+      "poder",
+      "mapa",
+      "estrategia",
+      "naciones"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "soberanía": {
+    "clues": [
+      "poder",
+      "nación",
+      "libre",
+      "mando",
+      "frontera"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "constitución": {
+    "clues": [
+      "leyes",
+      "derechos",
+      "papel",
+      "gobierno",
+      "reglas"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "legislación": {
+    "clues": [
+      "leyes",
+      "votar",
+      "parlamento",
+      "gobierno",
+      "reglas"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "judicial": {
+    "clues": [
+      "juzgado",
+      "juez",
+      "ley",
+      "juicio",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "fiscalía": {
+    "clues": [
+      "acusar",
+      "juicio",
+      "abogado",
+      "culpable",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "testimonio": {
+    "clues": [
+      "testigo",
+      "juicio",
+      "verdad",
+      "hablar",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "veredicto": {
+    "clues": [
+      "culpable",
+      "juez",
+      "fin",
+      "juicio",
+      "jurado"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ética": {
+    "clues": [
+      "bien",
+      "mal",
+      "reglas",
+      "moral",
+      "pensar"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "filosofía": {
+    "clues": [
+      "pensar",
+      "mente",
+      "verdad",
+      "sabiduría",
+      "pregunta"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metafísica": {
+    "clues": [
+      "realidad",
+      "ser",
+      "mente",
+      "más allá",
+      "filosofía"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "lógica": {
+    "clues": [
+      "mates",
+      "pensar",
+      "verdad",
+      "razón",
+      "pasos"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "retórica": {
+    "clues": [
+      "hablar",
+      "persuadir",
+      "palabras",
+      "arte",
+      "discurso"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "parque del retiro": {
+    "clues": [
+      "madrid",
+      "barcas",
+      "árboles",
+      "estatua",
+      "pasear"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "sagrada familia": {
+    "clues": [
+      "gaudí",
+      "barcelona",
+      "iglesia",
+      "torres",
+      "piedra"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "alcázar": {
+    "clues": [
+      "castillo",
+      "historia",
+      "reyes",
+      "muralla",
+      "antiguo"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "flamenco": {
+    "clues": [
+      "baile",
+      "guitarra",
+      "palmas",
+      "tablao",
+      "música"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "siesta": {
+    "clues": [
+      "dormir",
+      "tarde",
+      "cama",
+      "descanso",
+      "verano"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "encierro": {
+    "clues": [
+      "toros",
+      "correr",
+      "san fermín",
+      "calle",
+      "pañuelo"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "tapa": {
+    "clues": [
+      "comida",
+      "pequeño",
+      "bar",
+      "aperitivo",
+      "picar"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "aceite de oliva": {
+    "clues": [
+      "oro",
+      "líquido",
+      "ensalada",
+      "cocinar",
+      "olivas"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "turrón": {
+    "clues": [
+      "navidad",
+      "dulce",
+      "almendra",
+      "duro",
+      "blando"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "rosquillas": {
+    "clues": [
+      "dulce",
+      "agujero",
+      "azúcar",
+      "fiesta",
+      "merienda"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "prevaricación": {
+    "clues": [
+      "ley",
+      "juez",
+      "malo",
+      "delito",
+      "cargo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cohecho": {
+    "clues": [
+      "dinero",
+      "soborno",
+      "político",
+      "delito",
+      "corrupción"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "malversación": {
+    "clues": [
+      "dinero",
+      "público",
+      "robo",
+      "delito",
+      "gobierno"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "impugnación": {
+    "clues": [
+      "voto",
+      "ley",
+      "contra",
+      "papel",
+      "protesta"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "jurisprudencia": {
+    "clues": [
+      "ley",
+      "pasado",
+      "juez",
+      "sentencia",
+      "estudio"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "constitucionalidad": {
+    "clues": [
+      "ley",
+      "carta",
+      "legal",
+      "tribunal",
+      "derecho"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "parlamentarismo": {
+    "clues": [
+      "votar",
+      "política",
+      "debate",
+      "leyes",
+      "congreso"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "liberalismo": {
+    "clues": [
+      "política",
+      "libre",
+      "mercado",
+      "idea",
+      "derecho"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "progresismo": {
+    "clues": [
+      "política",
+      "cambio",
+      "social",
+      "idea",
+      "izquierda"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "conservadurismo": {
+    "clues": [
+      "política",
+      "mantener",
+      "tradición",
+      "idea",
+      "derecha"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "mantequilla de cacahuete": {
+    "clues": [
+      "sándwich",
+      "fruto seco",
+      "pegajoso",
+      "mermelada",
+      "marrón"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "cono de helado": {
+    "clues": [
+      "frío",
+      "dulce",
+      "bola",
+      "crujiente",
+      "verano"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "perrito caliente": {
+    "clues": [
+      "salchicha",
+      "pan",
+      "ketchup",
+      "mostaza",
+      "comida rápida"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "patatas fritas": {
+    "clues": [
+      "patata",
+      "salado",
+      "ketchup",
+      "bolsa",
+      "amarillo"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "oso de peluche": {
+    "clues": [
+      "suave",
+      "juguete",
+      "dormir",
+      "peludo",
+      "abrazo"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "camión de bomberos": {
+    "clues": [
+      "rojo",
+      "sirena",
+      "escalera",
+      "agua",
+      "bombero"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "coche de policía": {
+    "clues": [
+      "azul",
+      "sirena",
+      "luces",
+      "agente",
+      "rápido"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "autobús escolar": {
+    "clues": [
+      "amarillo",
+      "niños",
+      "colegio",
+      "mañana",
+      "parada"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "montaña rusa": {
+    "clues": [
+      "rápido",
+      "vagoneta",
+      "grito",
+      "vía",
+      "parque de atracciones"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "tarta de cumpleaños": {
+    "clues": [
+      "velas",
+      "dulce",
+      "fiesta",
+      "deseo",
+      "trozo"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ratoncito pérez": {
+    "clues": [
+      "diente",
+      "dinero",
+      "almohada",
+      "noche",
+      "ratón"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "reyes magos": {
+    "clues": [
+      "regalos",
+      "camello",
+      "enero",
+      "estrella",
+      "oriente"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "papá noel": {
+    "clues": [
+      "rojo",
+      "barba",
+      "regalos",
+      "reno",
+      "navidad"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "polo norte": {
+    "clues": [
+      "frío",
+      "nieve",
+      "papá noel",
+      "hielo",
+      "arriba"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "vía láctea": {
+    "clues": [
+      "estrellas",
+      "galaxia",
+      "noche",
+      "cielo",
+      "espacio"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "estrella fugaz": {
+    "clues": [
+      "deseo",
+      "noche",
+      "cielo",
+      "rápido",
+      "luz"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "castillo de arena": {
+    "clues": [
+      "playa",
+      "cubo",
+      "arena",
+      "mar",
+      "construir"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "concha marina": {
+    "clues": [
+      "playa",
+      "mar",
+      "arena",
+      "oreja",
+      "duro"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "caballito de mar": {
+    "clues": [
+      "pequeño",
+      "mar",
+      "cola",
+      "nadar",
+      "animal"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "estrella de mar": {
+    "clues": [
+      "mar",
+      "cinco",
+      "arena",
+      "brazos",
+      "animal"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "casa del árbol": {
+    "clues": [
+      "construir",
+      "trepar",
+      "madera",
+      "jardín",
+      "secreto"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "hucha de cerdito": {
+    "clues": [
+      "dinero",
+      "monedas",
+      "ahorrar",
+      "rosa",
+      "ranura"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tebeo de risa": {
+    "clues": [
+      "dibujos",
+      "leer",
+      "historia",
+      "páginas",
+      "humor"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "videojuego de consola": {
+    "clues": [
+      "jugar",
+      "pantalla",
+      "mando",
+      "diversión",
+      "tele"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "juego de mesa": {
+    "clues": [
+      "dados",
+      "jugar",
+      "tablero",
+      "fichas",
+      "cartas"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "comba para saltar": {
+    "clues": [
+      "saltar",
+      "ejercicio",
+      "patio",
+      "cuerda",
+      "pies"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "palo saltarín": {
+    "clues": [
+      "botar",
+      "saltar",
+      "muelle",
+      "mando",
+      "arriba y abajo"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hula hoop": {
+    "clues": [
+      "redondo",
+      "cintura",
+      "girar",
+      "círculo",
+      "plástico"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "patito de goma": {
+    "clues": [
+      "baño",
+      "amarillo",
+      "agua",
+      "flotar",
+      "pío"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "muñeco de nieve": {
+    "clues": [
+      "zanahoria",
+      "frío",
+      "invierno",
+      "construir",
+      "blanco"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "selva tropical": {
+    "clues": [
+      "árboles",
+      "verde",
+      "monos",
+      "mojado",
+      "jungla"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "globo aerostático": {
+    "clues": [
+      "volar",
+      "cesta",
+      "cielo",
+      "flotar",
+      "fuego"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "nave espacial": {
+    "clues": [
+      "estrellas",
+      "volar",
+      "cohete",
+      "luna",
+      "astronauta"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "camión de basura": {
+    "clues": [
+      "basura",
+      "olor",
+      "mañana",
+      "cubo",
+      "ruedas"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "carrito de helados": {
+    "clues": [
+      "música",
+      "verano",
+      "dulce",
+      "frío",
+      "calle"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "noria de feria": {
+    "clues": [
+      "redondo",
+      "alto",
+      "vistas",
+      "girar",
+      "atracción"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tiovivo de caballitos": {
+    "clues": [
+      "caballos",
+      "girar",
+      "música",
+      "feria",
+      "atracción"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tobogán de agua": {
+    "clues": [
+      "mojado",
+      "piscina",
+      "rápido",
+      "nadar",
+      "verano"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "piscina de bolas": {
+    "clues": [
+      "colores",
+      "jugar",
+      "niños",
+      "saltar",
+      "parque infantil"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parque infantil": {
+    "clues": [
+      "tobogán",
+      "columpio",
+      "niños",
+      "calle",
+      "jugar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "el escondite": {
+    "clues": [
+      "buscar",
+      "contar",
+      "juego",
+      "escondido",
+      "pillado"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "piedra papel tijera": {
+    "clues": [
+      "manos",
+      "juego",
+      "sacar",
+      "tres",
+      "puño"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "sillas musicales": {
+    "clues": [
+      "juego",
+      "música",
+      "sentarse",
+      "fiesta",
+      "parar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "cepillo del pelo": {
+    "clues": [
+      "pelo",
+      "peinar",
+      "cabeza",
+      "mañana",
+      "suave"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "reloj de alarma": {
+    "clues": [
+      "mañana",
+      "despertar",
+      "ruido",
+      "hora",
+      "sonar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "cuarto de estar": {
+    "clues": [
+      "sofá",
+      "tele",
+      "casa",
+      "sentarse",
+      "familia"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "comedor de casa": {
+    "clues": [
+      "mesa",
+      "comer",
+      "sillas",
+      "cena",
+      "casa"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cuarto de baño": {
+    "clues": [
+      "ducha",
+      "váter",
+      "lavarse",
+      "casa",
+      "limpio"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "lavadora de ropa": {
+    "clues": [
+      "ropa",
+      "limpiar",
+      "agua",
+      "jabón",
+      "girar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "aspiradora de polvo": {
+    "clues": [
+      "alfombra",
+      "suelo",
+      "ruido",
+      "polvo",
+      "limpiar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "mando a distancia": {
+    "clues": [
+      "tele",
+      "botones",
+      "canal",
+      "sofá",
+      "mano"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "teléfono móvil": {
+    "clues": [
+      "llamar",
+      "bolsillo",
+      "hablar",
+      "pantalla",
+      "móvil"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ordenador portátil": {
+    "clues": [
+      "ordenador",
+      "pantalla",
+      "teclado",
+      "maletín",
+      "trabajar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tarjeta de crédito": {
+    "clues": [
+      "dinero",
+      "comprar",
+      "plástico",
+      "cartera",
+      "pagar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "centro comercial": {
+    "clues": [
+      "tiendas",
+      "comprar",
+      "ropa",
+      "grande",
+      "cine"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "tienda de animales": {
+    "clues": [
+      "animales",
+      "perros",
+      "gatos",
+      "comprar",
+      "peces"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "tienda de juguetes": {
+    "clues": [
+      "jugar",
+      "comprar",
+      "niños",
+      "juegos",
+      "muñecas"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "tienda de chuches": {
+    "clues": [
+      "dulce",
+      "azúcar",
+      "comprar",
+      "chocolate",
+      "colores"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parque de atracciones": {
+    "clues": [
+      "atracciones",
+      "diversión",
+      "verano",
+      "noria",
+      "feria"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "parque acuático": {
+    "clues": [
+      "toboganes",
+      "mojado",
+      "nadar",
+      "verano",
+      "piscina"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "bombero de fuego": {
+    "clues": [
+      "fuego",
+      "agua",
+      "trabajo",
+      "camión",
+      "ayuda"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "agente de policía": {
+    "clues": [
+      "policía",
+      "placa",
+      "ley",
+      "ayuda",
+      "coche"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "estrella de cine": {
+    "clues": [
+      "famoso",
+      "película",
+      "pantalla",
+      "actuar",
+      "hollywood"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "estrella del rock": {
+    "clues": [
+      "música",
+      "famoso",
+      "guitarra",
+      "cantar",
+      "concierto"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "súper héroe": {
+    "clues": [
+      "capa",
+      "fuerte",
+      "poderes",
+      "salvar",
+      "cómic"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "agente secreto": {
+    "clues": [
+      "espía",
+      "oculto",
+      "misión",
+      "listo",
+      "pistas"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "cuento de hadas": {
+    "clues": [
+      "historia",
+      "magia",
+      "rey",
+      "reina",
+      "érase una vez"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "canción de cuna": {
+    "clues": [
+      "canción",
+      "dormir",
+      "noche",
+      "bebé",
+      "suave"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "cuento de dormir": {
+    "clues": [
+      "libro",
+      "dormir",
+      "noche",
+      "leer",
+      "sueño"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "libro de colorear": {
+    "clues": [
+      "pinturas",
+      "dibujar",
+      "dibujos",
+      "páginas",
+      "rellenar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "choca esos cinco": {
+    "clues": [
+      "manos",
+      "palmada",
+      "bien hecho",
+      "amigo",
+      "arriba"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "dedo pulgar arriba": {
+    "clues": [
+      "mano",
+      "bien",
+      "sí",
+      "dedo",
+      "señal"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "promesa de meñique": {
+    "clues": [
+      "promesa",
+      "dedo",
+      "amigo",
+      "secreto",
+      "mano"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "ombligo de la tripa": {
+    "clues": [
+      "barriga",
+      "redondo",
+      "medio",
+      "cuerpo",
+      "pequeño"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "cubitos de hielo": {
+    "clues": [
+      "frío",
+      "agua",
+      "beber",
+      "congelador",
+      "duro"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "patatas de bolsa": {
+    "clues": [
+      "salado",
+      "crujiente",
+      "aperitivo",
+      "bolsa",
+      "patata"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "zumo de manzana": {
+    "clues": [
+      "beber",
+      "fruta",
+      "dulce",
+      "amarillo",
+      "vaso"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "chicle de globo": {
+    "clues": [
+      "rosa",
+      "masticar",
+      "globo",
+      "dulce",
+      "pegajoso"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "palomitas de maíz": {
+    "clues": [
+      "cine",
+      "salado",
+      "blanco",
+      "aperitivo",
+      "mantequilla"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pijama de dormir": {
+    "clues": [
+      "dormir",
+      "ropa",
+      "noche",
+      "suave",
+      "cama"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "chubasquero de lluvia": {
+    "clues": [
+      "mojado",
+      "tiempo",
+      "amarillo",
+      "chaqueta",
+      "seco"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "bañador de playa": {
+    "clues": [
+      "agua",
+      "piscina",
+      "playa",
+      "verano",
+      "ropa"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "gafas de sol": {
+    "clues": [
+      "ojos",
+      "brillante",
+      "verano",
+      "oscuro",
+      "llevar"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "zapatillas de deporte": {
+    "clues": [
+      "pies",
+      "correr",
+      "deporte",
+      "cordones",
+      "caminar"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "botas de agua": {
+    "clues": [
+      "lluvia",
+      "charcos",
+      "pies",
+      "goma",
+      "mojado"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "gorra de béisbol": {
+    "clues": [
+      "cabeza",
+      "sol",
+      "gorro",
+      "deporte",
+      "visera"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "redes sociales": {
+    "clues": [
+      "móvil",
+      "internet",
+      "amigos",
+      "likes",
+      "publicar"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cambio climático": {
+    "clues": [
+      "tierra",
+      "calor",
+      "tiempo",
+      "futuro",
+      "verde"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "energía renovable": {
+    "clues": [
+      "sol",
+      "viento",
+      "verde",
+      "luz",
+      "limpia"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "panel solar": {
+    "clues": [
+      "sol",
+      "tejado",
+      "luz",
+      "energía",
+      "cristal"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "libertad de expresión": {
+    "clues": [
+      "hablar",
+      "derecho",
+      "libre",
+      "ley",
+      "decir"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "partido político": {
+    "clues": [
+      "votar",
+      "grupo",
+      "elecciones",
+      "izquierda",
+      "derecha"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "presidente del gobierno": {
+    "clues": [
+      "líder",
+      "gobierno",
+      "poder",
+      "votar",
+      "moncloa"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "política exterior": {
+    "clues": [
+      "mundo",
+      "países",
+      "plan",
+      "hablar",
+      "frontera"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "derecho internacional": {
+    "clues": [
+      "mundo",
+      "reglas",
+      "naciones",
+      "legal",
+      "tribunal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "revolución industrial": {
+    "clues": [
+      "historia",
+      "fábrica",
+      "vapor",
+      "cambio",
+      "antiguo"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "literatura clásica": {
+    "clues": [
+      "libros",
+      "antiguo",
+      "leer",
+      "famoso",
+      "autor"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "ciencia ficción": {
+    "clues": [
+      "futuro",
+      "espacio",
+      "aliens",
+      "historia",
+      "tecnología"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "premio nobel": {
+    "clues": [
+      "famoso",
+      "paz",
+      "ciencia",
+      "ganar",
+      "suecia"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "copa del mundo": {
+    "clues": [
+      "fútbol",
+      "mundial",
+      "país",
+      "juego",
+      "trofeo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "juegos olímpicos": {
+    "clues": [
+      "mundo",
+      "deportes",
+      "medalla",
+      "oro",
+      "cada cuatro años"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "consejo de administración": {
+    "clues": [
+      "negocios",
+      "grupo",
+      "jefes",
+      "empresa",
+      "reunión"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "recursos humanos": {
+    "clues": [
+      "trabajo",
+      "contratar",
+      "gente",
+      "oficina",
+      "personal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "relaciones públicas": {
+    "clues": [
+      "imagen",
+      "noticias",
+      "gente",
+      "prensa",
+      "hablar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "atención al cliente": {
+    "clues": [
+      "ayuda",
+      "teléfono",
+      "comprar",
+      "tienda",
+      "problema"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "cadena de suministro": {
+    "clues": [
+      "mover",
+      "productos",
+      "fábrica",
+      "tienda",
+      "logística"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "control de calidad": {
+    "clues": [
+      "revisar",
+      "bueno",
+      "fábrica",
+      "probar",
+      "normas"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "propiedad intelectual": {
+    "clues": [
+      "idea",
+      "dueño",
+      "ley",
+      "patente",
+      "copiar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "política de privacidad": {
+    "clues": [
+      "datos",
+      "internet",
+      "secreto",
+      "reglas",
+      "legal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "interfaz de usuario": {
+    "clues": [
+      "pantalla",
+      "aspecto",
+      "botones",
+      "app",
+      "diseño"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "estación espacial": {
+    "clues": [
+      "espacio",
+      "vivir",
+      "estrellas",
+      "órbita",
+      "astronauta"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "agujero negro": {
+    "clues": [
+      "espacio",
+      "oscuro",
+      "gravedad",
+      "tragar",
+      "estrella"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "selección natural": {
+    "clues": [
+      "darwin",
+      "naturaleza",
+      "vivir",
+      "evolución",
+      "cambio"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ingeniería genética": {
+    "clues": [
+      "adn",
+      "cambiar",
+      "ciencia",
+      "laboratorio",
+      "vida"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sistema inmunitario": {
+    "clues": [
+      "cuerpo",
+      "luchar",
+      "enfermo",
+      "proteger",
+      "defensas"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "tensión arterial": {
+    "clues": [
+      "corazón",
+      "médico",
+      "cuerpo",
+      "salud",
+      "número"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "salud mental": {
+    "clues": [
+      "mente",
+      "sentirse",
+      "pensar",
+      "feliz",
+      "médico"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "inteligencia emocional": {
+    "clues": [
+      "sentir",
+      "saber",
+      "gente",
+      "listo",
+      "mente"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "pensamiento crítico": {
+    "clues": [
+      "pensar",
+      "listo",
+      "lógica",
+      "hechos",
+      "mente"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "gestión del tiempo": {
+    "clues": [
+      "reloj",
+      "trabajo",
+      "planear",
+      "rápido",
+      "tarea"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "conciliación laboral": {
+    "clues": [
+      "casa",
+      "trabajo",
+      "tiempo",
+      "familia",
+      "descanso"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "síndrome del impostor": {
+    "clues": [
+      "falso",
+      "listo",
+      "sentirse",
+      "miedo",
+      "trabajo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "agente inmobiliario": {
+    "clues": [
+      "casa",
+      "vender",
+      "comprar",
+      "trabajo",
+      "piso"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "banco de inversión": {
+    "clues": [
+      "dinero",
+      "bolsa",
+      "acciones",
+      "rico",
+      "empresa"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "seguridad social": {
+    "clues": [
+      "dinero",
+      "médico",
+      "gobierno",
+      "pagar",
+      "ayuda"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "salario mínimo": {
+    "clues": [
+      "sueldo",
+      "dinero",
+      "trabajo",
+      "bajo",
+      "ley"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "tasa de paro": {
+    "clues": [
+      "trabajo",
+      "sin empleo",
+      "porcentaje",
+      "economía",
+      "números"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "servicio de streaming": {
+    "clues": [
+      "película",
+      "internet",
+      "ver",
+      "tele",
+      "suscripción"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "motor de búsqueda": {
+    "clues": [
+      "google",
+      "buscar",
+      "internet",
+      "encontrar",
+      "web"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "derechos civiles": {
+    "clues": [
+      "ley",
+      "gente",
+      "libre",
+      "derecho",
+      "protesta"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "naciones unidas": {
+    "clues": [
+      "mundo",
+      "grupo",
+      "paz",
+      "países",
+      "nueva york"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "unión europea": {
+    "clues": [
+      "europa",
+      "grupo",
+      "euro",
+      "países",
+      "bruselas"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "clase media": {
+    "clues": [
+      "gente",
+      "dinero",
+      "normal",
+      "grupo",
+      "sociedad"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "transporte público": {
+    "clues": [
+      "bus",
+      "tren",
+      "ciudad",
+      "viaje",
+      "gente"
+    ],
+    "category": "Travel",
+    "kidsMode": false
+  },
+  "combustibles fósiles": {
+    "clues": [
+      "petróleo",
+      "gas",
+      "carbón",
+      "energía",
+      "malo"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "huella de carbono": {
+    "clues": [
+      "tierra",
+      "malo",
+      "gas",
+      "tú",
+      "verde"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "recursos naturales": {
+    "clues": [
+      "tierra",
+      "madera",
+      "petróleo",
+      "agua",
+      "naturaleza"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "crisis de identidad": {
+    "clues": [
+      "quién soy",
+      "miedo",
+      "mente",
+      "cambio",
+      "sentirse"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "filosofía moral": {
+    "clues": [
+      "bien",
+      "mal",
+      "pensar",
+      "reglas",
+      "bueno"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "contrato social": {
+    "clues": [
+      "reglas",
+      "gente",
+      "gobierno",
+      "sociedad",
+      "acuerdo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "división de poderes": {
+    "clues": [
+      "ley",
+      "gobierno",
+      "tres",
+      "juez",
+      "líder"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "desobediencia civil": {
+    "clues": [
+      "protesta",
+      "ley",
+      "no",
+      "paz",
+      "marcha"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "organización sin ánimo de lucro": {
+    "clues": [
+      "ayuda",
+      "dinero",
+      "oenegé",
+      "trabajo",
+      "bueno"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "responsabilidad social corporativa": {
+    "clues": [
+      "empresa",
+      "bueno",
+      "tierra",
+      "ayuda",
+      "deber"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "blanqueo de dinero": {
+    "clues": [
+      "crimen",
+      "limpiar",
+      "oculto",
+      "efectivo",
+      "banco"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "paraíso fiscal": {
+    "clues": [
+      "dinero",
+      "país",
+      "esconder",
+      "bajo",
+      "isla"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "conflicto de intereses": {
+    "clues": [
+      "trabajo",
+      "dos",
+      "problema",
+      "secreto",
+      "justo"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "fuga de cerebros": {
+    "clues": [
+      "país",
+      "irse",
+      "listo",
+      "trabajo",
+      "mudarse"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "techo de cristal": {
+    "clues": [
+      "trabajo",
+      "mujer",
+      "límite",
+      "arriba",
+      "oculto"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "parque de bolas": {
+    "clues": [
+      "niños",
+      "jugar",
+      "colores",
+      "saltar",
+      "cumpleaños"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "algodón de azúcar": {
+    "clues": [
+      "dulce",
+      "feria",
+      "rosa",
+      "nube",
+      "palo"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "huevo de chocolate": {
+    "clues": [
+      "sorpresa",
+      "dulce",
+      "juguete",
+      "comer",
+      "pascua"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "castillo hinchable": {
+    "clues": [
+      "saltar",
+      "aire",
+      "feria",
+      "niños",
+      "divertido"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "patinete eléctrico": {
+    "clues": [
+      "ruedas",
+      "calle",
+      "rápido",
+      "batería",
+      "pie"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "mochila escolar": {
+    "clues": [
+      "libros",
+      "colegio",
+      "espalda",
+      "estudiar",
+      "cremallera"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "lápices de colores": {
+    "clues": [
+      "dibujar",
+      "pintar",
+      "estuche",
+      "arcoíris",
+      "punta"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "sacapuntas": {
+    "clues": [
+      "lápiz",
+      "punta",
+      "estuche",
+      "madera",
+      "afilar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "goma de borrar": {
+    "clues": [
+      "lápiz",
+      "error",
+      "estuche",
+      "limpiar",
+      "papel"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tijeras escolares": {
+    "clues": [
+      "cortar",
+      "papel",
+      "manualidades",
+      "colegio",
+      "dedos"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "pegamento en barra": {
+    "clues": [
+      "pegar",
+      "papel",
+      "manualidades",
+      "estuche",
+      "blanco"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "clase de gimnasia": {
+    "clues": [
+      "deporte",
+      "correr",
+      "colegio",
+      "ejercicio",
+      "patio"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "recreo del cole": {
+    "clues": [
+      "jugar",
+      "descanso",
+      "amigos",
+      "almuerzo",
+      "patio"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "excursión escolar": {
+    "clues": [
+      "autobús",
+      "viaje",
+      "colegio",
+      "museo",
+      "mochila"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "clase de música": {
+    "clues": [
+      "instrumentos",
+      "cantar",
+      "notas",
+      "colegio",
+      "sonido"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "asamblea legislativa": {
+    "clues": [
+      "leyes",
+      "votar",
+      "política",
+      "parlamento",
+      "gobierno"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "administración pública": {
+    "clues": [
+      "gobierno",
+      "oficina",
+      "papeleo",
+      "estado",
+      "servicio"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "estado de bienestar": {
+    "clues": [
+      "ayuda",
+      "salud",
+      "gobierno",
+      "dinero",
+      "social"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "política monetaria": {
+    "clues": [
+      "banco",
+      "dinero",
+      "interés",
+      "economía",
+      "control"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "mercado bursátil": {
+    "clues": [
+      "bolsa",
+      "acciones",
+      "dinero",
+      "invertir",
+      "riesgo"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "capital de riesgo": {
+    "clues": [
+      "dinero",
+      "empresa",
+      "nueva",
+      "riesgo",
+      "invertir"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "balance de situación": {
+    "clues": [
+      "contabilidad",
+      "empresa",
+      "dinero",
+      "activos",
+      "pasivos"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "cuenta de resultados": {
+    "clues": [
+      "dinero",
+      "beneficio",
+      "pérdida",
+      "empresa",
+      "año"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "auditoría externa": {
+    "clues": [
+      "revisar",
+      "cuentas",
+      "empresa",
+      "legal",
+      "control"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "plan de pensiones": {
+    "clues": [
+      "ahorrar",
+      "jubilación",
+      "dinero",
+      "futuro",
+      "viejo"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "fondo de inversión": {
+    "clues": [
+      "ahorro",
+      "dinero",
+      "bolsa",
+      "banco",
+      "gestión"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hipoteca variable": {
+    "clues": [
+      "banco",
+      "casa",
+      "interés",
+      "pago",
+      "deuda"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "derecho de admisión": {
+    "clues": [
+      "entrada",
+      "local",
+      "reglas",
+      "prohibido",
+      "puerta"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ordenanza municipal": {
+    "clues": [
+      "ley",
+      "ayuntamiento",
+      "pueblo",
+      "reglas",
+      "multa"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "presupuestos generales": {
+    "clues": [
+      "dinero",
+      "gobierno",
+      "año",
+      "estado",
+      "gasto"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "libertad de cátedra": {
+    "clues": [
+      "enseñar",
+      "libre",
+      "profesor",
+      "universidad",
+      "derecho"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "economía sumergida": {
+    "clues": [
+      "dinero",
+      "negro",
+      "impuestos",
+      "oculto",
+      "ilegal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "conflicto colectivo": {
+    "clues": [
+      "huelga",
+      "trabajadores",
+      "empresa",
+      "pelea",
+      "sindicato"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "convenio sectorial": {
+    "clues": [
+      "acuerdo",
+      "trabajo",
+      "reglas",
+      "sueldo",
+      "ley"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "protección de datos": {
+    "clues": [
+      "secreto",
+      "internet",
+      "ley",
+      "privacidad",
+      "info"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "seguridad vial": {
+    "clues": [
+      "coche",
+      "carretera",
+      "normas",
+      "tráfico",
+      "conducir"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "educación concertada": {
+    "clues": [
+      "colegio",
+      "público",
+      "privado",
+      "dinero",
+      "enseñar"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "turismo sostenible": {
+    "clues": [
+      "viaje",
+      "naturaleza",
+      "cuidar",
+      "medio ambiente",
+      "limpio"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "huella ecológica": {
+    "clues": [
+      "tierra",
+      "daño",
+      "naturaleza",
+      "humano",
+      "verde"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "soberanía energética": {
+    "clues": [
+      "luz",
+      "país",
+      "independiente",
+      "gas",
+      "propio"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "economía circular": {
+    "clues": [
+      "reciclar",
+      "basura",
+      "empresa",
+      "verde",
+      "reutilizar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "teletrabajo": {
+    "clues": [
+      "casa",
+      "ordenador",
+      "oficina",
+      "trabajo",
+      "internet"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "transformación digital": {
+    "clues": [
+      "ordenador",
+      "cambio",
+      "empresa",
+      "moderno",
+      "tech"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "brecha digital": {
+    "clues": [
+      "internet",
+      "viejo",
+      "desigualdad",
+      "acceso",
+      "tech"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "comercio electrónico": {
+    "clues": [
+      "comprar",
+      "internet",
+      "casa",
+      "paquete",
+      "tienda"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "bibliotecario": {
+    "clues": [
+      "libros",
+      "silencio",
+      "leer",
+      "biblioteca",
+      "estante"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "científico": {
+    "clues": [
+      "laboratorio",
+      "experimento",
+      "bata",
+      "ciencia",
+      "prueba"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "mecánico": {
+    "clues": [
+      "coche",
+      "herramientas",
+      "arreglar",
+      "taller",
+      "aceite"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "fotógrafo": {
+    "clues": [
+      "cámara",
+      "foto",
+      "flash",
+      "sonrisa",
+      "lente"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "detective": {
+    "clues": [
+      "pistas",
+      "lupa",
+      "misterio",
+      "resolver",
+      "espía"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "jardinero": {
+    "clues": [
+      "plantas",
+      "flores",
+      "tierra",
+      "jardín",
+      "crecer"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "dentista": {
+    "clues": [
+      "dientes",
+      "limpiar",
+      "sonrisa",
+      "silla",
+      "boca"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "enfermero": {
+    "clues": [
+      "hospital",
+      "ayuda",
+      "enfermo",
+      "doctor",
+      "medicina"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "panadero": {
+    "clues": [
+      "pan",
+      "harina",
+      "horno",
+      "cocinar",
+      "tarta"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "artista": {
+    "clues": [
+      "pintura",
+      "pincel",
+      "lienzo",
+      "colores",
+      "cuadro"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "músico": {
+    "clues": [
+      "instrumento",
+      "tocar",
+      "música",
+      "canción",
+      "escenario"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "atleta": {
+    "clues": [
+      "deporte",
+      "correr",
+      "rápido",
+      "ganar",
+      "gimnasio"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "reportero": {
+    "clues": [
+      "noticias",
+      "hablar",
+      "tele",
+      "micrófono",
+      "historia"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "capitán": {
+    "clues": [
+      "barco",
+      "mar",
+      "bote",
+      "agua",
+      "gorra"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "caballero": {
+    "clues": [
+      "armadura",
+      "espada",
+      "castillo",
+      "caballo",
+      "escudo"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "mago": {
+    "clues": [
+      "magia",
+      "varita",
+      "sombrero",
+      "hechizo",
+      "capa"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "dragón": {
+    "clues": [
+      "fuego",
+      "volar",
+      "escamas",
+      "alas",
+      "miedo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "unicornio": {
+    "clues": [
+      "cuerno",
+      "caballo",
+      "magia",
+      "blanco",
+      "arcoíris"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "sirena": {
+    "clues": [
+      "océano",
+      "cola",
+      "nadar",
+      "pelo",
+      "mar"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "extraterrestre": {
+    "clues": [
+      "espacio",
+      "verde",
+      "estrellas",
+      "nave",
+      "ovni"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "monstruo": {
+    "clues": [
+      "miedo",
+      "noche",
+      "armario",
+      "grande",
+      "peludo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "dinosaurio": {
+    "clues": [
+      "huesos",
+      "viejo",
+      "enorme",
+      "rugido",
+      "t-rex"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "robot": {
+    "clues": [
+      "metal",
+      "pitido",
+      "ordenador",
+      "batería",
+      "futuro"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "castillo": {
+    "clues": [
+      "rey",
+      "reina",
+      "piedra",
+      "torre",
+      "viejo"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "palacio": {
+    "clues": [
+      "real",
+      "grande",
+      "casa",
+      "oro",
+      "príncipe"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "pirámide": {
+    "clues": [
+      "egipto",
+      "triángulo",
+      "piedra",
+      "desierto",
+      "viejo"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "cascada": {
+    "clues": [
+      "agua",
+      "río",
+      "caída",
+      "mojado",
+      "alto"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "cueva": {
+    "clues": [
+      "oscuro",
+      "roca",
+      "montaña",
+      "murciélagos",
+      "dentro"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "selva": {
+    "clues": [
+      "árboles",
+      "monos",
+      "mojado",
+      "verde",
+      "salvaje"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "valle": {
+    "clues": [
+      "bajo",
+      "colinas",
+      "entre",
+      "verde",
+      "llano"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "cañón": {
+    "clues": [
+      "profundo",
+      "roca",
+      "río",
+      "rojo",
+      "paredes"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "pantano": {
+    "clues": [
+      "mojado",
+      "lodo",
+      "cocodrilo",
+      "verde",
+      "agua"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "glaciar": {
+    "clues": [
+      "hielo",
+      "frío",
+      "azul",
+      "lento",
+      "enorme"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "sabana": {
+    "clues": [
+      "áfrica",
+      "hierba",
+      "león",
+      "seco",
+      "animales"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tundra": {
+    "clues": [
+      "frío",
+      "sin árboles",
+      "hielo",
+      "ártico",
+      "nieve"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "pradera": {
+    "clues": [
+      "hierba",
+      "llano",
+      "viento",
+      "granja",
+      "vacas"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "prado": {
+    "clues": [
+      "flores",
+      "hierba",
+      "verde",
+      "sol",
+      "abejas"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "huerto": {
+    "clues": [
+      "fruta",
+      "árboles",
+      "manzanas",
+      "granja",
+      "recoger"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "viñedo": {
+    "clues": [
+      "uvas",
+      "vino",
+      "filas",
+      "granja",
+      "morado"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "faro": {
+    "clues": [
+      "océano",
+      "luz",
+      "costa",
+      "torre",
+      "barco"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "rascacielos": {
+    "clues": [
+      "ciudad",
+      "alto",
+      "cristal",
+      "elevado",
+      "edificio"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "estadio": {
+    "clues": [
+      "deporte",
+      "público",
+      "juego",
+      "asientos",
+      "equipo"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "museo": {
+    "clues": [
+      "viejo",
+      "arte",
+      "historia",
+      "edificio",
+      "mirar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "acuario": {
+    "clues": [
+      "peces",
+      "agua",
+      "tiburón",
+      "cristal",
+      "azul"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "planetario": {
+    "clues": [
+      "estrellas",
+      "espacio",
+      "oscuro",
+      "cúpula",
+      "planetas"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "observatorio": {
+    "clues": [
+      "telescopio",
+      "estrellas",
+      "espacio",
+      "montaña",
+      "mirar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "laboratorio": {
+    "clues": [
+      "ciencia",
+      "prueba",
+      "experimento",
+      "cristal",
+      "científico"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "universidad": {
+    "clues": [
+      "aprender",
+      "libros",
+      "estudiantes",
+      "grande",
+      "estudiar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "fábrica": {
+    "clues": [
+      "hacer",
+      "humo",
+      "máquina",
+      "trabajo",
+      "edificio"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "almacén": {
+    "clues": [
+      "cajas",
+      "grande",
+      "guardar",
+      "productos",
+      "vacío"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "puerto": {
+    "clues": [
+      "barco",
+      "bote",
+      "agua",
+      "muelle",
+      "mar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "aeropuerto": {
+    "clues": [
+      "avión",
+      "volar",
+      "viaje",
+      "equipaje",
+      "puerta"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "estación": {
+    "clues": [
+      "tren",
+      "autobús",
+      "esperar",
+      "viaje",
+      "parada"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "puente": {
+    "clues": [
+      "agua",
+      "cruzar",
+      "carretera",
+      "sobre",
+      "alto"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "túnel": {
+    "clues": [
+      "oscuro",
+      "bajo",
+      "carretera",
+      "montaña",
+      "através"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "monumento": {
+    "clues": [
+      "estatua",
+      "viejo",
+      "famoso",
+      "piedra",
+      "historia"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "fuente": {
+    "clues": [
+      "agua",
+      "parque",
+      "estatua",
+      "deseo",
+      "chorro"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "retrato": {
+    "clues": [
+      "cara",
+      "arte",
+      "cuadro",
+      "pintar",
+      "persona"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "paisaje": {
+    "clues": [
+      "naturaleza",
+      "arte",
+      "cuadro",
+      "pintar",
+      "vista"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "mural": {
+    "clues": [
+      "pared",
+      "arte",
+      "pintar",
+      "grande",
+      "ciudad"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "grafiti": {
+    "clues": [
+      "pared",
+      "spray",
+      "arte",
+      "calle",
+      "letras"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "mosaico": {
+    "clues": [
+      "azulejos",
+      "pequeño",
+      "arte",
+      "patrón",
+      "colores"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "origami": {
+    "clues": [
+      "papel",
+      "doblar",
+      "japón",
+      "forma",
+      "pájaro"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "alfarería": {
+    "clues": [
+      "barro",
+      "rueda",
+      "cuenco",
+      "fuego",
+      "manos"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "tejido": {
+    "clues": [
+      "hilo",
+      "tela",
+      "telar",
+      "patrón",
+      "lana"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "bordado": {
+    "clues": [
+      "aguja",
+      "hilo",
+      "tela",
+      "patrón",
+      "coser"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "punto": {
+    "clues": [
+      "agujas",
+      "lana",
+      "jersey",
+      "hilo",
+      "bucle"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "joyería": {
+    "clues": [
+      "oro",
+      "anillos",
+      "cuello",
+      "brillante",
+      "llevar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tiara": {
+    "clues": [
+      "princesa",
+      "cabeza",
+      "brillante",
+      "corona",
+      "oro"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "trofeo": {
+    "clues": [
+      "ganar",
+      "oro",
+      "copa",
+      "deporte",
+      "primero"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "medalla": {
+    "clues": [
+      "ganar",
+      "oro",
+      "cuello",
+      "deporte",
+      "premio"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "brújula": {
+    "clues": [
+      "norte",
+      "dirección",
+      "aguja",
+      "mapa",
+      "perdido"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "telescopio": {
+    "clues": [
+      "estrellas",
+      "mirar",
+      "espacio",
+      "lejos",
+      "lente"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "microscopio": {
+    "clues": [
+      "pequeño",
+      "mirar",
+      "ciencia",
+      "laboratorio",
+      "células"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "prismáticos": {
+    "clues": [
+      "mirar",
+      "lejos",
+      "ojos",
+      "pájaros",
+      "naturaleza"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "lupa": {
+    "clues": [
+      "mirar",
+      "pequeño",
+      "detective",
+      "grande",
+      "pistas"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "mochila": {
+    "clues": [
+      "colegio",
+      "llevar",
+      "libros",
+      "correas",
+      "bolsa"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "maleta": {
+    "clues": [
+      "viaje",
+      "ropa",
+      "aeropuerto",
+      "ruedas",
+      "hacer"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "linterna": {
+    "clues": [
+      "oscuro",
+      "luz",
+      "noche",
+      "batería",
+      "rayo"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "farol": {
+    "clues": [
+      "luz",
+      "acampada",
+      "mango",
+      "fuego",
+      "noche"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "vela": {
+    "clues": [
+      "fuego",
+      "cera",
+      "luz",
+      "tarta",
+      "quemar"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "cerilla": {
+    "clues": [
+      "fuego",
+      "caja",
+      "rascar",
+      "palo",
+      "luz"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "mechero": {
+    "clues": [
+      "fuego",
+      "pulgar",
+      "clic",
+      "llama",
+      "humo"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hoguera": {
+    "clues": [
+      "fuego",
+      "grande",
+      "fuera",
+      "madera",
+      "noche"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "fogata": {
+    "clues": [
+      "fuego",
+      "acampada",
+      "madera",
+      "nubes",
+      "noche"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tienda": {
+    "clues": [
+      "acampada",
+      "dormir",
+      "fuera",
+      "tela",
+      "bosque"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "saco de dormir": {
+    "clues": [
+      "acampada",
+      "dormir",
+      "caliente",
+      "tienda",
+      "cremallera"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hamaca": {
+    "clues": [
+      "balancín",
+      "dormir",
+      "árboles",
+      "cuerda",
+      "fuera"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "picnic": {
+    "clues": [
+      "cesta",
+      "parque",
+      "comer",
+      "manta",
+      "fuera"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "barbacoa": {
+    "clues": [
+      "parrilla",
+      "carne",
+      "fuera",
+      "humo",
+      "comer"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "fiesta": {
+    "clues": [
+      "diversión",
+      "música",
+      "amigos",
+      "baile",
+      "tarta"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "desfile": {
+    "clues": [
+      "marchar",
+      "música",
+      "calle",
+      "público",
+      "carrozas"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "feria": {
+    "clues": [
+      "atracciones",
+      "juegos",
+      "diversión",
+      "algodón de azúcar"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "circo": {
+    "clues": [
+      "carpa",
+      "payasos",
+      "animales",
+      "espectáculo",
+      "trapecio"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "teatro": {
+    "clues": [
+      "espectáculo",
+      "escenario",
+      "actuar",
+      "asientos",
+      "telón"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "ópera": {
+    "clues": [
+      "cantar",
+      "música",
+      "escenario",
+      "fuerte",
+      "teatro"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "ballet": {
+    "clues": [
+      "baile",
+      "música",
+      "escenario",
+      "puntas",
+      "zapatillas"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "concierto": {
+    "clues": [
+      "música",
+      "banda",
+      "cantar",
+      "público",
+      "escenario"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "festival": {
+    "clues": [
+      "música",
+      "fuera",
+      "grande",
+      "muchos",
+      "público"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "orquesta": {
+    "clues": [
+      "música",
+      "muchos",
+      "violines",
+      "director",
+      "tocar"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "sinfonía": {
+    "clues": [
+      "música",
+      "larga",
+      "orquesta",
+      "fuerte",
+      "bella"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "melodía": {
+    "clues": [
+      "música",
+      "canción",
+      "tono",
+      "cantar",
+      "notas"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "ritmo": {
+    "clues": [
+      "música",
+      "compás",
+      "baile",
+      "tambor",
+      "palmas"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "armonía": {
+    "clues": [
+      "música",
+      "voces",
+      "juntos",
+      "cantar",
+      "bien"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "letra": {
+    "clues": [
+      "canción",
+      "palabras",
+      "cantar",
+      "música",
+      "escribir"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "tempo": {
+    "clues": [
+      "música",
+      "velocidad",
+      "rápido",
+      "lento",
+      "compás"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "volumen": {
+    "clues": [
+      "música",
+      "fuerte",
+      "suave",
+      "sonido",
+      "girar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "eco": {
+    "clues": [
+      "sonido",
+      "repetir",
+      "cueva",
+      "voz",
+      "pared"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "vibración": {
+    "clues": [
+      "temblar",
+      "mover",
+      "sonido",
+      "rápido",
+      "tocar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "fricción": {
+    "clues": [
+      "frotar",
+      "calor",
+      "lento",
+      "parar",
+      "tocar"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "inercia": {
+    "clues": [
+      "mover",
+      "quedarse",
+      "física",
+      "parar",
+      "reposo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "velocidad": {
+    "clues": [
+      "rápido",
+      "dirección",
+      "mover",
+      "física",
+      "prisa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "presión": {
+    "clues": [
+      "empujar",
+      "fuerza",
+      "peso",
+      "aire",
+      "pesado"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "temperatura": {
+    "clues": [
+      "caliente",
+      "frío",
+      "grados",
+      "tiempo",
+      "calor"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "evaporación": {
+    "clues": [
+      "agua",
+      "vapor",
+      "sol",
+      "arriba",
+      "seco"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "condensación": {
+    "clues": [
+      "agua",
+      "nube",
+      "cristal",
+      "mojado",
+      "frío"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "precipitación": {
+    "clues": [
+      "lluvia",
+      "nieve",
+      "agua",
+      "cielo",
+      "caer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "metamorfosis": {
+    "clues": [
+      "cambio",
+      "mariposa",
+      "crecer",
+      "rana",
+      "vida"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "respiración": {
+    "clues": [
+      "respirar",
+      "aire",
+      "pulmones",
+      "vida",
+      "oxígeno"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "digestión": {
+    "clues": [
+      "comer",
+      "estómago",
+      "comida",
+      "cuerpo",
+      "proceso"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "circulación": {
+    "clues": [
+      "sangre",
+      "corazón",
+      "cuerpo",
+      "flujo",
+      "vuelta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "esqueleto": {
+    "clues": [
+      "huesos",
+      "cuerpo",
+      "blanco",
+      "dentro",
+      "duro"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "músculo": {
+    "clues": [
+      "fuerte",
+      "cuerpo",
+      "mover",
+      "brazo",
+      "carne"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "cerebro": {
+    "clues": [
+      "pensar",
+      "cabeza",
+      "mente",
+      "listo",
+      "control"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "corazón": {
+    "clues": [
+      "sangre",
+      "latir",
+      "pecho",
+      "vida",
+      "amor"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "pulmones": {
+    "clues": [
+      "respirar",
+      "aire",
+      "pecho",
+      "oxígeno",
+      "humo"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "estómago": {
+    "clues": [
+      "comida",
+      "comer",
+      "barriga",
+      "hambre",
+      "lleno"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "hígado": {
+    "clues": [
+      "cuerpo",
+      "dentro",
+      "órgano",
+      "sangre",
+      "limpiar"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "riñones": {
+    "clues": [
+      "cuerpo",
+      "dentro",
+      "dos",
+      "agua",
+      "limpiar"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "intestinos": {
+    "clues": [
+      "cuerpo",
+      "dentro",
+      "largo",
+      "comida",
+      "estómago"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "bacteria": {
+    "clues": [
+      "pequeño",
+      "gérmenes",
+      "enfermo",
+      "vida",
+      "limpiar"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "virus": {
+    "clues": [
+      "pequeño",
+      "enfermo",
+      "gérmenes",
+      "gripe",
+      "contagio"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "anticuerpo": {
+    "clues": [
+      "cuerpo",
+      "luchar",
+      "gérmenes",
+      "sano",
+      "células"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vacuna": {
+    "clues": [
+      "pinchazo",
+      "médico",
+      "medicina",
+      "sano",
+      "aguja"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "antibiótico": {
+    "clues": [
+      "medicina",
+      "médico",
+      "gérmenes",
+      "pastilla",
+      "enfermo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vitaminas": {
+    "clues": [
+      "sano",
+      "comida",
+      "pastilla",
+      "bueno",
+      "cuerpo"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "minerales": {
+    "clues": [
+      "sano",
+      "rocas",
+      "cuerpo",
+      "comida",
+      "hierro"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "proteínas": {
+    "clues": [
+      "carne",
+      "fuerte",
+      "comida",
+      "cuerpo",
+      "músculo"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "carbohidratos": {
+    "clues": [
+      "pan",
+      "energía",
+      "comida",
+      "azúcar",
+      "pasta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "glucosa": {
+    "clues": [
+      "azúcar",
+      "energía",
+      "sangre",
+      "cuerpo",
+      "dulce"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "colesterol": {
+    "clues": [
+      "sangre",
+      "corazón",
+      "grasa",
+      "salud",
+      "malo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hormonas": {
+    "clues": [
+      "cuerpo",
+      "crecer",
+      "químicos",
+      "sentir",
+      "cambio"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "enzimas": {
+    "clues": [
+      "cuerpo",
+      "comida",
+      "descomponer",
+      "proceso",
+      "células"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "evolución": {
+    "clues": [
+      "cambio",
+      "viejo",
+      "vida",
+      "darwin",
+      "crecer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "herencia": {
+    "clues": [
+      "familia",
+      "nacer",
+      "genes",
+      "rasgos",
+      "padres"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "conservación": {
+    "clues": [
+      "salvar",
+      "tierra",
+      "naturaleza",
+      "verde",
+      "proteger"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "contaminación": {
+    "clues": [
+      "sucio",
+      "humo",
+      "basura",
+      "malo",
+      "tierra"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "reciclaje": {
+    "clues": [
+      "contenedor",
+      "papel",
+      "plástico",
+      "verde",
+      "reutilizar"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "compostaje": {
+    "clues": [
+      "tierra",
+      "comida",
+      "jardín",
+      "pudrir",
+      "verde"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "geosfera": {
+    "clues": [
+      "rocas",
+      "tierra",
+      "suelo",
+      "metal",
+      "piedra"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hidrosfera": {
+    "clues": [
+      "agua",
+      "tierra",
+      "océano",
+      "río",
+      "hielo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mesosfera": {
+    "clues": [
+      "cielo",
+      "espacio",
+      "medio",
+      "frío",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "termosfera": {
+    "clues": [
+      "cielo",
+      "espacio",
+      "caliente",
+      "alto",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "exosfera": {
+    "clues": [
+      "espacio",
+      "cielo",
+      "exterior",
+      "borde",
+      "capa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "magnetosfera": {
+    "clues": [
+      "tierra",
+      "polos",
+      "escudo",
+      "espacio",
+      "fuerza"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ecuador": {
+    "clues": [
+      "medio",
+      "tierra",
+      "caliente",
+      "línea",
+      "globo"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "longitud": {
+    "clues": [
+      "mapa",
+      "línea",
+      "tierra",
+      "arriba",
+      "globo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "latitud": {
+    "clues": [
+      "mapa",
+      "línea",
+      "tierra",
+      "lado",
+      "globo"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "coordenadas": {
+    "clues": [
+      "mapa",
+      "lugar",
+      "números",
+      "buscar",
+      "punto"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "topografía": {
+    "clues": [
+      "mapa",
+      "colinas",
+      "forma",
+      "suelo",
+      "altura"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "navegación": {
+    "clues": [
+      "buscar",
+      "mapa",
+      "camino",
+      "viaje",
+      "barco"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "expedición": {
+    "clues": [
+      "viaje",
+      "explorar",
+      "buscar",
+      "encontrar",
+      "grupo"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "imaginación": {
+    "clues": [
+      "mente",
+      "sueño",
+      "imaginar",
+      "pensamiento",
+      "crear"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "amistad": {
+    "clues": [
+      "juntos",
+      "ayuda",
+      "amable",
+      "jugar",
+      "compartir"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "curiosidad": {
+    "clues": [
+      "aprender",
+      "preguntar",
+      "por qué",
+      "listo",
+      "buscar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "aventura": {
+    "clues": [
+      "viaje",
+      "diversión",
+      "explorar",
+      "fuera",
+      "buscar"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "vacaciones": {
+    "clues": [
+      "diversión",
+      "sin cole",
+      "fiesta",
+      "verano",
+      "descanso"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "mañana": {
+    "clues": [
+      "sol",
+      "despertar",
+      "desayuno",
+      "inicio",
+      "luz"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tarde": {
+    "clues": [
+      "sol",
+      "merienda",
+      "jugar",
+      "antes de cenar",
+      "luz"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "noche": {
+    "clues": [
+      "luna",
+      "estrellas",
+      "dormir",
+      "oscuro",
+      "sueño"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "ayer": {
+    "clues": [
+      "pasado",
+      "antes",
+      "tiempo",
+      "hecho",
+      "viejo"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "mañana (día)": {
+    "clues": [
+      "futuro",
+      "después",
+      "esperar",
+      "próximo",
+      "pronto"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "sombra": {
+    "clues": [
+      "oscuro",
+      "sol",
+      "forma",
+      "suelo",
+      "negro"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "reflejo": {
+    "clues": [
+      "espejo",
+      "agua",
+      "ver",
+      "cristal",
+      "cara"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "imán": {
+    "clues": [
+      "atraer",
+      "metal",
+      "polo",
+      "pegar",
+      "norte"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  }
 }

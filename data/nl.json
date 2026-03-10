@@ -1,112 +1,8549 @@
 {
-  "vliegtuig": { "clues": ["lucht", "vleugels", "piloot", "motoren", "hoogte"], "category": "Tech" },
-  "pizza": { "clues": ["rond", "bezorging", "punten", "kaas", "heet"], "category": "Eten" },
-  "leeuw": { "clues": ["manen", "koning", "brul", "savanne", "katachtig"], "category": "Dieren" },
-  "strand": { "clues": ["zand", "oceaan", "golven", "handdoek", "zon"], "category": "Natuur" },
-  "laptop": { "clues": ["toetsenbord", "scherm", "draagbaar", "batterij", "data"], "category": "Tech" },
-  "fiets": { "clues": ["pedalen", "wielen", "ketting", "helm", "twee"], "category": "Sport" },
-  "koffie": { "clues": ["mok", "ochtend", "bitter", "cafeïne", "bonen"], "category": "Eten" },
-  "berg": { "clues": ["top", "klimmen", "wandelen", "hoog", "sneeuw"], "category": "Natuur" },
-  "gitaar": { "clues": ["snaren", "akoestisch", "muziek", "plectrum", "zes"], "category": "Hobbies" },
-  "dokter": { "clues": ["ziekenhuis", "kliniek", "gezondheid", "medicijn", "jas"], "category": "Banen" },
-  "paraplu": { "clues": ["regen", "droog", "handvat", "schaduw", "opvouwbaar"], "category": "Objecten" },
-  "potlood": { "clues": ["schrijven", "grafiet", "slijper", "gum", "tekenen"], "category": "Objecten" },
-  "bos": { "clues": ["bomen", "groen", "woud", "natuur", "paden"], "category": "Natuur" },
-  "olifant": { "clues": ["slurf", "slagtanden", "oren", "groot", "grijs"], "category": "Dieren" },
-  "camera": { "clues": ["lens", "foto", "flits", "zoom", "sluiter"], "category": "Tech" },
-  "brood": { "clues": ["bakkerij", "toast", "meel", "korst", "plakjes"], "category": "Eten" },
-  "klok": { "clues": ["tijd", "wijzers", "tikken", "alarm", "cijfers"], "category": "Objecten" },
-  "voetbal": { "clues": ["doelpunt", "veld", "wedstrijd", "schop", "team"], "category": "Sport" },
-  "trein": { "clues": ["spoor", "station", "perron", "ticket", "locomotief"], "category": "Reizen" },
-  "auto": { "clues": ["weg", "stuur", "wielen", "motor", "bestuurder"], "category": "Reizen" },
-  "rivier": { "clues": ["stroming", "oever", "water", "vissen", "stroom"], "category": "Natuur" },
-  "oceaan": { "clues": ["zout", "diep", "blauw", "marine", "schepen"], "category": "Natuur" },
-  "raam": { "clues": ["glas", "uitzicht", "kozijn", "gordijnen", "licht"], "category": "Huis" },
-  "stoel": { "clues": ["zitten", "poten", "leuning", "rust", "hout"], "category": "Huis" },
-  "bed": { "clues": ["slapen", "kussen", "matras", "dromen", "nacht"], "category": "Huis" },
-  "schoenen": { "clues": ["voeten", "lopen", "veters", "zool", "paar"], "category": "Kleding" },
-  "overhemd": { "clues": ["knopen", "mouwen", "stof", "kraag", "dragen"], "category": "Kleding" },
-  "hoed": { "clues": ["hoofd", "schaduw", "pet", "rand", "stijl"], "category": "Kleding" },
-  "gras": { "clues": ["groen", "gazon", "maaien", "tuin", "veld"], "category": "Natuur" },
-  "zon": { "clues": ["fel", "heet", "lucht", "geel", "dag"], "category": "Natuur" },
-  "maan": { "clues": ["nacht", "baan", "lucht", "luna", "rond"], "category": "Natuur" },
-  "sterren": { "clues": ["nacht", "lucht", "fel", "ruimte", "schitteren"], "category": "Natuur" },
-  "bloem": { "clues": ["blaadjes", "bloei", "geur", "tuin", "steel"], "category": "Natuur" },
-  "hond": { "clues": ["blaffen", "huisdier", "pup", "trouw", "staart"], "category": "Dieren" },
-  "kat": { "clues": ["miauw", "spinnen", "katachtige", "nagels", "snorhaar"], "category": "Dieren" },
-  "vogel": { "clues": ["veren", "vliegen", "vleugels", "nest", "snavel"], "category": "Dieren" },
-  "vis": { "clues": ["zwemmen", "water", "schubben", "vinnen", "kieuw"], "category": "Dieren" },
-  "appel": { "clues": ["fruit", "rood", "knapperig", "boom", "zoet"], "category": "Eten" },
-  "banaan": { "clues": ["fruit", "geel", "schil", "krom", "tropisch"], "category": "Eten" },
-  "sinaasappel": { "clues": ["fruit", "sap", "schil", "rond", "citrus"], "category": "Eten" },
-  "water": { "clues": ["drinken", "glas", "helder", "vloeistof", "dorst"], "category": "Eten" },
-  "melk": { "clues": ["wit", "drinken", "zuivel", "koe", "calcium"], "category": "Eten" },
-  "thee": { "clues": ["kopje", "blaadjes", "heet", "waterkoker", "trekken"], "category": "Eten" },
-  "boek": { "clues": ["lezen", "pagina's", "bibliotheek", "kaft", "auteur"], "category": "Hobbies" },
-  "pen": { "clues": ["inkt", "schrijven", "papier", "dop", "tekenen"], "category": "Objecten" },
-  "koelkast": { "clues": ["koud", "eten", "keuken", "apparaat", "ijs"], "category": "Huis" },
-  "spiegel": { "clues": ["reflectie", "glas", "muur", "badkamer", "gezicht"], "category": "Huis" },
-  "portemonnee": { "clues": ["geld", "pasjes", "leer", "zak", "contant"], "category": "Objecten" },
-  "sleutels": { "clues": ["slot", "deur", "metaal", "ring", "zak"], "category": "Objecten" },
-  "lepel": { "clues": ["soep", "eten", "metaal", "handvat", "keuken"], "category": "Huis" },
-  "vork": { "clues": ["tanden", "eten", "metaal", "handvat", "keuken"], "category": "Huis" },
-  "bord": { "clues": ["eten", "rond", "keramiek", "keuken", "plat"], "category": "Huis" },
-  "toilet": { "clues": ["doortrekken", "badkamer", "papier", "water", "bril"], "category": "Huis" },
-  "wasbak": { "clues": ["kraan", "water", "wassen", "keuken", "badkamer"], "category": "Huis" },
-  "deur": { "clues": ["klink", "open", "dicht", "ingang", "hout"], "category": "Huis" },
-  "muur": { "clues": ["steen", "verf", "kamer", "verticaal", "structuur"], "category": "Huis" },
-  "trap": { "clues": ["klimmen", "omhoog", "omlaag", "treden", "leuning"], "category": "Huis" },
-  "lift": { "clues": ["omhoog", "omlaag", "knop", "verdieping", "lift"], "category": "Tech" },
-  "tuin": { "clues": ["planten", "aarde", "buiten", "water geven", "gazon"], "category": "Natuur" },
-  "school": { "clues": ["leren", "leraar", "studenten", "boeken", "lessen"], "category": "Plaatsen" },
-  "markt": { "clues": ["kopen", "verkopen", "eten", "vers", "kraampjes"], "category": "Plaatsen" },
-  "restaurant": { "clues": ["menu", "ober", "maaltijd", "chef", "eten"], "category": "Plaatsen" },
-  "bioscoop": { "clues": ["film", "scherm", "popcorn", "theater", "kijken"], "category": "Plaatsen" },
-  "bank": { "clues": ["geld", "kluis", "rekening", "contant", "veilig"], "category": "Plaatsen" },
-  "kerk": { "clues": ["klokken", "bidden", "kruis", "toren", "dienst"], "category": "Plaatsen" },
-  "kasteel": { "clues": ["koning", "steen", "gracht", "toren", "geschiedenis"], "category": "Plaatsen" },
-  "eiland": { "clues": ["geïsoleerd", "palm", "tropisch", "strand", "kust"], "category": "Plaatsen" },
-  "woestijn": { "clues": ["zand", "cactus", "kameel", "duinen", "droog"], "category": "Natuur" },
-  "jungle": { "clues": ["wild", "dicht", "apen", "liaan", "amazone"], "category": "Natuur" },
-  "vuur": { "clues": ["heet", "vlam", "rook", "branden", "hout"], "category": "Natuur" },
-  "aarde": { "clues": ["grond", "planeet", "vuil", "steen", "bodem"], "category": "Natuur" },
-  "goud": { "clues": ["glimmend", "duur", "metaal", "rijkdom", "geel"], "category": "Objecten" },
-  "diamant": { "clues": ["hard", "glimmend", "duur", "ring", "edelsteen"], "category": "Objecten" },
-  "plastic": { "clues": ["recycling", "fles", "goedkoop", "kunstmatig", "licht"], "category": "Objecten" },
-  "hout": { "clues": ["boom", "bruin", "timmerhout", "hard", "natuurlijk"], "category": "Objecten" },
-  "leer": { "clues": ["huid", "taai", "schoenen", "jas", "bruin"], "category": "Objecten" },
-  "steen": { "clues": ["hard", "grond", "zwaar", "kei", "rots"], "category": "Natuur" },
-  "rook": { "clues": ["grijs", "wolk", "vuur", "lucht", "geur"], "category": "Natuur" },
-  "bliksem": { "clues": ["fel", "donder", "flits", "snel", "inslag"], "category": "Natuur" },
-  "storm": { "clues": ["donker", "donder", "slecht", "gevaarlijk", "wolken"], "category": "Natuur" },
-  "hagel": { "clues": ["ijs", "hard", "klein", "ballen", "winter"], "category": "Natuur" },
-  "hart": { "clues": ["slag", "bloed", "borst", "liefde", "pomp"], "category": "Lichaam" },
-  "hersenen": { "clues": ["denken", "geest", "slim", "geheugen", "hoofd"], "category": "Lichaam" },
-  "oog": { "clues": ["zien", "zicht", "kijken", "knipperen", "visie"], "category": "Lichaam" },
-  "oor": { "clues": ["horen", "geluid", "luisteren", "lel", "audio"], "category": "Lichaam" },
-  "neus": { "clues": ["ruiken", "snuiven", "neusgat", "adem", "gezicht"], "category": "Lichaam" },
-  "mond": { "clues": ["praten", "eten", "lippen", "proeven", "glimlach"], "category": "Lichaam" },
-  "hand": { "clues": ["vingers", "palm", "greep", "vastpakken", "voelen"], "category": "Lichaam" },
-  "been": { "clues": ["lopen", "knie", "rennen", "spier", "lang"], "category": "Lichaam" },
-  "haar": { "clues": ["stijl", "knippen", "borstel", "groeien", "lokken"], "category": "Lichaam" },
-  "bloed": { "clues": ["rood", "aderen", "vloeistof", "snee", "circulatie"], "category": "Lichaam" },
-  "bot": { "clues": ["wit", "skelet", "hard", "structuur", "breken"], "category": "Lichaam" },
-  "droom": { "clues": ["slapen", "nacht", "geest", "verhaal", "visioen"], "category": "Lichaam" },
-  "lachen": { "clues": ["grappig", "glimlach", "geluid", "blij", "mop"], "category": "Lichaam" },
-  "huilen": { "clues": ["traan", "verdrietig", "ongelukkig", "ogen", "wenen"], "category": "Lichaam" },
-  "schreeuwen": { "clues": ["hard", "stem", "gillen", "boos", "roepen"], "category": "Lichaam" },
-  "fluisteren": { "clues": ["geheim", "stil", "zacht", "oor", "laag"], "category": "Lichaam" },
-  "springen": { "clues": ["hoog", "sprong", "benen", "omhoog", "huppelen"], "category": "Lichaam" },
-  "dansen": { "clues": ["ritme", "muziek", "feest", "stappen", "bewegen"], "category": "Hobbies" },
-  "zingen": { "clues": ["stem", "lied", "wijs", "mond", "melodie"], "category": "Hobbies" },
-  "schrijven": { "clues": ["woorden", "verhaal", "hand", "compositie", "tekst"], "category": "Hobbies" },
-  "lezen": { "clues": ["woorden", "zicht", "verhaal", "pagina", "informatie"], "category": "Hobbies" },
-  "tekenen": { "clues": ["schets", "plaatje", "papier", "creatie", "kunst"], "category": "Hobbies" },
-  "schilderen": { "clues": ["canvas", "penseel", "nat", "kunstwerk", "meesterwerk"], "category": "Hobbies" },
-  "koken": { "clues": ["chef", "maaltijd", "recept", "voorbereiding", "heerlijk"], "category": "Hobbies" },
-  "liefde": { "clues": ["passie", "partner", "romantiek", "diep", "genegenheid"], "category": "Objecten" },
-  "angst": { "clues": ["eng", "rilling", "gevaar", "duisternis", "geïntimideerd"], "category": "Objecten" },
-  "woede": { "clues": ["boos", "rood", "woest", "intens", "gefrustreerd"], "category": "Objecten" },
-  "vertrouwen": { "clues": ["eerlijk", "loyaliteit", "geloven", "veiligheid", "vertrouwen"], "category": "Objecten" },
-  "hoop": { "clues": ["toekomst", "wens", "optimisme", "verlangen", "positief"], "category": "Objecten" }
+  "hond": {
+    "clues": [
+      "blaffen",
+      "riem",
+      "poot",
+      "staart",
+      "trouw"
+    ],
+    "category": "Dieren",
+    "kidsMode": true
+  },
+  "kat": {
+    "clues": [
+      "miauw",
+      "spinnen",
+      "snorharen",
+      "nagels",
+      "kitten"
+    ],
+    "category": "Dieren",
+    "kidsMode": true
+  },
+  "vogel": {
+    "clues": [
+      "vleugels",
+      "snavel",
+      "nest",
+      "vliegen",
+      "veren"
+    ],
+    "category": "Dieren",
+    "kidsMode": true
+  },
+  "vis": {
+    "clues": [
+      "water",
+      "schubben",
+      "vinnen",
+      "zwemmen",
+      "kieuw"
+    ],
+    "category": "Dieren",
+    "kidsMode": true
+  },
+  "appel": {
+    "clues": [
+      "rood",
+      "fruit",
+      "boom",
+      "gezond",
+      "hap"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "banaan": {
+    "clues": [
+      "geel",
+      "fruit",
+      "krom",
+      "aap",
+      "pellen"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "zon": {
+    "clues": [
+      "fel",
+      "heet",
+      "lucht",
+      "geel",
+      "dag"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "maan": {
+    "clues": [
+      "nacht",
+      "baan",
+      "lucht",
+      "luna",
+      "rond"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "ster": {
+    "clues": [
+      "nacht",
+      "lucht",
+      "twinkelen",
+      "ver",
+      "ruimte"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "bloem": {
+    "clues": [
+      "blaadjes",
+      "bloei",
+      "geur",
+      "tuin",
+      "steel"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "tafel": {
+    "clues": [
+      "poten",
+      "vlak",
+      "hout",
+      "eten",
+      "vier"
+    ],
+    "category": "Meubels",
+    "kidsMode": true
+  },
+  "stoel": {
+    "clues": [
+      "zitten",
+      "leuning",
+      "rust",
+      "hout",
+      "poten"
+    ],
+    "category": "Meubels",
+    "kidsMode": true
+  },
+  "bed": {
+    "clues": [
+      "slapen",
+      "kussen",
+      "matras",
+      "droom",
+      "nacht"
+    ],
+    "category": "Meubels",
+    "kidsMode": true
+  },
+  "pen": {
+    "clues": [
+      "inkt",
+      "schrijven",
+      "papier",
+      "dop",
+      "tekenen"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "boek": {
+    "clues": [
+      "lezen",
+      "pagina's",
+      "bibliotheek",
+      "kaft",
+      "verhaal"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "huis": {
+    "clues": [
+      "thuis",
+      "dak",
+      "deur",
+      "raam",
+      "wonen"
+    ],
+    "category": "Plaatsen",
+    "kidsMode": true
+  },
+  "auto": {
+    "clues": [
+      "weg",
+      "wielen",
+      "motor",
+      "rijden",
+      "stuur"
+    ],
+    "category": "Reizen",
+    "kidsMode": true
+  },
+  "bal": {
+    "clues": [
+      "rond",
+      "stuiteren",
+      "spelen",
+      "schoppen",
+      "gooien"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "pop": {
+    "clues": [
+      "speelgoed",
+      "haar",
+      "jurk",
+      "spelen",
+      "klein"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "speelgoed": {
+    "clues": [
+      "spelen",
+      "plezier",
+      "kind",
+      "doos",
+      "cadeau"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "melk": {
+    "clues": [
+      "koe",
+      "wit",
+      "drinken",
+      "ontbijt",
+      "glas"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "water": {
+    "clues": [
+      "drinken",
+      "helder",
+      "nat",
+      "vloeistof",
+      "dorst"
+    ],
+    "category": "Eten",
+    "kidsMode": true
+  },
+  "brood": {
+    "clues": [
+      "bakker",
+      "beleg",
+      "meel",
+      "oven",
+      "sneetje"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "rijst": {
+    "clues": [
+      "wit",
+      "korrel",
+      "kom",
+      "klein",
+      "eten"
+    ],
+    "category": "Eten",
+    "kidsMode": true
+  },
+  "boom": {
+    "clues": [
+      "bladeren",
+      "stam",
+      "hout",
+      "tak",
+      "groen"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "gras": {
+    "clues": [
+      "groen",
+      "gazon",
+      "maaien",
+      "tuin",
+      "veld"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "bij": {
+    "clues": [
+      "honing",
+      "steken",
+      "geel",
+      "zoemen",
+      "bloem"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mier": {
+    "clues": [
+      "klein",
+      "sterk",
+      "rij",
+      "insect",
+      "nest"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "regen": {
+    "clues": [
+      "water",
+      "wolken",
+      "nat",
+      "paraplu",
+      "lucht"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "sneeuw": {
+    "clues": [
+      "wit",
+      "koud",
+      "winter",
+      "vlok",
+      "zacht"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "koud": {
+    "clues": [
+      "ijs",
+      "winter",
+      "rillen",
+      "bevriezen",
+      "laag"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "heet": {
+    "clues": [
+      "zon",
+      "vuur",
+      "temperatuur",
+      "branden",
+      "zweten"
+    ],
+    "category": "Natuur",
+    "kidsMode": true
+  },
+  "groot": {
+    "clues": [
+      "enorm",
+      "reusachtig",
+      "maat",
+      "olifant",
+      "hoog"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "klein": {
+    "clues": [
+      "minuscuul",
+      "beetje",
+      "maat",
+      "muis",
+      "mier"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "rood": {
+    "clues": [
+      "appel",
+      "bloed",
+      "vuur",
+      "stoppen",
+      "kleur"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "blauw": {
+    "clues": [
+      "lucht",
+      "oceaan",
+      "water",
+      "kleur",
+      "helder"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "groen": {
+    "clues": [
+      "gras",
+      "blad",
+      "natuur",
+      "gaan",
+      "kleur"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "geel": {
+    "clues": [
+      "zon",
+      "banaan",
+      "citroen",
+      "fel",
+      "kleur"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "doos": {
+    "clues": [
+      "karton",
+      "binnen",
+      "vierkant",
+      "deksel",
+      "pakket"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "tas": {
+    "clues": [
+      "dragen",
+      "hengsel",
+      "spullen",
+      "papier",
+      "plastic"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "kopje": {
+    "clues": [
+      "drinken",
+      "oor",
+      "keramiek",
+      "keuken",
+      "koffie"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "vork": {
+    "clues": [
+      "eten",
+      "tanden",
+      "metaal",
+      "handvat",
+      "keuken"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "lepel": {
+    "clues": [
+      "eten",
+      "soep",
+      "metaal",
+      "handvat",
+      "keuken"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "hemd": {
+    "clues": [
+      "dragen",
+      "knopen",
+      "mouwen",
+      "stof",
+      "kraag"
+    ],
+    "category": "Kleding",
+    "kidsMode": true
+  },
+  "schoen": {
+    "clues": [
+      "voet",
+      "lopen",
+      "veters",
+      "zool",
+      "paar"
+    ],
+    "category": "Kleding",
+    "kidsMode": true
+  },
+  "pet": {
+    "clues": [
+      "hoofd",
+      "klep",
+      "rand",
+      "schaduw",
+      "dragen"
+    ],
+    "category": "Kleding",
+    "kidsMode": true
+  },
+  "sok": {
+    "clues": [
+      "voet",
+      "paar",
+      "zacht",
+      "schoen",
+      "warm"
+    ],
+    "category": "Kleding",
+    "kidsMode": true
+  },
+  "deur": {
+    "clues": [
+      "open",
+      "dicht",
+      "klink",
+      "ingang",
+      "hout"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "raam": {
+    "clues": [
+      "glas",
+      "uitzicht",
+      "kozijn",
+      "gordijn",
+      "licht"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "telefoon": {
+    "clues": [
+      "bellen",
+      "scherm",
+      "mobiel",
+      "batterij",
+      "praten"
+    ],
+    "category": "Objecten",
+    "kidsMode": true
+  },
+  "strategie": {
+    "clues": [
+      "plan",
+      "spel",
+      "winnen",
+      "schaken",
+      "denken"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ironie": {
+    "clues": [
+      "tegenovergestelde",
+      "grappig",
+      "sarcasme",
+      "spraak",
+      "literair"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "sarcasme": {
+    "clues": [
+      "mop",
+      "spot",
+      "toon",
+      "scherp",
+      "spraak"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cryptografie": {
+    "clues": [
+      "codes",
+      "geheim",
+      "verbergen",
+      "wiskunde",
+      "sleutel"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "blockchain": {
+    "clues": [
+      "crypto",
+      "grootboek",
+      "ketting",
+      "geld",
+      "veilig"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "algoritme": {
+    "clues": [
+      "stap",
+      "wiskunde",
+      "computer",
+      "oplossen",
+      "logica"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "paradigma": {
+    "clues": [
+      "verschuiving",
+      "model",
+      "patroon",
+      "denken",
+      "kader"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metabolisme": {
+    "clues": [
+      "lichaam",
+      "energie",
+      "eten",
+      "snelheid",
+      "proces"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "fotosynthese": {
+    "clues": [
+      "plant",
+      "zon",
+      "groen",
+      "groeien",
+      "eten"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "hierarchie": {
+    "clues": [
+      "volgorde",
+      "rang",
+      "niveau",
+      "macht",
+      "structuur"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "bureaucratie": {
+    "clues": [
+      "papierwerk",
+      "kantoor",
+      "langzaam",
+      "regels",
+      "overheid"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "filosofie": {
+    "clues": [
+      "denken",
+      "geest",
+      "waarheid",
+      "wijsheid",
+      "vraag"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "existentialisme": {
+    "clues": [
+      "leven",
+      "keuze",
+      "zijn",
+      "zin",
+      "vrijheid"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "kwantum": {
+    "clues": [
+      "klein",
+      "fysica",
+      "toestand",
+      "sprong",
+      "theorie"
+    ],
+    "category": "Wetenschap",
+    "kidsMode": false
+  },
+  "relativiteit": {
+    "clues": [
+      "einstein",
+      "natuurkunde",
+      "tijd",
+      "snelheid",
+      "theorie"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "infrastructuur": {
+    "clues": [
+      "bouwen",
+      "weg",
+      "basis",
+      "publiek",
+      "systeem"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "logistiek": {
+    "clues": [
+      "verplaatsen",
+      "plan",
+      "voorraad",
+      "keten",
+      "opslag"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "investering": {
+    "clues": [
+      "geld",
+      "toekomst",
+      "groei",
+      "risico",
+      "beurs"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "inflatie": {
+    "clues": [
+      "prijs",
+      "geld",
+      "stijgen",
+      "economie",
+      "waarde"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "deflatie": {
+    "clues": [
+      "prijs",
+      "geld",
+      "dalen",
+      "economie",
+      "waarde"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "diplomatie": {
+    "clues": [
+      "vrede",
+      "gesprek",
+      "landen",
+      "ambassade",
+      "tact"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "geopolitiek": {
+    "clues": [
+      "wereld",
+      "macht",
+      "kaart",
+      "strategie",
+      "landen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "architectuur": {
+    "clues": [
+      "bouwen",
+      "ontwerp",
+      "huis",
+      "tekening",
+      "stijl"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "renaissance": {
+    "clues": [
+      "kunst",
+      "historie",
+      "oud",
+      "italië",
+      "wedergeboorte"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "barok": {
+    "clues": [
+      "stijl",
+      "kunst",
+      "chique",
+      "detail",
+      "oud"
+    ],
+    "category": "Geschiedenis",
+    "kidsMode": false
+  },
+  "impressionisme": {
+    "clues": [
+      "verf",
+      "licht",
+      "stijl",
+      "penseel",
+      "frans"
+    ],
+    "category": "Kunst",
+    "kidsMode": false
+  },
+  "thermodynamica": {
+    "clues": [
+      "warmte",
+      "energie",
+      "werk",
+      "natuurkunde",
+      "wetten"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "entropie": {
+    "clues": [
+      "chaos",
+      "wanorde",
+      "fysica",
+      "verlies",
+      "wetenschap"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mutatie": {
+    "clues": [
+      "verandering",
+      "dna",
+      "wetenschap",
+      "toeval",
+      "nieuw"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "evolutie": {
+    "clues": [
+      "verandering",
+      "oud",
+      "leven",
+      "darwin",
+      "groeien"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ecosysteem": {
+    "clues": [
+      "natuur",
+      "leven",
+      "balans",
+      "plek",
+      "web"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "duurzaamheid": {
+    "clues": [
+      "groen",
+      "toekomst",
+      "houden",
+      "aarde",
+      "veilig"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "veerkracht": {
+    "clues": [
+      "sterk",
+      "terug",
+      "taai",
+      "houden",
+      "kracht"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "diversiteit": {
+    "clues": [
+      "bereik",
+      "mix",
+      "veel",
+      "soort",
+      "mensen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "inclusie": {
+    "clues": [
+      "allemaal",
+      "deel",
+      "meedoen",
+      "welkom",
+      "open"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "integriteit": {
+    "clues": [
+      "goed",
+      "waarheid",
+      "eerlijk",
+      "moreel",
+      "waarde"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "transparantie": {
+    "clues": [
+      "helder",
+      "open",
+      "zien",
+      "eerlijk",
+      "publiek"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "verantwoordelijkheid": {
+    "clues": [
+      "plicht",
+      "antwoord",
+      "eigen",
+      "resultaat",
+      "schuld"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "leiderschap": {
+    "clues": [
+      "gids",
+      "team",
+      "macht",
+      "visie",
+      "hoofd"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "innovatie": {
+    "clues": [
+      "nieuw",
+      "idee",
+      "verandering",
+      "creeren",
+      "fris"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ondernemer": {
+    "clues": [
+      "starten",
+      "risico",
+      "eigen",
+      "bedrijf",
+      "idee"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "durfkapitaal": {
+    "clues": [
+      "geld",
+      "startup",
+      "risico",
+      "nieuw",
+      "fonds"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "portfolio": {
+    "clues": [
+      "mix",
+      "werk",
+      "aandeel",
+      "collectie",
+      "set"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "dividend": {
+    "clues": [
+      "aandeel",
+      "betalen",
+      "winst",
+      "beurs",
+      "extra"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "aansprakelijkheid": {
+    "clues": [
+      "schuld",
+      "risico",
+      "eigen",
+      "juridisch",
+      "kosten"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "activa": {
+    "clues": [
+      "bezit",
+      "waarde",
+      "goed",
+      "rijkdom",
+      "item"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hypotheek": {
+    "clues": [
+      "lening",
+      "bank",
+      "huis",
+      "rente",
+      "schuld"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "verzekering": {
+    "clues": [
+      "polis",
+      "risico",
+      "premie",
+      "dekking",
+      "veiligheid"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pensioen": {
+    "clues": [
+      "oud",
+      "geld",
+      "stoppen",
+      "fonds",
+      "sparen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "pensioenleeftijd": {
+    "clues": [
+      "oud",
+      "stoppen",
+      "werk",
+      "leven",
+      "einde"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "olifant": {
+    "clues": [
+      "slurf",
+      "slagtanden",
+      "groot",
+      "grijs",
+      "oren"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "giraf": {
+    "clues": [
+      "nek",
+      "vlekken",
+      "lang",
+      "geel",
+      "afrika"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "leeuw": {
+    "clues": [
+      "brul",
+      "manen",
+      "koning",
+      "kat",
+      "wild"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "tijger": {
+    "clues": [
+      "strepen",
+      "oranje",
+      "kat",
+      "jungle",
+      "brul"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "pinguïn": {
+    "clues": [
+      "ijs",
+      "waggelen",
+      "zwart",
+      "wit",
+      "zwemmen"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "aap": {
+    "clues": [
+      "banaan",
+      "staart",
+      "klimmen",
+      "boom",
+      "slingeren"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "zebra": {
+    "clues": [
+      "strepen",
+      "zwart",
+      "wit",
+      "paard",
+      "afrika"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "kangoeroe": {
+    "clues": [
+      "hup",
+      "buidel",
+      "australië",
+      "sprong",
+      "zak"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "koe": {
+    "clues": [
+      "melk",
+      "boe",
+      "boerderij",
+      "gras",
+      "horens"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "varken": {
+    "clues": [
+      "roze",
+      "knor",
+      "modder",
+      "boerderij",
+      "snuit"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "schaap": {
+    "clues": [
+      "wol",
+      "beee",
+      "wit",
+      "boerderij",
+      "zacht"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "paard": {
+    "clues": [
+      "rijden",
+      "galop",
+      "hinneken",
+      "zadel",
+      "boerderij"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "kip": {
+    "clues": [
+      "ei",
+      "tok",
+      "boerderij",
+      "vleugels",
+      "snavel"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "eend": {
+    "clues": [
+      "kwak",
+      "water",
+      "vijver",
+      "snavel",
+      "waggelen"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "konijn": {
+    "clues": [
+      "wortel",
+      "oren",
+      "hup",
+      "zacht",
+      "lang"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "schildpad": {
+    "clues": [
+      "schild",
+      "langzaam",
+      "water",
+      "groen",
+      "kruipen"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "slang": {
+    "clues": [
+      "glijden",
+      "sissen",
+      "lang",
+      "schubben",
+      "vergif"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "spin": {
+    "clues": [
+      "web",
+      "poten",
+      "acht",
+      "kruipen",
+      "insect"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "vlinder": {
+    "clues": [
+      "vleugels",
+      "kleuren",
+      "vliegen",
+      "cocon",
+      "bloem"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "kikker": {
+    "clues": [
+      "springen",
+      "groen",
+      "kwaken",
+      "vijver",
+      "tong"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "sinaasappel": {
+    "clues": [
+      "fruit",
+      "sap",
+      "kleur",
+      "schil",
+      "rond"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "aardbei": {
+    "clues": [
+      "fruit",
+      "rood",
+      "zoet",
+      "zaadjes",
+      "bes"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "druif": {
+    "clues": [
+      "fruit",
+      "paars",
+      "groen",
+      "tros",
+      "wijnstok"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "watermeloen": {
+    "clues": [
+      "fruit",
+      "groen",
+      "rood",
+      "zaadjes",
+      "groot"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pizza": {
+    "clues": [
+      "kaas",
+      "punt",
+      "rond",
+      "deeg",
+      "tomaat"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "burger": {
+    "clues": [
+      "vlees",
+      "broodje",
+      "kaas",
+      "snel",
+      "eten"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sandwich": {
+    "clues": [
+      "brood",
+      "lunch",
+      "ham",
+      "kaas",
+      "plakje"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ei": {
+    "clues": [
+      "kip",
+      "geel",
+      "wit",
+      "ontbijt",
+      "koken"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "kaas": {
+    "clues": [
+      "geel",
+      "koe",
+      "plakje",
+      "brood",
+      "gaten"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ijsje": {
+    "clues": [
+      "koud",
+      "zoet",
+      "hoorntje",
+      "bolletje",
+      "toetje"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "koekje": {
+    "clues": [
+      "zoet",
+      "bakken",
+      "chocolade",
+      "rond",
+      "knapperig"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "taart": {
+    "clues": [
+      "verjaardag",
+      "zoet",
+      "kaarsje",
+      "bakken",
+      "feest"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "sap": {
+    "clues": [
+      "drinken",
+      "fruit",
+      "glas",
+      "vloeistof",
+      "zoet"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "soep": {
+    "clues": [
+      "heet",
+      "kom",
+      "lepel",
+      "vloeistof",
+      "avondeten"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "chocolade": {
+    "clues": [
+      "bruin",
+      "zoet",
+      "snoep",
+      "reep",
+      "cacao"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "aardappel": {
+    "clues": [
+      "bruin",
+      "groente",
+      "bakken",
+      "grond",
+      "puree"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "tomaat": {
+    "clues": [
+      "rood",
+      "groente",
+      "salade",
+      "saus",
+      "rond"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "wortel": {
+    "clues": [
+      "oranje",
+      "groente",
+      "konijn",
+      "knapperig",
+      "wortel"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "ui": {
+    "clues": [
+      "huilen",
+      "groente",
+      "wit",
+      "ringen",
+      "sterk"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "knoflook": {
+    "clues": [
+      "geur",
+      "wit",
+      "teen",
+      "sterk",
+      "koken"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "berg": {
+    "clues": [
+      "hoog",
+      "top",
+      "klimmen",
+      "sneeuw",
+      "rots"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "rivier": {
+    "clues": [
+      "water",
+      "stromen",
+      "vis",
+      "oever",
+      "lang"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "oceaan": {
+    "clues": [
+      "water",
+      "blauw",
+      "zout",
+      "groot",
+      "vis"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "meer": {
+    "clues": [
+      "water",
+      "rustig",
+      "boot",
+      "vis",
+      "omringen"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "bos": {
+    "clues": [
+      "bomen",
+      "groen",
+      "hout",
+      "dieren",
+      "beer"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "woestijn": {
+    "clues": [
+      "zand",
+      "heet",
+      "droog",
+      "cactus",
+      "kameel"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "eiland": {
+    "clues": [
+      "oceaan",
+      "strand",
+      "palmboom",
+      "water",
+      "zee"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "wolk": {
+    "clues": [
+      "wit",
+      "lucht",
+      "regen",
+      "pluizig",
+      "grijs"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "regenboog": {
+    "clues": [
+      "kleuren",
+      "lucht",
+      "regen",
+      "zon",
+      "boog"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "vuur": {
+    "clues": [
+      "heet",
+      "rood",
+      "branden",
+      "hout",
+      "rook"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "wind": {
+    "clues": [
+      "lucht",
+      "waaien",
+      "briesje",
+      "storm",
+      "vlieger"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "donder": {
+    "clues": [
+      "hard",
+      "storm",
+      "lucht",
+      "geluid",
+      "licht"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "bliksem": {
+    "clues": [
+      "flits",
+      "storm",
+      "lucht",
+      "helder",
+      "elektrisch"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "winter": {
+    "clues": [
+      "koud",
+      "sneeuw",
+      "ijs",
+      "seizoen",
+      "jas"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "zomer": {
+    "clues": [
+      "heet",
+      "zon",
+      "strand",
+      "seizoen",
+      "vakantie"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "lente": {
+    "clues": [
+      "bloemen",
+      "groen",
+      "seizoen",
+      "groeien",
+      "regen"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "herfst": {
+    "clues": [
+      "bladeren",
+      "bruin",
+      "seizoen",
+      "vallen",
+      "fris"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "potlood": {
+    "clues": [
+      "schrijven",
+      "tekenen",
+      "stift",
+      "gum",
+      "hout"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "computer": {
+    "clues": [
+      "scherm",
+      "toetsenbord",
+      "muis",
+      "internet",
+      "techniek"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "televisie": {
+    "clues": [
+      "scherm",
+      "kijken",
+      "shows",
+      "afstandsbediening",
+      "film"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "radio": {
+    "clues": [
+      "muziek",
+      "luisteren",
+      "geluid",
+      "spreker",
+      "afstemmen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "fiets": {
+    "clues": [
+      "wielen",
+      "rijden",
+      "trappen",
+      "helm",
+      "twee"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "vliegtuig": {
+    "clues": [
+      "vliegen",
+      "lucht",
+      "vleugels",
+      "piloot",
+      "vliegveld"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "trein": {
+    "clues": [
+      "spoor",
+      "rails",
+      "locomotief",
+      "station",
+      "wielen"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "boot": {
+    "clues": [
+      "water",
+      "zeilen",
+      "oceaan",
+      "rivier",
+      "schip"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "bus": {
+    "clues": [
+      "weg",
+      "school",
+      "wielen",
+      "halte",
+      "rijden"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "raket": {
+    "clues": [
+      "ruimte",
+      "vliegen",
+      "maan",
+      "ster",
+      "vuur"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "school": {
+    "clues": [
+      "leren",
+      "leraar",
+      "boeken",
+      "kinderen",
+      "klaslokaal"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "ziekenhuis": {
+    "clues": [
+      "dokter",
+      "ziek",
+      "verpleegster",
+      "medicijnen",
+      "helpen"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "park": {
+    "clues": [
+      "spelen",
+      "gras",
+      "bomen",
+      "bankje",
+      "glijbaan"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "strand": {
+    "clues": [
+      "zand",
+      "oceaan",
+      "zon",
+      "zwemmen",
+      "golven"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "markt": {
+    "clues": [
+      "eten",
+      "kopen",
+      "winkel",
+      "fruit",
+      "verkopen"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "bibliotheek": {
+    "clues": [
+      "boeken",
+      "lezen",
+      "stilte",
+      "studeren",
+      "plank"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "bioscoop": {
+    "clues": [
+      "film",
+      "popcorn",
+      "scherm",
+      "kijken",
+      "stoel"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "dokter": {
+    "clues": [
+      "helpen",
+      "ziek",
+      "ziekenhuis",
+      "medicijnen",
+      "wit"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "leraar": {
+    "clues": [
+      "school",
+      "leren",
+      "kinderen",
+      "boeken",
+      "klas"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "politie": {
+    "clues": [
+      "helpen",
+      "auto",
+      "insigne",
+      "wet",
+      "uniform"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "kok": {
+    "clues": [
+      "koken",
+      "eten",
+      "keuken",
+      "muts",
+      "restaurant"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "piloot": {
+    "clues": [
+      "vliegtuig",
+      "vliegen",
+      "lucht",
+      "cockpit",
+      "uniform"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "astronaut": {
+    "clues": [
+      "ruimte",
+      "helm",
+      "sterren",
+      "maan",
+      "pak"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "brandweerman": {
+    "clues": [
+      "vuur",
+      "water",
+      "vrachtwagen",
+      "slang",
+      "helpen"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "zanger": {
+    "clues": [
+      "muziek",
+      "stem",
+      "liedje",
+      "microfoon",
+      "podium"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "schilder": {
+    "clues": [
+      "kunst",
+      "kleuren",
+      "penseel",
+      "canvas",
+      "schilderij"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "boer": {
+    "clues": [
+      "dieren",
+      "tractor",
+      "gewassen",
+      "land",
+      "eten"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "piano": {
+    "clues": [
+      "muziek",
+      "toetsen",
+      "zwart",
+      "wit",
+      "geluid"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "gitaar": {
+    "clues": [
+      "muziek",
+      "snaren",
+      "spelen",
+      "geluid",
+      "instrument"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "trommel": {
+    "clues": [
+      "muziek",
+      "ritme",
+      "slaan",
+      "stokken",
+      "geluid"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "viool": {
+    "clues": [
+      "muziek",
+      "snaren",
+      "strijkstok",
+      "geluid",
+      "klein"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "spiegel": {
+    "clues": [
+      "kijken",
+      "zien",
+      "glas",
+      "reflecteren",
+      "gezicht"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "klok": {
+    "clues": [
+      "tijd",
+      "wijzers",
+      "tik-tak",
+      "cijfers",
+      "muur"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "horloge": {
+    "clues": [
+      "tijd",
+      "pols",
+      "wijzers",
+      "cijfers",
+      "dragen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hamer": {
+    "clues": [
+      "gereedschap",
+      "spijker",
+      "slaan",
+      "hout",
+      "bouwen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "ladder": {
+    "clues": [
+      "klimmen",
+      "hoog",
+      "treden",
+      "lang",
+      "bereiken"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "sleutel": {
+    "clues": [
+      "deur",
+      "openen",
+      "slot",
+      "metaal",
+      "klein"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "paraplu": {
+    "clues": [
+      "regen",
+      "nat",
+      "droog",
+      "handvat",
+      "lucht"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "zeep": {
+    "clues": [
+      "wassen",
+      "schoonmaken",
+      "water",
+      "bubbels",
+      "badkamer"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "handdoek": {
+    "clues": [
+      "drogen",
+      "water",
+      "zacht",
+      "badkamer",
+      "strand"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tandenborstel": {
+    "clues": [
+      "tanden",
+      "schoon",
+      "pasta",
+      "ochtend",
+      "mond"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "bril": {
+    "clues": [
+      "ogen",
+      "zien",
+      "dragen",
+      "montuur",
+      "lens"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "portemonnee": {
+    "clues": [
+      "geld",
+      "kaarten",
+      "zak",
+      "leer",
+      "betalen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "walvis": {
+    "clues": [
+      "oceaan",
+      "enorm",
+      "spuitgat",
+      "blauw",
+      "zoogdier"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "haai": {
+    "clues": [
+      "tanden",
+      "oceaan",
+      "vin",
+      "bijten",
+      "eng"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "inktvis": {
+    "clues": [
+      "armen",
+      "acht",
+      "inkt",
+      "oceaan",
+      "tentakels"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "krab": {
+    "clues": [
+      "scharen",
+      "strand",
+      "knijpen",
+      "schelp",
+      "zijwaarts"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "kwal": {
+    "clues": [
+      "prikken",
+      "doorzichtig",
+      "oceaan",
+      "tentakels",
+      "zacht"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "dolfijn": {
+    "clues": [
+      "oceaan",
+      "slim",
+      "springen",
+      "vin",
+      "zwemmen"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "ezel": {
+    "clues": [
+      "oren",
+      "boerderij",
+      "balken",
+      "grijs",
+      "eigenwijs"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "wolf": {
+    "clues": [
+      "huilen",
+      "roedel",
+      "bos",
+      "hond",
+      "wild"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "vos": {
+    "clues": [
+      "rood",
+      "staart",
+      "slim",
+      "bos",
+      "stiekem"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "hert": {
+    "clues": [
+      "gewei",
+      "bos",
+      "rennen",
+      "bruin",
+      "bambi"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "uil": {
+    "clues": [
+      "nacht",
+      "oehoe",
+      "wijs",
+      "ogen",
+      "vliegen"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "arend": {
+    "clues": [
+      "vliegen",
+      "vogel",
+      "sterk",
+      "nest",
+      "vleugels"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "papegaai": {
+    "clues": [
+      "praten",
+      "kleuren",
+      "vogel",
+      "piraat",
+      "nadoen"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "duif": {
+    "clues": [
+      "stad",
+      "grijs",
+      "vogel",
+      "park",
+      "koeren"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "mug": {
+    "clues": [
+      "steken",
+      "bloed",
+      "vliegen",
+      "zomer",
+      "irritant"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "sprinkhaan": {
+    "clues": [
+      "springen",
+      "groen",
+      "insect",
+      "zomer",
+      "veld"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "slak": {
+    "clues": [
+      "langzaam",
+      "huisje",
+      "slijm",
+      "tuin",
+      "schelp"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "krokodil": {
+    "clues": [
+      "tanden",
+      "rivier",
+      "groen",
+      "groot",
+      "reptiel"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "stroopwafel": {
+    "clues": [
+      "koekje",
+      "stroop",
+      "warm",
+      "lekker",
+      "hollands"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "haring": {
+    "clues": [
+      "vis",
+      "uitjes",
+      "rauw",
+      "happen",
+      "zout"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "stamppot": {
+    "clues": [
+      "aardappels",
+      "winter",
+      "kuiltje",
+      "worst",
+      "prakken"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "bitterbal": {
+    "clues": [
+      "snack",
+      "frituur",
+      "heet",
+      "borrel",
+      "rond"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pannenkoek": {
+    "clues": [
+      "stroop",
+      "rond",
+      "bakken",
+      "zoet",
+      "meel"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "drop": {
+    "clues": [
+      "zwart",
+      "snoep",
+      "zout",
+      "zoet",
+      "hollands"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "hagelslag": {
+    "clues": [
+      "chocolade",
+      "brood",
+      "ontbijt",
+      "korrels",
+      "pak"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "patat": {
+    "clues": [
+      "aardappel",
+      "friet",
+      "mayonaise",
+      "bakje",
+      "zout"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "boter": {
+    "clues": [
+      "geel",
+      "brood",
+      "smeren",
+      "zuivel",
+      "pakje"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "jam": {
+    "clues": [
+      "zoet",
+      "fruit",
+      "brood",
+      "pot",
+      "plakkerig"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "paranoia": {
+    "clues": [
+      "angst",
+      "schaduw",
+      "wantrouwen",
+      "geest",
+      "achtervolging"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "samenzwering": {
+    "clues": [
+      "geheim",
+      "plan",
+      "groep",
+      "verborgen",
+      "theorie"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "verraad": {
+    "clues": [
+      "vertrouwen",
+      "gebroken",
+      "vriend",
+      "rug",
+      "pijn"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "manipulatie": {
+    "clues": [
+      "controle",
+      "geest",
+      "geheim",
+      "invloed",
+      "vaardigheid"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "propaganda": {
+    "clues": [
+      "media",
+      "info",
+      "gekleurd",
+      "publiek",
+      "controle"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "censuur": {
+    "clues": [
+      "spreken",
+      "verbergen",
+      "media",
+      "blokkeren",
+      "controle"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "surveillance": {
+    "clues": [
+      "kijken",
+      "camera",
+      "spion",
+      "geheim",
+      "beveiliging"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metafoor": {
+    "clues": [
+      "taal",
+      "als",
+      "woord",
+      "vergelijken",
+      "kunst"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "paradox": {
+    "clues": [
+      "puzzel",
+      "logica",
+      "vreemd",
+      "gedachte",
+      "tegenstrijdig"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "synergie": {
+    "clues": [
+      "samen",
+      "meer",
+      "groep",
+      "werk",
+      "effect"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "deadline": {
+    "clues": [
+      "tijd",
+      "klaar",
+      "laat",
+      "werk",
+      "datum"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "fusie": {
+    "clues": [
+      "samen",
+      "bedrijf",
+      "business",
+      "twee",
+      "kopen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "monopolie": {
+    "clues": [
+      "spel",
+      "controle",
+      "één",
+      "markt",
+      "macht"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "werving": {
+    "clues": [
+      "baan",
+      "aannemen",
+      "werk",
+      "gesprek",
+      "nieuw"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "ontslag": {
+    "clues": [
+      "verliezen",
+      "baan",
+      "weg",
+      "werk",
+      "klaar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hefboom": {
+    "clues": [
+      "macht",
+      "gebruiken",
+      "voordeel",
+      "business",
+      "geld"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "faillissement": {
+    "clues": [
+      "geld",
+      "verliezen",
+      "blut",
+      "business",
+      "falen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "tekort": {
+    "clues": [
+      "geld",
+      "schuld",
+      "minder",
+      "budget",
+      "verlies"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "liquiditeit": {
+    "clues": [
+      "cash",
+      "geld",
+      "makkelijk",
+      "stroom",
+      "bezit"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "passiva": {
+    "clues": [
+      "schuld",
+      "risico",
+      "plicht",
+      "kosten",
+      "balans"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "grondstof": {
+    "clues": [
+      "goud",
+      "olie",
+      "handel",
+      "goed",
+      "markt"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "subsidie": {
+    "clues": [
+      "overheid",
+      "geld",
+      "hulp",
+      "steun",
+      "betalen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "tarief": {
+    "clues": [
+      "belasting",
+      "handel",
+      "import",
+      "grens",
+      "prijs"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "quotum": {
+    "clues": [
+      "limiet",
+      "aantal",
+      "doel",
+      "hoeveel",
+      "bereiken"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hegemonie": {
+    "clues": [
+      "macht",
+      "controle",
+      "leider",
+      "natie",
+      "heerschappij"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "altruïsme": {
+    "clues": [
+      "geven",
+      "hulp",
+      "goed",
+      "lief",
+      "anderen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nihilisme": {
+    "clues": [
+      "niets",
+      "leven",
+      "zin",
+      "duister",
+      "geloof"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "stoïcisme": {
+    "clues": [
+      "kalm",
+      "sterk",
+      "geest",
+      "controle",
+      "oud"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "hedonisme": {
+    "clues": [
+      "plezier",
+      "genieten",
+      "verlangen",
+      "leven",
+      "leuk"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "epistemologie": {
+    "clues": [
+      "weten",
+      "waarheid",
+      "denken",
+      "geest",
+      "filosofie"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ontologie": {
+    "clues": [
+      "zijn",
+      "natuur",
+      "bestaan",
+      "filosofie",
+      "echt"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "dialectiek": {
+    "clues": [
+      "praten",
+      "idee",
+      "twee",
+      "waarheid",
+      "debat"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "esthetiek": {
+    "clues": [
+      "kunst",
+      "schoonheid",
+      "look",
+      "stijl",
+      "ontwerp"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "abstract": {
+    "clues": [
+      "kunst",
+      "idee",
+      "vorm",
+      "modern",
+      "gevoel"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "minimalisme": {
+    "clues": [
+      "simpel",
+      "minder",
+      "kunst",
+      "strak",
+      "stijl"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "surrealisme": {
+    "clues": [
+      "droom",
+      "kunst",
+      "vreemd",
+      "dali",
+      "geest"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "verlichting": {
+    "clues": [
+      "rede",
+      "historie",
+      "denken",
+      "licht",
+      "wetenschap"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "totalitarisme": {
+    "clues": [
+      "controle",
+      "macht",
+      "staat",
+      "leider",
+      "dwang"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "feodalisme": {
+    "clues": [
+      "koning",
+      "land",
+      "ridder",
+      "historie",
+      "systeem"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "kolonialisme": {
+    "clues": [
+      "rijk",
+      "land",
+      "historie",
+      "macht",
+      "innemen"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "secularisme": {
+    "clues": [
+      "wereld",
+      "staat",
+      "religie",
+      "modern",
+      "vrij"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "capitalisme": {
+    "clues": [
+      "geld",
+      "markt",
+      "business",
+      "winst",
+      "systeem"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "socialisme": {
+    "clues": [
+      "groep",
+      "publiek",
+      "staat",
+      "delen",
+      "systeem"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "democratie": {
+    "clues": [
+      "stemmen",
+      "volk",
+      "macht",
+      "systeem",
+      "leider"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "oligarchie": {
+    "clues": [
+      "weinig",
+      "macht",
+      "rijk",
+      "groep",
+      "bestuur"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "quantum": {
+    "clues": [
+      "klein",
+      "natuurkunde",
+      "toestand",
+      "sprong",
+      "theorie"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "osmose": {
+    "clues": [
+      "water",
+      "bewegen",
+      "cel",
+      "wetenschap",
+      "langzaam"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "symbiose": {
+    "clues": [
+      "samen",
+      "leven",
+      "twee",
+      "hulp",
+      "band"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mitose": {
+    "clues": [
+      "cel",
+      "splitsen",
+      "kopie",
+      "groeien",
+      "wetenschap"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "zwaartekracht": {
+    "clues": [
+      "vallen",
+      "aarde",
+      "beneden",
+      "ruimte",
+      "kracht"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "magnetisme": {
+    "clues": [
+      "trekken",
+      "metaal",
+      "pool",
+      "kracht",
+      "noord"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "elektriciteit": {
+    "clues": [
+      "stroom",
+      "draad",
+      "licht",
+      "schok",
+      "spanning"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "vulkaan": {
+    "clues": [
+      "lava",
+      "heet",
+      "berg",
+      "vuur",
+      "rook"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "aardbeving": {
+    "clues": [
+      "schudden",
+      "grond",
+      "bewegen",
+      "eng",
+      "scheur"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "orkaan": {
+    "clues": [
+      "wind",
+      "storm",
+      "regen",
+      "oceaan",
+      "sterk"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tornado": {
+    "clues": [
+      "wind",
+      "draaien",
+      "slurf",
+      "storm",
+      "eng"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "droogte": {
+    "clues": [
+      "droog",
+      "water",
+      "geen regen",
+      "land",
+      "dorst"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "oogst": {
+    "clues": [
+      "boer",
+      "eten",
+      "plukken",
+      "herfst",
+      "gewassen"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "landbouw": {
+    "clues": [
+      "boerderij",
+      "groeien",
+      "eten",
+      "land",
+      "planten"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "beeldhouwer": {
+    "clues": [
+      "kunst",
+      "steen",
+      "vorm",
+      "standbeeld",
+      "handen"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "literatuur": {
+    "clues": [
+      "boeken",
+      "schrijven",
+      "lezen",
+      "verhaal",
+      "woord"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "poëzie": {
+    "clues": [
+      "rijmen",
+      "schrijven",
+      "vers",
+      "woorden",
+      "ziel"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "journalistiek": {
+    "clues": [
+      "nieuws",
+      "schrijven",
+      "media",
+      "verslag",
+      "waarheid"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "profetie": {
+    "clues": [
+      "toekomst",
+      "voorspellen",
+      "droom",
+      "lot",
+      "oud"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nostalgie": {
+    "clues": [
+      "vroeger",
+      "herinnering",
+      "missen",
+      "gevoel",
+      "oud"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "melancholie": {
+    "clues": [
+      "droevig",
+      "gevoel",
+      "blauw",
+      "stil",
+      "stemming"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "euforie": {
+    "clues": [
+      "gelukkig",
+      "extase",
+      "gevoel",
+      "geweldig",
+      "vreugde"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "adrenaline": {
+    "clues": [
+      "snel",
+      "lichaam",
+      "bang",
+      "kick",
+      "hart"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "serotonine": {
+    "clues": [
+      "blij",
+      "hersenen",
+      "gevoel",
+      "chemisch",
+      "stemming"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "dopamine": {
+    "clues": [
+      "beloning",
+      "hersenen",
+      "gevoel",
+      "willen",
+      "plezier"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cortisol": {
+    "clues": [
+      "stress",
+      "hersenen",
+      "lichaam",
+      "gevoel",
+      "hormoon"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "synaps": {
+    "clues": [
+      "hersenen",
+      "verbinding",
+      "zenuw",
+      "denken",
+      "ruimte"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "neuron": {
+    "clues": [
+      "hersenen",
+      "cel",
+      "denken",
+      "lichaam",
+      "signaal"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hemisfeer": {
+    "clues": [
+      "helft",
+      "aarde",
+      "noord",
+      "zuid",
+      "bol"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "atmosfeer": {
+    "clues": [
+      "lucht",
+      "aarde",
+      "lucht",
+      "gas",
+      "laag"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "stratosfeer": {
+    "clues": [
+      "lucht",
+      "hoog",
+      "lucht",
+      "ozon",
+      "laag"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ionosfeer": {
+    "clues": [
+      "lucht",
+      "ruimte",
+      "radio",
+      "laag",
+      "gas"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biosfeer": {
+    "clues": [
+      "leven",
+      "aarde",
+      "natuur",
+      "alles",
+      "zone"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "troposfeer": {
+    "clues": [
+      "lucht",
+      "lucht",
+      "weer",
+      "wolk",
+      "laag"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biodiversiteit": {
+    "clues": [
+      "natuur",
+      "veel",
+      "soorten",
+      "leven",
+      "bereik"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "geologie": {
+    "clues": [
+      "stenen",
+      "aarde",
+      "studie",
+      "oud",
+      "grond"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "meteorologie": {
+    "clues": [
+      "weer",
+      "lucht",
+      "studie",
+      "regen",
+      "storm"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "astronomie": {
+    "clues": [
+      "sterren",
+      "ruimte",
+      "studie",
+      "telescoop",
+      "lucht"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "paleontologie": {
+    "clues": [
+      "dinosaurus",
+      "fossielen",
+      "oud",
+      "studie",
+      "botten"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "antropologie": {
+    "clues": [
+      "mensen",
+      "cultuur",
+      "studie",
+      "oud",
+      "menselijk"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "sociologie": {
+    "clues": [
+      "groep",
+      "mensen",
+      "studie",
+      "maatschappij",
+      "regels"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "psychologie": {
+    "clues": [
+      "geest",
+      "denken",
+      "studie",
+      "voelen",
+      "menselijk"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "archeologie": {
+    "clues": [
+      "graven",
+      "oud",
+      "studie",
+      "historie",
+      "gevonden"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "biotechnologie": {
+    "clues": [
+      "leven",
+      "tech",
+      "dna",
+      "wetenschap",
+      "nieuw"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "nanotechnologie": {
+    "clues": [
+      "minuscuul",
+      "tech",
+      "klein",
+      "wetenschap",
+      "toekomst"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cybernetica": {
+    "clues": [
+      "robot",
+      "mens",
+      "link",
+      "tech",
+      "geest"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "artificiële intelligentie": {
+    "clues": [
+      "robot",
+      "denken",
+      "computer",
+      "slim",
+      "toekomst"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cloud computing": {
+    "clues": [
+      "internet",
+      "server",
+      "data",
+      "opslag",
+      "online"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "big data": {
+    "clues": [
+      "info",
+      "enorm",
+      "computer",
+      "cijfers",
+      "set"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "internet of things": {
+    "clues": [
+      "link",
+      "huis",
+      "slim",
+      "tech",
+      "web"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "virtual reality": {
+    "clues": [
+      "spel",
+      "bril",
+      "ogen",
+      "wereld",
+      "nep"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "augmented reality": {
+    "clues": [
+      "telefoon",
+      "zicht",
+      "overlay",
+      "wereld",
+      "mix"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "quantum computing": {
+    "clues": [
+      "snel",
+      "wiskunde",
+      "wetenschap",
+      "natuurkunde",
+      "super"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "teleportatie": {
+    "clues": [
+      "verplaatsen",
+      "snel",
+      "ruimte",
+      "sci-fi",
+      "verdwijnen"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "interstellair": {
+    "clues": [
+      "sterren",
+      "ruimte",
+      "schip",
+      "ver",
+      "reizen"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "multiversum": {
+    "clues": [
+      "werelden",
+      "veel",
+      "ruimte",
+      "sci-fi",
+      "parallel"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "tijdreizen": {
+    "clues": [
+      "verleden",
+      "toekomst",
+      "klok",
+      "machine",
+      "verplaatsen"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "superconductiviteit": {
+    "clues": [
+      "stroom",
+      "koud",
+      "snel",
+      "metaal",
+      "natuurkunde"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vloeistofdynamica": {
+    "clues": [
+      "water",
+      "stroom",
+      "lucht",
+      "natuurkunde",
+      "bewegen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "astrofysica": {
+    "clues": [
+      "sterren",
+      "natuurkunde",
+      "ruimte",
+      "wiskunde",
+      "lucht"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "microbiologie": {
+    "clues": [
+      "klein",
+      "leven",
+      "bacteriën",
+      "microscoop",
+      "cellen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "genetica": {
+    "clues": [
+      "dna",
+      "leven",
+      "familie",
+      "geboren",
+      "genen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "immunologie": {
+    "clues": [
+      "lichaam",
+      "vechten",
+      "ziek",
+      "cellen",
+      "beschermen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "neurowetenschap": {
+    "clues": [
+      "hersenen",
+      "zenuwen",
+      "denken",
+      "studie",
+      "lichaam"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "endocrinologie": {
+    "clues": [
+      "lichaam",
+      "hormoon",
+      "klier",
+      "bloed",
+      "systeem"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "toxicologie": {
+    "clues": [
+      "gif",
+      "slecht",
+      "studie",
+      "schade",
+      "chemisch"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "farmacologie": {
+    "clues": [
+      "medicijnen",
+      "pil",
+      "studie",
+      "gezondheid",
+      "apotheek"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "anatomie": {
+    "clues": [
+      "lichaam",
+      "onderdelen",
+      "botten",
+      "studie",
+      "structuur"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "fysiologie": {
+    "clues": [
+      "lichaam",
+      "werking",
+      "hoe",
+      "studie",
+      "levend"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "botanica": {
+    "clues": [
+      "planten",
+      "groen",
+      "studie",
+      "bloem",
+      "boom"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "zoölogie": {
+    "clues": [
+      "dieren",
+      "wild",
+      "studie",
+      "leven",
+      "fauna"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "ecologie": {
+    "clues": [
+      "natuur",
+      "links",
+      "studie",
+      "plek",
+      "levend"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "climatologie": {
+    "clues": [
+      "weer",
+      "langdurig",
+      "studie",
+      "aarde",
+      "warm"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "oceanografie": {
+    "clues": [
+      "zee",
+      "water",
+      "studie",
+      "diep",
+      "blauw"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "seismologie": {
+    "clues": [
+      "aardbeving",
+      "schudden",
+      "studie",
+      "golf",
+      "grond"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vulkanologie": {
+    "clues": [
+      "lava",
+      "heet",
+      "studie",
+      "berg",
+      "vuur"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "beurs": {
+    "clues": [
+      "geld",
+      "aandelen",
+      "handel",
+      "markt",
+      "beleggen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "cryptovaluta": {
+    "clues": [
+      "bitcoin",
+      "digitaal",
+      "wallet",
+      "minen",
+      "blockchain"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "vastgoed": {
+    "clues": [
+      "huis",
+      "bezit",
+      "kopen",
+      "verkopen",
+      "makelaar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "belastingdienst": {
+    "clues": [
+      "geld",
+      "overheid",
+      "betalen",
+      "blauw",
+      "brief"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "speculatie": {
+    "clues": [
+      "risico",
+      "geld",
+      "gokken",
+      "markt",
+      "voorspellen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "notaris": {
+    "clues": [
+      "handtekening",
+      "wet",
+      "papier",
+      "kantoor",
+      "legaal"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "zzp'er": {
+    "clues": [
+      "werk",
+      "zelfstandig",
+      "eigen",
+      "alleen",
+      "ondernemer"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "mkb": {
+    "clues": [
+      "bedrijf",
+      "klein",
+      "middelgroot",
+      "werk",
+      "economie"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "cao": {
+    "clues": [
+      "werk",
+      "afspraak",
+      "salaris",
+      "bond",
+      "contract"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "poldermodel": {
+    "clues": [
+      "overleg",
+      "nederland",
+      "samen",
+      "werkgever",
+      "vakbond"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "soevereiniteit": {
+    "clues": [
+      "macht",
+      "land",
+      "vrij",
+      "bestuur",
+      "grens"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "grondwet": {
+    "clues": [
+      "wetten",
+      "rechten",
+      "papier",
+      "overheid",
+      "regels"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "wetgeving": {
+    "clues": [
+      "wetten",
+      "stemmen",
+      "kamer",
+      "overheid",
+      "regels"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "rechtspraak": {
+    "clues": [
+      "hof",
+      "rechter",
+      "wet",
+      "proces",
+      "legaal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "openbaar ministerie": {
+    "clues": [
+      "eis",
+      "proces",
+      "advocaat",
+      "schuldig",
+      "wet"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "getuigenis": {
+    "clues": [
+      "getuige",
+      "hof",
+      "waarheid",
+      "spreken",
+      "wet"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "vonnis": {
+    "clues": [
+      "schuldig",
+      "rechter",
+      "einde",
+      "proces",
+      "straf"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "ethiek": {
+    "clues": [
+      "goed",
+      "fout",
+      "regels",
+      "moraal",
+      "denken"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "metafysica": {
+    "clues": [
+      "werkelijkheid",
+      "zijn",
+      "geest",
+      "verder",
+      "filosofie"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "logica": {
+    "clues": [
+      "wiskunde",
+      "denken",
+      "waarheid",
+      "reden",
+      "stappen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "retorica": {
+    "clues": [
+      "spreken",
+      "overtuigen",
+      "woorden",
+      "kunst",
+      "toespraak"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "semantiek": {
+    "clues": [
+      "betekenis",
+      "woorden",
+      "taal",
+      "logica",
+      "studie"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "cognitie": {
+    "clues": [
+      "denken",
+      "geest",
+      "hersenen",
+      "weten",
+      "proces"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "perceptie": {
+    "clues": [
+      "zien",
+      "horen",
+      "geest",
+      "zintuigen",
+      "blik"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "bewustzijn": {
+    "clues": [
+      "wakker",
+      "geest",
+      "zelf",
+      "zijn",
+      "besef"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "onderbewuste": {
+    "clues": [
+      "slaap",
+      "geest",
+      "verborgen",
+      "droom",
+      "hersenen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "provincie": {
+    "clues": [
+      "land",
+      "gebied",
+      "bestuur",
+      "nederland",
+      "twaalf"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "gemeente": {
+    "clues": [
+      "stad",
+      "dorp",
+      "burgemeester",
+      "bestuur",
+      "lokaal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "molen": {
+    "clues": [
+      "wind",
+      "wieken",
+      "holland",
+      "graan",
+      "polder"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tulip": {
+    "clues": [
+      "bloem",
+      "kleuren",
+      "lente",
+      "tuin",
+      "bol"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "klompen": {
+    "clues": [
+      "schoenen",
+      "hout",
+      "boerderij",
+      "geel",
+      "lopen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "bakfiets": {
+    "clues": [
+      "fiets",
+      "kinderen",
+      "bak",
+      "rijden",
+      "stad"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "sinterklaas": {
+    "clues": [
+      "boot",
+      "paard",
+      "cadeau",
+      "december",
+      "baard"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "piet": {
+    "clues": [
+      "cadeau",
+      "dak",
+      "sinterklaas",
+      "zak",
+      "strooien"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "pepernoot": {
+    "clues": [
+      "snoep",
+      "klein",
+      "bruin",
+      "december",
+      "lekker"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "koningsdag": {
+    "clues": [
+      "oranje",
+      "feest",
+      "april",
+      "vrijmarkt",
+      "kroon"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "gracht": {
+    "clues": [
+      "water",
+      "stad",
+      "boot",
+      "amsterdam",
+      "brug"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "wadlopen": {
+    "clues": [
+      "zee",
+      "modder",
+      "lopen",
+      "noorden",
+      "eb"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "dropje": {
+    "clues": [
+      "zwart",
+      "snoep",
+      "lekker",
+      "zakje",
+      "zout"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pindakaas": {
+    "clues": [
+      "brood",
+      "noot",
+      "bruin",
+      "smeren",
+      "pot"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "beschuit": {
+    "clues": [
+      "rond",
+      "hard",
+      "ontbijt",
+      "muisjes",
+      "bakker"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "poffertjes": {
+    "clues": [
+      "klein",
+      "pannenkoek",
+      "sucre",
+      "warm",
+      "vork"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "privatisering": {
+    "clues": [
+      "bedrijf",
+      "overheid",
+      "verkoop",
+      "markt",
+      "geld"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "dividendbelasting": {
+    "clues": [
+      "geld",
+      "aandelen",
+      "belasting",
+      "bedrijf",
+      "winst"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "recessie": {
+    "clues": [
+      "economie",
+      "slecht",
+      "geld",
+      "crisis",
+      "dalen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "hypotheekrenteaftrek": {
+    "clues": [
+      "huis",
+      "belasting",
+      "geld",
+      "terug",
+      "bank"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "vaststellingsovereenkomst": {
+    "clues": [
+      "werk",
+      "ontslag",
+      "papier",
+      "afspraak",
+      "juridisch"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "medezeggenschapsraad": {
+    "clues": [
+      "school",
+      "werk",
+      "overleg",
+      "beslissen",
+      "groep"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "stikstofcrisis": {
+    "clues": [
+      "natuur",
+      "boeren",
+      "bouw",
+      "politiek",
+      "regels"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "energietransitie": {
+    "clues": [
+      "gas",
+      "wind",
+      "zon",
+      "stroom",
+      "toekomst"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "duurzaamheidsverslag": {
+    "clues": [
+      "bedrijf",
+      "milieu",
+      "papier",
+      "jaar",
+      "groen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "inflatiecorrectie": {
+    "clues": [
+      "geld",
+      "salaris",
+      "prijs",
+      "subir",
+      "jaar"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "liquiditeitsprobleem": {
+    "clues": [
+      "geld",
+      "cash",
+      "tekort",
+      "bedrijf",
+      "bank"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "faillissementswet": {
+    "clues": [
+      "bedrijf",
+      "stop",
+      "rechter",
+      "schuld",
+      "wet"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "concurrentiebeding": {
+    "clues": [
+      "werk",
+      "contract",
+      "ander",
+      "verbod",
+      "regels"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "arbeidsovereenkomst": {
+    "clues": [
+      "werk",
+      "baas",
+      "papier",
+      "contract",
+      "afspraak"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "ijsje met hoorn": {
+    "clues": [
+      "koud",
+      "zoet",
+      "bolletje",
+      "knapperig",
+      "zomer"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "hotdog met broodje": {
+    "clues": [
+      "worst",
+      "brood",
+      "ketchup",
+      "mosterd",
+      "snack"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "frites met mayonaise": {
+    "clues": [
+      "aardappel",
+      "zout",
+      "saus",
+      "bakje",
+      "geel"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "knuffelbeer": {
+    "clues": [
+      "zacht",
+      "speelgoed",
+      "slapen",
+      "pluizig",
+      "knuffel"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "brandweerauto": {
+    "clues": [
+      "rood",
+      "sirene",
+      "ladder",
+      "water",
+      "brandweer"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "politieauto": {
+    "clues": [
+      "blauw",
+      "sirene",
+      "lichten",
+      "agent",
+      "snel"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "schoolbus": {
+    "clues": [
+      "geel",
+      "kinderen",
+      "wielen",
+      "ochtend",
+      "halte"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "achtbaan": {
+    "clues": [
+      "snel",
+      "rit",
+      "schreeuwen",
+      "spoor",
+      "park"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "verjaardagstaart": {
+    "clues": [
+      "kaarsjes",
+      "zoet",
+      "feest",
+      "wens",
+      "stukje"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "tandenfee": {
+    "clues": [
+      "kussen",
+      "geld",
+      "tand",
+      "nacht",
+      "magisch"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "paashaas": {
+    "clues": [
+      "eieren",
+      "mandje",
+      "konijn",
+      "lente",
+      "verstopt"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "noordpool": {
+    "clues": [
+      "koud",
+      "sneeuw",
+      "ijs",
+      "boven",
+      "kerst"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "melkweg": {
+    "clues": [
+      "sterren",
+      "stelsel",
+      "nacht",
+      "lucht",
+      "ruimte"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "vallende ster": {
+    "clues": [
+      "wens",
+      "nacht",
+      "lucht",
+      "snel",
+      "licht"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "zandkasteel": {
+    "clues": [
+      "strand",
+      "emmer",
+      "zand",
+      "zee",
+      "bouwen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "zeereschelp": {
+    "clues": [
+      "strand",
+      "zee",
+      "zand",
+      "oor",
+      "hard"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "zeepaardje": {
+    "clues": [
+      "klein",
+      "zee",
+      "staart",
+      "zwemmen",
+      "dier"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "zeester": {
+    "clues": [
+      "zee",
+      "vijf",
+      "zand",
+      "armen",
+      "dier"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "boomhut": {
+    "clues": [
+      "bouwen",
+      "klimmen",
+      "hout",
+      "tuin",
+      "geheim"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "vogelhuisje": {
+    "clues": [
+      "hout",
+      "nest",
+      "tuin",
+      "klein",
+      "gat"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "spaarpot": {
+    "clues": [
+      "geld",
+      "munten",
+      "sparen",
+      "varken",
+      "gleuf"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "stripboek": {
+    "clues": [
+      "held",
+      "plaatjes",
+      "lezen",
+      "verhaal",
+      "bladzijden"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "videospel": {
+    "clues": [
+      "spelen",
+      "scherm",
+      "controller",
+      "leuk",
+      "console"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "bordspel": {
+    "clues": [
+      "dobbelsteen",
+      "spelen",
+      "tafel",
+      "pionnen",
+      "kaarten"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "springtouw": {
+    "clues": [
+      "hup",
+      "bewegen",
+      "schoolplein",
+      "zwaaien",
+      "voeten"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "skatebord": {
+    "clues": [
+      "rollen",
+      "plank",
+      "wielen",
+      "trucs",
+      "straat"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hula hoop": {
+    "clues": [
+      "rond",
+      "middel",
+      "draaien",
+      "cirkel",
+      "plastic"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "rubber eendje": {
+    "clues": [
+      "bad",
+      "geel",
+      "water",
+      "drijven",
+      "piepen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "sneeuwpop": {
+    "clues": [
+      "wortel",
+      "koud",
+      "winter",
+      "bouwen",
+      "wit"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "regenwoud": {
+    "clues": [
+      "bomen",
+      "groen",
+      "apen",
+      "nat",
+      "jungle"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "luchtballon": {
+    "clues": [
+      "vliegen",
+      "mand",
+      "lucht",
+      "drijven",
+      "vuur"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "ruimteschip": {
+    "clues": [
+      "sterren",
+      "vliegen",
+      "raket",
+      "maan",
+      "astronaut"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "monstertruck": {
+    "clues": [
+      "groot",
+      "wielen",
+      "hard",
+      "pletten",
+      "springen"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "kiepauto": {
+    "clues": [
+      "zand",
+      "groot",
+      "bouw",
+      "wielen",
+      "omhoog"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "vuilniswagen": {
+    "clues": [
+      "afval",
+      "stank",
+      "ochtend",
+      "bak",
+      "wielen"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "ijscowagen": {
+    "clues": [
+      "muziek",
+      "zomer",
+      "zoet",
+      "koud",
+      "straat"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "reuzenrad": {
+    "clues": [
+      "rond",
+      "hoog",
+      "kermis",
+      "uitzicht",
+      "rit"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "draaimolen": {
+    "clues": [
+      "paarden",
+      "draaien",
+      "muziek",
+      "kermis",
+      "rit"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "waterglijbaan": {
+    "clues": [
+      "nat",
+      "zwembad",
+      "snel",
+      "zwemmen",
+      "zomer"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "zwembad": {
+    "clues": [
+      "water",
+      "zwemmen",
+      "blauw",
+      "nat",
+      "spetteren"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "speeltuin": {
+    "clues": [
+      "glijbaan",
+      "schommel",
+      "park",
+      "kinderen",
+      "buiten"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "hinkelen": {
+    "clues": [
+      "springen",
+      "krijt",
+      "getallen",
+      "grond",
+      "spel"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "boter kaas en eieren": {
+    "clues": [
+      "papier",
+      "spel",
+      "kruisje",
+      "rondje",
+      "lijn"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "verstoppertje": {
+    "clues": [
+      "zoeken",
+      "tellen",
+      "spel",
+      "verstopt",
+      "buut"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "steen papier schaar": {
+    "clues": [
+      "handen",
+      "spel",
+      "drie",
+      "vuist",
+      "winnen"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "stoelendans": {
+    "clues": [
+      "spel",
+      "muziek",
+      "zitten",
+      "feest",
+      "stoppen"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "haarborstel": {
+    "clues": [
+      "haar",
+      "kammen",
+      "hoofd",
+      "ochtend",
+      "glad"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "wekker": {
+    "clues": [
+      "ochtend",
+      "wakker",
+      "hard",
+      "tijd",
+      "piepen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "woonkamer": {
+    "clues": [
+      "bank",
+      "tv",
+      "huis",
+      "zitten",
+      "familie"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "eetkamer": {
+    "clues": [
+      "tafel",
+      "eten",
+      "stoelen",
+      "avondeten",
+      "huis"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "slaapkamer": {
+    "clues": [
+      "slapen",
+      "bed",
+      "kussen",
+      "huis",
+      "nacht"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "badkamer": {
+    "clues": [
+      "douche",
+      "wc",
+      "wassen",
+      "huis",
+      "schoon"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "wasmachine": {
+    "clues": [
+      "kleren",
+      "schoon",
+      "water",
+      "zeep",
+      "draaien"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "stofzuiger": {
+    "clues": [
+      "tapijt",
+      "vloer",
+      "hard",
+      "stof",
+      "schoonmaken"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "afstandsbediening": {
+    "clues": [
+      "tv",
+      "knoppen",
+      "zender",
+      "bank",
+      "hand"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "mobiele telefoon": {
+    "clues": [
+      "bellen",
+      "zak",
+      "praten",
+      "scherm",
+      "mobiel"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "laptop computer": {
+    "clues": [
+      "computer",
+      "scherm",
+      "toetsenbord",
+      "draagbaar",
+      "werk"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "pinpas": {
+    "clues": [
+      "geld",
+      "kopen",
+      "plastic",
+      "portemonnee",
+      "betalen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "cadeaukaart": {
+    "clues": [
+      "geld",
+      "cadeau",
+      "winkel",
+      "verjaardag",
+      "plastic"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "winkelcentrum": {
+    "clues": [
+      "winkels",
+      "kopen",
+      "kleren",
+      "groot",
+      "eten"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "supermarkt": {
+    "clues": [
+      "eten",
+      "kopen",
+      "karretje",
+      "appels",
+      "melk"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "dierenwinkel": {
+    "clues": [
+      "dieren",
+      "honden",
+      "katten",
+      "kopen",
+      "vissen"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "speelgoedwinkel": {
+    "clues": [
+      "spelen",
+      "kopen",
+      "kinderen",
+      "spellen",
+      "poppen"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "snoepwinkel": {
+    "clues": [
+      "zoet",
+      "suiker",
+      "kopen",
+      "chocolade",
+      "kleuren"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "attractiepark": {
+    "clues": [
+      "ritjes",
+      "leuk",
+      "zomer",
+      "achtbaan",
+      "kermis"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "waterpark": {
+    "clues": [
+      "glijbanen",
+      "nat",
+      "zwemmen",
+      "zomer",
+      "bad"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "dierentuin": {
+    "clues": [
+      "dieren",
+      "leeuw",
+      "olifant",
+      "kijken",
+      "dagje uit"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "politieagent": {
+    "clues": [
+      "agent",
+      "penning",
+      "wet",
+      "helpen",
+      "auto"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "filmster": {
+    "clues": [
+      "beroemd",
+      "film",
+      "scherm",
+      "acteren",
+      "hollywood"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "rockster": {
+    "clues": [
+      "muziek",
+      "beroemd",
+      "gitaar",
+      "zingen",
+      "concert"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "superheld": {
+    "clues": [
+      "cape",
+      "sterk",
+      "krachten",
+      "redden",
+      "stripboek"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "geheim agent": {
+    "clues": [
+      "spion",
+      "verborgen",
+      "missie",
+      "slim",
+      "aanwijzingen"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "sprookje": {
+    "clues": [
+      "verhaal",
+      "magie",
+      "koning",
+      "koningin",
+      "er was eens"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "kinderliedje": {
+    "clues": [
+      "lied",
+      "kinderen",
+      "rijmen",
+      "zingen",
+      "oud"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "slaapliedje": {
+    "clues": [
+      "lied",
+      "slapen",
+      "nacht",
+      "baby",
+      "zacht"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "verhaaltje voor het slapen": {
+    "clues": [
+      "boek",
+      "slapen",
+      "nacht",
+      "lezen",
+      "dromen"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "kleurboek": {
+    "clues": [
+      "stiften",
+      "tekenen",
+      "plaatjes",
+      "bladzijden",
+      "invullen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "prentenboek": {
+    "clues": [
+      "lezen",
+      "kinderen",
+      "tekeningen",
+      "bladzijden",
+      "verhaal"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "gekke bekken": {
+    "clues": [
+      "gezicht",
+      "riure",
+      "raar",
+      "spiegel",
+      "leuk"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "high five": {
+    "clues": [
+      "handen",
+      "klap",
+      "goed zo",
+      "vriend",
+      "omhoog"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "duim omhoog": {
+    "clues": [
+      "hand",
+      "goed",
+      "ja",
+      "vinger",
+      "teken"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "pinkbelofte": {
+    "clues": [
+      "belofte",
+      "vinger",
+      "vriend",
+      "geheim",
+      "hand"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "navel": {
+    "clues": [
+      "buik",
+      "rond",
+      "midden",
+      "lichaam",
+      "klein"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "ijsblokjes": {
+    "clues": [
+      "koud",
+      "water",
+      "drinken",
+      "vriezer",
+      "hard"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "chips": {
+    "clues": [
+      "zout",
+      "knapperig",
+      "snack",
+      "zak",
+      "aardappel"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "appelsap": {
+    "clues": [
+      "drinken",
+      "fruit",
+      "zoet",
+      "geel",
+      "glas"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "kauwgom": {
+    "clues": [
+      "roze",
+      "kauwen",
+      "bel",
+      "zoet",
+      "plakkerig"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "popcorn": {
+    "clues": [
+      "film",
+      "zout",
+      "wit",
+      "snack",
+      "boter"
+    ],
+    "category": "Food",
+    "kidsMode": true
+  },
+  "pyjama": {
+    "clues": [
+      "slapen",
+      "kleren",
+      "nacht",
+      "zacht",
+      "bed"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "regenjas": {
+    "clues": [
+      "nat",
+      "weer",
+      "geel",
+      "jas",
+      "droog"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "badpak": {
+    "clues": [
+      "water",
+      "zwembad",
+      "strand",
+      "zomer",
+      "kleren"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "zonnebril": {
+    "clues": [
+      "ogen",
+      "fel",
+      "zomer",
+      "donker",
+      "dragen"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "slippers": {
+    "clues": [
+      "voeten",
+      "strand",
+      "zomer",
+      "schoenen",
+      "lopen"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "tennisschoenen": {
+    "clues": [
+      "voeten",
+      "rennen",
+      "sport",
+      "veters",
+      "lopen"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "regenlaarzen": {
+    "clues": [
+      "regen",
+      "plassen",
+      "voeten",
+      "rubber",
+      "nat"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "petje": {
+    "clues": [
+      "hoofd",
+      "zon",
+      "hoed",
+      "sport",
+      "klep"
+    ],
+    "category": "Clothing",
+    "kidsMode": true
+  },
+  "sociale media": {
+    "clues": [
+      "telefoon",
+      "online",
+      "vrienden",
+      "likes",
+      "posten"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "kunstmatige intelligentie": {
+    "clues": [
+      "computer",
+      "slim",
+      "robot",
+      "toekomst",
+      "denken"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "machine learning": {
+    "clues": [
+      "data",
+      "computer",
+      "algoritme",
+      "leren",
+      "tech"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cyber security": {
+    "clues": [
+      "hacken",
+      "beschermen",
+      "veilig",
+      "wachtwoord",
+      "online"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "klimaatverandering": {
+    "clues": [
+      "aarde",
+      "warm",
+      "weer",
+      "toekomst",
+      "groen"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "opwarming van de aarde": {
+    "clues": [
+      "heet",
+      "ijs",
+      "aarde",
+      "weer",
+      "gas"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "duurzame energie": {
+    "clues": [
+      "zon",
+      "wind",
+      "groen",
+      "stroom",
+      "schoon"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "zonnepaneel": {
+    "clues": [
+      "zon",
+      "dak",
+      "stroom",
+      "energie",
+      "glas"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "windturbine": {
+    "clues": [
+      "wind",
+      "molen",
+      "stroom",
+      "energie",
+      "wit"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vrijheid van meningsuiting": {
+    "clues": [
+      "praten",
+      "recht",
+      "vrij",
+      "wet",
+      "zeggen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "politieke partij": {
+    "clues": [
+      "stemmen",
+      "groep",
+      "verkiezing",
+      "links",
+      "rechts"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "minister-president": {
+    "clues": [
+      "leider",
+      "regering",
+      "macht",
+      "nl",
+      "stemmen"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "buitenlands beleid": {
+    "clues": [
+      "wereld",
+      "landen",
+      "plan",
+      "praten",
+      "grens"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "internationaal recht": {
+    "clues": [
+      "wereld",
+      "regels",
+      "landen",
+      "legaal",
+      "hof"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "kernenergie": {
+    "clues": [
+      "energie",
+      "atoom",
+      "centrale",
+      "gevaar",
+      "splijting"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "industriële revolutie": {
+    "clues": [
+      "historie",
+      "fabriek",
+      "stoom",
+      "verandering",
+      "oud"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "klassieke literatuur": {
+    "clues": [
+      "boeken",
+      "oud",
+      "lezen",
+      "beroemd",
+      "schrijver"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "sciencefiction": {
+    "clues": [
+      "toekomst",
+      "ruimte",
+      "aliens",
+      "verhaal",
+      "tech"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "historische roman": {
+    "clues": [
+      "verleden",
+      "verhaal",
+      "historie",
+      "echt",
+      "nep"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "striproman": {
+    "clues": [
+      "boek",
+      "plaatjes",
+      "strip",
+      "verhaal",
+      "volwassen"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "nobelprijs": {
+    "clues": [
+      "beroemd",
+      "vrede",
+      "wetenschap",
+      "winnen",
+      "zweden"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "wereldbeker": {
+    "clues": [
+      "voetbal",
+      "wereld",
+      "wedstrijd",
+      "land",
+      "trofee"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "olympische spelen": {
+    "clues": [
+      "wereld",
+      "sport",
+      "medaille",
+      "goud",
+      "elke vier jaar"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "raad van bestuur": {
+    "clues": [
+      "business",
+      "groep",
+      "baas",
+      "bedrijf",
+      "vergadering"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "human resources": {
+    "clues": [
+      "werk",
+      "inhuren",
+      "mensen",
+      "kantoor",
+      "personeel"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "public relations": {
+    "clues": [
+      "imago",
+      "nieuws",
+      "mensen",
+      "media",
+      "praten"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "klantenservice": {
+    "clues": [
+      "hulp",
+      "telefoon",
+      "kopen",
+      "winkel",
+      "probleem"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "toeleveringsketen": {
+    "clues": [
+      "verplaatsen",
+      "goederen",
+      "fabriek",
+      "winkel",
+      "logistiek"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "kwaliteitscontrole": {
+    "clues": [
+      "checken",
+      "goed",
+      "fabriek",
+      "testen",
+      "normen"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "intellectueel eigendom": {
+    "clues": [
+      "idee",
+      "bezit",
+      "wet",
+      "patent",
+      "kopiëren"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "privacybeleid": {
+    "clues": [
+      "data",
+      "online",
+      "geheim",
+      "regels",
+      "legaal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "gebruikersinterface": {
+    "clues": [
+      "scherm",
+      "uiterlijk",
+      "knoppen",
+      "app",
+      "ontwerp"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "gebruikerservaring": {
+    "clues": [
+      "gevoel",
+      "gebruik",
+      "app",
+      "makkelijk",
+      "ontwerp"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "ruimtestation": {
+    "clues": [
+      "ruimte",
+      "wonen",
+      "sterren",
+      "baan",
+      "astronaut"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "zwart gat": {
+    "clues": [
+      "ruimte",
+      "donker",
+      "zwaartekracht",
+      "trekken",
+      "ster"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "oerknal": {
+    "clues": [
+      "begin",
+      "wereld",
+      "ruimte",
+      "theorie",
+      "explosie"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "natuurlijke selectie": {
+    "clues": [
+      "darwin",
+      "natuur",
+      "leven",
+      "evolutie",
+      "veranderen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "genetische manipulatie": {
+    "clues": [
+      "dna",
+      "veranderen",
+      "wetenschap",
+      "lab",
+      "leven"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "immuunsysteem": {
+    "clues": [
+      "lichaam",
+      "vechten",
+      "ziek",
+      "beschermen",
+      "cellen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "bloeddruk": {
+    "clues": [
+      "hart",
+      "dokter",
+      "lichaam",
+      "gezondheid",
+      "getal"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "geestelijke gezondheid": {
+    "clues": [
+      "geest",
+      "voelen",
+      "denken",
+      "gelukkig",
+      "dokter"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "emotionele intelligentie": {
+    "clues": [
+      "voelen",
+      "weten",
+      "mensen",
+      "slim",
+      "geest"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "kritisch denken": {
+    "clues": [
+      "denken",
+      "slim",
+      "logica",
+      "feit",
+      "geest"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "tijdmanagement": {
+    "clues": [
+      "klok",
+      "werk",
+      "plannen",
+      "snel",
+      "taak"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "werk-privébalans": {
+    "clues": [
+      "thuis",
+      "baan",
+      "tijd",
+      "gelukkig",
+      "rust"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "impostor syndroom": {
+    "clues": [
+      "nep",
+      "slim",
+      "voelen",
+      "angst",
+      "werk"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "makelaar": {
+    "clues": [
+      "huis",
+      "verkopen",
+      "kopen",
+      "werk",
+      "agent"
+    ],
+    "category": "People",
+    "kidsMode": false
+  },
+  "zakenbank": {
+    "clues": [
+      "geld",
+      "wall street",
+      "aandelen",
+      "rijk",
+      "bedrijf"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "sociale zekerheid": {
+    "clues": [
+      "geld",
+      "oud",
+      "overheid",
+      "betalen",
+      "hulp"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "minimumloon": {
+    "clues": [
+      "betalen",
+      "geld",
+      "werk",
+      "laag",
+      "wet"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "werkloosheidspercentage": {
+    "clues": [
+      "werk",
+      "geen baan",
+      "procent",
+      "economie",
+      "cijfers"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "consumentenelektronica": {
+    "clues": [
+      "kopen",
+      "tv",
+      "telefoon",
+      "tech",
+      "winkel"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "hoge definitie": {
+    "clues": [
+      "scherm",
+      "helder",
+      "tv",
+      "kijken",
+      "video"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "streamingdienst": {
+    "clues": [
+      "film",
+      "online",
+      "kijken",
+      "tv",
+      "abonnement"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "zoekmachine": {
+    "clues": [
+      "google",
+      "vinden",
+      "internet",
+      "zoeken",
+      "web"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "cyberaanval": {
+    "clues": [
+      "hacken",
+      "slecht",
+      "internet",
+      "computer",
+      "oorlog"
+    ],
+    "category": "Tech",
+    "kidsMode": false
+  },
+  "massamedia": {
+    "clues": [
+      "nieuws",
+      "tv",
+      "mensen",
+      "kijken",
+      "info"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "nepnieuws": {
+    "clues": [
+      "liegen",
+      "online",
+      "nieuws",
+      "media",
+      "verhaal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "burgerrechten": {
+    "clues": [
+      "wet",
+      "mensen",
+      "vrij",
+      "recht",
+      "mars"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "mensenrechten": {
+    "clues": [
+      "wereld",
+      "mensen",
+      "vrij",
+      "wet",
+      "recht"
+    ],
+    "category": "History",
+    "kidsMode": false
+  },
+  "verenigde naties": {
+    "clues": [
+      "wereld",
+      "groep",
+      "vrede",
+      "landen",
+      "new york"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "europese unie": {
+    "clues": [
+      "europa",
+      "groep",
+      "euro",
+      "landen",
+      "brussel"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "middenklasse": {
+    "clues": [
+      "mensen",
+      "geld",
+      "gemiddeld",
+      "groep",
+      "maatschappij"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "arbeidersklasse": {
+    "clues": [
+      "mensen",
+      "baan",
+      "geld",
+      "handwerk",
+      "groep"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "levensstandaard": {
+    "clues": [
+      "leven",
+      "geld",
+      "goed",
+      "hoe",
+      "land"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "kosten van levensonderhoud": {
+    "clues": [
+      "geld",
+      "prijs",
+      "stad",
+      "hoog",
+      "betalen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "gentrificatie": {
+    "clues": [
+      "stad",
+      "buurt",
+      "nieuw",
+      "rijk",
+      "verandering"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "verstedelijking": {
+    "clues": [
+      "stad",
+      "groei",
+      "bouwen",
+      "mensen",
+      "verhuizen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "openbaar vervoer": {
+    "clues": [
+      "bus",
+      "trein",
+      "stad",
+      "rit",
+      "mensen"
+    ],
+    "category": "Travel",
+    "kidsMode": false
+  },
+  "fossiele brandstoffen": {
+    "clues": [
+      "olie",
+      "gas",
+      "kool",
+      "energie",
+      "slecht"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "ecologische voetafdruk": {
+    "clues": [
+      "aarde",
+      "slecht",
+      "gas",
+      "jij",
+      "groen"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "natuurlijke hulpbronnen": {
+    "clues": [
+      "aarde",
+      "hout",
+      "olie",
+      "water",
+      "natuur"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "genetische diversiteit": {
+    "clues": [
+      "leven",
+      "soorten",
+      "genen",
+      "natuur",
+      "bereik"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "massa-extractie": {
+    "clues": [
+      "dood",
+      "allemaal",
+      "dieren",
+      "historie",
+      "einde"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "deeltjesfysica": {
+    "clues": [
+      "klein",
+      "atoom",
+      "wetenschap",
+      "lab",
+      "energie"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "donkere energie": {
+    "clues": [
+      "ruimte",
+      "geheim",
+      "theorie",
+      "universum",
+      "kracht"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "kwantumverstrengeling": {
+    "clues": [
+      "link",
+      "fysica",
+      "snel",
+      "raar",
+      "twee"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "snaartheorie": {
+    "clues": [
+      "wiskunde",
+      "universum",
+      "klein",
+      "fysica",
+      "trillen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "algemene relativiteitstheorie": {
+    "clues": [
+      "einstein",
+      "ruimte",
+      "tijd",
+      "zwaartekracht",
+      "massa"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cognitieve dissonantie": {
+    "clues": [
+      "geest",
+      "twee",
+      "conflict",
+      "denken",
+      "voelen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "behavioral economics": {
+    "clues": [
+      "geld",
+      "mensen",
+      "waarom",
+      "kopen",
+      "geest"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "speltheorie": {
+    "clues": [
+      "wiskunde",
+      "plan",
+      "winnen",
+      "keuze",
+      "anderen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "existentiële crisis": {
+    "clues": [
+      "leven",
+      "waarom",
+      "bang",
+      "geest",
+      "zin"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "moraalfilosofie": {
+    "clues": [
+      "goed",
+      "fout",
+      "denken",
+      "regels",
+      "integer"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "sociaal contract": {
+    "clues": [
+      "regles",
+      "mensen",
+      "overheid",
+      "maatschappij",
+      "afspraak"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "scheiding der machten": {
+    "clues": [
+      "wet",
+      "regering",
+      "drie",
+      "hof",
+      "leider"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "checks and balances": {
+    "clues": [
+      "macht",
+      "regering",
+      "limiet",
+      "regels",
+      "eerlijk"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "due process": {
+    "clues": [
+      "wet",
+      "hof",
+      "rechten",
+      "eerlijk",
+      "legaal"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "burgerlijke ongehoorzaamheid": {
+    "clues": [
+      "protest",
+      "wet",
+      "nee",
+      "vrede",
+      "mars"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "non-profitorganisatie": {
+    "clues": [
+      "helpen",
+      "geld",
+      "goed doel",
+      "werk",
+      "goed"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "maatschappelijk verantwoord ondernemen": {
+    "clues": [
+      "bedrijf",
+      "goed",
+      "aarde",
+      "helpen",
+      "plicht"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "handel met voorkennis": {
+    "clues": [
+      "aandelen",
+      "geheim",
+      "geld",
+      "illegaal",
+      "gevangenis"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "witwassen van geld": {
+    "clues": [
+      "misdaad",
+      "schoon",
+      "verborgen",
+      "cash",
+      "bank"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "belastingparadijs": {
+    "clues": [
+      "geld",
+      "land",
+      "verbergen",
+      "laag",
+      "eiland"
+    ],
+    "category": "Business",
+    "kidsMode": false
+  },
+  "belangenverstrengeling": {
+    "clues": [
+      "baan",
+      "twee",
+      "probleem",
+      "geheim",
+      "eerlijk"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "braindrain": {
+    "clues": [
+      "land",
+      "vertrekken",
+      "slim",
+      "werk",
+      "verhuizen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "glazen plafond": {
+    "clues": [
+      "werk",
+      "vrouw",
+      "limiet",
+      "top",
+      "verborgen"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "bibliothecaris": {
+    "clues": [
+      "boeken",
+      "stilte",
+      "lezen",
+      "bibliotheek",
+      "plank"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "wetenschapper": {
+    "clues": [
+      "lab",
+      "experiment",
+      "jas",
+      "wetenschap",
+      "test"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "monteur": {
+    "clues": [
+      "auto",
+      "gereedschap",
+      "maken",
+      "garage",
+      "olie"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "fotograaf": {
+    "clues": [
+      "camera",
+      "foto",
+      "flits",
+      "lach",
+      "lens"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "detective": {
+    "clues": [
+      "aanwijzingen",
+      "vergrootglas",
+      "mysterie",
+      "oplossen",
+      "spion"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "tuinman": {
+    "clues": [
+      "planten",
+      "bloemen",
+      "aarde",
+      "tuin",
+      "groeien"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "tandarts": {
+    "clues": [
+      "tanden",
+      "schoonmaken",
+      "lach",
+      "stoel",
+      "mond"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "verpleegkundige": {
+    "clues": [
+      "ziekenhuis",
+      "helpen",
+      "ziek",
+      "dokter",
+      "medicijnen"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "bakker": {
+    "clues": [
+      "brood",
+      "meel",
+      "oven",
+      "koken",
+      "taart"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "kunstenaar": {
+    "clues": [
+      "verf",
+      "penseel",
+      "canvas",
+      "kleuren",
+      "schilderij"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "muzikant": {
+    "clues": [
+      "instrument",
+      "spelen",
+      "muziek",
+      "liedje",
+      "podium"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "atleet": {
+    "clues": [
+      "sport",
+      "rennen",
+      "snel",
+      "winnen",
+      "sportschool"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "verslaggever": {
+    "clues": [
+      "nieuws",
+      "praten",
+      "tv",
+      "microfoon",
+      "verhaal"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "kapitein": {
+    "clues": [
+      "schip",
+      "zee",
+      "boot",
+      "water",
+      "pet"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "ridder": {
+    "clues": [
+      "harnas",
+      "zwaard",
+      "kasteel",
+      "paard",
+      "schild"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "tovenaar": {
+    "clues": [
+      "magie",
+      "staf",
+      "hoed",
+      "spreuk",
+      "mantel"
+    ],
+    "category": "People",
+    "kidsMode": true
+  },
+  "draak": {
+    "clues": [
+      "vuur",
+      "vliegen",
+      "schubben",
+      "vleugels",
+      "eng"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "eenhoorn": {
+    "clues": [
+      "hoorn",
+      "paard",
+      "magie",
+      "wit",
+      "regenboog"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "zeemeermin": {
+    "clues": [
+      "oceaan",
+      "staart",
+      "zwemmen",
+      "haar",
+      "zee"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "alien": {
+    "clues": [
+      "ruimte",
+      "groen",
+      "sterren",
+      "schip",
+      "ufo"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "monster": {
+    "clues": [
+      "eng",
+      "nacht",
+      "kast",
+      "groot",
+      "harig"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "dinosaurus": {
+    "clues": [
+      "botten",
+      "oud",
+      "enorm",
+      "brul",
+      "t-rex"
+    ],
+    "category": "Animals",
+    "kidsMode": true
+  },
+  "robot": {
+    "clues": [
+      "metaal",
+      "piep",
+      "computer",
+      "batterij",
+      "toekomst"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "kasteel": {
+    "clues": [
+      "koning",
+      "koningin",
+      "steen",
+      "toren",
+      "oud"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "paleis": {
+    "clues": [
+      "koninklijk",
+      "groot",
+      "huis",
+      "goud",
+      "prins"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "piramide": {
+    "clues": [
+      "egypte",
+      "driehoek",
+      "steen",
+      "woestijn",
+      "oud"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "waterval": {
+    "clues": [
+      "water",
+      "rivier",
+      "vallen",
+      "nat",
+      "hoog"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "grot": {
+    "clues": [
+      "donker",
+      "rots",
+      "berg",
+      "vleermuizen",
+      "binnen"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "oerwoud": {
+    "clues": [
+      "bomen",
+      "apen",
+      "nat",
+      "groen",
+      "wild"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "vallei": {
+    "clues": [
+      "laag",
+      "heuvels",
+      "tussen",
+      "groen",
+      "vlak"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "canyon": {
+    "clues": [
+      "diep",
+      "rots",
+      "rivier",
+      "rood",
+      "muren"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "moeras": {
+    "clues": [
+      "nat",
+      "modder",
+      "krokodil",
+      "groen",
+      "water"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "gletsjer": {
+    "clues": [
+      "ijs",
+      "koud",
+      "blauw",
+      "langzaam",
+      "enorm"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "savanne": {
+    "clues": [
+      "afrika",
+      "gras",
+      "leeuw",
+      "droog",
+      "dieren"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tundra": {
+    "clues": [
+      "koud",
+      "geen bomen",
+      "ijs",
+      "noordpool",
+      "sneeuw"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "prairie": {
+    "clues": [
+      "gras",
+      "vlak",
+      "wind",
+      "boerderij",
+      "koeien"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "weide": {
+    "clues": [
+      "bloemen",
+      "gras",
+      "groen",
+      "zon",
+      "bijen"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "boomgaard": {
+    "clues": [
+      "fruit",
+      "bomen",
+      "appels",
+      "boerderij",
+      "plukken"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "wijngaard": {
+    "clues": [
+      "druiven",
+      "wijn",
+      "rijen",
+      "boerderij",
+      "paars"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "vuurtoren": {
+    "clues": [
+      "oceaan",
+      "licht",
+      "kust",
+      "toren",
+      "schip"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "wolkenkrabber": {
+    "clues": [
+      "stad",
+      "hoog",
+      "glas",
+      "gebouw",
+      "hoog"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "stadion": {
+    "clues": [
+      "sport",
+      "publiek",
+      "wedstrijd",
+      "stoelen",
+      "team"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "museum": {
+    "clues": [
+      "oud",
+      "kunst",
+      "historie",
+      "gebouw",
+      "kijken"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "aquarium": {
+    "clues": [
+      "vissen",
+      "water",
+      "haai",
+      "glas",
+      "blauw"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "planetarium": {
+    "clues": [
+      "sterren",
+      "ruimte",
+      "donker",
+      "koepel",
+      "planeten"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "observatorium": {
+    "clues": [
+      "telescoop",
+      "sterren",
+      "ruimte",
+      "berg",
+      "kijken"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "laboratorium": {
+    "clues": [
+      "wetenschap",
+      "test",
+      "experiment",
+      "glas",
+      "wetenschapper"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "universiteit": {
+    "clues": [
+      "leren",
+      "boeken",
+      "studenten",
+      "groot",
+      "studeren"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "fabriek": {
+    "clues": [
+      "maken",
+      "rook",
+      "machine",
+      "werk",
+      "gebouw"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "magazijn": {
+    "clues": [
+      "dozen",
+      "groot",
+      "bewaren",
+      "goederen",
+      "leeg"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "haven": {
+    "clues": [
+      "schip",
+      "boot",
+      "water",
+      "kade",
+      "zee"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "vliegveld": {
+    "clues": [
+      "vliegtuig",
+      "vliegen",
+      "reizen",
+      "bagage",
+      "gate"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "station": {
+    "clues": [
+      "trein",
+      "bus",
+      "wachten",
+      "reizen",
+      "stop"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "brug": {
+    "clues": [
+      "water",
+      "oversteken",
+      "weg",
+      "over",
+      "hoog"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "tunnel": {
+    "clues": [
+      "donker",
+      "onder",
+      "weg",
+      "berg",
+      "door"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "monument": {
+    "clues": [
+      "standbeeld",
+      "oud",
+      "beroemd",
+      "steen",
+      "historie"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "fontein": {
+    "clues": [
+      "water",
+      "park",
+      "standbeeld",
+      "wens",
+      "spuiten"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "beeldhouwwerk": {
+    "clues": [
+      "kunst",
+      "steen",
+      "vorm",
+      "standbeeld",
+      "museum"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "portret": {
+    "clues": [
+      "gezicht",
+      "kunst",
+      "schilderij",
+      "verf",
+      "persoon"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "landschap": {
+    "clues": [
+      "natuur",
+      "kunst",
+      "schilderij",
+      "verf",
+      "uitzicht"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "muurschildering": {
+    "clues": [
+      "muur",
+      "kunst",
+      "verf",
+      "groot",
+      "stad"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "graffiti": {
+    "clues": [
+      "muur",
+      "spuitbus",
+      "kunst",
+      "straat",
+      "letters"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "mozaïek": {
+    "clues": [
+      "tegels",
+      "klein",
+      "kunst",
+      "patroon",
+      "kleuren"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "origami": {
+    "clues": [
+      "papier",
+      "vouwen",
+      "japan",
+      "vorm",
+      "vogel"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "aardewerk": {
+    "clues": [
+      "klei",
+      "wiel",
+      "kom",
+      "vuur",
+      "handen"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "weven": {
+    "clues": [
+      "draad",
+      "stof",
+      "weefgetouw",
+      "patroon",
+      "garen"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "borduren": {
+    "clues": [
+      "naald",
+      "draad",
+      "stof",
+      "patroon",
+      "naaien"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "breien": {
+    "clues": [
+      "naalden",
+      "garen",
+      "trui",
+      "wol",
+      "lus"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "sieraden": {
+    "clues": [
+      "goud",
+      "ringen",
+      "nek",
+      "glimmend",
+      "dragen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "tiara": {
+    "clues": [
+      "prinses",
+      "hoofd",
+      "glimmend",
+      "kroon",
+      "goud"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "trofee": {
+    "clues": [
+      "winnen",
+      "goud",
+      "beker",
+      "sport",
+      "eerste"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "medaille": {
+    "clues": [
+      "winnen",
+      "goud",
+      "nek",
+      "sport",
+      "prijs"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "kompas": {
+    "clues": [
+      "noord",
+      "richting",
+      "naald",
+      "kaart",
+      "verdwaald"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "telescoop": {
+    "clues": [
+      "sterren",
+      "kijken",
+      "ruimte",
+      "ver",
+      "lens"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "microscoop": {
+    "clues": [
+      "klein",
+      "kijken",
+      "wetenschap",
+      "lab",
+      "cellen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "verrekijker": {
+    "clues": [
+      "kijken",
+      "ver",
+      "ogen",
+      "vogels",
+      "natuur"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "vergrootglas": {
+    "clues": [
+      "kijken",
+      "klein",
+      "detective",
+      "groot",
+      "aanwijzingen"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "rugzak": {
+    "clues": [
+      "school",
+      "dragen",
+      "boeken",
+      "riemen",
+      "tas"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "koffer": {
+    "clues": [
+      "reizen",
+      "kleren",
+      "vliegveld",
+      "wielen",
+      "pakken"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "zaklamp": {
+    "clues": [
+      "donker",
+      "licht",
+      "nacht",
+      "batterij",
+      "straal"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "lantaarn": {
+    "clues": [
+      "licht",
+      "kamperen",
+      "handvat",
+      "vuur",
+      "nacht"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "kaars": {
+    "clues": [
+      "vuur",
+      "was",
+      "licht",
+      "taart",
+      "branden"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "lucifer": {
+    "clues": [
+      "vuur",
+      "doosje",
+      "strijken",
+      "stokje",
+      "licht"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "aansteker": {
+    "clues": [
+      "vuur",
+      "duim",
+      "klik",
+      "vlam",
+      "rook"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "kampvuur": {
+    "clues": [
+      "vuur",
+      "kamperen",
+      "hout",
+      "marshmallows",
+      "nacht"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "tent": {
+    "clues": [
+      "kamperen",
+      "slapen",
+      "buiten",
+      "stof",
+      "bos"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "slaapzak": {
+    "clues": [
+      "kamperen",
+      "slapen",
+      "warm",
+      "tent",
+      "rits"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "hangmat": {
+    "clues": [
+      "schommelen",
+      "slapen",
+      "bomen",
+      "touw",
+      "buiten"
+    ],
+    "category": "Objects",
+    "kidsMode": true
+  },
+  "picknick": {
+    "clues": [
+      "mand",
+      "park",
+      "eten",
+      "deken",
+      "buiten"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "barbecue": {
+    "clues": [
+      "grill",
+      "vlees",
+      "buiten",
+      "rook",
+      "eten"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "feest": {
+    "clues": [
+      "leuk",
+      "muziek",
+      "vrienden",
+      "dansen",
+      "taart"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "optocht": {
+    "clues": [
+      "marcheren",
+      "muziek",
+      "straat",
+      "publiek",
+      "praalwagens"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "kermis": {
+    "clues": [
+      "ritjes",
+      "spelletjes",
+      "feest",
+      "leuk",
+      "suikerspin"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "circus": {
+    "clues": [
+      "tent",
+      "clowns",
+      "dieren",
+      "show",
+      "trapeze"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "theater": {
+    "clues": [
+      "show",
+      "podium",
+      "acteren",
+      "stoelen",
+      "gordijn"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "opera": {
+    "clues": [
+      "zingen",
+      "muziek",
+      "podium",
+      "hard",
+      "theater"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "ballet": {
+    "clues": [
+      "dansen",
+      "muziek",
+      "podium",
+      "tenen",
+      "schoenen"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "concert": {
+    "clues": [
+      "muziek",
+      "band",
+      "zingen",
+      "publiek",
+      "podium"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "festival": {
+    "clues": [
+      "muziek",
+      "buiten",
+      "groot",
+      "veel",
+      "publiek"
+    ],
+    "category": "Places",
+    "kidsMode": true
+  },
+  "orkest": {
+    "clues": [
+      "muziek",
+      "veel",
+      "violen",
+      "dirigent",
+      "spelen"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "symfonie": {
+    "clues": [
+      "muziek",
+      "lang",
+      "orkest",
+      "hard",
+      "mooi"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "melodie": {
+    "clues": [
+      "muziek",
+      "liedje",
+      "wijsje",
+      "zingen",
+      "noten"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "ritme": {
+    "clues": [
+      "muziek",
+      "maat",
+      "dansen",
+      "trommel",
+      "tikken"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "harmonie": {
+    "clues": [
+      "muziek",
+      "stemmen",
+      "samen",
+      "zingen",
+      "mooi"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "songtekst": {
+    "clues": [
+      "liedje",
+      "woorden",
+      "zingen",
+      "muziek",
+      "schrijven"
+    ],
+    "category": "Art",
+    "kidsMode": true
+  },
+  "tempo": {
+    "clues": [
+      "muziek",
+      "snelheid",
+      "fast",
+      "slow",
+      "maat"
+    ],
+    "category": "Art",
+    "kidsMode": false
+  },
+  "volume": {
+    "clues": [
+      "muziek",
+      "hard",
+      "zacht",
+      "geluid",
+      "draaien"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "echo": {
+    "clues": [
+      "geluid",
+      "herhalen",
+      "grot",
+      "stem",
+      "muur"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "vibratie": {
+    "clues": [
+      "trillen",
+      "bewegen",
+      "geluid",
+      "snel",
+      "aanraken"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "wrijving": {
+    "clues": [
+      "wrijven",
+      "hitte",
+      "langzaam",
+      "stoppen",
+      "aanraken"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "traagheid": {
+    "clues": [
+      "bewegen",
+      "blijven",
+      "fysica",
+      "stoppen",
+      "rust"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "snelheid": {
+    "clues": [
+      "snel",
+      "richting",
+      "bewegen",
+      "fysica",
+      "haast"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "druk": {
+    "clues": [
+      "duwen",
+      "kracht",
+      "gewicht",
+      "lucht",
+      "zwaar"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "temperatuur": {
+    "clues": [
+      "heet",
+      "koud",
+      "graden",
+      "weer",
+      "warmte"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "verdamping": {
+    "clues": [
+      "water",
+      "stoom",
+      "zon",
+      "omhoog",
+      "droog"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "condensatie": {
+    "clues": [
+      "water",
+      "wolk",
+      "glas",
+      "nat",
+      "koud"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "neerslag": {
+    "clues": [
+      "regen",
+      "sneeuw",
+      "water",
+      "lucht",
+      "vallen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "metamorfose": {
+    "clues": [
+      "verandering",
+      "vlinder",
+      "groeien",
+      "kikker",
+      "leven"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "ademhaling": {
+    "clues": [
+      "ademen",
+      "lucht",
+      "longen",
+      "leven",
+      "zuurstof"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "spijsvertering": {
+    "clues": [
+      "eten",
+      "maag",
+      "voedsel",
+      "lichaam",
+      "proces"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "bloedsomloop": {
+    "clues": [
+      "bloed",
+      "hart",
+      "lichaam",
+      "stromen",
+      "rond"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "skelet": {
+    "clues": [
+      "botten",
+      "lichaam",
+      "wit",
+      "binnen",
+      "hard"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "spier": {
+    "clues": [
+      "sterk",
+      "lichaam",
+      "bewegen",
+      "arm",
+      "vlees"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "hersenen": {
+    "clues": [
+      "denken",
+      "hoofd",
+      "geest",
+      "slim",
+      "controle"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "hart": {
+    "clues": [
+      "bloed",
+      "kloppen",
+      "borst",
+      "leven",
+      "liefde"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "longen": {
+    "clues": [
+      "ademen",
+      "lucht",
+      "borst",
+      "zuurstof",
+      "rook"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "maag": {
+    "clues": [
+      "eten",
+      "voedsel",
+      "buik",
+      "honger",
+      "vol"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "lever": {
+    "clues": [
+      "lichaam",
+      "binnen",
+      "orgaan",
+      "bloed",
+      "schoon"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "nieren": {
+    "clues": [
+      "lichaam",
+      "binnen",
+      "twee",
+      "water",
+      "schoon"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "darmen": {
+    "clues": [
+      "lichaam",
+      "binnen",
+      "lang",
+      "eten",
+      "maag"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "bacterie": {
+    "clues": [
+      "klein",
+      "kiemen",
+      "ziek",
+      "leven",
+      "schoon"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "virus": {
+    "clues": [
+      "klein",
+      "ziek",
+      "kiemen",
+      "griep",
+      "besmetting"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "antilichaam": {
+    "clues": [
+      "lichaam",
+      "vechten",
+      "kiemen",
+      "gezond",
+      "cellen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vaccin": {
+    "clues": [
+      "prik",
+      "dokter",
+      "medicijn",
+      "gezond",
+      "naald"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "antibiotica": {
+    "clues": [
+      "medicijn",
+      "dokter",
+      "kiemen",
+      "pil",
+      "ziek"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "vitamines": {
+    "clues": [
+      "gezond",
+      "eten",
+      "pil",
+      "goed",
+      "lichaam"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "mineralen": {
+    "clues": [
+      "gezond",
+      "rotsen",
+      "lichaam",
+      "eten",
+      "ijzer"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "eiwitten": {
+    "clues": [
+      "vlees",
+      "sterk",
+      "eten",
+      "lichaam",
+      "spier"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "koolhydraten": {
+    "clues": [
+      "brood",
+      "energie",
+      "eten",
+      "suiker",
+      "pasta"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "glucose": {
+    "clues": [
+      "suiker",
+      "energie",
+      "bloed",
+      "lichaam",
+      "zoet"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "cholesterol": {
+    "clues": [
+      "bloed",
+      "hart",
+      "vet",
+      "gezondheid",
+      "slecht"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hormonen": {
+    "clues": [
+      "lichaam",
+      "groeien",
+      "chemicaliën",
+      "voelen",
+      "verandering"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "enzymen": {
+    "clues": [
+      "lichaam",
+      "eten",
+      "afbreken",
+      "proces",
+      "cellen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "erfelijkheid": {
+    "clues": [
+      "familie",
+      "geboren",
+      "genen",
+      "kenmerken",
+      "ouders"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "behoud": {
+    "clues": [
+      "redden",
+      "aarde",
+      "natuur",
+      "groen",
+      "beschermen"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "vervuiling": {
+    "clues": [
+      "vies",
+      "rook",
+      "afval",
+      "slecht",
+      "aarde"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "recycling": {
+    "clues": [
+      "bak",
+      "papier",
+      "plastic",
+      "groen",
+      "hergebruiken"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "composteren": {
+    "clues": [
+      "aarde",
+      "eten",
+      "tuin",
+      "rotten",
+      "groen"
+    ],
+    "category": "Nature",
+    "kidsMode": false
+  },
+  "geosfeer": {
+    "clues": [
+      "stenen",
+      "aarde",
+      "grond",
+      "metaal",
+      "steen"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "hydrosfeer": {
+    "clues": [
+      "water",
+      "aarde",
+      "oceaan",
+      "rivier",
+      "ijs"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "mesosfeer": {
+    "clues": [
+      "lucht",
+      "ruimte",
+      "midden",
+      "koud",
+      "laag"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "thermosfeer": {
+    "clues": [
+      "lucht",
+      "ruimte",
+      "heet",
+      "hoog",
+      "laag"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "exosfeer": {
+    "clues": [
+      "ruimte",
+      "lucht",
+      "buiten",
+      "rand",
+      "laag"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "magnetosfeer": {
+    "clues": [
+      "aarde",
+      "polen",
+      "schild",
+      "ruimte",
+      "kracht"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "evenaar": {
+    "clues": [
+      "midden",
+      "aarde",
+      "heet",
+      "lijn",
+      "bol"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "lengtegraad": {
+    "clues": [
+      "kaart",
+      "lijn",
+      "aarde",
+      "omhoog",
+      "bol"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "breedtegraad": {
+    "clues": [
+      "kaart",
+      "lijn",
+      "aarde",
+      "over",
+      "bol"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "coördinaten": {
+    "clues": [
+      "kaart",
+      "plek",
+      "getallen",
+      "zoeken",
+      "punt"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "topografie": {
+    "clues": [
+      "kaart",
+      "heuvels",
+      "vorm",
+      "grond",
+      "hoogte"
+    ],
+    "category": "Science",
+    "kidsMode": false
+  },
+  "navigatie": {
+    "clues": [
+      "vinden",
+      "kaart",
+      "weg",
+      "reizen",
+      "schip"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "expeditie": {
+    "clues": [
+      "reizen",
+      "verkennen",
+      "zoeken",
+      "vinden",
+      "groep"
+    ],
+    "category": "Travel",
+    "kidsMode": true
+  },
+  "verbeelding": {
+    "clues": [
+      "geest",
+      "droom",
+      "verzinnen",
+      "gedachte",
+      "creëren"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "vriendschap": {
+    "clues": [
+      "samen",
+      "hulp",
+      "aardig",
+      "spelen",
+      "delen"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "nieuwsgierigheid": {
+    "clues": [
+      "leren",
+      "vragen",
+      "waarom",
+      "slim",
+      "zoeken"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "avontuur": {
+    "clues": [
+      "reizen",
+      "leuk",
+      "verkennen",
+      "buiten",
+      "zoeken"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "vakantie": {
+    "clues": [
+      "leuk",
+      "geen school",
+      "feest",
+      "zomer",
+      "rust"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "ochtend": {
+    "clues": [
+      "zon",
+      "wakker worden",
+      "ontbijt",
+      "begin",
+      "licht"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "middag": {
+    "clues": [
+      "zon",
+      "lunch",
+      "spelen",
+      "voor het avondeten",
+      "licht"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "avond": {
+    "clues": [
+      "nacht",
+      "zon gaat onder",
+      "avondeten",
+      "donker",
+      "rust"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "gisteren": {
+    "clues": [
+      "verleden",
+      "vroeger",
+      "tijd",
+      "klaar",
+      "oud"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "morgen (dag)": {
+    "clues": [
+      "toekomst",
+      "later",
+      "wachten",
+      "volgende",
+      "binnenkort"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "schaduw": {
+    "clues": [
+      "donker",
+      "zon",
+      "vorm",
+      "grond",
+      "zwart"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "reflectie": {
+    "clues": [
+      "spiegel",
+      "water",
+      "zien",
+      "glas",
+      "gezicht"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  },
+  "magneet": {
+    "clues": [
+      "trekken",
+      "metaal",
+      "pool",
+      "plakken",
+      "noord"
+    ],
+    "category": "Science",
+    "kidsMode": true
+  },
+  "erfgoed": {
+    "clues": [
+      "historie",
+      "oud",
+      "cultuur",
+      "gebouw",
+      "erfenis"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "identiteit": {
+    "clues": [
+      "wie ben ik",
+      "zijn",
+      "naam",
+      "karakter",
+      "persoonlijk"
+    ],
+    "category": "Abstract",
+    "kidsMode": false
+  },
+  "vrijheid": {
+    "clues": [
+      "vrij",
+      "recht",
+      "vliegen",
+      "geen kettingen",
+      "macht"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "gelijkheid": {
+    "clues": [
+      "gelijk",
+      "eerlijk",
+      "hetzelfde",
+      "recht",
+      "iedereen"
+    ],
+    "category": "Abstract",
+    "kidsMode": true
+  },
+  "tulp": {
+    "clues": [
+      "bloem",
+      "bol",
+      "lente",
+      "keukenhof",
+      "rood"
+    ],
+    "category": "Nature",
+    "kidsMode": true
+  }
 }
