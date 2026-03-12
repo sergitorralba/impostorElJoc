@@ -178,6 +178,8 @@ export default function GameScreen() {
     setLanguage,
     gameMode,
     setGameMode,
+    selectedTheme,
+    setTheme,
     startingPlayerIndex,
     chooseVotingMethod,
     submitVote,
@@ -289,6 +291,8 @@ export default function GameScreen() {
       kids: { en: "KIDS", es: "NIÑOS", ca: "PETITS", nl: "KINDEREN" },
       selectLang: { en: "CHOOSE LANGUAGE", es: "ELIGE IDIOMA", ca: "TRIA IDIOMA", nl: "KIES TAAL" },
       selectMode: { en: "SELECT MODE", es: "SELECCIONA MODO", ca: "SELECCIONA MODE", nl: "SELECTEER MODUS" },
+      selectTheme: { en: "SELECT THEME", es: "SELECCIONA TEMA", ca: "SELECCIONA TEMA", nl: "SELECTEER THEMA" },
+      all: { en: "ALL", es: "TODOS", ca: "TOTS", nl: "ALLE" },
       setupPlayers: { en: "PLAYERS", es: "JUGADORES", ca: "JUGADORS", nl: "SPELERS" },
       back: { en: "BACK", es: "ATRÁS", ca: "ENRERE", nl: "TERUG" },
       voter: { en: "Turn: ", es: "Turno: ", ca: "Torn: ", nl: "Beurt: " },
@@ -340,6 +344,25 @@ export default function GameScreen() {
       </TouchableOpacity>
     </ReAnimated.View>
   );
+
+  const renderThemeSelect = () => {
+    const categories = Array.from(new Set(Object.values(wordData).map((w: any) => w.category))).filter(Boolean).sort();
+    return (
+      <ReAnimated.View entering={FadeIn} exiting={FadeOut} style={styles.container}>
+        <Text style={styles.title}>{getTranslation("title")}</Text>
+        <Text style={styles.subtitle}>{getTranslation("selectTheme")}</Text>
+        <ScrollView style={{ width: '100%', maxHeight: height * 0.6 }} contentContainerStyle={{ alignItems: 'center' }}>
+          <NeonButton title={getTranslation("all")} onPress={() => setTheme("ALL")} color={COLORS.primary} />
+          {categories.map((cat: any) => (
+            <NeonButton key={cat} title={cat.toUpperCase()} onPress={() => setTheme(cat)} color={COLORS.purple} />
+          ))}
+        </ScrollView>
+        <TouchableOpacity onPress={() => useGameStore.setState({ currentPhase: "MODE_SELECT" })} style={styles.backBtn}>
+          <Text style={styles.backText}>{getTranslation("back")}</Text>
+        </TouchableOpacity>
+      </ReAnimated.View>
+    );
+  };
 
   const renderPlayerSetup = () => (
     <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : "height"} style={styles.container}>
@@ -624,6 +647,7 @@ export default function GameScreen() {
     switch (currentPhase) {
       case "LANG_SELECT": return renderLangSelect();
       case "MODE_SELECT": return renderModeSelect();
+      case "THEME_SELECT": return renderThemeSelect();
       case "PLAYER_SETUP": return renderPlayerSetup();
       case "REVEAL": return renderReveal();
       case "LOBBY": return renderLobby();

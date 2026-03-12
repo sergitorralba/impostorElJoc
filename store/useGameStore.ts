@@ -17,8 +17,9 @@ interface GameState {
   gamePlayers: Player[];
   language: 'en' | 'es' | 'ca' | 'nl';
   gameMode: GameMode;
+  selectedTheme: string;
   gamesPlayed: number;
-  currentPhase: 'LANG_SELECT' | 'MODE_SELECT' | 'PLAYER_SETUP' | 'REVEAL' | 'LOBBY' | 'VOTING_CHOICE' | 'VOTING_SECRET' | 'VOTING_AGREEMENT' | 'RESULT';
+  currentPhase: 'LANG_SELECT' | 'MODE_SELECT' | 'THEME_SELECT' | 'PLAYER_SETUP' | 'REVEAL' | 'LOBBY' | 'VOTING_CHOICE' | 'VOTING_SECRET' | 'VOTING_AGREEMENT' | 'RESULT';
   currentPlayerIndex: number;
   startingPlayerIndex: number;
   votes: Record<string, string[]>; // voterId -> suspectIds
@@ -29,6 +30,7 @@ interface GameState {
   // Actions
   setLanguage: (lang: 'en' | 'es' | 'ca' | 'nl') => void;
   setGameMode: (mode: GameMode) => void;
+  setTheme: (theme: string) => void;
   addPlayer: (name: string) => void;
   removePlayer: (index: number) => void;
   startGame: (wordData: any) => void;
@@ -47,6 +49,7 @@ export const useGameStore = create<GameState>()(
       gamePlayers: [],
       language: 'ca',
       gameMode: 'STANDARD',
+      selectedTheme: 'ALL',
       gamesPlayed: 0,
       currentPhase: 'LANG_SELECT',
       currentPlayerIndex: 0,
@@ -58,7 +61,9 @@ export const useGameStore = create<GameState>()(
 
       setLanguage: (lang) => set({ language: lang, currentPhase: 'MODE_SELECT' }),
       
-      setGameMode: (mode) => set({ gameMode: mode, currentPhase: 'PLAYER_SETUP' }),
+      setGameMode: (mode) => set({ gameMode: mode, currentPhase: 'THEME_SELECT' }),
+
+      setTheme: (theme) => set({ selectedTheme: theme, currentPhase: 'PLAYER_SETUP' }),
       
       addPlayer: (name) => set((state) => ({ players: [...state.players, name] })),
       
@@ -67,7 +72,7 @@ export const useGameStore = create<GameState>()(
       })),
 
       startGame: (wordData) => {
-        const { players, gamesPlayed, gameMode } = get();
+        const { players, gamesPlayed, gameMode, selectedTheme } = get();
         if (players.length < 3) return;
 
         const newGamesPlayed = gamesPlayed + 1;
@@ -99,11 +104,16 @@ export const useGameStore = create<GameState>()(
         const impostorIndices = shuffledIndices.slice(0, impostorsCount);
         
         const allWords = Object.entries(wordData);
-        const filteredWords = allWords.filter(([_, value]: any) => 
+        let wordPool = allWords.filter(([_, value]: any) => 
           gameMode === 'KIDS' ? value.kidsMode === true : true
         );
+
+        if (selectedTheme !== 'ALL') {
+          wordPool = wordPool.filter(([_, value]: any) => value.category === selectedTheme);
+        }
         
-        const wordPool = filteredWords.length > 0 ? filteredWords : allWords;
+        if (wordPool.length === 0) wordPool = allWords; // Fallback
+
         const [secretWord, data]: [string, any] = wordPool[Math.floor(Math.random() * wordPool.length)];
         
         // Shuffle clues to give different ones to each imposter
