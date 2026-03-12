@@ -20,6 +20,35 @@ jest.mock('expo-haptics', () => ({
   },
 }));
 
+// Mock Sound
+jest.mock('expo-av', () => ({
+  Audio: {
+    Sound: jest.fn().mockImplementation(() => ({
+      loadAsync: jest.fn(),
+      playAsync: jest.fn(),
+      unloadAsync: jest.fn(),
+    })),
+  },
+}));
+
+// Mock Reanimated
+jest.mock('react-native-reanimated', () => {
+  const Reanimated = require('react-native-reanimated/mock');
+  Reanimated.default.call = () => {};
+  return Reanimated;
+});
+
+// Mock Keep Awake
+jest.mock('expo-keep-awake', () => ({
+  activateKeepAwakeAsync: jest.fn().mockResolvedValue(null),
+  deactivateKeepAwake: jest.fn(),
+}));
+
+// Mock Safe Area
+jest.mock('react-native-safe-area-context', () => ({
+  useSafeAreaInsets: () => ({ top: 0, bottom: 0, left: 0, right: 0 }),
+}));
+
 // Mock Gesture Handler
 jest.mock('react-native-gesture-handler', () => {
   const { View } = require('react-native');
@@ -67,7 +96,7 @@ describe('GameScreen', () => {
     });
     const { getByText } = render(<GameScreen />);
     
-    fireEvent.press(getByText('ADULT'));
+    fireEvent.press(getByText('ADULTS'));
     
     expect(useGameStore.getState().currentPhase).toBe('PLAYER_SETUP');
   });

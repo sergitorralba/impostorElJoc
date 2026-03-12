@@ -70,4 +70,20 @@ describe('useGameStore', () => {
     useGameStore.getState().startGame(mockWordData);
     expect(useGameStore.getState().gamesPlayed).toBe(1);
   });
+
+  it('should handle multi-suspect voting', () => {
+    const mockWordData = { "test": { "clues": ["t"], "kidsMode": true } };
+    useGameStore.getState().startGame(mockWordData);
+    
+    // Simulate being in voting phase
+    useGameStore.setState({ currentPhase: 'VOTING_SECRET', impostorsCount: 2 });
+    
+    const { gamePlayers } = useGameStore.getState();
+    const voterId = gamePlayers[0].id;
+    const suspects = [gamePlayers[1].id, gamePlayers[2].id];
+    
+    useGameStore.getState().submitVote(voterId, suspects);
+    
+    expect(useGameStore.getState().votes[voterId]).toEqual(suspects);
+  });
 });

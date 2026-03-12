@@ -21,7 +21,7 @@ interface GameState {
   currentPhase: 'LANG_SELECT' | 'MODE_SELECT' | 'PLAYER_SETUP' | 'REVEAL' | 'LOBBY' | 'VOTING_CHOICE' | 'VOTING_SECRET' | 'VOTING_AGREEMENT' | 'RESULT';
   currentPlayerIndex: number;
   startingPlayerIndex: number;
-  votes: Record<string, string>; // voterId -> suspectId
+  votes: Record<string, string[]>; // voterId -> suspectIds
   impostorsCount: number;
   isChaosMode: boolean;
   voteAttempt: number; // 1 or 2
@@ -34,8 +34,8 @@ interface GameState {
   startGame: (wordData: any) => void;
   nextReveal: () => void;
   chooseVotingMethod: (method: 'SECRET' | 'AGREEMENT') => void;
-  submitVote: (voterId: string, suspectId: string) => void;
-  submitAgreement: (suspectId: string) => void;
+  submitVote: (voterId: string, suspectIds: string[]) => void;
+  submitAgreement: (suspectIds: string[]) => void;
   tryAgain: () => void;
   resetGame: () => void;
 }
@@ -74,19 +74,20 @@ export const useGameStore = create<GameState>()(
         let impostorsCount = players.length >= 7 ? 2 : 1;
         let isChaosMode = false;
         
-        // Bug logic: Only after 5 consecutive games
+        // Bug logic: After 5 consecutive games
         if (gamesPlayed >= 5) {
           const rand = Math.random();
           if (rand < 0.2) {
             // 20% probability of a "Bug"
             const bugType = Math.random();
-            if (bugType < 0.5) {
+            if (bugType < 0.4) {
               // Chaos Mode: All Impostors
               isChaosMode = true;
               impostorsCount = players.length;
             } else {
-              // Extra Impostor
-              impostorsCount += 1;
+              // Extra Impostor(s)
+              const extra = Math.floor(Math.random() * 2) + 1; // 1 or 2 extra
+              impostorsCount = Math.min(impostorsCount + extra, players.length);
             }
           }
         }
@@ -153,9 +154,9 @@ export const useGameStore = create<GameState>()(
         }
       },
 
-      submitVote: (voterId, suspectId) => {
+      submitVote: (voterId, suspectIds) => {
         set((state) => {
-          const newVotes = { ...state.votes, [voterId]: suspectId };
+          const newVotes = { ...state.votes, [voterId]: suspectIds };
           const isLastVote = Object.keys(newVotes).length === state.gamePlayers.length;
           
           return {
@@ -166,9 +167,9 @@ export const useGameStore = create<GameState>()(
         });
       },
 
-      submitAgreement: (suspectId) => {
+      submitAgreement: (suspectIds) => {
         set((state) => ({
-          votes: { 'agreement': suspectId },
+          votes: { 'agreement': suspectIds },
           currentPhase: 'RESULT'
         }));
       },
