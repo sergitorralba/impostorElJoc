@@ -25,7 +25,6 @@ interface GameState {
   votes: Record<string, string[]>; // voterId -> suspectIds
   impostorsCount: number;
   isChaosMode: boolean;
-  voteAttempt: number; // 1 or 2
   
   // Actions
   setLanguage: (lang: 'en' | 'es' | 'ca' | 'nl') => void;
@@ -38,7 +37,6 @@ interface GameState {
   chooseVotingMethod: (method: 'SECRET' | 'AGREEMENT') => void;
   submitVote: (voterId: string, suspectIds: string[]) => void;
   submitAgreement: (suspectIds: string[]) => void;
-  tryAgain: () => void;
   resetGame: () => void;
 }
 
@@ -57,7 +55,6 @@ export const useGameStore = create<GameState>()(
       votes: {},
       impostorsCount: 1,
       isChaosMode: false,
-      voteAttempt: 1,
 
       setLanguage: (lang) => set({ language: lang, currentPhase: 'MODE_SELECT' }),
       
@@ -143,7 +140,6 @@ export const useGameStore = create<GameState>()(
           impostorsCount,
           isChaosMode,
           votes: {},
-          voteAttempt: 1
         });
       },
 
@@ -184,21 +180,12 @@ export const useGameStore = create<GameState>()(
         }));
       },
 
-      tryAgain: () => {
-        set((state) => ({
-          currentPhase: 'LOBBY',
-          voteAttempt: 2,
-          votes: {}
-        }));
-      },
-
       resetGame: () => set({ 
         currentPhase: 'LANG_SELECT', 
         gamePlayers: [], 
         players: [], // Reset names
         gamesPlayed: 0, // Reset consecutive games
         votes: {}, 
-        voteAttempt: 1 
       })
     }),
     {

@@ -51,7 +51,7 @@
       "arbre",
       "sana"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "plàtan": {
@@ -62,7 +62,7 @@
       "mico",
       "pelar"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "sol": {
@@ -150,7 +150,7 @@
       "esborrador",
       "fusta"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "llibre": {
@@ -172,7 +172,7 @@
       "finestra",
       "viure"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "cotxe": {
@@ -227,7 +227,7 @@
       "esmorzar",
       "got"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "aigua": {
@@ -249,7 +249,7 @@
       "forn",
       "miga"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "arròs": {
@@ -590,7 +590,7 @@
       "mates",
       "clau"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "blockchain": {
@@ -634,7 +634,7 @@
       "velocitat",
       "procés"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "fotosíntesi": {
@@ -645,7 +645,7 @@
       "créixer",
       "menjar"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "jerarquia": {
@@ -678,7 +678,7 @@
       "saviesa",
       "pregunta"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "existencialisme": {
@@ -689,7 +689,7 @@
       "sentit",
       "llibertat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "quàntic": {
@@ -700,7 +700,7 @@
       "salt",
       "teoria"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "relativitat": {
@@ -711,7 +711,7 @@
       "velocitat",
       "teoria"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "infraestructura": {
@@ -722,7 +722,7 @@
       "obres",
       "servei"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "logística": {
@@ -744,7 +744,7 @@
       "risc",
       "borsa"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "inflació": {
@@ -755,7 +755,7 @@
       "economia",
       "valor"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "deflació": {
@@ -766,7 +766,7 @@
       "economia",
       "valor"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "diplomàcia": {
@@ -777,7 +777,7 @@
       "ambaixada",
       "política"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "geopolítica": {
@@ -788,7 +788,7 @@
       "estratègia",
       "nacions"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "arquitectura": {
@@ -810,7 +810,7 @@
       "itàlia",
       "renaixença"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "barroc": {
@@ -843,7 +843,7 @@
       "física",
       "lleis"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "entropia": {
@@ -854,7 +854,7 @@
       "pèrdua",
       "ciència"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "mutació": {
@@ -865,7 +865,7 @@
       "atzar",
       "nou"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "evolució": {
@@ -876,7 +876,7 @@
       "darwin",
       "créixer"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "ecosistema": {
@@ -887,7 +887,7 @@
       "lloc",
       "xarxa"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "sostenibilitat": {
@@ -898,7 +898,7 @@
       "terra",
       "segur"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "resiliència": {
@@ -1019,7 +1019,7 @@
       "cuir",
       "pagar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "dividend": {
@@ -1030,7 +1030,7 @@
       "borsa",
       "guany"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "passiu": {
@@ -1063,7 +1063,7 @@
       "interès",
       "deute"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "assegurança": {
@@ -1074,7 +1074,7 @@
       "cobertura",
       "seguretat"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "pensió": {
@@ -1096,7 +1096,7 @@
       "retirada",
       "estalviar"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "elefant": {
@@ -1327,7 +1327,7 @@
       "pela",
       "rodó"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "maduixa": {
@@ -1338,7 +1338,7 @@
       "llavors",
       "baia"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "raïm": {
@@ -1349,7 +1349,7 @@
       "raïm",
       "vinya"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "sindria": {
@@ -1360,7 +1360,7 @@
       "llavors",
       "gran"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "pizza": {
@@ -1371,7 +1371,7 @@
       "massa",
       "tomàquet"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "hamburguesa": {
@@ -1382,7 +1382,7 @@
       "ràpid",
       "menjar"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "entrepà": {
@@ -1393,7 +1393,7 @@
       "formatge",
       "tall"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "ou": {
@@ -1404,7 +1404,7 @@
       "esmorzar",
       "pollastre"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "formatge": {
@@ -1415,7 +1415,7 @@
       "entrepà",
       "forats"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "gelat": {
@@ -1426,7 +1426,7 @@
       "bola",
       "postres"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "galeta": {
@@ -1437,7 +1437,7 @@
       "rodó",
       "cruixent"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "pastís": {
@@ -1448,7 +1448,7 @@
       "enfornar",
       "festa"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "suc": {
@@ -1459,7 +1459,7 @@
       "líquid",
       "dolç"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "sopa": {
@@ -1470,7 +1470,7 @@
       "líquid",
       "sopar"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "xocolata": {
@@ -1481,7 +1481,7 @@
       "barra",
       "cacau"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "patata": {
@@ -1492,7 +1492,7 @@
       "terra",
       "puré"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "tomàquet": {
@@ -1503,7 +1503,7 @@
       "salsa",
       "rodó"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "pastanaga": {
@@ -1514,7 +1514,7 @@
       "cruixent",
       "arrel"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "ceba": {
@@ -1525,7 +1525,7 @@
       "anells",
       "fort"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "all": {
@@ -1536,7 +1536,7 @@
       "fort",
       "cuinar"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "muntanya": {
@@ -1547,7 +1547,7 @@
       "neu",
       "roca"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "riu": {
@@ -1558,7 +1558,7 @@
       "vorera",
       "llarg"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "oceà": {
@@ -1569,7 +1569,7 @@
       "gran",
       "peix"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "llac": {
@@ -1580,7 +1580,7 @@
       "peix",
       "envoltar"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "bosc": {
@@ -1591,7 +1591,7 @@
       "salvatge",
       "animals"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "desert": {
@@ -1602,7 +1602,7 @@
       "cactus",
       "camell"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "illa": {
@@ -1613,7 +1613,7 @@
       "palmera",
       "mar"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "núvol": {
@@ -1624,7 +1624,7 @@
       "esponjós",
       "gris"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "arc de sant martí": {
@@ -1635,7 +1635,7 @@
       "sol",
       "arc"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "foc": {
@@ -1646,7 +1646,7 @@
       "fusta",
       "fum"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "vent": {
@@ -1657,7 +1657,7 @@
       "tempesta",
       "estel"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "tron": {
@@ -1668,7 +1668,7 @@
       "so",
       "llum"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "llamp": {
@@ -1679,7 +1679,7 @@
       "brillant",
       "elèctric"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "hivern": {
@@ -1690,7 +1690,7 @@
       "estació",
       "jaqueta"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "estiu": {
@@ -1701,7 +1701,7 @@
       "estació",
       "vacances"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "primavera": {
@@ -1712,7 +1712,7 @@
       "créixer",
       "pluja"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "tardor": {
@@ -1723,7 +1723,7 @@
       "caure",
       "fresc"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "ordinador": {
@@ -1734,7 +1734,7 @@
       "internet",
       "tecnologia"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "televisió": {
@@ -1745,7 +1745,7 @@
       "comandament",
       "pel·lícula"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "ràdio": {
@@ -1756,7 +1756,7 @@
       "altaveu",
       "sintonitzar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "bicicleta": {
@@ -1767,7 +1767,7 @@
       "casc",
       "dos"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "avió": {
@@ -1778,7 +1778,7 @@
       "pilot",
       "aeroport"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "tren": {
@@ -1789,7 +1789,7 @@
       "estació",
       "rodes"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "vaixell": {
@@ -1800,7 +1800,7 @@
       "riu",
       "vaixell"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "autobús": {
@@ -1811,7 +1811,7 @@
       "parada",
       "conduir"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "coet": {
@@ -1822,7 +1822,7 @@
       "estrella",
       "foc"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "escola": {
@@ -1833,7 +1833,7 @@
       "nens",
       "aula"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "hospital": {
@@ -1844,7 +1844,7 @@
       "medicina",
       "ajuda"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "parc": {
@@ -1855,7 +1855,7 @@
       "banc",
       "tobogan"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "platja": {
@@ -1866,7 +1866,7 @@
       "nedar",
       "ones"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "mercat": {
@@ -1877,7 +1877,7 @@
       "fruita",
       "vendre"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "biblioteca": {
@@ -1888,7 +1888,7 @@
       "estudiar",
       "prestatge"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "cinema": {
@@ -1899,7 +1899,7 @@
       "mirar",
       "cadira"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "doctor": {
@@ -1910,7 +1910,7 @@
       "medicina",
       "blanc"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "mestre": {
@@ -1921,7 +1921,7 @@
       "llibres",
       "clase"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "policia": {
@@ -1932,7 +1932,7 @@
       "llei",
       "uniforme"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "cuiner": {
@@ -1943,7 +1943,7 @@
       "gorra",
       "restaurant"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "pilot": {
@@ -1954,7 +1954,7 @@
       "cabina",
       "uniforme"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "astronauta": {
@@ -1965,7 +1965,7 @@
       "lluna",
       "traje"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "bomber": {
@@ -1976,7 +1976,7 @@
       "mànega",
       "ajuda"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "cantant": {
@@ -1987,7 +1987,7 @@
       "micròfon",
       "escenari"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "pintor": {
@@ -1998,7 +1998,7 @@
       "llenç",
       "quadre"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "pagès": {
@@ -2009,7 +2009,7 @@
       "terra",
       "menjar"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "piano": {
@@ -2020,7 +2020,7 @@
       "blanc",
       "so"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "guitarra": {
@@ -2031,7 +2031,7 @@
       "so",
       "instrument"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "tambor": {
@@ -2042,7 +2042,7 @@
       "baquetes",
       "so"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "violí": {
@@ -2053,7 +2053,7 @@
       "so",
       "petit"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "mirall": {
@@ -2064,7 +2064,7 @@
       "reflectir",
       "cara"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "rellotge": {
@@ -2075,7 +2075,7 @@
       "números",
       "paret"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "rellotge de polsera": {
@@ -2086,7 +2086,7 @@
       "números",
       "portar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "martell": {
@@ -2097,7 +2097,7 @@
       "fusta",
       "construir"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "escala": {
@@ -2108,7 +2108,7 @@
       "alt",
       "arribar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "clau": {
@@ -2119,7 +2119,7 @@
       "metall",
       "petit"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "paracaigudes": {
@@ -2130,7 +2130,7 @@
       "tela",
       "caure"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "sabó": {
@@ -2141,7 +2141,7 @@
       "bulles",
       "bany"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "tovallola": {
@@ -2152,7 +2152,7 @@
       "bany",
       "platja"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "cepillo de dents": {
@@ -2163,7 +2163,7 @@
       "matí",
       "boca"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "ulleres": {
@@ -2174,7 +2174,7 @@
       "muntura",
       "lent"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "balena": {
@@ -2384,7 +2384,7 @@
       "típic",
       "català"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "escudella": {
@@ -2395,7 +2395,7 @@
       "carn d'olla",
       "calent"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "calçot": {
@@ -2406,7 +2406,7 @@
       "hivern",
       "foc"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "botifarra": {
@@ -2417,7 +2417,7 @@
       "mongetes",
       "sopar"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "crema catalana": {
@@ -2428,7 +2428,7 @@
       "sucre",
       "cullereta"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "coca": {
@@ -2439,7 +2439,7 @@
       "forn",
       "festa"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "panetone": {
@@ -2450,7 +2450,7 @@
       "tots sants",
       "petit"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "canelons": {
@@ -2461,7 +2461,7 @@
       "sant esteve",
       "farcit"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "fideuà": {
@@ -2472,7 +2472,7 @@
       "paella",
       "peix"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "arròs a la cubana": {
@@ -2483,7 +2483,7 @@
       "arròs",
       "dinar"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "espaguetis": {
@@ -2494,7 +2494,7 @@
       "forquilla",
       "menjar"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "macarrons": {
@@ -2505,7 +2505,7 @@
       "forn",
       "dinar"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "llenties": {
@@ -2516,7 +2516,7 @@
       "guisat",
       "plat"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "cigrons": {
@@ -2527,7 +2527,7 @@
       "comida",
       "plat"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "mantega": {
@@ -2538,7 +2538,7 @@
       "untar",
       "llet"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "iogurt": {
@@ -2549,7 +2549,7 @@
       "postres",
       "got"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "paranoia": {
@@ -2560,7 +2560,7 @@
       "ment",
       "persecució"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "conspiració": {
@@ -2571,7 +2571,7 @@
       "ocult",
       "teoria"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "traïció": {
@@ -2582,7 +2582,7 @@
       "esquena",
       "mentida"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "manipulació": {
@@ -2593,7 +2593,7 @@
       "influència",
       "habilitat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "propaganda": {
@@ -2604,7 +2604,7 @@
       "públic",
       "control"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "censura": {
@@ -2615,7 +2615,7 @@
       "bloquejar",
       "prohibir"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "vigilància": {
@@ -2626,7 +2626,7 @@
       "secret",
       "seguretat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "metàfora": {
@@ -2637,7 +2637,7 @@
       "comparar",
       "art"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "paradoja": {
@@ -2648,7 +2648,7 @@
       "pensament",
       "contradicció"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "sinergia": {
@@ -2659,7 +2659,7 @@
       "treball",
       "efecte"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "termini": {
@@ -2670,7 +2670,7 @@
       "treball",
       "data"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "fusió": {
@@ -2681,7 +2681,7 @@
       "dos",
       "comprar"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "monopoli": {
@@ -2692,7 +2692,7 @@
       "mercat",
       "poder"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "reclutament": {
@@ -2703,7 +2703,7 @@
       "nou",
       "personal"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "descomiadament": {
@@ -2714,7 +2714,7 @@
       "atur",
       "adeu"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "apalancament": {
@@ -2725,7 +2725,7 @@
       "negoci",
       "diners"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "fallida": {
@@ -2736,7 +2736,7 @@
       "negoci",
       "fallar"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "dèficit": {
@@ -2747,7 +2747,7 @@
       "pressupost",
       "pèrdua"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "liquiditat": {
@@ -2758,7 +2758,7 @@
       "flux",
       "actiu"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "actius": {
@@ -2769,7 +2769,7 @@
       "riquesa",
       "objecte"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "passius": {
@@ -2780,7 +2780,7 @@
       "cost",
       "legal"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "materies primeres": {
@@ -2791,7 +2791,7 @@
       "bé",
       "mercat"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "subsidi": {
@@ -2802,7 +2802,7 @@
       "suport",
       "pagar"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "aranzel": {
@@ -2813,7 +2813,7 @@
       "frontera",
       "preu"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "quota": {
@@ -2824,7 +2824,7 @@
       "quantitat",
       "arribar"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "hegemonia": {
@@ -2835,7 +2835,7 @@
       "nació",
       "comandament"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "altruisme": {
@@ -2846,7 +2846,7 @@
       "generós",
       "altres"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "nihilisme": {
@@ -2857,7 +2857,7 @@
       "fosc",
       "creença"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "estoïcisme": {
@@ -2868,7 +2868,7 @@
       "control",
       "antic"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "hedonisme": {
@@ -2879,7 +2879,7 @@
       "desig",
       "vida"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "epistemologia": {
@@ -2890,7 +2890,7 @@
       "ment",
       "filosofia"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "ontologia": {
@@ -2901,7 +2901,7 @@
       "filosofia",
       "real"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "dialèctica": {
@@ -2912,7 +2912,7 @@
       "veritat",
       "debat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "estètica": {
@@ -2967,7 +2967,7 @@
       "llum",
       "ciència"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "totalitarisme": {
@@ -2978,7 +2978,7 @@
       "líder",
       "comandament"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "feudalisme": {
@@ -2989,7 +2989,7 @@
       "història",
       "sistema"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "colonialisme": {
@@ -3000,7 +3000,7 @@
       "poder",
       "conquesta"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "laïcisme": {
@@ -3011,7 +3011,7 @@
       "modern",
       "lliure"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "capitalisme": {
@@ -3022,7 +3022,7 @@
       "benefici",
       "sistema"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "socialisme": {
@@ -3033,7 +3033,7 @@
       "compartir",
       "sistema"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "democràcia": {
@@ -3044,7 +3044,7 @@
       "sistema",
       "líder"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "oligarquia": {
@@ -3055,7 +3055,7 @@
       "grup",
       "comandament"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "osmosi": {
@@ -3066,7 +3066,7 @@
       "ciència",
       "lent"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "simbiosi": {
@@ -3077,7 +3077,7 @@
       "ajuda",
       "vincle"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "mitosi": {
@@ -3088,7 +3088,7 @@
       "créixer",
       "ciència"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "gravetat": {
@@ -3099,7 +3099,7 @@
       "espai",
       "força"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "magnetisme": {
@@ -3110,7 +3110,7 @@
       "força",
       "nord"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "electricitat": {
@@ -3121,7 +3121,7 @@
       "descarrega",
       "corrent"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "volcà": {
@@ -3132,7 +3132,7 @@
       "calent",
       "erupció"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "terratrèmol": {
@@ -3143,7 +3143,7 @@
       "por",
       "esquerda"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "huracà": {
@@ -3154,7 +3154,7 @@
       "oceà",
       "fort"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "tornado": {
@@ -3165,7 +3165,7 @@
       "tempesta",
       "por"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "sequera": {
@@ -3176,7 +3176,7 @@
       "terra",
       "set"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "collita": {
@@ -3187,7 +3187,7 @@
       "tardor",
       "cultius"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "agricultura": {
@@ -3198,7 +3198,7 @@
       "terra",
       "plantes"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "escultura": {
@@ -3242,7 +3242,7 @@
       "reportar",
       "veritat"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "profecia": {
@@ -3253,7 +3253,7 @@
       "destí",
       "antic"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "nostàlgia": {
@@ -3264,7 +3264,7 @@
       "sentiment",
       "vell"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "melancolia": {
@@ -3275,7 +3275,7 @@
       "quiet",
       "ànim"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "eufòria": {
@@ -3286,7 +3286,7 @@
       "genial",
       "alegria"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "adrenalina": {
@@ -3297,7 +3297,7 @@
       "subidón",
       "cor d'olla"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "serotonina": {
@@ -3308,7 +3308,7 @@
       "química",
       "ànim"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "dopamina": {
@@ -3319,7 +3319,7 @@
       "voler",
       "alegria"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "cortisol": {
@@ -3330,7 +3330,7 @@
       "sentiment",
       "hormona"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "sinapsi": {
@@ -3341,7 +3341,7 @@
       "pensar",
       "espai"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "neurona": {
@@ -3352,7 +3352,7 @@
       "cos",
       "senyal"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "hemisferi": {
@@ -3363,7 +3363,7 @@
       "sud",
       "globus"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "atmosfera": {
@@ -3374,7 +3374,7 @@
       "gas",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "estratosfera": {
@@ -3385,7 +3385,7 @@
       "ozó",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "ionosfera": {
@@ -3396,7 +3396,7 @@
       "capa",
       "gas"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "biosfera": {
@@ -3407,7 +3407,7 @@
       "tot",
       "zona"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "troposfera": {
@@ -3418,7 +3418,7 @@
       "núvol",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "biodiversitat": {
@@ -3429,7 +3429,7 @@
       "vida",
       "rang"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "geologia": {
@@ -3440,7 +3440,7 @@
       "vell",
       "sòl"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "meteorologia": {
@@ -3451,7 +3451,7 @@
       "pluja",
       "tempesta"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "astronomia": {
@@ -3462,7 +3462,7 @@
       "telescopi",
       "cel"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "paleontologia": {
@@ -3473,7 +3473,7 @@
       "estudi",
       "ossos"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "antropologia": {
@@ -3484,7 +3484,7 @@
       "vell",
       "humà"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "sociologia": {
@@ -3495,7 +3495,7 @@
       "societat",
       "regles"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "psicologia": {
@@ -3506,7 +3506,7 @@
       "sentir",
       "humà"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "arqueologia": {
@@ -3517,7 +3517,7 @@
       "història",
       "trobat"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "biotecnologia": {
@@ -3528,7 +3528,7 @@
       "ciència",
       "nou"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "nanotecnologia": {
@@ -3539,7 +3539,7 @@
       "ciència",
       "futur"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "cibernètica": {
@@ -3550,7 +3550,7 @@
       "tecnologia",
       "ment"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "intel·ligència artificial": {
@@ -3561,7 +3561,7 @@
       "futur",
       "pensar"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "cadena de blocs": {
@@ -3572,7 +3572,7 @@
       "diners",
       "seguretat"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "computació al núvol": {
@@ -3583,7 +3583,7 @@
       "guardar",
       "núvol"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "dades massives": {
@@ -3594,7 +3594,7 @@
       "números",
       "conjunt"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "internet de les coses": {
@@ -3605,7 +3605,7 @@
       "tech",
       "xarxa"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "realitat virtual": {
@@ -3616,7 +3616,7 @@
       "món",
       "fals"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "realitat augmentada": {
@@ -3627,7 +3627,7 @@
       "món",
       "barreja"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "computació quàntica": {
@@ -3638,7 +3638,7 @@
       "física",
       "súper"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "teletransport": {
@@ -3649,7 +3649,7 @@
       "ciència-ficció",
       "desaparèixer"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "interestel·lar": {
@@ -3660,7 +3660,7 @@
       "lluny",
       "viatge"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "multivers": {
@@ -3671,7 +3671,7 @@
       "ciència-ficció",
       "paral·lel"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "viatge en el temps": {
@@ -3682,7 +3682,7 @@
       "màquina",
       "moure"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "superconductivitat": {
@@ -3693,7 +3693,7 @@
       "metall",
       "física"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "dinàmica de fluids": {
@@ -3704,7 +3704,7 @@
       "física",
       "moure"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "astrofísica": {
@@ -3715,7 +3715,7 @@
       "mates",
       "cel"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "microbiologia": {
@@ -3726,7 +3726,7 @@
       "microscopi",
       "cèl·lules"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "genètica": {
@@ -3737,7 +3737,7 @@
       "néixer",
       "gens"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "inmunologia": {
@@ -3748,7 +3748,7 @@
       "cèl·lules",
       "protegir"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "neurociència": {
@@ -3759,7 +3759,7 @@
       "estudi",
       "cos"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "endocrinologia": {
@@ -3770,7 +3770,7 @@
       "sang",
       "sistema"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "toxicologia": {
@@ -3781,7 +3781,7 @@
       "dany",
       "química"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "farmacologia": {
@@ -3792,7 +3792,7 @@
       "estudi",
       "salut"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "anatomia": {
@@ -3803,7 +3803,7 @@
       "estudi",
       "estructura"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "fisiologia": {
@@ -3814,7 +3814,7 @@
       "estudi",
       "viu"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "botànica": {
@@ -3825,7 +3825,7 @@
       "flor",
       "arbre"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "zoologia": {
@@ -3836,7 +3836,7 @@
       "vida",
       "fauna"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "ecologia": {
@@ -3847,7 +3847,7 @@
       "lloc",
       "viu"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "climatologia": {
@@ -3858,7 +3858,7 @@
       "terra",
       "calor"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "oceanografia": {
@@ -3869,7 +3869,7 @@
       "profund",
       "blau"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "sismologia": {
@@ -3880,7 +3880,7 @@
       "ona",
       "sòl"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "vulcanologia": {
@@ -3891,7 +3891,7 @@
       "muntanya",
       "foc"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "borsa de valors": {
@@ -3902,7 +3902,7 @@
       "invertir",
       "borsa"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "criptomoneda": {
@@ -3913,7 +3913,7 @@
       "mineria",
       "cadena"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "immobiliària": {
@@ -3924,7 +3924,7 @@
       "vendre",
       "pis"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "impost": {
@@ -3935,7 +3935,7 @@
       "hisenda",
       "irpf"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "especulació": {
@@ -3946,7 +3946,7 @@
       "mercat",
       "aposta"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "notari": {
@@ -3957,7 +3957,7 @@
       "oficina",
       "legal"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "autònom": {
@@ -3968,7 +3968,7 @@
       "negoci",
       "sol"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "pime": {
@@ -3979,7 +3979,7 @@
       "treball",
       "catalunya"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "generalitat": {
@@ -3990,7 +3990,7 @@
       "plaça sant jaume",
       "poder"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "ajuntament": {
@@ -4001,7 +4001,7 @@
       "govern",
       "local"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "parlament": {
@@ -4012,7 +4012,7 @@
       "govern",
       "parc ciutadella"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "mossos": {
@@ -4023,7 +4023,7 @@
       "ordre",
       "llei"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "burocràcia": {
@@ -4034,7 +4034,7 @@
       "regles",
       "govern"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "sobirania": {
@@ -4045,7 +4045,7 @@
       "comandament",
       "frontera"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "constitució": {
@@ -4056,7 +4056,7 @@
       "govern",
       "regles"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "legislació": {
@@ -4067,7 +4067,7 @@
       "govern",
       "regles"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "judicial": {
@@ -4078,7 +4078,7 @@
       "judici",
       "legal"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "fiscalia": {
@@ -4089,7 +4089,7 @@
       "culpable",
       "legal"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "testimoni": {
@@ -4100,7 +4100,7 @@
       "parlar",
       "legal"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "veredicte": {
@@ -4111,7 +4111,7 @@
       "judici",
       "jurat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "ètica": {
@@ -4122,7 +4122,7 @@
       "moral",
       "pensar"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "metafísica": {
@@ -4133,7 +4133,7 @@
       "més enllà",
       "filosofia"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "lògica": {
@@ -4144,7 +4144,7 @@
       "raó",
       "passos"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "retòrica": {
@@ -4155,7 +4155,7 @@
       "art",
       "discurs"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "semàntica": {
@@ -4166,7 +4166,7 @@
       "lògica",
       "estudi"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "cognició": {
@@ -4177,7 +4177,7 @@
       "saber",
       "procés"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "percepció": {
@@ -4188,7 +4188,7 @@
       "sentits",
       "vista"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "consciència": {
@@ -4199,7 +4199,7 @@
       "ser",
       "adormit"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "inconscient": {
@@ -4210,7 +4210,7 @@
       "somni",
       "cervell"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "castells": {
@@ -4232,7 +4232,7 @@
       "escolania",
       "catalunya"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "caganer": {
@@ -4243,7 +4243,7 @@
       "figura",
       "tradició"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "tió de nadal": {
@@ -4254,7 +4254,7 @@
       "bastó",
       "regals"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "correfoc": {
@@ -4276,7 +4276,7 @@
       "romesco",
       "amics"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "sardana": {
@@ -4298,7 +4298,7 @@
       "govern",
       "paper"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "competència": {
@@ -4309,7 +4309,7 @@
       "decidir",
       "mando"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "conveni": {
@@ -4320,7 +4320,7 @@
       "signar",
       "regles"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "hisenda": {
@@ -4331,7 +4331,7 @@
       "pagar",
       "gestió"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "sindicat": {
@@ -4342,7 +4342,7 @@
       "lluitar",
       "treballadors"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "patronal": {
@@ -4353,7 +4353,7 @@
       "negociar",
       "treball"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "barça": {
@@ -4386,7 +4386,7 @@
       "espanya",
       "comptes"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "autonomia": {
@@ -4397,7 +4397,7 @@
       "catalunya",
       "estatut"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "mantega de cacauet": {
@@ -4408,7 +4408,7 @@
       "melmelada",
       "marró"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "con de gelat": {
@@ -4419,7 +4419,7 @@
       "cruixent",
       "estiu"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "frankfurt amb pa": {
@@ -4430,7 +4430,7 @@
       "mostassa",
       "menjar ràpid"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "patates fregides": {
@@ -4441,7 +4441,7 @@
       "bossa",
       "grogues"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "os de peluix": {
@@ -4452,7 +4452,7 @@
       "pelut",
       "abraçada"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "camió de bombers": {
@@ -4463,7 +4463,7 @@
       "aigua",
       "bomber"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "cotxe de policia": {
@@ -4474,7 +4474,7 @@
       "agent",
       "ràpid"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "autobús escolar": {
@@ -4485,7 +4485,7 @@
       "matí",
       "parada"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "muntanya russa": {
@@ -4496,7 +4496,7 @@
       "via",
       "parc d'atraccions"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "pastís d'aniversari": {
@@ -4507,7 +4507,7 @@
       "desig",
       "tall"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "l'angelet de les dents": {
@@ -4518,7 +4518,7 @@
       "nit",
       "màgic"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "els reis mags": {
@@ -4529,7 +4529,7 @@
       "estel",
       "orient"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "el pare nadal": {
@@ -4540,7 +4540,7 @@
       "ren",
       "nadal"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "el pol nord": {
@@ -4551,7 +4551,7 @@
       "gel",
       "dalt"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "via làctia": {
@@ -4562,7 +4562,7 @@
       "cel",
       "espai"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "estel fugaç": {
@@ -4573,7 +4573,7 @@
       "ràpid",
       "llum"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "castell de sorra": {
@@ -4584,7 +4584,7 @@
       "mar",
       "construir"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "petxina de mar": {
@@ -4595,7 +4595,7 @@
       "orella",
       "dur"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "cavall de mar": {
@@ -4628,7 +4628,7 @@
       "jardí",
       "secret"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "guardiola de porquet": {
@@ -4639,7 +4639,7 @@
       "rosa",
       "escletxa"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "tret de gràcia": {
@@ -4650,7 +4650,7 @@
       "sort",
       "murt"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "videojoc de consola": {
@@ -4661,7 +4661,7 @@
       "diversió",
       "tele"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "joc de taula": {
@@ -4672,7 +4672,7 @@
       "fitxes",
       "cartes"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "corda de saltar": {
@@ -4683,7 +4683,7 @@
       "corda",
       "peus"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "palo saltador": {
@@ -4694,7 +4694,7 @@
       "mànec",
       "amunt i avall"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "hula hoop": {
@@ -4705,7 +4705,7 @@
       "cercle",
       "plàstic"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "ànec de goma": {
@@ -4716,7 +4716,7 @@
       "flotar",
       "piu"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "ninot de neu": {
@@ -4727,7 +4727,7 @@
       "construir",
       "blanc"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "selva tropical": {
@@ -4738,7 +4738,7 @@
       "mullat",
       "jungla"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "globus aerostàtic": {
@@ -4749,7 +4749,7 @@
       "flotar",
       "foc"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "nau espacial": {
@@ -4760,7 +4760,7 @@
       "lluna",
       "astronauta"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "camió de la escombraria": {
@@ -4771,7 +4771,7 @@
       "cubell",
       "rodes"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "carrito de gelats": {
@@ -4782,7 +4782,7 @@
       "fred",
       "carrer"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "sínia de fira": {
@@ -4793,7 +4793,7 @@
       "girar",
       "atracció"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "cavallets de fira": {
@@ -4804,7 +4804,7 @@
       "fira",
       "atracció"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "tobogan d'aigua": {
@@ -4815,7 +4815,7 @@
       "nedar",
       "estiu"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "piscina de boles": {
@@ -4826,7 +4826,7 @@
       "saltar",
       "parc infantil"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "parc infantil": {
@@ -4837,7 +4837,7 @@
       "carrer",
       "jugar"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "fet a amagar": {
@@ -4848,7 +4848,7 @@
       "amagat",
       "trobat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "pedra paper tisora": {
@@ -4859,7 +4859,7 @@
       "tres",
       "puny"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "joc de les cadires": {
@@ -4870,7 +4870,7 @@
       "festa",
       "parar"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "cepillo del cabell": {
@@ -4881,7 +4881,7 @@
       "matí",
       "suau"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "rellotge d'alarma": {
@@ -4892,7 +4892,7 @@
       "hora",
       "sonar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "sala d'estar": {
@@ -4903,7 +4903,7 @@
       "seure",
       "família"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "menjador de casa": {
@@ -4914,7 +4914,7 @@
       "sopar",
       "casa"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "cambra de bany": {
@@ -4925,7 +4925,7 @@
       "casa",
       "net"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "rentadora de roba": {
@@ -4936,7 +4936,7 @@
       "sabó",
       "girar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "aspiradora de pols": {
@@ -4947,7 +4947,7 @@
       "pols",
       "netejar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "comandament a distància": {
@@ -4958,7 +4958,7 @@
       "sofà",
       "mà"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "telèfon mòbil": {
@@ -4969,7 +4969,7 @@
       "pantalla",
       "mòbil"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "ordinador portàtil": {
@@ -4980,7 +4980,7 @@
       "maletí",
       "treballar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "targeta de crèdit": {
@@ -4991,7 +4991,7 @@
       "cartera",
       "pagar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "centre comercial": {
@@ -5002,7 +5002,7 @@
       "gran",
       "cine"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "botiga d'animals": {
@@ -5013,7 +5013,7 @@
       "comprar",
       "peixos"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "botiga de joguines": {
@@ -5024,7 +5024,7 @@
       "jocs",
       "nines"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "botiga de llaminadures": {
@@ -5035,7 +5035,7 @@
       "xocolata",
       "colors"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "parc d'atraccions": {
@@ -5046,7 +5046,7 @@
       "sínia",
       "fira"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "parc aquàtic": {
@@ -5057,7 +5057,7 @@
       "estiu",
       "piscina"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "bomber de foc": {
@@ -5068,7 +5068,7 @@
       "camió",
       "ajuda"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "agent de policia": {
@@ -5079,7 +5079,7 @@
       "ajuda",
       "cotxe"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "estrella de cine": {
@@ -5090,7 +5090,7 @@
       "actuar",
       "hollywood"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "estrella del rock": {
@@ -5101,7 +5101,7 @@
       "cantar",
       "concert"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "súper heroi": {
@@ -5112,7 +5112,7 @@
       "salvar",
       "còmic"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "agent secret": {
@@ -5123,7 +5123,7 @@
       "llest",
       "pistes"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "conte de fades": {
@@ -5134,7 +5134,7 @@
       "reina",
       "hi havia una vegada"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "cançó de bressol": {
@@ -5145,7 +5145,7 @@
       "bebé",
       "suau"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "conte de bona nit": {
@@ -5156,7 +5156,7 @@
       "llegir",
       "somni"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "llibre de pintar": {
@@ -5167,7 +5167,7 @@
       "pàgines",
       "omplir"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "poca-solta": {
@@ -5178,7 +5178,7 @@
       "divertit",
       "cap"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "polze amunt": {
@@ -5189,7 +5189,7 @@
       "dedo",
       "senyal"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "promesa de menovell": {
@@ -5200,7 +5200,7 @@
       "secret",
       "mà"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "llombrígol de la panxa": {
@@ -5211,7 +5211,7 @@
       "cos",
       "petit"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "cubets de gel": {
@@ -5222,7 +5222,7 @@
       "congelador",
       "dur"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "patates de bossa": {
@@ -5233,7 +5233,7 @@
       "bossa",
       "patata"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "suc de poma": {
@@ -5244,7 +5244,7 @@
       "groc",
       "got"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "xiclet de globus": {
@@ -5255,7 +5255,7 @@
       "dolç",
       "enganxós"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "crispetes de blat de moro": {
@@ -5266,7 +5266,7 @@
       "aperitiu",
       "mantega"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "pijama de dormir": {
@@ -5277,7 +5277,7 @@
       "suau",
       "llit"
     ],
-    "category": "Clothing",
+    "category": "Roba",
     "kidsMode": true
   },
   "impermeable de pluja": {
@@ -5288,7 +5288,7 @@
       "jaqueta",
       "sec"
     ],
-    "category": "Clothing",
+    "category": "Roba",
     "kidsMode": true
   },
   "bañador de platja": {
@@ -5299,7 +5299,7 @@
       "estiu",
       "roba"
     ],
-    "category": "Clothing",
+    "category": "Roba",
     "kidsMode": true
   },
   "ulleres de sol": {
@@ -5310,7 +5310,7 @@
       "fosc",
       "portar"
     ],
-    "category": "Clothing",
+    "category": "Roba",
     "kidsMode": true
   },
   "sabates de l'esport": {
@@ -5321,7 +5321,7 @@
       "cordons",
       "caminar"
     ],
-    "category": "Clothing",
+    "category": "Roba",
     "kidsMode": true
   },
   "botes d'aigua": {
@@ -5332,7 +5332,7 @@
       "goma",
       "mullat"
     ],
-    "category": "Clothing",
+    "category": "Roba",
     "kidsMode": true
   },
   "gorra de bèisbol": {
@@ -5343,7 +5343,7 @@
       "esport",
       "visera"
     ],
-    "category": "Clothing",
+    "category": "Roba",
     "kidsMode": true
   },
   "xarxes socials": {
@@ -5354,7 +5354,7 @@
       "likes",
       "publicar"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "canvi climàtic": {
@@ -5365,7 +5365,7 @@
       "futur",
       "verd"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "energia renovable": {
@@ -5376,7 +5376,7 @@
       "llum",
       "neta"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "panell solar": {
@@ -5387,7 +5387,7 @@
       "energia",
       "cristall"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "llibertat d'expressió": {
@@ -5398,7 +5398,7 @@
       "llei",
       "dir"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "partit polític": {
@@ -5409,7 +5409,7 @@
       "esquerra",
       "dreta"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "president de la generalitat": {
@@ -5420,7 +5420,7 @@
       "votar",
       "catalunya"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": false
   },
   "política exterior": {
@@ -5431,7 +5431,7 @@
       "parlar",
       "frontera"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "dret internacional": {
@@ -5442,7 +5442,7 @@
       "legal",
       "tribunal"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "revolució industrial": {
@@ -5453,7 +5453,7 @@
       "canvi",
       "antic"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "literatura clàssica": {
@@ -5486,7 +5486,7 @@
       "guanyar",
       "suècia"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "copa del món": {
@@ -5497,7 +5497,7 @@
       "joc",
       "trofeu"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "jocs olímpics": {
@@ -5508,7 +5508,7 @@
       "or",
       "cada quatre anys"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "consell d'administració": {
@@ -5519,7 +5519,7 @@
       "empresa",
       "reunió"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "recursos humans": {
@@ -5530,7 +5530,7 @@
       "oficina",
       "personal"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "relacions públiques": {
@@ -5541,7 +5541,7 @@
       "premsa",
       "parlar"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "atenció al client": {
@@ -5552,7 +5552,7 @@
       "botiga",
       "problema"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "cadena de subministrament": {
@@ -5563,7 +5563,7 @@
       "botiga",
       "logística"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "control de qualitat": {
@@ -5574,7 +5574,7 @@
       "provar",
       "normes"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "propietat intel·lectual": {
@@ -5585,7 +5585,7 @@
       "patent",
       "copiar"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "política de privacitat": {
@@ -5596,7 +5596,7 @@
       "regles",
       "legal"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "interfície d'usuari": {
@@ -5607,7 +5607,7 @@
       "app",
       "disseny"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "estació espacial": {
@@ -5618,7 +5618,7 @@
       "òrbita",
       "astronauta"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "forat negre": {
@@ -5629,7 +5629,7 @@
       "empassar",
       "estel"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "selecció natural": {
@@ -5640,7 +5640,7 @@
       "evolució",
       "canvi"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "enginyeria genètica": {
@@ -5651,7 +5651,7 @@
       "laboratori",
       "vida"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "sistema immunitari": {
@@ -5662,7 +5662,7 @@
       "protegir",
       "defenses"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "tensió arterial": {
@@ -5673,7 +5673,7 @@
       "salut",
       "número"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "salut mental": {
@@ -5684,7 +5684,7 @@
       "feliç",
       "metge"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "intel·ligència emocional": {
@@ -5695,7 +5695,7 @@
       "llest",
       "ment"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "pensament crític": {
@@ -5706,7 +5706,7 @@
       "fets",
       "ment"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "gestió del temps": {
@@ -5717,7 +5717,7 @@
       "ràpid",
       "tasca"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "conciliació laboral": {
@@ -5728,7 +5728,7 @@
       "família",
       "descans"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "síndrome de l'impostor": {
@@ -5739,7 +5739,7 @@
       "miedo",
       "treball"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "agent immobiliari": {
@@ -5750,7 +5750,7 @@
       "treball",
       "pis"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": false
   },
   "banc d'inversió": {
@@ -5761,7 +5761,7 @@
       "ric",
       "empresa"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "seguretat social": {
@@ -5772,7 +5772,7 @@
       "pagar",
       "ajuda"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "salari mínim": {
@@ -5783,7 +5783,7 @@
       "baix",
       "llei"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "taxa d'atur": {
@@ -5794,7 +5794,7 @@
       "economia",
       "números"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "servei de streaming": {
@@ -5805,7 +5805,7 @@
       "tele",
       "subscripció"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "motor de cerca": {
@@ -5816,7 +5816,7 @@
       "trobar",
       "web"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "drets civils": {
@@ -5827,7 +5827,7 @@
       "dret",
       "protesta"
     ],
-    "category": "History",
+    "category": "Història",
     "kidsMode": false
   },
   "nacions unides": {
@@ -5838,7 +5838,7 @@
       "països",
       "nova york"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "unió europea": {
@@ -5849,7 +5849,7 @@
       "països",
       "brussel·les"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "classe mitjana": {
@@ -5860,7 +5860,7 @@
       "grup",
       "societat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "transport públic": {
@@ -5871,7 +5871,7 @@
       "viatge",
       "gent"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": false
   },
   "combustibles fòssils": {
@@ -5882,7 +5882,7 @@
       "energia",
       "dolent"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "petjada de carboni": {
@@ -5893,7 +5893,7 @@
       "tu",
       "verd"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "recursos naturals": {
@@ -5904,7 +5904,7 @@
       "aigua",
       "naturalesa"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "crisi d'identitat": {
@@ -5915,7 +5915,7 @@
       "canvi",
       "sentir-se"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "filosofia moral": {
@@ -5926,7 +5926,7 @@
       "regles",
       "bo"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "contracte social": {
@@ -5937,7 +5937,7 @@
       "societat",
       "acord"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "divisió de poders": {
@@ -5948,7 +5948,7 @@
       "jutge",
       "líder"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "desobediència civil": {
@@ -5959,7 +5959,7 @@
       "pau",
       "marxa"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "organització sense ànim de lucre": {
@@ -5970,7 +5970,7 @@
       "treball",
       "bo"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "responsabilitat social corporativa": {
@@ -5981,7 +5981,7 @@
       "ajuda",
       "deure"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "blanqueig de diners": {
@@ -5992,7 +5992,7 @@
       "efectiu",
       "banc"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "paradís fiscal": {
@@ -6003,7 +6003,7 @@
       "baix",
       "illa"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "conflicte d'interessos": {
@@ -6014,7 +6014,7 @@
       "secret",
       "just"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "fuga de cervells": {
@@ -6025,7 +6025,7 @@
       "treball",
       "mudar-se"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "sostre de vidre": {
@@ -6036,7 +6036,7 @@
       "dalt",
       "ocult"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "parc de boles": {
@@ -6047,7 +6047,7 @@
       "saltar",
       "aniversari"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "cotó de sucre": {
@@ -6058,7 +6058,7 @@
       "núvol",
       "bastó"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "ou de xocolata": {
@@ -6069,7 +6069,7 @@
       "menjar",
       "pasqua"
     ],
-    "category": "Food",
+    "category": "Menjar",
     "kidsMode": true
   },
   "castell inflable": {
@@ -6080,7 +6080,7 @@
       "nens",
       "divertit"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "patinet elèctric": {
@@ -6091,7 +6091,7 @@
       "bateria",
       "peu"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "motxilla escolar": {
@@ -6102,7 +6102,7 @@
       "estudiar",
       "cremallera"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "llapis de colors": {
@@ -6113,7 +6113,7 @@
       "arc de sant martí",
       "punta"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "maquineta de fer punta": {
@@ -6124,7 +6124,7 @@
       "fusta",
       "afilar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "goma d'esborrar": {
@@ -6135,7 +6135,7 @@
       "netejar",
       "paper"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "tisores escolars": {
@@ -6146,7 +6146,7 @@
       "escola",
       "dits"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "pega de barra": {
@@ -6157,7 +6157,7 @@
       "estoig",
       "blanc"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "classe de gimnàstica": {
@@ -6168,7 +6168,7 @@
       "exercici",
       "pati"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "esbarjo del cole": {
@@ -6179,7 +6179,7 @@
       "esmorzar",
       "pati"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "excursió escolar": {
@@ -6190,7 +6190,7 @@
       "museu",
       "motxilla"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "classe de música": {
@@ -6201,7 +6201,7 @@
       "escola",
       "so"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "biblioteca pública": {
@@ -6212,7 +6212,7 @@
       "estudiar",
       "poble"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "parc de la ciutadella": {
@@ -6223,7 +6223,7 @@
       "mamut",
       "passejar"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "estat del benestar": {
@@ -6234,7 +6234,7 @@
       "diners",
       "social"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "política monetària": {
@@ -6245,7 +6245,7 @@
       "economia",
       "control"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "mercat de valors": {
@@ -6256,7 +6256,7 @@
       "invertir",
       "risc"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "capital risc": {
@@ -6267,7 +6267,7 @@
       "risc",
       "invertir"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "balanç de situació": {
@@ -6278,7 +6278,7 @@
       "actius",
       "passius"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "compte de resultats": {
@@ -6289,7 +6289,7 @@
       "empresa",
       "any"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "auditoria externa": {
@@ -6300,7 +6300,7 @@
       "legal",
       "control"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "pla de pensions": {
@@ -6311,7 +6311,7 @@
       "futur",
       "vell"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "fons d'inversió": {
@@ -6322,7 +6322,7 @@
       "banc",
       "gestió"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "hipoteca variable": {
@@ -6333,7 +6333,7 @@
       "pagament",
       "deute"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "dret d'admissió": {
@@ -6344,7 +6344,7 @@
       "prohibit",
       "porta"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "ordenança municipal": {
@@ -6355,7 +6355,7 @@
       "regles",
       "multa"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "pressupostos generals": {
@@ -6366,7 +6366,7 @@
       "estat",
       "despesa"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "llibertat de càtedra": {
@@ -6377,7 +6377,7 @@
       "universitat",
       "dret"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "economia submergida": {
@@ -6388,7 +6388,7 @@
       "ocult",
       "il·legal"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "conflicte col·lectiu": {
@@ -6399,7 +6399,7 @@
       "baralla",
       "sindicat"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "conveni sectorial": {
@@ -6410,7 +6410,7 @@
       "sou",
       "llei"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "protecció de dades": {
@@ -6421,7 +6421,7 @@
       "privacitat",
       "info"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "seguretat viària": {
@@ -6432,7 +6432,7 @@
       "trànsit",
       "conduir"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "educació concertada": {
@@ -6443,7 +6443,7 @@
       "diners",
       "ensenyar"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "turisme sostenible": {
@@ -6454,7 +6454,7 @@
       "medi ambient",
       "net"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "petjada ecològica": {
@@ -6465,7 +6465,7 @@
       "humà",
       "verd"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "sobirania energètica": {
@@ -6476,7 +6476,7 @@
       "gas",
       "propi"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "economia circular": {
@@ -6487,7 +6487,7 @@
       "verd",
       "reutilitzar"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "teletreball": {
@@ -6498,7 +6498,7 @@
       "treball",
       "internet"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "transformació digital": {
@@ -6509,7 +6509,7 @@
       "modern",
       "tech"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "escletxa digital": {
@@ -6520,7 +6520,7 @@
       "accés",
       "tech"
     ],
-    "category": "Tech",
+    "category": "Tecnologia",
     "kidsMode": false
   },
   "comerç electrònic": {
@@ -6531,7 +6531,7 @@
       "paquet",
       "botiga"
     ],
-    "category": "Business",
+    "category": "Negocis",
     "kidsMode": false
   },
   "llengua materna": {
@@ -6542,7 +6542,7 @@
       "aprendre",
       "família"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "immersió lingüística": {
@@ -6553,7 +6553,7 @@
       "català",
       "mètode"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "societat civil": {
@@ -6564,7 +6564,7 @@
       "associació",
       "públic"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "diada nacional": {
@@ -6575,7 +6575,7 @@
       "onze",
       "bandera"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "castellers de vilafranca": {
@@ -6597,7 +6597,7 @@
       "biblioteca",
       "estanteria"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "científic": {
@@ -6608,7 +6608,7 @@
       "ciència",
       "prova"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "mecànic": {
@@ -6619,7 +6619,7 @@
       "taller",
       "oli"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "fotògraf": {
@@ -6630,7 +6630,7 @@
       "somriure",
       "lent"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "detectiu": {
@@ -6641,7 +6641,7 @@
       "resoldre",
       "espia"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "jardiner": {
@@ -6652,7 +6652,7 @@
       "jardí",
       "créixer"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "dentista": {
@@ -6663,7 +6663,7 @@
       "cadira",
       "boca"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "infermer": {
@@ -6674,7 +6674,7 @@
       "doctor",
       "medicina"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "flequer": {
@@ -6685,7 +6685,7 @@
       "cuinar",
       "pastís"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "artista": {
@@ -6696,7 +6696,7 @@
       "colors",
       "quadre"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "músic": {
@@ -6707,7 +6707,7 @@
       "cançó",
       "escenari"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "atleta": {
@@ -6718,7 +6718,7 @@
       "guanyar",
       "gimnàs"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "reporter": {
@@ -6729,7 +6729,7 @@
       "micròfon",
       "història"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "capità": {
@@ -6740,7 +6740,7 @@
       "aigua",
       "gorra"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "cavaller": {
@@ -6751,7 +6751,7 @@
       "cavall",
       "escut"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "mag": {
@@ -6762,7 +6762,7 @@
       "encanteri",
       "capa"
     ],
-    "category": "People",
+    "category": "Gent",
     "kidsMode": true
   },
   "drac": {
@@ -6839,7 +6839,7 @@
       "bateria",
       "futur"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "castell": {
@@ -6850,7 +6850,7 @@
       "torre",
       "vell"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "palau": {
@@ -6861,7 +6861,7 @@
       "or",
       "príncep"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "piràmide": {
@@ -6872,7 +6872,7 @@
       "desert",
       "vell"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "cascada": {
@@ -6883,7 +6883,7 @@
       "mullat",
       "alt"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "cova": {
@@ -6894,7 +6894,7 @@
       "ratpenats",
       "dins"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "selva": {
@@ -6905,7 +6905,7 @@
       "verd",
       "salvatge"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "vall": {
@@ -6916,7 +6916,7 @@
       "verd",
       "pla"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "cañón": {
@@ -6927,7 +6927,7 @@
       "vermell",
       "parets"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "pantà": {
@@ -6938,7 +6938,7 @@
       "verd",
       "aigua"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "glacera": {
@@ -6949,7 +6949,7 @@
       "lent",
       "enorme"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "savana": {
@@ -6960,7 +6960,7 @@
       "sec",
       "animals"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "tundra": {
@@ -6971,7 +6971,7 @@
       "àrtic",
       "neu"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "praderia": {
@@ -6982,7 +6982,7 @@
       "granja",
       "vaques"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "prat": {
@@ -6993,7 +6993,7 @@
       "sol",
       "abelles"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "hort": {
@@ -7004,7 +7004,7 @@
       "granja",
       "recollir"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "vinya": {
@@ -7015,7 +7015,7 @@
       "granja",
       "lila"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "far": {
@@ -7026,7 +7026,7 @@
       "torre",
       "vaixell"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "gratacel": {
@@ -7037,7 +7037,7 @@
       "elevat",
       "edifici"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "estadi": {
@@ -7048,7 +7048,7 @@
       "seients",
       "equip"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "museu": {
@@ -7059,7 +7059,7 @@
       "edifici",
       "mirar"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "aquari": {
@@ -7070,7 +7070,7 @@
       "cristall",
       "blau"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "planetari": {
@@ -7081,7 +7081,7 @@
       "cúpula",
       "planetes"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "observatori": {
@@ -7092,7 +7092,7 @@
       "muntanya",
       "mirar"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "laboratori": {
@@ -7103,7 +7103,7 @@
       "cristall",
       "científic"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "universitat": {
@@ -7114,7 +7114,7 @@
       "gran",
       "estudiar"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "fàbrica": {
@@ -7125,7 +7125,7 @@
       "treball",
       "edifici"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "magatzem": {
@@ -7136,7 +7136,7 @@
       "productes",
       "buit"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "port": {
@@ -7147,7 +7147,7 @@
       "moll",
       "mar"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "aeroport": {
@@ -7158,7 +7158,7 @@
       "equipatge",
       "porta"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "estació": {
@@ -7169,7 +7169,7 @@
       "viatge",
       "parada"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "pont": {
@@ -7180,7 +7180,7 @@
       "sobre",
       "alt"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "túnel": {
@@ -7191,7 +7191,7 @@
       "muntanya",
       "a través"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "monument": {
@@ -7202,7 +7202,7 @@
       "pedra",
       "història"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "font": {
@@ -7213,7 +7213,7 @@
       "desig",
       "raig"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "retrat": {
@@ -7334,7 +7334,7 @@
       "brillant",
       "portar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "tiara": {
@@ -7345,7 +7345,7 @@
       "corona",
       "or"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "trofeu": {
@@ -7356,7 +7356,7 @@
       "esport",
       "primer"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "medalla": {
@@ -7367,7 +7367,7 @@
       "esport",
       "premi"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "brúixola": {
@@ -7378,7 +7378,7 @@
       "mapa",
       "perdut"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "telescopi": {
@@ -7389,7 +7389,7 @@
       "lluny",
       "lent"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "microscopi": {
@@ -7400,7 +7400,7 @@
       "laboratori",
       "cèl·lules"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "prismàtics": {
@@ -7411,7 +7411,7 @@
       "ocells",
       "naturalesa"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "lupa": {
@@ -7422,7 +7422,7 @@
       "gran",
       "pistes"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "motxilla": {
@@ -7433,7 +7433,7 @@
       "corretges",
       "bossa"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "maleta": {
@@ -7444,7 +7444,7 @@
       "rodes",
       "fer"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "llinterna": {
@@ -7455,7 +7455,7 @@
       "bateria",
       "raig"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "fanal": {
@@ -7466,7 +7466,7 @@
       "foc",
       "nit"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "espelma": {
@@ -7477,7 +7477,7 @@
       "pastís",
       "cremar"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "llumí": {
@@ -7488,7 +7488,7 @@
       "pal",
       "llum"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "encenedor": {
@@ -7499,7 +7499,7 @@
       "flama",
       "fum"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "foguera": {
@@ -7510,7 +7510,7 @@
       "fusta",
       "nit"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "foc de camp": {
@@ -7521,7 +7521,7 @@
       "núvols",
       "nit"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "tenda": {
@@ -7532,7 +7532,7 @@
       "tela",
       "bosc"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "sac de dormir": {
@@ -7543,7 +7543,7 @@
       "tenda",
       "cremallera"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "hamaca": {
@@ -7554,7 +7554,7 @@
       "corda",
       "fora"
     ],
-    "category": "Objects",
+    "category": "Objectes",
     "kidsMode": true
   },
   "pícnic": {
@@ -7565,7 +7565,7 @@
       "manta",
       "fora"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "barbacoa": {
@@ -7576,7 +7576,7 @@
       "fum",
       "menjar"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "festa": {
@@ -7587,7 +7587,7 @@
       "ball",
       "pastís"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "rua": {
@@ -7598,7 +7598,7 @@
       "públic",
       "carrosses"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "fira": {
@@ -7608,7 +7608,7 @@
       "diversió",
       "cotó de sucre"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "circ": {
@@ -7619,7 +7619,7 @@
       "espectacle",
       "trapezi"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "teatre": {
@@ -7630,7 +7630,7 @@
       "seients",
       "teló"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "òpera": {
@@ -7663,7 +7663,7 @@
       "públic",
       "escenari"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "festival": {
@@ -7674,7 +7674,7 @@
       "molts",
       "públic"
     ],
-    "category": "Places",
+    "category": "Llocs",
     "kidsMode": true
   },
   "orquestra": {
@@ -7762,7 +7762,7 @@
       "sonit",
       "girar"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "eco": {
@@ -7773,7 +7773,7 @@
       "veu",
       "paret"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "vibració": {
@@ -7784,7 +7784,7 @@
       "ràpid",
       "tocar"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "fricció": {
@@ -7795,7 +7795,7 @@
       "parar",
       "tocar"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "inèrcia": {
@@ -7806,7 +7806,7 @@
       "parar",
       "repòs"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "velocitat": {
@@ -7817,7 +7817,7 @@
       "física",
       "pressa"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "pressió": {
@@ -7828,7 +7828,7 @@
       "aire",
       "pesat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "temperatura": {
@@ -7839,7 +7839,7 @@
       "temps",
       "calor"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "evaporació": {
@@ -7850,7 +7850,7 @@
       "amunt",
       "sec"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "condensació": {
@@ -7861,7 +7861,7 @@
       "mullat",
       "fred"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "precipitació": {
@@ -7872,7 +7872,7 @@
       "cel",
       "caure"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "metamorfosi": {
@@ -7883,7 +7883,7 @@
       "granota",
       "vida"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "respiració": {
@@ -7894,7 +7894,7 @@
       "vida",
       "oxigen"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "digestió": {
@@ -7905,7 +7905,7 @@
       "cos",
       "procés"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "circulació": {
@@ -7916,7 +7916,7 @@
       "flux",
       "volta"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "esquelet": {
@@ -7927,7 +7927,7 @@
       "dins",
       "dur"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "múscul": {
@@ -7938,7 +7938,7 @@
       "braç",
       "carn"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "cervell": {
@@ -7949,7 +7949,7 @@
       "llest",
       "control"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "cor": {
@@ -7960,7 +7960,7 @@
       "vida",
       "amor"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "pulmons": {
@@ -7971,7 +7971,7 @@
       "oxigen",
       "fum"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "estómac": {
@@ -7982,7 +7982,7 @@
       "gana",
       "ple"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "fetge": {
@@ -7993,7 +7993,7 @@
       "sang",
       "netejar"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "ronyons": {
@@ -8004,7 +8004,7 @@
       "aigua",
       "netejar"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "intestins": {
@@ -8015,7 +8015,7 @@
       "menjar",
       "estómac"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "bacteri": {
@@ -8026,7 +8026,7 @@
       "vida",
       "netejar"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "virus": {
@@ -8037,7 +8037,7 @@
       "grip",
       "contagi"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "anticòs": {
@@ -8048,7 +8048,7 @@
       "sa",
       "cèl·lules"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "vacuna": {
@@ -8059,7 +8059,7 @@
       "sa",
       "agulla"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "antibiòtic": {
@@ -8070,7 +8070,7 @@
       "pastilla",
       "malalt"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "vitamines": {
@@ -8081,7 +8081,7 @@
       "bo",
       "cos"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "minerals": {
@@ -8092,7 +8092,7 @@
       "menjar",
       "ferro"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "proteïnes": {
@@ -8103,7 +8103,7 @@
       "cos",
       "múscul"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "carbohidrats": {
@@ -8114,7 +8114,7 @@
       "sucre",
       "pasta"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "glucosa": {
@@ -8125,7 +8125,7 @@
       "cos",
       "dolç"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "colesterol": {
@@ -8136,7 +8136,7 @@
       "salut",
       "dolent"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "hormones": {
@@ -8147,7 +8147,7 @@
       "sentir",
       "canvi"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "enzims": {
@@ -8158,7 +8158,7 @@
       "procés",
       "cèl·lules"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "herència": {
@@ -8169,7 +8169,7 @@
       "tret",
       "pares"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "conservació": {
@@ -8180,7 +8180,7 @@
       "verd",
       "protegir"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "contaminació": {
@@ -8191,7 +8191,7 @@
       "dolent",
       "terra"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "reciclatge": {
@@ -8202,7 +8202,7 @@
       "verd",
       "reutilitzar"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "compostatge": {
@@ -8213,7 +8213,7 @@
       "podrir",
       "verd"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": false
   },
   "geosfera": {
@@ -8224,7 +8224,7 @@
       "metall",
       "pedra"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "hidrosfera": {
@@ -8235,7 +8235,7 @@
       "riu",
       "gel"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "mesosfera": {
@@ -8246,7 +8246,7 @@
       "fred",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "termosfera": {
@@ -8257,7 +8257,7 @@
       "alt",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "exosfera": {
@@ -8268,7 +8268,7 @@
       "vora",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "magnetosfera": {
@@ -8279,7 +8279,7 @@
       "espai",
       "força"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "equador": {
@@ -8290,7 +8290,7 @@
       "línia",
       "globus"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "longitud": {
@@ -8301,7 +8301,7 @@
       "amunt",
       "globus"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "latitud": {
@@ -8312,7 +8312,7 @@
       "costat",
       "globus"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "coordenades": {
@@ -8323,7 +8323,7 @@
       "buscar",
       "punt"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "topografia": {
@@ -8334,7 +8334,7 @@
       "sòl",
       "alçada"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": false
   },
   "navegació": {
@@ -8345,7 +8345,7 @@
       "viatge",
       "vaixell"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "expedició": {
@@ -8356,7 +8356,7 @@
       "trobar",
       "grup"
     ],
-    "category": "Travel",
+    "category": "Viatges",
     "kidsMode": true
   },
   "imaginació": {
@@ -8367,7 +8367,7 @@
       "pensament",
       "crear"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "amistat": {
@@ -8378,7 +8378,7 @@
       "jugar",
       "compartir"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "curiositat": {
@@ -8389,7 +8389,7 @@
       "llest",
       "buscar"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "aventura": {
@@ -8400,7 +8400,7 @@
       "fora",
       "buscar"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "vacances": {
@@ -8411,7 +8411,7 @@
       "estiu",
       "descans"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "matí": {
@@ -8422,7 +8422,7 @@
       "inici",
       "llum"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "tarda": {
@@ -8433,7 +8433,7 @@
       "abans de sopar",
       "llum"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "nit": {
@@ -8444,7 +8444,7 @@
       "fosc",
       "somni"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "ahir": {
@@ -8455,7 +8455,7 @@
       "fet",
       "vell"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "demà": {
@@ -8466,7 +8466,7 @@
       "proper",
       "aviat"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "ombra": {
@@ -8477,7 +8477,7 @@
       "terra",
       "negre"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "reflex": {
@@ -8488,7 +8488,7 @@
       "cristall",
       "cara"
     ],
-    "category": "Nature",
+    "category": "Natura",
     "kidsMode": true
   },
   "imant": {
@@ -8499,7 +8499,7 @@
       "enganxar",
       "nord"
     ],
-    "category": "Science",
+    "category": "Ciència",
     "kidsMode": true
   },
   "paradoxa": {
@@ -8510,7 +8510,7 @@
       "pensament",
       "contradicció"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "patrimoni": {
@@ -8521,7 +8521,7 @@
       "edifici",
       "herència"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "identitat": {
@@ -8532,7 +8532,7 @@
       "caràcter",
       "personal"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": false
   },
   "llibertat": {
@@ -8543,7 +8543,7 @@
       "sense cadenes",
       "poder"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   },
   "igualtat": {
@@ -8554,7 +8554,7 @@
       "dret",
       "tots"
     ],
-    "category": "Abstract",
+    "category": "Abstracte",
     "kidsMode": true
   }
 }

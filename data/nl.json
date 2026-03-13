@@ -51,7 +51,7 @@
       "gezond",
       "hap"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "banaan": {
@@ -62,7 +62,7 @@
       "aap",
       "pellen"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "zon": {
@@ -227,7 +227,7 @@
       "ontbijt",
       "glas"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "water": {
@@ -249,7 +249,7 @@
       "oven",
       "sneetje"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "rijst": {
@@ -293,7 +293,7 @@
       "zoemen",
       "bloem"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "mier": {
@@ -304,7 +304,7 @@
       "insect",
       "nest"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "regen": {
@@ -590,7 +590,7 @@
       "wiskunde",
       "sleutel"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "blockchain": {
@@ -601,7 +601,7 @@
       "geld",
       "veilig"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "algoritme": {
@@ -612,7 +612,7 @@
       "oplossen",
       "logica"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "paradigma": {
@@ -634,7 +634,7 @@
       "snelheid",
       "proces"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "fotosynthese": {
@@ -645,7 +645,7 @@
       "groeien",
       "eten"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "hierarchie": {
@@ -711,7 +711,7 @@
       "snelheid",
       "theorie"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "infrastructuur": {
@@ -722,7 +722,7 @@
       "publiek",
       "systeem"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "logistiek": {
@@ -733,7 +733,7 @@
       "keten",
       "opslag"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "investering": {
@@ -744,7 +744,7 @@
       "risico",
       "beurs"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "inflatie": {
@@ -755,7 +755,7 @@
       "economie",
       "waarde"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "deflatie": {
@@ -766,7 +766,7 @@
       "economie",
       "waarde"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "diplomatie": {
@@ -799,7 +799,7 @@
       "tekening",
       "stijl"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "renaissance": {
@@ -810,7 +810,7 @@
       "italië",
       "wedergeboorte"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "barok": {
@@ -843,7 +843,7 @@
       "natuurkunde",
       "wetten"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "entropie": {
@@ -854,7 +854,7 @@
       "verlies",
       "wetenschap"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "mutatie": {
@@ -865,7 +865,7 @@
       "toeval",
       "nieuw"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "evolutie": {
@@ -876,7 +876,7 @@
       "darwin",
       "groeien"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "ecosysteem": {
@@ -887,7 +887,7 @@
       "plek",
       "web"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "duurzaamheid": {
@@ -898,7 +898,7 @@
       "aarde",
       "veilig"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "veerkracht": {
@@ -997,7 +997,7 @@
       "bedrijf",
       "idee"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "durfkapitaal": {
@@ -1008,7 +1008,7 @@
       "nieuw",
       "fonds"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "portfolio": {
@@ -1019,7 +1019,7 @@
       "collectie",
       "set"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "dividend": {
@@ -1030,7 +1030,7 @@
       "beurs",
       "extra"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "aansprakelijkheid": {
@@ -1041,7 +1041,7 @@
       "juridisch",
       "kosten"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "activa": {
@@ -1052,7 +1052,7 @@
       "rijkdom",
       "item"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "hypotheek": {
@@ -1063,7 +1063,7 @@
       "rente",
       "schuld"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "verzekering": {
@@ -1074,7 +1074,7 @@
       "dekking",
       "veiligheid"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "pensioen": {
@@ -1085,7 +1085,7 @@
       "fonds",
       "sparen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "pensioenleeftijd": {
@@ -1096,7 +1096,7 @@
       "leven",
       "einde"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "olifant": {
@@ -1107,7 +1107,7 @@
       "grijs",
       "oren"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "giraf": {
@@ -1118,7 +1118,7 @@
       "geel",
       "afrika"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "leeuw": {
@@ -1129,7 +1129,7 @@
       "kat",
       "wild"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "tijger": {
@@ -1140,7 +1140,7 @@
       "jungle",
       "brul"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "pinguïn": {
@@ -1151,7 +1151,7 @@
       "wit",
       "zwemmen"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "aap": {
@@ -1162,7 +1162,7 @@
       "boom",
       "slingeren"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "zebra": {
@@ -1173,7 +1173,7 @@
       "paard",
       "afrika"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "kangoeroe": {
@@ -1184,7 +1184,7 @@
       "sprong",
       "zak"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "koe": {
@@ -1195,7 +1195,7 @@
       "gras",
       "horens"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "varken": {
@@ -1206,7 +1206,7 @@
       "boerderij",
       "snuit"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "schaap": {
@@ -1217,7 +1217,7 @@
       "boerderij",
       "zacht"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "paard": {
@@ -1228,7 +1228,7 @@
       "zadel",
       "boerderij"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "kip": {
@@ -1239,7 +1239,7 @@
       "vleugels",
       "snavel"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "eend": {
@@ -1250,7 +1250,7 @@
       "snavel",
       "waggelen"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "konijn": {
@@ -1261,7 +1261,7 @@
       "zacht",
       "lang"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "schildpad": {
@@ -1272,7 +1272,7 @@
       "groen",
       "kruipen"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "slang": {
@@ -1283,7 +1283,7 @@
       "schubben",
       "vergif"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "spin": {
@@ -1294,7 +1294,7 @@
       "kruipen",
       "insect"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "vlinder": {
@@ -1305,7 +1305,7 @@
       "cocon",
       "bloem"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "kikker": {
@@ -1316,7 +1316,7 @@
       "vijver",
       "tong"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "sinaasappel": {
@@ -1327,7 +1327,7 @@
       "schil",
       "rond"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "aardbei": {
@@ -1338,7 +1338,7 @@
       "zaadjes",
       "bes"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "druif": {
@@ -1349,7 +1349,7 @@
       "tros",
       "wijnstok"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "watermeloen": {
@@ -1360,7 +1360,7 @@
       "zaadjes",
       "groot"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "pizza": {
@@ -1371,7 +1371,7 @@
       "deeg",
       "tomaat"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "burger": {
@@ -1382,7 +1382,7 @@
       "snel",
       "eten"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "sandwich": {
@@ -1393,7 +1393,7 @@
       "kaas",
       "plakje"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "ei": {
@@ -1404,7 +1404,7 @@
       "ontbijt",
       "koken"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "kaas": {
@@ -1415,7 +1415,7 @@
       "brood",
       "gaten"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "ijsje": {
@@ -1426,7 +1426,7 @@
       "bolletje",
       "toetje"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "koekje": {
@@ -1437,7 +1437,7 @@
       "rond",
       "knapperig"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "taart": {
@@ -1448,7 +1448,7 @@
       "bakken",
       "feest"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "sap": {
@@ -1459,7 +1459,7 @@
       "vloeistof",
       "zoet"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "soep": {
@@ -1470,7 +1470,7 @@
       "vloeistof",
       "avondeten"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "chocolade": {
@@ -1481,7 +1481,7 @@
       "reep",
       "cacao"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "aardappel": {
@@ -1492,7 +1492,7 @@
       "grond",
       "puree"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "tomaat": {
@@ -1503,7 +1503,7 @@
       "saus",
       "rond"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "wortel": {
@@ -1514,7 +1514,7 @@
       "knapperig",
       "wortel"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "ui": {
@@ -1525,7 +1525,7 @@
       "ringen",
       "sterk"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "knoflook": {
@@ -1536,7 +1536,7 @@
       "sterk",
       "koken"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "berg": {
@@ -1547,7 +1547,7 @@
       "sneeuw",
       "rots"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "rivier": {
@@ -1558,7 +1558,7 @@
       "oever",
       "lang"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "oceaan": {
@@ -1569,7 +1569,7 @@
       "groot",
       "vis"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "meer": {
@@ -1580,7 +1580,7 @@
       "vis",
       "omringen"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "bos": {
@@ -1591,7 +1591,7 @@
       "dieren",
       "beer"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "woestijn": {
@@ -1602,7 +1602,7 @@
       "cactus",
       "kameel"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "eiland": {
@@ -1613,7 +1613,7 @@
       "water",
       "zee"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "wolk": {
@@ -1624,7 +1624,7 @@
       "pluizig",
       "grijs"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "regenboog": {
@@ -1635,7 +1635,7 @@
       "zon",
       "boog"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "vuur": {
@@ -1646,7 +1646,7 @@
       "hout",
       "rook"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "wind": {
@@ -1657,7 +1657,7 @@
       "storm",
       "vlieger"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "donder": {
@@ -1668,7 +1668,7 @@
       "geluid",
       "licht"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "bliksem": {
@@ -1679,7 +1679,7 @@
       "helder",
       "elektrisch"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "winter": {
@@ -1690,7 +1690,7 @@
       "seizoen",
       "jas"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "zomer": {
@@ -1701,7 +1701,7 @@
       "seizoen",
       "vakantie"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "lente": {
@@ -1712,7 +1712,7 @@
       "groeien",
       "regen"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "herfst": {
@@ -1723,7 +1723,7 @@
       "vallen",
       "fris"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "potlood": {
@@ -1734,7 +1734,7 @@
       "gum",
       "hout"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "computer": {
@@ -1745,7 +1745,7 @@
       "internet",
       "techniek"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "televisie": {
@@ -1756,7 +1756,7 @@
       "afstandsbediening",
       "film"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "radio": {
@@ -1767,7 +1767,7 @@
       "spreker",
       "afstemmen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "fiets": {
@@ -1778,7 +1778,7 @@
       "helm",
       "twee"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "vliegtuig": {
@@ -1789,7 +1789,7 @@
       "piloot",
       "vliegveld"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "trein": {
@@ -1800,7 +1800,7 @@
       "station",
       "wielen"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "boot": {
@@ -1811,7 +1811,7 @@
       "rivier",
       "schip"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "bus": {
@@ -1822,7 +1822,7 @@
       "halte",
       "rijden"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "raket": {
@@ -1833,7 +1833,7 @@
       "ster",
       "vuur"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "school": {
@@ -1844,7 +1844,7 @@
       "kinderen",
       "klaslokaal"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "ziekenhuis": {
@@ -1855,7 +1855,7 @@
       "medicijnen",
       "helpen"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "park": {
@@ -1866,7 +1866,7 @@
       "bankje",
       "glijbaan"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "strand": {
@@ -1877,7 +1877,7 @@
       "zwemmen",
       "golven"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "markt": {
@@ -1888,7 +1888,7 @@
       "fruit",
       "verkopen"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "bibliotheek": {
@@ -1899,7 +1899,7 @@
       "studeren",
       "plank"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "bioscoop": {
@@ -1910,7 +1910,7 @@
       "kijken",
       "stoel"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "dokter": {
@@ -1921,7 +1921,7 @@
       "medicijnen",
       "wit"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "leraar": {
@@ -1932,7 +1932,7 @@
       "boeken",
       "klas"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "politie": {
@@ -1943,7 +1943,7 @@
       "wet",
       "uniform"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "kok": {
@@ -1954,7 +1954,7 @@
       "muts",
       "restaurant"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "piloot": {
@@ -1965,7 +1965,7 @@
       "cockpit",
       "uniform"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "astronaut": {
@@ -1976,7 +1976,7 @@
       "maan",
       "pak"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "brandweerman": {
@@ -1987,7 +1987,7 @@
       "slang",
       "helpen"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "zanger": {
@@ -1998,7 +1998,7 @@
       "microfoon",
       "podium"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "schilder": {
@@ -2009,7 +2009,7 @@
       "canvas",
       "schilderij"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "boer": {
@@ -2020,7 +2020,7 @@
       "land",
       "eten"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "piano": {
@@ -2031,7 +2031,7 @@
       "wit",
       "geluid"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "gitaar": {
@@ -2042,7 +2042,7 @@
       "geluid",
       "instrument"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "trommel": {
@@ -2053,7 +2053,7 @@
       "stokken",
       "geluid"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "viool": {
@@ -2064,7 +2064,7 @@
       "geluid",
       "klein"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "spiegel": {
@@ -2075,7 +2075,7 @@
       "reflecteren",
       "gezicht"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "klok": {
@@ -2086,7 +2086,7 @@
       "cijfers",
       "muur"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "horloge": {
@@ -2097,7 +2097,7 @@
       "cijfers",
       "dragen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "hamer": {
@@ -2108,7 +2108,7 @@
       "hout",
       "bouwen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "ladder": {
@@ -2119,7 +2119,7 @@
       "lang",
       "bereiken"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "sleutel": {
@@ -2130,7 +2130,7 @@
       "metaal",
       "klein"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "paraplu": {
@@ -2141,7 +2141,7 @@
       "handvat",
       "lucht"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "zeep": {
@@ -2152,7 +2152,7 @@
       "bubbels",
       "badkamer"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "handdoek": {
@@ -2163,7 +2163,7 @@
       "badkamer",
       "strand"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "tandenborstel": {
@@ -2174,7 +2174,7 @@
       "ochtend",
       "mond"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "bril": {
@@ -2185,7 +2185,7 @@
       "montuur",
       "lens"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "portemonnee": {
@@ -2196,7 +2196,7 @@
       "leer",
       "betalen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "walvis": {
@@ -2207,7 +2207,7 @@
       "blauw",
       "zoogdier"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "haai": {
@@ -2218,7 +2218,7 @@
       "bijten",
       "eng"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "inktvis": {
@@ -2229,7 +2229,7 @@
       "oceaan",
       "tentakels"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "krab": {
@@ -2240,7 +2240,7 @@
       "schelp",
       "zijwaarts"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "kwal": {
@@ -2251,7 +2251,7 @@
       "tentakels",
       "zacht"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "dolfijn": {
@@ -2262,7 +2262,7 @@
       "vin",
       "zwemmen"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "ezel": {
@@ -2273,7 +2273,7 @@
       "grijs",
       "eigenwijs"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "wolf": {
@@ -2284,7 +2284,7 @@
       "hond",
       "wild"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "vos": {
@@ -2295,7 +2295,7 @@
       "bos",
       "stiekem"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "hert": {
@@ -2306,7 +2306,7 @@
       "bruin",
       "bambi"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "uil": {
@@ -2317,7 +2317,7 @@
       "ogen",
       "vliegen"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "arend": {
@@ -2328,7 +2328,7 @@
       "nest",
       "vleugels"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "papegaai": {
@@ -2339,7 +2339,7 @@
       "piraat",
       "nadoen"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "duif": {
@@ -2350,7 +2350,7 @@
       "park",
       "koeren"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "mug": {
@@ -2361,7 +2361,7 @@
       "zomer",
       "irritant"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "sprinkhaan": {
@@ -2372,7 +2372,7 @@
       "zomer",
       "veld"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "slak": {
@@ -2383,7 +2383,7 @@
       "tuin",
       "schelp"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "krokodil": {
@@ -2394,7 +2394,7 @@
       "groot",
       "reptiel"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "stroopwafel": {
@@ -2405,7 +2405,7 @@
       "lekker",
       "hollands"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "haring": {
@@ -2416,7 +2416,7 @@
       "happen",
       "zout"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "stamppot": {
@@ -2427,7 +2427,7 @@
       "worst",
       "prakken"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "bitterbal": {
@@ -2438,7 +2438,7 @@
       "borrel",
       "rond"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "pannenkoek": {
@@ -2449,7 +2449,7 @@
       "zoet",
       "meel"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "drop": {
@@ -2460,7 +2460,7 @@
       "zoet",
       "hollands"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "hagelslag": {
@@ -2471,7 +2471,7 @@
       "korrels",
       "pak"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "patat": {
@@ -2482,7 +2482,7 @@
       "bakje",
       "zout"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "boter": {
@@ -2493,7 +2493,7 @@
       "zuivel",
       "pakje"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "jam": {
@@ -2504,7 +2504,7 @@
       "pot",
       "plakkerig"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "paranoia": {
@@ -2614,7 +2614,7 @@
       "werk",
       "effect"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "deadline": {
@@ -2625,7 +2625,7 @@
       "werk",
       "datum"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "fusie": {
@@ -2636,7 +2636,7 @@
       "twee",
       "kopen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "monopolie": {
@@ -2647,7 +2647,7 @@
       "markt",
       "macht"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "werving": {
@@ -2658,7 +2658,7 @@
       "gesprek",
       "nieuw"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "ontslag": {
@@ -2669,7 +2669,7 @@
       "werk",
       "klaar"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "hefboom": {
@@ -2680,7 +2680,7 @@
       "business",
       "geld"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "faillissement": {
@@ -2691,7 +2691,7 @@
       "business",
       "falen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "tekort": {
@@ -2702,7 +2702,7 @@
       "budget",
       "verlies"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "liquiditeit": {
@@ -2713,7 +2713,7 @@
       "stroom",
       "bezit"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "passiva": {
@@ -2724,7 +2724,7 @@
       "kosten",
       "balans"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "grondstof": {
@@ -2735,7 +2735,7 @@
       "goed",
       "markt"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "subsidie": {
@@ -2746,7 +2746,7 @@
       "steun",
       "betalen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "tarief": {
@@ -2757,7 +2757,7 @@
       "grens",
       "prijs"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "quotum": {
@@ -2768,7 +2768,7 @@
       "hoeveel",
       "bereiken"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "hegemonie": {
@@ -2867,7 +2867,7 @@
       "stijl",
       "ontwerp"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "abstract": {
@@ -2878,7 +2878,7 @@
       "modern",
       "gevoel"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "minimalisme": {
@@ -2889,7 +2889,7 @@
       "strak",
       "stijl"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "surrealisme": {
@@ -2900,7 +2900,7 @@
       "dali",
       "geest"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "verlichting": {
@@ -2911,7 +2911,7 @@
       "licht",
       "wetenschap"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "totalitarisme": {
@@ -2922,7 +2922,7 @@
       "leider",
       "dwang"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "feodalisme": {
@@ -2933,7 +2933,7 @@
       "historie",
       "systeem"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "kolonialisme": {
@@ -2944,7 +2944,7 @@
       "macht",
       "innemen"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "secularisme": {
@@ -2966,7 +2966,7 @@
       "winst",
       "systeem"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "socialisme": {
@@ -2977,7 +2977,7 @@
       "delen",
       "systeem"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "democratie": {
@@ -2988,7 +2988,7 @@
       "systeem",
       "leider"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "oligarchie": {
@@ -2999,7 +2999,7 @@
       "groep",
       "bestuur"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "quantum": {
@@ -3010,7 +3010,7 @@
       "sprong",
       "theorie"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "osmose": {
@@ -3021,7 +3021,7 @@
       "wetenschap",
       "langzaam"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "symbiose": {
@@ -3032,7 +3032,7 @@
       "hulp",
       "band"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "mitose": {
@@ -3043,7 +3043,7 @@
       "groeien",
       "wetenschap"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "zwaartekracht": {
@@ -3054,7 +3054,7 @@
       "ruimte",
       "kracht"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "magnetisme": {
@@ -3065,7 +3065,7 @@
       "kracht",
       "noord"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "elektriciteit": {
@@ -3076,7 +3076,7 @@
       "schok",
       "spanning"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "vulkaan": {
@@ -3087,7 +3087,7 @@
       "vuur",
       "rook"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "aardbeving": {
@@ -3098,7 +3098,7 @@
       "eng",
       "scheur"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "orkaan": {
@@ -3109,7 +3109,7 @@
       "oceaan",
       "sterk"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "tornado": {
@@ -3120,7 +3120,7 @@
       "storm",
       "eng"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "droogte": {
@@ -3131,7 +3131,7 @@
       "land",
       "dorst"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "oogst": {
@@ -3142,7 +3142,7 @@
       "herfst",
       "gewassen"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "landbouw": {
@@ -3153,7 +3153,7 @@
       "land",
       "planten"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "beeldhouwer": {
@@ -3164,7 +3164,7 @@
       "standbeeld",
       "handen"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "literatuur": {
@@ -3175,7 +3175,7 @@
       "verhaal",
       "woord"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "poëzie": {
@@ -3186,7 +3186,7 @@
       "woorden",
       "ziel"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "journalistiek": {
@@ -3197,7 +3197,7 @@
       "verslag",
       "waarheid"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "profetie": {
@@ -3252,7 +3252,7 @@
       "kick",
       "hart"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "serotonine": {
@@ -3263,7 +3263,7 @@
       "chemisch",
       "stemming"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "dopamine": {
@@ -3274,7 +3274,7 @@
       "willen",
       "plezier"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "cortisol": {
@@ -3285,7 +3285,7 @@
       "gevoel",
       "hormoon"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "synaps": {
@@ -3296,7 +3296,7 @@
       "denken",
       "ruimte"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "neuron": {
@@ -3307,7 +3307,7 @@
       "lichaam",
       "signaal"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "hemisfeer": {
@@ -3318,7 +3318,7 @@
       "zuid",
       "bol"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "atmosfeer": {
@@ -3329,7 +3329,7 @@
       "gas",
       "laag"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "stratosfeer": {
@@ -3340,7 +3340,7 @@
       "ozon",
       "laag"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "ionosfeer": {
@@ -3351,7 +3351,7 @@
       "laag",
       "gas"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "biosfeer": {
@@ -3362,7 +3362,7 @@
       "alles",
       "zone"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "troposfeer": {
@@ -3373,7 +3373,7 @@
       "wolk",
       "laag"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "biodiversiteit": {
@@ -3384,7 +3384,7 @@
       "leven",
       "bereik"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "geologie": {
@@ -3395,7 +3395,7 @@
       "oud",
       "grond"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "meteorologie": {
@@ -3406,7 +3406,7 @@
       "regen",
       "storm"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "astronomie": {
@@ -3417,7 +3417,7 @@
       "telescoop",
       "lucht"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "paleontologie": {
@@ -3428,7 +3428,7 @@
       "studie",
       "botten"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "antropologie": {
@@ -3439,7 +3439,7 @@
       "oud",
       "menselijk"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "sociologie": {
@@ -3450,7 +3450,7 @@
       "maatschappij",
       "regels"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "psychologie": {
@@ -3461,7 +3461,7 @@
       "voelen",
       "menselijk"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "archeologie": {
@@ -3472,7 +3472,7 @@
       "historie",
       "gevonden"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "biotechnologie": {
@@ -3483,7 +3483,7 @@
       "wetenschap",
       "nieuw"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "nanotechnologie": {
@@ -3494,7 +3494,7 @@
       "wetenschap",
       "toekomst"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "cybernetica": {
@@ -3505,7 +3505,7 @@
       "tech",
       "geest"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "artificiële intelligentie": {
@@ -3516,7 +3516,7 @@
       "slim",
       "toekomst"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "cloud computing": {
@@ -3527,7 +3527,7 @@
       "opslag",
       "online"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "big data": {
@@ -3538,7 +3538,7 @@
       "cijfers",
       "set"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "internet of things": {
@@ -3549,7 +3549,7 @@
       "tech",
       "web"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "virtual reality": {
@@ -3560,7 +3560,7 @@
       "wereld",
       "nep"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "augmented reality": {
@@ -3571,7 +3571,7 @@
       "wereld",
       "mix"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "quantum computing": {
@@ -3582,7 +3582,7 @@
       "natuurkunde",
       "super"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "teleportatie": {
@@ -3593,7 +3593,7 @@
       "sci-fi",
       "verdwijnen"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "interstellair": {
@@ -3604,7 +3604,7 @@
       "ver",
       "reizen"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "multiversum": {
@@ -3615,7 +3615,7 @@
       "sci-fi",
       "parallel"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "tijdreizen": {
@@ -3626,7 +3626,7 @@
       "machine",
       "verplaatsen"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "superconductiviteit": {
@@ -3637,7 +3637,7 @@
       "metaal",
       "natuurkunde"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "vloeistofdynamica": {
@@ -3648,7 +3648,7 @@
       "natuurkunde",
       "bewegen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "astrofysica": {
@@ -3659,7 +3659,7 @@
       "wiskunde",
       "lucht"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "microbiologie": {
@@ -3670,7 +3670,7 @@
       "microscoop",
       "cellen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "genetica": {
@@ -3681,7 +3681,7 @@
       "geboren",
       "genen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "immunologie": {
@@ -3692,7 +3692,7 @@
       "cellen",
       "beschermen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "neurowetenschap": {
@@ -3703,7 +3703,7 @@
       "studie",
       "lichaam"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "endocrinologie": {
@@ -3714,7 +3714,7 @@
       "bloed",
       "systeem"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "toxicologie": {
@@ -3725,7 +3725,7 @@
       "schade",
       "chemisch"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "farmacologie": {
@@ -3736,7 +3736,7 @@
       "gezondheid",
       "apotheek"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "anatomie": {
@@ -3747,7 +3747,7 @@
       "studie",
       "structuur"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "fysiologie": {
@@ -3758,7 +3758,7 @@
       "studie",
       "levend"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "botanica": {
@@ -3769,7 +3769,7 @@
       "bloem",
       "boom"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "zoölogie": {
@@ -3780,7 +3780,7 @@
       "leven",
       "fauna"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "ecologie": {
@@ -3791,7 +3791,7 @@
       "plek",
       "levend"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "climatologie": {
@@ -3802,7 +3802,7 @@
       "aarde",
       "warm"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "oceanografie": {
@@ -3813,7 +3813,7 @@
       "diep",
       "blauw"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "seismologie": {
@@ -3824,7 +3824,7 @@
       "golf",
       "grond"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "vulkanologie": {
@@ -3835,7 +3835,7 @@
       "berg",
       "vuur"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "beurs": {
@@ -3846,7 +3846,7 @@
       "markt",
       "beleggen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "cryptovaluta": {
@@ -3857,7 +3857,7 @@
       "minen",
       "blockchain"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "vastgoed": {
@@ -3868,7 +3868,7 @@
       "verkopen",
       "makelaar"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "belastingdienst": {
@@ -3879,7 +3879,7 @@
       "blauw",
       "brief"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "speculatie": {
@@ -3890,7 +3890,7 @@
       "markt",
       "voorspellen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "notaris": {
@@ -3901,7 +3901,7 @@
       "kantoor",
       "legaal"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "zzp'er": {
@@ -3912,7 +3912,7 @@
       "alleen",
       "ondernemer"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "mkb": {
@@ -3923,7 +3923,7 @@
       "werk",
       "economie"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "cao": {
@@ -3934,7 +3934,7 @@
       "bond",
       "contract"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "poldermodel": {
@@ -4088,7 +4088,7 @@
       "weten",
       "proces"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "perceptie": {
@@ -4099,7 +4099,7 @@
       "zintuigen",
       "blik"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "bewustzijn": {
@@ -4110,7 +4110,7 @@
       "zijn",
       "besef"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "onderbewuste": {
@@ -4121,7 +4121,7 @@
       "droom",
       "hersenen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "provincie": {
@@ -4154,7 +4154,7 @@
       "graan",
       "polder"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "tulip": {
@@ -4165,7 +4165,7 @@
       "tuin",
       "bol"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "klompen": {
@@ -4176,7 +4176,7 @@
       "geel",
       "lopen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "bakfiets": {
@@ -4187,7 +4187,7 @@
       "rijden",
       "stad"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "sinterklaas": {
@@ -4198,7 +4198,7 @@
       "december",
       "baard"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "piet": {
@@ -4209,7 +4209,7 @@
       "zak",
       "strooien"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "pepernoot": {
@@ -4220,7 +4220,7 @@
       "december",
       "lekker"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "koningsdag": {
@@ -4231,7 +4231,7 @@
       "vrijmarkt",
       "kroon"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "gracht": {
@@ -4242,7 +4242,7 @@
       "amsterdam",
       "brug"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "wadlopen": {
@@ -4253,7 +4253,7 @@
       "noorden",
       "eb"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "dropje": {
@@ -4264,7 +4264,7 @@
       "zakje",
       "zout"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "pindakaas": {
@@ -4275,7 +4275,7 @@
       "smeren",
       "pot"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "beschuit": {
@@ -4286,7 +4286,7 @@
       "muisjes",
       "bakker"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "poffertjes": {
@@ -4297,7 +4297,7 @@
       "warm",
       "vork"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "privatisering": {
@@ -4308,7 +4308,7 @@
       "markt",
       "geld"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "dividendbelasting": {
@@ -4319,7 +4319,7 @@
       "bedrijf",
       "winst"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "recessie": {
@@ -4330,7 +4330,7 @@
       "crisis",
       "dalen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "hypotheekrenteaftrek": {
@@ -4341,7 +4341,7 @@
       "terug",
       "bank"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "vaststellingsovereenkomst": {
@@ -4352,7 +4352,7 @@
       "afspraak",
       "juridisch"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "medezeggenschapsraad": {
@@ -4385,7 +4385,7 @@
       "stroom",
       "toekomst"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "duurzaamheidsverslag": {
@@ -4396,7 +4396,7 @@
       "jaar",
       "groen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "inflatiecorrectie": {
@@ -4407,7 +4407,7 @@
       "subir",
       "jaar"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "liquiditeitsprobleem": {
@@ -4418,7 +4418,7 @@
       "bedrijf",
       "bank"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "faillissementswet": {
@@ -4429,7 +4429,7 @@
       "schuld",
       "wet"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "concurrentiebeding": {
@@ -4440,7 +4440,7 @@
       "verbod",
       "regels"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "arbeidsovereenkomst": {
@@ -4451,7 +4451,7 @@
       "contract",
       "afspraak"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "ijsje met hoorn": {
@@ -4462,7 +4462,7 @@
       "knapperig",
       "zomer"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "hotdog met broodje": {
@@ -4473,7 +4473,7 @@
       "mosterd",
       "snack"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "frites met mayonaise": {
@@ -4484,7 +4484,7 @@
       "bakje",
       "geel"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "knuffelbeer": {
@@ -4495,7 +4495,7 @@
       "pluizig",
       "knuffel"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "brandweerauto": {
@@ -4506,7 +4506,7 @@
       "water",
       "brandweer"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "politieauto": {
@@ -4517,7 +4517,7 @@
       "agent",
       "snel"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "schoolbus": {
@@ -4528,7 +4528,7 @@
       "ochtend",
       "halte"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "achtbaan": {
@@ -4539,7 +4539,7 @@
       "spoor",
       "park"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "verjaardagstaart": {
@@ -4550,7 +4550,7 @@
       "wens",
       "stukje"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "tandenfee": {
@@ -4561,7 +4561,7 @@
       "nacht",
       "magisch"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "paashaas": {
@@ -4572,7 +4572,7 @@
       "lente",
       "verstopt"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "noordpool": {
@@ -4583,7 +4583,7 @@
       "boven",
       "kerst"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "melkweg": {
@@ -4594,7 +4594,7 @@
       "lucht",
       "ruimte"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "vallende ster": {
@@ -4605,7 +4605,7 @@
       "snel",
       "licht"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "zandkasteel": {
@@ -4616,7 +4616,7 @@
       "zee",
       "bouwen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "zeereschelp": {
@@ -4627,7 +4627,7 @@
       "oor",
       "hard"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "zeepaardje": {
@@ -4638,7 +4638,7 @@
       "zwemmen",
       "dier"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "zeester": {
@@ -4649,7 +4649,7 @@
       "armen",
       "dier"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "boomhut": {
@@ -4660,7 +4660,7 @@
       "tuin",
       "geheim"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "vogelhuisje": {
@@ -4671,7 +4671,7 @@
       "klein",
       "gat"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "spaarpot": {
@@ -4682,7 +4682,7 @@
       "varken",
       "gleuf"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "stripboek": {
@@ -4693,7 +4693,7 @@
       "verhaal",
       "bladzijden"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "videospel": {
@@ -4704,7 +4704,7 @@
       "leuk",
       "console"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "bordspel": {
@@ -4715,7 +4715,7 @@
       "pionnen",
       "kaarten"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "springtouw": {
@@ -4726,7 +4726,7 @@
       "zwaaien",
       "voeten"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "skatebord": {
@@ -4737,7 +4737,7 @@
       "trucs",
       "straat"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "hula hoop": {
@@ -4748,7 +4748,7 @@
       "cirkel",
       "plastic"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "rubber eendje": {
@@ -4759,7 +4759,7 @@
       "drijven",
       "piepen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "sneeuwpop": {
@@ -4770,7 +4770,7 @@
       "bouwen",
       "wit"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "regenwoud": {
@@ -4781,7 +4781,7 @@
       "nat",
       "jungle"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "luchtballon": {
@@ -4792,7 +4792,7 @@
       "drijven",
       "vuur"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "ruimteschip": {
@@ -4803,7 +4803,7 @@
       "maan",
       "astronaut"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "monstertruck": {
@@ -4814,7 +4814,7 @@
       "pletten",
       "springen"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "kiepauto": {
@@ -4825,7 +4825,7 @@
       "wielen",
       "omhoog"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "vuilniswagen": {
@@ -4836,7 +4836,7 @@
       "bak",
       "wielen"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "ijscowagen": {
@@ -4847,7 +4847,7 @@
       "koud",
       "straat"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "reuzenrad": {
@@ -4858,7 +4858,7 @@
       "uitzicht",
       "rit"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "draaimolen": {
@@ -4869,7 +4869,7 @@
       "kermis",
       "rit"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "waterglijbaan": {
@@ -4880,7 +4880,7 @@
       "zwemmen",
       "zomer"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "zwembad": {
@@ -4891,7 +4891,7 @@
       "nat",
       "spetteren"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "speeltuin": {
@@ -4902,7 +4902,7 @@
       "kinderen",
       "buiten"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "hinkelen": {
@@ -4968,7 +4968,7 @@
       "ochtend",
       "glad"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "wekker": {
@@ -4979,7 +4979,7 @@
       "tijd",
       "piepen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "woonkamer": {
@@ -4990,7 +4990,7 @@
       "zitten",
       "familie"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "eetkamer": {
@@ -5001,7 +5001,7 @@
       "avondeten",
       "huis"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "slaapkamer": {
@@ -5012,7 +5012,7 @@
       "huis",
       "nacht"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "badkamer": {
@@ -5023,7 +5023,7 @@
       "huis",
       "schoon"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "wasmachine": {
@@ -5034,7 +5034,7 @@
       "zeep",
       "draaien"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "stofzuiger": {
@@ -5045,7 +5045,7 @@
       "stof",
       "schoonmaken"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "afstandsbediening": {
@@ -5056,7 +5056,7 @@
       "bank",
       "hand"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "mobiele telefoon": {
@@ -5067,7 +5067,7 @@
       "scherm",
       "mobiel"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "laptop computer": {
@@ -5078,7 +5078,7 @@
       "draagbaar",
       "werk"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "pinpas": {
@@ -5089,7 +5089,7 @@
       "portemonnee",
       "betalen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "cadeaukaart": {
@@ -5100,7 +5100,7 @@
       "verjaardag",
       "plastic"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "winkelcentrum": {
@@ -5111,7 +5111,7 @@
       "groot",
       "eten"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "supermarkt": {
@@ -5122,7 +5122,7 @@
       "appels",
       "melk"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "dierenwinkel": {
@@ -5133,7 +5133,7 @@
       "kopen",
       "vissen"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "speelgoedwinkel": {
@@ -5144,7 +5144,7 @@
       "spellen",
       "poppen"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "snoepwinkel": {
@@ -5155,7 +5155,7 @@
       "chocolade",
       "kleuren"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "attractiepark": {
@@ -5166,7 +5166,7 @@
       "achtbaan",
       "kermis"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "waterpark": {
@@ -5177,7 +5177,7 @@
       "zomer",
       "bad"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "dierentuin": {
@@ -5188,7 +5188,7 @@
       "kijken",
       "dagje uit"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "politieagent": {
@@ -5199,7 +5199,7 @@
       "helpen",
       "auto"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "filmster": {
@@ -5210,7 +5210,7 @@
       "acteren",
       "hollywood"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "rockster": {
@@ -5221,7 +5221,7 @@
       "zingen",
       "concert"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "superheld": {
@@ -5232,7 +5232,7 @@
       "redden",
       "stripboek"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "geheim agent": {
@@ -5243,7 +5243,7 @@
       "slim",
       "aanwijzingen"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "sprookje": {
@@ -5298,7 +5298,7 @@
       "bladzijden",
       "invullen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "prentenboek": {
@@ -5309,7 +5309,7 @@
       "bladzijden",
       "verhaal"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "gekke bekken": {
@@ -5375,7 +5375,7 @@
       "vriezer",
       "hard"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "chips": {
@@ -5386,7 +5386,7 @@
       "zak",
       "aardappel"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "appelsap": {
@@ -5397,7 +5397,7 @@
       "geel",
       "glas"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "kauwgom": {
@@ -5408,7 +5408,7 @@
       "zoet",
       "plakkerig"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "popcorn": {
@@ -5419,7 +5419,7 @@
       "snack",
       "boter"
     ],
-    "category": "Food",
+    "category": "Eten",
     "kidsMode": true
   },
   "pyjama": {
@@ -5430,7 +5430,7 @@
       "zacht",
       "bed"
     ],
-    "category": "Clothing",
+    "category": "Kleding",
     "kidsMode": true
   },
   "regenjas": {
@@ -5441,7 +5441,7 @@
       "jas",
       "droog"
     ],
-    "category": "Clothing",
+    "category": "Kleding",
     "kidsMode": true
   },
   "badpak": {
@@ -5452,7 +5452,7 @@
       "zomer",
       "kleren"
     ],
-    "category": "Clothing",
+    "category": "Kleding",
     "kidsMode": true
   },
   "zonnebril": {
@@ -5463,7 +5463,7 @@
       "donker",
       "dragen"
     ],
-    "category": "Clothing",
+    "category": "Kleding",
     "kidsMode": true
   },
   "slippers": {
@@ -5474,7 +5474,7 @@
       "schoenen",
       "lopen"
     ],
-    "category": "Clothing",
+    "category": "Kleding",
     "kidsMode": true
   },
   "tennisschoenen": {
@@ -5485,7 +5485,7 @@
       "veters",
       "lopen"
     ],
-    "category": "Clothing",
+    "category": "Kleding",
     "kidsMode": true
   },
   "regenlaarzen": {
@@ -5496,7 +5496,7 @@
       "rubber",
       "nat"
     ],
-    "category": "Clothing",
+    "category": "Kleding",
     "kidsMode": true
   },
   "petje": {
@@ -5507,7 +5507,7 @@
       "sport",
       "klep"
     ],
-    "category": "Clothing",
+    "category": "Kleding",
     "kidsMode": true
   },
   "sociale media": {
@@ -5518,7 +5518,7 @@
       "likes",
       "posten"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "kunstmatige intelligentie": {
@@ -5529,7 +5529,7 @@
       "toekomst",
       "denken"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "machine learning": {
@@ -5540,7 +5540,7 @@
       "leren",
       "tech"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "cyber security": {
@@ -5551,7 +5551,7 @@
       "wachtwoord",
       "online"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "klimaatverandering": {
@@ -5562,7 +5562,7 @@
       "toekomst",
       "groen"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "opwarming van de aarde": {
@@ -5573,7 +5573,7 @@
       "weer",
       "gas"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "duurzame energie": {
@@ -5584,7 +5584,7 @@
       "stroom",
       "schoon"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "zonnepaneel": {
@@ -5595,7 +5595,7 @@
       "energie",
       "glas"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "windturbine": {
@@ -5606,7 +5606,7 @@
       "energie",
       "wit"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "vrijheid van meningsuiting": {
@@ -5639,7 +5639,7 @@
       "nl",
       "stemmen"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": false
   },
   "buitenlands beleid": {
@@ -5672,7 +5672,7 @@
       "gevaar",
       "splijting"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "industriële revolutie": {
@@ -5683,7 +5683,7 @@
       "verandering",
       "oud"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "klassieke literatuur": {
@@ -5694,7 +5694,7 @@
       "beroemd",
       "schrijver"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "sciencefiction": {
@@ -5705,7 +5705,7 @@
       "verhaal",
       "tech"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "historische roman": {
@@ -5716,7 +5716,7 @@
       "echt",
       "nep"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "striproman": {
@@ -5727,7 +5727,7 @@
       "verhaal",
       "volwassen"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "nobelprijs": {
@@ -5771,7 +5771,7 @@
       "bedrijf",
       "vergadering"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "human resources": {
@@ -5782,7 +5782,7 @@
       "kantoor",
       "personeel"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "public relations": {
@@ -5793,7 +5793,7 @@
       "media",
       "praten"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "klantenservice": {
@@ -5804,7 +5804,7 @@
       "winkel",
       "probleem"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "toeleveringsketen": {
@@ -5815,7 +5815,7 @@
       "winkel",
       "logistiek"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "kwaliteitscontrole": {
@@ -5826,7 +5826,7 @@
       "testen",
       "normen"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "intellectueel eigendom": {
@@ -5837,7 +5837,7 @@
       "patent",
       "kopiëren"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "privacybeleid": {
@@ -5859,7 +5859,7 @@
       "app",
       "ontwerp"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "gebruikerservaring": {
@@ -5870,7 +5870,7 @@
       "makkelijk",
       "ontwerp"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "ruimtestation": {
@@ -5881,7 +5881,7 @@
       "baan",
       "astronaut"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "zwart gat": {
@@ -5892,7 +5892,7 @@
       "trekken",
       "ster"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "oerknal": {
@@ -5903,7 +5903,7 @@
       "theorie",
       "explosie"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "natuurlijke selectie": {
@@ -5914,7 +5914,7 @@
       "evolutie",
       "veranderen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "genetische manipulatie": {
@@ -5925,7 +5925,7 @@
       "lab",
       "leven"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "immuunsysteem": {
@@ -5936,7 +5936,7 @@
       "beschermen",
       "cellen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "bloeddruk": {
@@ -5947,7 +5947,7 @@
       "gezondheid",
       "getal"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "geestelijke gezondheid": {
@@ -6024,7 +6024,7 @@
       "werk",
       "agent"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": false
   },
   "zakenbank": {
@@ -6035,7 +6035,7 @@
       "rijk",
       "bedrijf"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "sociale zekerheid": {
@@ -6057,7 +6057,7 @@
       "laag",
       "wet"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "werkloosheidspercentage": {
@@ -6068,7 +6068,7 @@
       "economie",
       "cijfers"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "consumentenelektronica": {
@@ -6079,7 +6079,7 @@
       "tech",
       "winkel"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "hoge definitie": {
@@ -6090,7 +6090,7 @@
       "kijken",
       "video"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "streamingdienst": {
@@ -6101,7 +6101,7 @@
       "tv",
       "abonnement"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "zoekmachine": {
@@ -6112,7 +6112,7 @@
       "zoeken",
       "web"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "cyberaanval": {
@@ -6123,7 +6123,7 @@
       "computer",
       "oorlog"
     ],
-    "category": "Tech",
+    "category": "Technologie",
     "kidsMode": false
   },
   "massamedia": {
@@ -6156,7 +6156,7 @@
       "recht",
       "mars"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "mensenrechten": {
@@ -6167,7 +6167,7 @@
       "wet",
       "recht"
     ],
-    "category": "History",
+    "category": "Geschiedenis",
     "kidsMode": false
   },
   "verenigde naties": {
@@ -6266,7 +6266,7 @@
       "rit",
       "mensen"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": false
   },
   "fossiele brandstoffen": {
@@ -6277,7 +6277,7 @@
       "energie",
       "slecht"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "ecologische voetafdruk": {
@@ -6288,7 +6288,7 @@
       "jij",
       "groen"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "natuurlijke hulpbronnen": {
@@ -6299,7 +6299,7 @@
       "water",
       "natuur"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "genetische diversiteit": {
@@ -6310,7 +6310,7 @@
       "natuur",
       "bereik"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "massa-extractie": {
@@ -6321,7 +6321,7 @@
       "historie",
       "einde"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "deeltjesfysica": {
@@ -6332,7 +6332,7 @@
       "lab",
       "energie"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "donkere energie": {
@@ -6343,7 +6343,7 @@
       "universum",
       "kracht"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "kwantumverstrengeling": {
@@ -6354,7 +6354,7 @@
       "raar",
       "twee"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "snaartheorie": {
@@ -6365,7 +6365,7 @@
       "fysica",
       "trillen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "algemene relativiteitstheorie": {
@@ -6376,7 +6376,7 @@
       "zwaartekracht",
       "massa"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "cognitieve dissonantie": {
@@ -6398,7 +6398,7 @@
       "kopen",
       "geest"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "speltheorie": {
@@ -6497,7 +6497,7 @@
       "werk",
       "goed"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "maatschappelijk verantwoord ondernemen": {
@@ -6508,7 +6508,7 @@
       "helpen",
       "plicht"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "handel met voorkennis": {
@@ -6519,7 +6519,7 @@
       "illegaal",
       "gevangenis"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "witwassen van geld": {
@@ -6530,7 +6530,7 @@
       "cash",
       "bank"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "belastingparadijs": {
@@ -6541,7 +6541,7 @@
       "laag",
       "eiland"
     ],
-    "category": "Business",
+    "category": "Zaken",
     "kidsMode": false
   },
   "belangenverstrengeling": {
@@ -6585,7 +6585,7 @@
       "bibliotheek",
       "plank"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "wetenschapper": {
@@ -6596,7 +6596,7 @@
       "wetenschap",
       "test"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "monteur": {
@@ -6607,7 +6607,7 @@
       "garage",
       "olie"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "fotograaf": {
@@ -6618,7 +6618,7 @@
       "lach",
       "lens"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "detective": {
@@ -6629,7 +6629,7 @@
       "oplossen",
       "spion"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "tuinman": {
@@ -6640,7 +6640,7 @@
       "tuin",
       "groeien"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "tandarts": {
@@ -6651,7 +6651,7 @@
       "stoel",
       "mond"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "verpleegkundige": {
@@ -6662,7 +6662,7 @@
       "dokter",
       "medicijnen"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "bakker": {
@@ -6673,7 +6673,7 @@
       "koken",
       "taart"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "kunstenaar": {
@@ -6684,7 +6684,7 @@
       "kleuren",
       "schilderij"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "muzikant": {
@@ -6695,7 +6695,7 @@
       "liedje",
       "podium"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "atleet": {
@@ -6706,7 +6706,7 @@
       "winnen",
       "sportschool"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "verslaggever": {
@@ -6717,7 +6717,7 @@
       "microfoon",
       "verhaal"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "kapitein": {
@@ -6728,7 +6728,7 @@
       "water",
       "pet"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "ridder": {
@@ -6739,7 +6739,7 @@
       "paard",
       "schild"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "tovenaar": {
@@ -6750,7 +6750,7 @@
       "spreuk",
       "mantel"
     ],
-    "category": "People",
+    "category": "Mensen",
     "kidsMode": true
   },
   "draak": {
@@ -6761,7 +6761,7 @@
       "vleugels",
       "eng"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "eenhoorn": {
@@ -6772,7 +6772,7 @@
       "wit",
       "regenboog"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "zeemeermin": {
@@ -6783,7 +6783,7 @@
       "haar",
       "zee"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "alien": {
@@ -6794,7 +6794,7 @@
       "schip",
       "ufo"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "monster": {
@@ -6805,7 +6805,7 @@
       "groot",
       "harig"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "dinosaurus": {
@@ -6816,7 +6816,7 @@
       "brul",
       "t-rex"
     ],
-    "category": "Animals",
+    "category": "Dieren",
     "kidsMode": true
   },
   "robot": {
@@ -6827,7 +6827,7 @@
       "batterij",
       "toekomst"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "kasteel": {
@@ -6838,7 +6838,7 @@
       "toren",
       "oud"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "paleis": {
@@ -6849,7 +6849,7 @@
       "goud",
       "prins"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "piramide": {
@@ -6860,7 +6860,7 @@
       "woestijn",
       "oud"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "waterval": {
@@ -6871,7 +6871,7 @@
       "nat",
       "hoog"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "grot": {
@@ -6882,7 +6882,7 @@
       "vleermuizen",
       "binnen"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "oerwoud": {
@@ -6893,7 +6893,7 @@
       "groen",
       "wild"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "vallei": {
@@ -6904,7 +6904,7 @@
       "groen",
       "vlak"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "canyon": {
@@ -6915,7 +6915,7 @@
       "rood",
       "muren"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "moeras": {
@@ -6926,7 +6926,7 @@
       "groen",
       "water"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "gletsjer": {
@@ -6937,7 +6937,7 @@
       "langzaam",
       "enorm"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "savanne": {
@@ -6948,7 +6948,7 @@
       "droog",
       "dieren"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "tundra": {
@@ -6959,7 +6959,7 @@
       "noordpool",
       "sneeuw"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "prairie": {
@@ -6970,7 +6970,7 @@
       "boerderij",
       "koeien"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "weide": {
@@ -6981,7 +6981,7 @@
       "zon",
       "bijen"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "boomgaard": {
@@ -6992,7 +6992,7 @@
       "boerderij",
       "plukken"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "wijngaard": {
@@ -7003,7 +7003,7 @@
       "boerderij",
       "paars"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "vuurtoren": {
@@ -7014,7 +7014,7 @@
       "toren",
       "schip"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "wolkenkrabber": {
@@ -7025,7 +7025,7 @@
       "gebouw",
       "hoog"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "stadion": {
@@ -7036,7 +7036,7 @@
       "stoelen",
       "team"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "museum": {
@@ -7047,7 +7047,7 @@
       "gebouw",
       "kijken"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "aquarium": {
@@ -7058,7 +7058,7 @@
       "glas",
       "blauw"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "planetarium": {
@@ -7069,7 +7069,7 @@
       "koepel",
       "planeten"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "observatorium": {
@@ -7080,7 +7080,7 @@
       "berg",
       "kijken"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "laboratorium": {
@@ -7091,7 +7091,7 @@
       "glas",
       "wetenschapper"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "universiteit": {
@@ -7102,7 +7102,7 @@
       "groot",
       "studeren"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "fabriek": {
@@ -7113,7 +7113,7 @@
       "werk",
       "gebouw"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "magazijn": {
@@ -7124,7 +7124,7 @@
       "goederen",
       "leeg"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "haven": {
@@ -7135,7 +7135,7 @@
       "kade",
       "zee"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "vliegveld": {
@@ -7146,7 +7146,7 @@
       "bagage",
       "gate"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "station": {
@@ -7157,7 +7157,7 @@
       "reizen",
       "stop"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "brug": {
@@ -7168,7 +7168,7 @@
       "over",
       "hoog"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "tunnel": {
@@ -7179,7 +7179,7 @@
       "berg",
       "door"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "monument": {
@@ -7190,7 +7190,7 @@
       "steen",
       "historie"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "fontein": {
@@ -7201,7 +7201,7 @@
       "wens",
       "spuiten"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "beeldhouwwerk": {
@@ -7212,7 +7212,7 @@
       "standbeeld",
       "museum"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "portret": {
@@ -7223,7 +7223,7 @@
       "verf",
       "persoon"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "landschap": {
@@ -7234,7 +7234,7 @@
       "verf",
       "uitzicht"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "muurschildering": {
@@ -7245,7 +7245,7 @@
       "groot",
       "stad"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "graffiti": {
@@ -7256,7 +7256,7 @@
       "straat",
       "letters"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "mozaïek": {
@@ -7267,7 +7267,7 @@
       "patroon",
       "kleuren"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "origami": {
@@ -7278,7 +7278,7 @@
       "vorm",
       "vogel"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "aardewerk": {
@@ -7289,7 +7289,7 @@
       "vuur",
       "handen"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "weven": {
@@ -7300,7 +7300,7 @@
       "patroon",
       "garen"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "borduren": {
@@ -7311,7 +7311,7 @@
       "patroon",
       "naaien"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "breien": {
@@ -7322,7 +7322,7 @@
       "wol",
       "lus"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "sieraden": {
@@ -7333,7 +7333,7 @@
       "glimmend",
       "dragen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "tiara": {
@@ -7344,7 +7344,7 @@
       "kroon",
       "goud"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "trofee": {
@@ -7355,7 +7355,7 @@
       "sport",
       "eerste"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "medaille": {
@@ -7366,7 +7366,7 @@
       "sport",
       "prijs"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "kompas": {
@@ -7377,7 +7377,7 @@
       "kaart",
       "verdwaald"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "telescoop": {
@@ -7388,7 +7388,7 @@
       "ver",
       "lens"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "microscoop": {
@@ -7399,7 +7399,7 @@
       "lab",
       "cellen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "verrekijker": {
@@ -7410,7 +7410,7 @@
       "vogels",
       "natuur"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "vergrootglas": {
@@ -7421,7 +7421,7 @@
       "groot",
       "aanwijzingen"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "rugzak": {
@@ -7432,7 +7432,7 @@
       "riemen",
       "tas"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "koffer": {
@@ -7443,7 +7443,7 @@
       "wielen",
       "pakken"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "zaklamp": {
@@ -7454,7 +7454,7 @@
       "batterij",
       "straal"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "lantaarn": {
@@ -7465,7 +7465,7 @@
       "vuur",
       "nacht"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "kaars": {
@@ -7476,7 +7476,7 @@
       "taart",
       "branden"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "lucifer": {
@@ -7487,7 +7487,7 @@
       "stokje",
       "licht"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "aansteker": {
@@ -7498,7 +7498,7 @@
       "vlam",
       "rook"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "kampvuur": {
@@ -7509,7 +7509,7 @@
       "marshmallows",
       "nacht"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "tent": {
@@ -7520,7 +7520,7 @@
       "stof",
       "bos"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "slaapzak": {
@@ -7531,7 +7531,7 @@
       "tent",
       "rits"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "hangmat": {
@@ -7542,7 +7542,7 @@
       "touw",
       "buiten"
     ],
-    "category": "Objects",
+    "category": "Objecten",
     "kidsMode": true
   },
   "picknick": {
@@ -7553,7 +7553,7 @@
       "deken",
       "buiten"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "barbecue": {
@@ -7564,7 +7564,7 @@
       "rook",
       "eten"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "feest": {
@@ -7597,7 +7597,7 @@
       "leuk",
       "suikerspin"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "circus": {
@@ -7608,7 +7608,7 @@
       "show",
       "trapeze"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "theater": {
@@ -7619,7 +7619,7 @@
       "stoelen",
       "gordijn"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "opera": {
@@ -7630,7 +7630,7 @@
       "hard",
       "theater"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "ballet": {
@@ -7641,7 +7641,7 @@
       "tenen",
       "schoenen"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "concert": {
@@ -7652,7 +7652,7 @@
       "publiek",
       "podium"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "festival": {
@@ -7663,7 +7663,7 @@
       "veel",
       "publiek"
     ],
-    "category": "Places",
+    "category": "Plaatsen",
     "kidsMode": true
   },
   "orkest": {
@@ -7674,7 +7674,7 @@
       "dirigent",
       "spelen"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "symfonie": {
@@ -7685,7 +7685,7 @@
       "hard",
       "mooi"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "melodie": {
@@ -7696,7 +7696,7 @@
       "zingen",
       "noten"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "ritme": {
@@ -7707,7 +7707,7 @@
       "trommel",
       "tikken"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "harmonie": {
@@ -7718,7 +7718,7 @@
       "zingen",
       "mooi"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "songtekst": {
@@ -7729,7 +7729,7 @@
       "muziek",
       "schrijven"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": true
   },
   "tempo": {
@@ -7740,7 +7740,7 @@
       "slow",
       "maat"
     ],
-    "category": "Art",
+    "category": "Kunst",
     "kidsMode": false
   },
   "volume": {
@@ -7784,7 +7784,7 @@
       "stoppen",
       "aanraken"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "traagheid": {
@@ -7795,7 +7795,7 @@
       "stoppen",
       "rust"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "snelheid": {
@@ -7806,7 +7806,7 @@
       "fysica",
       "haast"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "druk": {
@@ -7828,7 +7828,7 @@
       "weer",
       "warmte"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "verdamping": {
@@ -7839,7 +7839,7 @@
       "omhoog",
       "droog"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "condensatie": {
@@ -7850,7 +7850,7 @@
       "nat",
       "koud"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "neerslag": {
@@ -7861,7 +7861,7 @@
       "lucht",
       "vallen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "metamorfose": {
@@ -7872,7 +7872,7 @@
       "kikker",
       "leven"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "ademhaling": {
@@ -7883,7 +7883,7 @@
       "leven",
       "zuurstof"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "spijsvertering": {
@@ -7894,7 +7894,7 @@
       "lichaam",
       "proces"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "bloedsomloop": {
@@ -7905,7 +7905,7 @@
       "stromen",
       "rond"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "skelet": {
@@ -7916,7 +7916,7 @@
       "binnen",
       "hard"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "spier": {
@@ -7927,7 +7927,7 @@
       "arm",
       "vlees"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "hersenen": {
@@ -7938,7 +7938,7 @@
       "slim",
       "controle"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "hart": {
@@ -7949,7 +7949,7 @@
       "leven",
       "liefde"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "longen": {
@@ -7960,7 +7960,7 @@
       "zuurstof",
       "rook"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "maag": {
@@ -7971,7 +7971,7 @@
       "honger",
       "vol"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "lever": {
@@ -7982,7 +7982,7 @@
       "bloed",
       "schoon"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "nieren": {
@@ -7993,7 +7993,7 @@
       "water",
       "schoon"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "darmen": {
@@ -8004,7 +8004,7 @@
       "eten",
       "maag"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "bacterie": {
@@ -8015,7 +8015,7 @@
       "leven",
       "schoon"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "virus": {
@@ -8026,7 +8026,7 @@
       "griep",
       "besmetting"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "antilichaam": {
@@ -8037,7 +8037,7 @@
       "gezond",
       "cellen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "vaccin": {
@@ -8048,7 +8048,7 @@
       "gezond",
       "naald"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "antibiotica": {
@@ -8059,7 +8059,7 @@
       "pil",
       "ziek"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "vitamines": {
@@ -8070,7 +8070,7 @@
       "goed",
       "lichaam"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "mineralen": {
@@ -8081,7 +8081,7 @@
       "eten",
       "ijzer"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "eiwitten": {
@@ -8092,7 +8092,7 @@
       "lichaam",
       "spier"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "koolhydraten": {
@@ -8103,7 +8103,7 @@
       "suiker",
       "pasta"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "glucose": {
@@ -8114,7 +8114,7 @@
       "lichaam",
       "zoet"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "cholesterol": {
@@ -8125,7 +8125,7 @@
       "gezondheid",
       "slecht"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "hormonen": {
@@ -8136,7 +8136,7 @@
       "voelen",
       "verandering"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "enzymen": {
@@ -8147,7 +8147,7 @@
       "proces",
       "cellen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "erfelijkheid": {
@@ -8158,7 +8158,7 @@
       "kenmerken",
       "ouders"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "behoud": {
@@ -8169,7 +8169,7 @@
       "groen",
       "beschermen"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "vervuiling": {
@@ -8180,7 +8180,7 @@
       "slecht",
       "aarde"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "recycling": {
@@ -8191,7 +8191,7 @@
       "groen",
       "hergebruiken"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "composteren": {
@@ -8202,7 +8202,7 @@
       "rotten",
       "groen"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": false
   },
   "geosfeer": {
@@ -8213,7 +8213,7 @@
       "metaal",
       "steen"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "hydrosfeer": {
@@ -8224,7 +8224,7 @@
       "rivier",
       "ijs"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "mesosfeer": {
@@ -8235,7 +8235,7 @@
       "koud",
       "laag"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "thermosfeer": {
@@ -8246,7 +8246,7 @@
       "hoog",
       "laag"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "exosfeer": {
@@ -8257,7 +8257,7 @@
       "rand",
       "laag"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "magnetosfeer": {
@@ -8268,7 +8268,7 @@
       "ruimte",
       "kracht"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "evenaar": {
@@ -8279,7 +8279,7 @@
       "lijn",
       "bol"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "lengtegraad": {
@@ -8290,7 +8290,7 @@
       "omhoog",
       "bol"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "breedtegraad": {
@@ -8301,7 +8301,7 @@
       "over",
       "bol"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "coördinaten": {
@@ -8323,7 +8323,7 @@
       "grond",
       "hoogte"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": false
   },
   "navigatie": {
@@ -8334,7 +8334,7 @@
       "reizen",
       "schip"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "expeditie": {
@@ -8345,7 +8345,7 @@
       "vinden",
       "groep"
     ],
-    "category": "Travel",
+    "category": "Reizen",
     "kidsMode": true
   },
   "verbeelding": {
@@ -8411,7 +8411,7 @@
       "begin",
       "licht"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "middag": {
@@ -8422,7 +8422,7 @@
       "voor het avondeten",
       "licht"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "avond": {
@@ -8433,7 +8433,7 @@
       "donker",
       "rust"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "gisteren": {
@@ -8466,7 +8466,7 @@
       "grond",
       "zwart"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "reflectie": {
@@ -8477,7 +8477,7 @@
       "glas",
       "gezicht"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   },
   "magneet": {
@@ -8488,7 +8488,7 @@
       "plakken",
       "noord"
     ],
-    "category": "Science",
+    "category": "Wetenschap",
     "kidsMode": true
   },
   "erfgoed": {
@@ -8543,7 +8543,7 @@
       "keukenhof",
       "rood"
     ],
-    "category": "Nature",
+    "category": "Natuur",
     "kidsMode": true
   }
 }

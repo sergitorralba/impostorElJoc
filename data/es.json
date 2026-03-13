@@ -51,7 +51,7 @@
       "árbol",
       "sana"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "platano": {
@@ -227,7 +227,7 @@
       "desayuno",
       "vaso"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "agua": {
@@ -249,7 +249,7 @@
       "horno",
       "miga"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "arroz": {
@@ -293,7 +293,7 @@
       "zumbar",
       "flor"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "hormiga": {
@@ -304,7 +304,7 @@
       "insecto",
       "agujero"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "lluvia": {
@@ -590,7 +590,7 @@
       "datos",
       "llave"
     ],
-    "category": "Tecnologia",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "blockchain": {
@@ -601,7 +601,7 @@
       "seguro",
       "digital"
     ],
-    "category": "Tecnologia",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "algoritmo": {
@@ -612,7 +612,7 @@
       "resolver",
       "logica"
     ],
-    "category": "Tecnologia",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "paradigma": {
@@ -634,7 +634,7 @@
       "velocidad",
       "proceso"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "fotosintesis": {
@@ -667,7 +667,7 @@
       "reglas",
       "gobierno"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "filosofia": {
@@ -689,7 +689,7 @@
       "sentido",
       "libertad"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "cuantico": {
@@ -711,7 +711,7 @@
       "velocidad",
       "teoría"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "infraestructura": {
@@ -722,7 +722,7 @@
       "publico",
       "sistema"
     ],
-    "category": "Tecnologia",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "logistica": {
@@ -777,7 +777,7 @@
       "embajada",
       "política"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "geopolitica": {
@@ -799,7 +799,7 @@
       "plano",
       "estilo"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "renacimiento": {
@@ -821,7 +821,7 @@
       "detalle",
       "antiguo"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "impresionismo": {
@@ -887,7 +887,7 @@
       "lugar",
       "red"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "sostenibilidad": {
@@ -898,7 +898,7 @@
       "tierra",
       "seguro"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "resiliencia": {
@@ -1019,7 +1019,7 @@
       "cuero",
       "pagar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "dividendo": {
@@ -1030,7 +1030,7 @@
       "bolsa",
       "ganancia"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "pasivo": {
@@ -1063,7 +1063,7 @@
       "interés",
       "deuda"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "seguro": {
@@ -1074,7 +1074,7 @@
       "cobertura",
       "seguridad"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "pension": {
@@ -1107,7 +1107,7 @@
       "gris",
       "orejas"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "jirafa": {
@@ -1118,7 +1118,7 @@
       "amarillo",
       "áfrica"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "león": {
@@ -1129,7 +1129,7 @@
       "gato",
       "salvaje"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "tigre": {
@@ -1140,7 +1140,7 @@
       "selva",
       "rugido"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "pingüino": {
@@ -1151,7 +1151,7 @@
       "blanco",
       "nadar"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "mono": {
@@ -1162,7 +1162,7 @@
       "árbol",
       "columpiar"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "cebra": {
@@ -1173,7 +1173,7 @@
       "caballo",
       "áfrica"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "canguro": {
@@ -1184,7 +1184,7 @@
       "salto",
       "bolsillo"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "vaca": {
@@ -1195,7 +1195,7 @@
       "pasto",
       "cuernos"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "cerdo": {
@@ -1206,7 +1206,7 @@
       "granja",
       "hocico"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "oveja": {
@@ -1217,7 +1217,7 @@
       "granja",
       "suave"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "caballo": {
@@ -1228,7 +1228,7 @@
       "silla",
       "granja"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "pollo": {
@@ -1239,7 +1239,7 @@
       "alas",
       "pico"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "pato": {
@@ -1250,7 +1250,7 @@
       "pico",
       "andar"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "conejo": {
@@ -1261,7 +1261,7 @@
       "suave",
       "largo"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "tortuga": {
@@ -1272,7 +1272,7 @@
       "verde",
       "gatear"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "serpiente": {
@@ -1283,7 +1283,7 @@
       "escama",
       "veneno"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "araña": {
@@ -1294,7 +1294,7 @@
       "gatear",
       "insecto"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "mariposa": {
@@ -1305,7 +1305,7 @@
       "capullo",
       "flor"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "rana": {
@@ -1316,7 +1316,7 @@
       "estanque",
       "lengua"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "naranja": {
@@ -1327,7 +1327,7 @@
       "cáscara",
       "redondo"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "fresa": {
@@ -1338,7 +1338,7 @@
       "semillas",
       "baya"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "uva": {
@@ -1349,7 +1349,7 @@
       "racimo",
       "vid"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "sandía": {
@@ -1360,7 +1360,7 @@
       "semillas",
       "grande"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "pizza": {
@@ -1371,7 +1371,7 @@
       "masa",
       "tomate"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "hamburguesa": {
@@ -1382,7 +1382,7 @@
       "rápido",
       "comida"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "sándwich": {
@@ -1393,7 +1393,7 @@
       "queso",
       "rebanada"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "huevo": {
@@ -1404,7 +1404,7 @@
       "desayuno",
       "pollo"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "queso": {
@@ -1415,7 +1415,7 @@
       "bocadillo",
       "agujeros"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "helado": {
@@ -1426,7 +1426,7 @@
       "bola",
       "postre"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "galleta": {
@@ -1437,7 +1437,7 @@
       "redondo",
       "crujiente"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "pastel": {
@@ -1448,7 +1448,7 @@
       "hornear",
       "fiesta"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "jugo": {
@@ -1459,7 +1459,7 @@
       "líquido",
       "dulce"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "sopa": {
@@ -1470,7 +1470,7 @@
       "líquido",
       "cena"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "chocolate": {
@@ -1481,7 +1481,7 @@
       "barra",
       "cacao"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "patata": {
@@ -1492,7 +1492,7 @@
       "suelo",
       "puré"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "tomate": {
@@ -1503,7 +1503,7 @@
       "salsa",
       "redondo"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "zanahoria": {
@@ -1514,7 +1514,7 @@
       "crujiente",
       "raíz"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "cebolla": {
@@ -1525,7 +1525,7 @@
       "aros",
       "fuerte"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "ajo": {
@@ -1536,7 +1536,7 @@
       "fuerte",
       "cocinar"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "montaña": {
@@ -1547,7 +1547,7 @@
       "nieve",
       "roca"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "río": {
@@ -1558,7 +1558,7 @@
       "orilla",
       "largo"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "océano": {
@@ -1569,7 +1569,7 @@
       "grande",
       "pez"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "lago": {
@@ -1580,7 +1580,7 @@
       "pez",
       "rodear"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "bosque": {
@@ -1591,7 +1591,7 @@
       "salvaje",
       "animales"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "desierto": {
@@ -1602,7 +1602,7 @@
       "cactus",
       "camello"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "isla": {
@@ -1613,7 +1613,7 @@
       "palmera",
       "mar"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "nube": {
@@ -1624,7 +1624,7 @@
       "esponjoso",
       "gris"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "arcoíris": {
@@ -1635,7 +1635,7 @@
       "sol",
       "arco"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "fuego": {
@@ -1646,7 +1646,7 @@
       "madera",
       "humo"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "viento": {
@@ -1657,7 +1657,7 @@
       "tormenta",
       "cometa"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "trueno": {
@@ -1668,7 +1668,7 @@
       "sonido",
       "luz"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "rayo": {
@@ -1679,7 +1679,7 @@
       "brillante",
       "eléctrico"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "invierno": {
@@ -1690,7 +1690,7 @@
       "estación",
       "chaqueta"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "verano": {
@@ -1701,7 +1701,7 @@
       "estación",
       "vacaciones"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "primavera": {
@@ -1712,7 +1712,7 @@
       "crecer",
       "lluvia"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "otoño": {
@@ -1723,7 +1723,7 @@
       "caer",
       "fresco"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "lápiz": {
@@ -1734,7 +1734,7 @@
       "borrador",
       "madera"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "ordenador": {
@@ -1745,7 +1745,7 @@
       "internet",
       "tecnología"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "televisión": {
@@ -1756,7 +1756,7 @@
       "mando",
       "película"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "radio": {
@@ -1767,7 +1767,7 @@
       "altavoz",
       "sintonizar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "bicicleta": {
@@ -1778,7 +1778,7 @@
       "casco",
       "dos"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "avión": {
@@ -1789,7 +1789,7 @@
       "piloto",
       "aeropuerto"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "tren": {
@@ -1800,7 +1800,7 @@
       "estación",
       "ruedas"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "barco": {
@@ -1811,7 +1811,7 @@
       "río",
       "buque"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "autobús": {
@@ -1822,7 +1822,7 @@
       "parada",
       "conducir"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "cohete": {
@@ -1833,7 +1833,7 @@
       "estrella",
       "fuego"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "escuela": {
@@ -1844,7 +1844,7 @@
       "niños",
       "aula"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "hospital": {
@@ -1855,7 +1855,7 @@
       "medicina",
       "ayuda"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "parque": {
@@ -1866,7 +1866,7 @@
       "banco",
       "tobogán"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "playa": {
@@ -1877,7 +1877,7 @@
       "nadar",
       "olas"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "mercado": {
@@ -1888,7 +1888,7 @@
       "fruta",
       "vender"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "biblioteca": {
@@ -1899,7 +1899,7 @@
       "estudiar",
       "estante"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "cine": {
@@ -1910,7 +1910,7 @@
       "ver",
       "asiento"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "doctor": {
@@ -1921,7 +1921,7 @@
       "medicina",
       "blanco"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "profesor": {
@@ -1932,7 +1932,7 @@
       "libros",
       "clase"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "policía": {
@@ -1943,7 +1943,7 @@
       "ley",
       "uniforme"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "cocinero": {
@@ -1954,7 +1954,7 @@
       "gorro",
       "restaurante"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "piloto": {
@@ -1965,7 +1965,7 @@
       "cabina",
       "uniforme"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "astronauta": {
@@ -1976,7 +1976,7 @@
       "luna",
       "traje"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "bombero": {
@@ -1987,7 +1987,7 @@
       "manguera",
       "ayuda"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "cantante": {
@@ -1998,7 +1998,7 @@
       "micrófono",
       "escenario"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "pintor": {
@@ -2009,7 +2009,7 @@
       "lienzo",
       "cuadro"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "granjero": {
@@ -2020,7 +2020,7 @@
       "tierra",
       "comida"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "piano": {
@@ -2031,7 +2031,7 @@
       "blanco",
       "sonido"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "guitarra": {
@@ -2042,7 +2042,7 @@
       "sonido",
       "instrumento"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "tambor": {
@@ -2053,7 +2053,7 @@
       "baquetas",
       "sonido"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "violín": {
@@ -2064,7 +2064,7 @@
       "sonido",
       "pequeño"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "espejo": {
@@ -2075,7 +2075,7 @@
       "reflejar",
       "cara"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "reloj": {
@@ -2086,7 +2086,7 @@
       "números",
       "pared"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "reloj de pulsera": {
@@ -2097,7 +2097,7 @@
       "números",
       "llevar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "martillo": {
@@ -2108,7 +2108,7 @@
       "madera",
       "construir"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "escalera": {
@@ -2119,7 +2119,7 @@
       "alto",
       "alcanzar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "llave": {
@@ -2130,7 +2130,7 @@
       "metal",
       "pequeño"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "paraguas": {
@@ -2141,7 +2141,7 @@
       "mango",
       "cielo"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "jabón": {
@@ -2152,7 +2152,7 @@
       "burbujas",
       "baño"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "toalla": {
@@ -2163,7 +2163,7 @@
       "baño",
       "playa"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "cepillo de dientes": {
@@ -2174,7 +2174,7 @@
       "mañana",
       "boca"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "gafas": {
@@ -2185,7 +2185,7 @@
       "montura",
       "lente"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "ballena": {
@@ -2196,7 +2196,7 @@
       "azul",
       "mamífero"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "tiburón": {
@@ -2207,7 +2207,7 @@
       "morder",
       "miedo"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "pulpo": {
@@ -2218,7 +2218,7 @@
       "océano",
       "tentáculos"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "cangrejo": {
@@ -2229,7 +2229,7 @@
       "concha",
       "lado"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "medusa": {
@@ -2240,7 +2240,7 @@
       "tentáculos",
       "blando"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "delfín": {
@@ -2251,7 +2251,7 @@
       "aleta",
       "nadar"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "burro": {
@@ -2262,7 +2262,7 @@
       "gris",
       "rebuzno"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "lobo": {
@@ -2273,7 +2273,7 @@
       "perro",
       "salvaje"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "zorro": {
@@ -2284,7 +2284,7 @@
       "bosque",
       "listo"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "ciervo": {
@@ -2295,7 +2295,7 @@
       "marrón",
       "bambi"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "búho": {
@@ -2306,7 +2306,7 @@
       "ojos",
       "volar"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "águila": {
@@ -2317,7 +2317,7 @@
       "nido",
       "alas"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "loro": {
@@ -2328,7 +2328,7 @@
       "pirata",
       "repetir"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "paloma": {
@@ -2339,7 +2339,7 @@
       "parque",
       "paz"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "mosquito": {
@@ -2350,7 +2350,7 @@
       "verano",
       "molesto"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "grillo": {
@@ -2361,7 +2361,7 @@
       "verde",
       "insecto"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "caracol": {
@@ -2372,7 +2372,7 @@
       "jardín",
       "concha"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "cocodrilo": {
@@ -2383,7 +2383,7 @@
       "grande",
       "reptil"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "paella": {
@@ -2394,7 +2394,7 @@
       "marisco",
       "azafrán"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "tortilla": {
@@ -2405,7 +2405,7 @@
       "sartén",
       "española"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "jamón": {
@@ -2416,7 +2416,7 @@
       "salado",
       "curado"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "chorizo": {
@@ -2427,7 +2427,7 @@
       "embutido",
       "bocadillo"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "gazpacho": {
@@ -2438,7 +2438,7 @@
       "verano",
       "sopa"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "churros": {
@@ -2449,7 +2449,7 @@
       "azúcar",
       "frito"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "croqueta": {
@@ -2460,7 +2460,7 @@
       "abuela",
       "redondo"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "aceituna": {
@@ -2471,7 +2471,7 @@
       "hueso",
       "tapa"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "calamar": {
@@ -2482,7 +2482,7 @@
       "bocadillo",
       "tinta"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "lentejas": {
@@ -2493,7 +2493,7 @@
       "guiso",
       "madre"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "garbanzos": {
@@ -2504,7 +2504,7 @@
       "bolita",
       "comida"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "mantequilla": {
@@ -2515,7 +2515,7 @@
       "untar",
       "leche"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "yogur": {
@@ -2526,7 +2526,7 @@
       "postre",
       "vaso"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "plátano": {
@@ -2537,7 +2537,7 @@
       "mono",
       "pelar"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "pera": {
@@ -2548,7 +2548,7 @@
       "dulce",
       "forma"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "cereza": {
@@ -2559,7 +2559,7 @@
       "rabo",
       "hueso"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "melocotón": {
@@ -2570,7 +2570,7 @@
       "hueso",
       "verano"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "paranoia": {
@@ -2581,7 +2581,7 @@
       "mente",
       "persecución"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "conspiración": {
@@ -2592,7 +2592,7 @@
       "oculto",
       "teoría"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "traición": {
@@ -2603,7 +2603,7 @@
       "espalda",
       "mentira"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "manipulación": {
@@ -2614,7 +2614,7 @@
       "influencia",
       "habilidad"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "propaganda": {
@@ -2625,7 +2625,7 @@
       "público",
       "control"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "censura": {
@@ -2636,7 +2636,7 @@
       "bloquear",
       "prohibir"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "vigilancia": {
@@ -2647,7 +2647,7 @@
       "secreto",
       "seguridad"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "metáfora": {
@@ -2658,7 +2658,7 @@
       "comparar",
       "arte"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "paradoja": {
@@ -2669,7 +2669,7 @@
       "pensamiento",
       "contradicción"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "sinergia": {
@@ -2680,7 +2680,7 @@
       "trabajo",
       "efecto"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "plazo": {
@@ -2691,7 +2691,7 @@
       "trabajo",
       "fecha"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "fusión": {
@@ -2702,7 +2702,7 @@
       "dos",
       "comprar"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "monopolio": {
@@ -2713,7 +2713,7 @@
       "mercado",
       "poder"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "reclutamiento": {
@@ -2724,7 +2724,7 @@
       "nuevo",
       "personal"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "despido": {
@@ -2735,7 +2735,7 @@
       "paro",
       "adiós"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "apalancamiento": {
@@ -2746,7 +2746,7 @@
       "negocio",
       "dinero"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "bancarrota": {
@@ -2757,7 +2757,7 @@
       "negocio",
       "fallar"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "inflación": {
@@ -2768,7 +2768,7 @@
       "economía",
       "valor"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "deflación": {
@@ -2779,7 +2779,7 @@
       "economía",
       "valor"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "déficit": {
@@ -2790,7 +2790,7 @@
       "presupuesto",
       "pérdida"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "liquidez": {
@@ -2801,7 +2801,7 @@
       "flujo",
       "activo"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "activos": {
@@ -2812,7 +2812,7 @@
       "riqueza",
       "objeto"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "pasivos": {
@@ -2823,7 +2823,7 @@
       "coste",
       "legal"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "materias primas": {
@@ -2834,7 +2834,7 @@
       "bien",
       "mercado"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "subsidio": {
@@ -2845,7 +2845,7 @@
       "apoyo",
       "pagar"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "arancel": {
@@ -2856,7 +2856,7 @@
       "frontera",
       "precio"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "cuota": {
@@ -2867,7 +2867,7 @@
       "cantidad",
       "alcanzar"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "hegemonía": {
@@ -2878,7 +2878,7 @@
       "nación",
       "mando"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "altruismo": {
@@ -2889,7 +2889,7 @@
       "generoso",
       "otros"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "nihilismo": {
@@ -2900,7 +2900,7 @@
       "oscuro",
       "creencia"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "estoicismo": {
@@ -2911,7 +2911,7 @@
       "control",
       "antiguo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "hedonismo": {
@@ -2922,7 +2922,7 @@
       "deseo",
       "vida"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "epistemología": {
@@ -2933,7 +2933,7 @@
       "mente",
       "filosofía"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "ontología": {
@@ -2944,7 +2944,7 @@
       "filosofía",
       "real"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "dialéctica": {
@@ -2955,7 +2955,7 @@
       "verdad",
       "debate"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "estética": {
@@ -2966,7 +2966,7 @@
       "estilo",
       "diseño"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "abstracto": {
@@ -2977,7 +2977,7 @@
       "moderno",
       "sentido"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "minimalismo": {
@@ -2988,7 +2988,7 @@
       "limpio",
       "estilo"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "surrealismo": {
@@ -2999,7 +2999,7 @@
       "dalí",
       "mente"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "ilustración": {
@@ -3010,7 +3010,7 @@
       "luz",
       "ciencia"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "totalitarismo": {
@@ -3021,7 +3021,7 @@
       "líder",
       "mando"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "feudalismo": {
@@ -3032,7 +3032,7 @@
       "historia",
       "sistema"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "colonialismo": {
@@ -3043,7 +3043,7 @@
       "poder",
       "conquista"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "laicismo": {
@@ -3054,7 +3054,7 @@
       "moderno",
       "libre"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "capitalismo": {
@@ -3065,7 +3065,7 @@
       "beneficio",
       "sistema"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "socialismo": {
@@ -3076,7 +3076,7 @@
       "compartir",
       "sistema"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "democracia": {
@@ -3087,7 +3087,7 @@
       "sistema",
       "líder"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "oligarquía": {
@@ -3098,7 +3098,7 @@
       "grupo",
       "mando"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "entropía": {
@@ -3109,7 +3109,7 @@
       "pérdida",
       "ciencia"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "cuántico": {
@@ -3120,7 +3120,7 @@
       "salto",
       "teoría"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "ósmosis": {
@@ -3131,7 +3131,7 @@
       "ciencia",
       "lento"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "fotosíntesis": {
@@ -3142,7 +3142,7 @@
       "crecer",
       "comida"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "simbiosis": {
@@ -3153,7 +3153,7 @@
       "ayuda",
       "vínculo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "mitosis": {
@@ -3164,7 +3164,7 @@
       "crecer",
       "ciencia"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "mutación": {
@@ -3175,7 +3175,7 @@
       "azar",
       "nuevo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "gravedad": {
@@ -3186,7 +3186,7 @@
       "espacio",
       "fuerza"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "magnetismo": {
@@ -3197,7 +3197,7 @@
       "fuerza",
       "norte"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "electricidad": {
@@ -3208,7 +3208,7 @@
       "calambrazo",
       "corriente"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "volcán": {
@@ -3219,7 +3219,7 @@
       "caliente",
       "erupción"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "terremoto": {
@@ -3230,7 +3230,7 @@
       "miedo",
       "grieta"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "huracán": {
@@ -3241,7 +3241,7 @@
       "océano",
       "fuerte"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "tornado": {
@@ -3252,7 +3252,7 @@
       "tormenta",
       "miedo"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "sequía": {
@@ -3263,7 +3263,7 @@
       "tierra",
       "sed"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "cosecha": {
@@ -3274,7 +3274,7 @@
       "otoño",
       "cultivos"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "agricultura": {
@@ -3285,7 +3285,7 @@
       "tierra",
       "plantas"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "escultura": {
@@ -3296,7 +3296,7 @@
       "estatua",
       "manos"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "literatura": {
@@ -3307,7 +3307,7 @@
       "historia",
       "palabra"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "poesía": {
@@ -3318,7 +3318,7 @@
       "palabras",
       "alma"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "periodismo": {
@@ -3329,7 +3329,7 @@
       "reportar",
       "verdad"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "profecía": {
@@ -3340,7 +3340,7 @@
       "destino",
       "antiguo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "nostalgia": {
@@ -3351,7 +3351,7 @@
       "sentimiento",
       "viejo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "melancolía": {
@@ -3362,7 +3362,7 @@
       "quieto",
       "ánimo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "euforia": {
@@ -3373,7 +3373,7 @@
       "genial",
       "alegría"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "adrenalina": {
@@ -3384,7 +3384,7 @@
       "subidón",
       "corazón"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "serotonina": {
@@ -3395,7 +3395,7 @@
       "química",
       "ánimo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "dopamina": {
@@ -3406,7 +3406,7 @@
       "querer",
       "alegría"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "cortisol": {
@@ -3417,7 +3417,7 @@
       "sentimiento",
       "hormona"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "sinapsis": {
@@ -3428,7 +3428,7 @@
       "pensar",
       "espacio"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "neurona": {
@@ -3439,7 +3439,7 @@
       "cuerpo",
       "señal"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "hemisferio": {
@@ -3450,7 +3450,7 @@
       "sur",
       "globo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "atmósfera": {
@@ -3461,7 +3461,7 @@
       "gas",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "estratosfera": {
@@ -3472,7 +3472,7 @@
       "ozono",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "ionosfera": {
@@ -3483,7 +3483,7 @@
       "capa",
       "gas"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "biosfera": {
@@ -3494,7 +3494,7 @@
       "todo",
       "zona"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "troposfera": {
@@ -3505,7 +3505,7 @@
       "nube",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "biodiversidad": {
@@ -3516,7 +3516,7 @@
       "vida",
       "rango"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "geología": {
@@ -3527,7 +3527,7 @@
       "viejo",
       "suelo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "meteorología": {
@@ -3538,7 +3538,7 @@
       "lluvia",
       "tormenta"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "astronomía": {
@@ -3549,7 +3549,7 @@
       "telescopio",
       "cielo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "paleontología": {
@@ -3560,7 +3560,7 @@
       "estudio",
       "huesos"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "antropología": {
@@ -3571,7 +3571,7 @@
       "viejo",
       "humano"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "sociología": {
@@ -3582,7 +3582,7 @@
       "sociedad",
       "reglas"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "psicología": {
@@ -3593,7 +3593,7 @@
       "sentir",
       "humano"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "arqueología": {
@@ -3604,7 +3604,7 @@
       "historia",
       "encontrado"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "criptografía": {
@@ -3615,7 +3615,7 @@
       "mates",
       "llave"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "biotecnología": {
@@ -3626,7 +3626,7 @@
       "ciencia",
       "nuevo"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "nanotecnología": {
@@ -3637,7 +3637,7 @@
       "ciencia",
       "futuro"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "cibernética": {
@@ -3648,7 +3648,7 @@
       "tecnología",
       "mente"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "inteligencia artificial": {
@@ -3659,7 +3659,7 @@
       "futuro",
       "pensar"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "cadena de bloques": {
@@ -3670,7 +3670,7 @@
       "dinero",
       "seguro"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "computación en la nube": {
@@ -3681,7 +3681,7 @@
       "guardar",
       "nube"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "macrodatos": {
@@ -3692,7 +3692,7 @@
       "números",
       "conjunto"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "internet de las cosas": {
@@ -3703,7 +3703,7 @@
       "tech",
       "red"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "realidad virtual": {
@@ -3714,7 +3714,7 @@
       "mundo",
       "falso"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "realidad aumentada": {
@@ -3725,7 +3725,7 @@
       "mundo",
       "mezcla"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "computación cuántica": {
@@ -3736,7 +3736,7 @@
       "física",
       "súper"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "teletransporte": {
@@ -3747,7 +3747,7 @@
       "ciencia ficción",
       "desaparecer"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "interestelar": {
@@ -3758,7 +3758,7 @@
       "lejos",
       "viaje"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "multiverso": {
@@ -3769,7 +3769,7 @@
       "ciencia ficción",
       "paralelo"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "viaje en el tiempo": {
@@ -3780,7 +3780,7 @@
       "máquina",
       "mover"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "superconductividad": {
@@ -3791,7 +3791,7 @@
       "metal",
       "física"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "termodinámica": {
@@ -3802,7 +3802,7 @@
       "física",
       "leyes"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "dinámica de fluidos": {
@@ -3813,7 +3813,7 @@
       "física",
       "mover"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "astrofísica": {
@@ -3824,7 +3824,7 @@
       "mates",
       "cielo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "microbiología": {
@@ -3835,7 +3835,7 @@
       "microscopio",
       "células"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "genética": {
@@ -3846,7 +3846,7 @@
       "nacer",
       "genes"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "inmunología": {
@@ -3857,7 +3857,7 @@
       "células",
       "proteger"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "neurociencia": {
@@ -3868,7 +3868,7 @@
       "estudio",
       "cuerpo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "endocrinología": {
@@ -3879,7 +3879,7 @@
       "sangre",
       "sistema"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "toxicología": {
@@ -3890,7 +3890,7 @@
       "daño",
       "química"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "farmacología": {
@@ -3901,7 +3901,7 @@
       "estudio",
       "salud"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "anatomía": {
@@ -3912,7 +3912,7 @@
       "estudio",
       "estructura"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "fisiología": {
@@ -3923,7 +3923,7 @@
       "estudio",
       "vivo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "botánica": {
@@ -3934,7 +3934,7 @@
       "flor",
       "árbol"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "zoología": {
@@ -3945,7 +3945,7 @@
       "vida",
       "fauna"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "ecología": {
@@ -3956,7 +3956,7 @@
       "lugar",
       "vivo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "climatología": {
@@ -3967,7 +3967,7 @@
       "tierra",
       "calor"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "oceanografía": {
@@ -3978,7 +3978,7 @@
       "profundo",
       "azul"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "sismología": {
@@ -3989,7 +3989,7 @@
       "onda",
       "suelo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "vulcanología": {
@@ -4000,7 +4000,7 @@
       "montaña",
       "fuego"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "bolsa de valores": {
@@ -4011,7 +4011,7 @@
       "ibex",
       "invertir"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "criptomoneda": {
@@ -4022,7 +4022,7 @@
       "minería",
       "cadena"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "bienes raíces": {
@@ -4033,7 +4033,7 @@
       "vender",
       "inmueble"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "impuesto": {
@@ -4044,7 +4044,7 @@
       "hacienda",
       "irpf"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "jubilación": {
@@ -4055,7 +4055,7 @@
       "retirada",
       "ahorrar"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "inversión": {
@@ -4066,7 +4066,7 @@
       "riesgo",
       "bolsa"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "especulación": {
@@ -4077,7 +4077,7 @@
       "mercado",
       "apuesta"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "notario": {
@@ -4088,7 +4088,7 @@
       "oficina",
       "legal"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "autónomo": {
@@ -4099,7 +4099,7 @@
       "negocio",
       "solo"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "pyme": {
@@ -4110,7 +4110,7 @@
       "trabajo",
       "españa"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "baja laboral": {
@@ -4121,7 +4121,7 @@
       "descanso",
       "dinero"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "subvención": {
@@ -4132,7 +4132,7 @@
       "proyecto",
       "apoyo"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "geopolítica": {
@@ -4143,7 +4143,7 @@
       "estrategia",
       "naciones"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "soberanía": {
@@ -4154,7 +4154,7 @@
       "mando",
       "frontera"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "constitución": {
@@ -4165,7 +4165,7 @@
       "gobierno",
       "reglas"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "legislación": {
@@ -4176,7 +4176,7 @@
       "gobierno",
       "reglas"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "judicial": {
@@ -4187,7 +4187,7 @@
       "juicio",
       "legal"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "fiscalía": {
@@ -4198,7 +4198,7 @@
       "culpable",
       "legal"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "testimonio": {
@@ -4209,7 +4209,7 @@
       "hablar",
       "legal"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "veredicto": {
@@ -4220,7 +4220,7 @@
       "juicio",
       "jurado"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "ética": {
@@ -4231,7 +4231,7 @@
       "moral",
       "pensar"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "filosofía": {
@@ -4242,7 +4242,7 @@
       "sabiduría",
       "pregunta"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "metafísica": {
@@ -4253,7 +4253,7 @@
       "más allá",
       "filosofía"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "lógica": {
@@ -4264,7 +4264,7 @@
       "razón",
       "pasos"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "retórica": {
@@ -4275,7 +4275,7 @@
       "arte",
       "discurso"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "parque del retiro": {
@@ -4286,7 +4286,7 @@
       "estatua",
       "pasear"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "sagrada familia": {
@@ -4297,7 +4297,7 @@
       "torres",
       "piedra"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "alcázar": {
@@ -4308,7 +4308,7 @@
       "muralla",
       "antiguo"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "flamenco": {
@@ -4319,7 +4319,7 @@
       "tablao",
       "música"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "siesta": {
@@ -4330,7 +4330,7 @@
       "descanso",
       "verano"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "encierro": {
@@ -4341,7 +4341,7 @@
       "calle",
       "pañuelo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "tapa": {
@@ -4352,7 +4352,7 @@
       "aperitivo",
       "picar"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "aceite de oliva": {
@@ -4363,7 +4363,7 @@
       "cocinar",
       "olivas"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "turrón": {
@@ -4374,7 +4374,7 @@
       "duro",
       "blando"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "rosquillas": {
@@ -4385,7 +4385,7 @@
       "fiesta",
       "merienda"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "prevaricación": {
@@ -4396,7 +4396,7 @@
       "delito",
       "cargo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "cohecho": {
@@ -4407,7 +4407,7 @@
       "delito",
       "corrupción"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "malversación": {
@@ -4418,7 +4418,7 @@
       "delito",
       "gobierno"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "impugnación": {
@@ -4429,7 +4429,7 @@
       "papel",
       "protesta"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "jurisprudencia": {
@@ -4440,7 +4440,7 @@
       "sentencia",
       "estudio"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "constitucionalidad": {
@@ -4451,7 +4451,7 @@
       "tribunal",
       "derecho"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "parlamentarismo": {
@@ -4462,7 +4462,7 @@
       "leyes",
       "congreso"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "liberalismo": {
@@ -4473,7 +4473,7 @@
       "idea",
       "derecho"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "progresismo": {
@@ -4484,7 +4484,7 @@
       "idea",
       "izquierda"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "conservadurismo": {
@@ -4495,7 +4495,7 @@
       "idea",
       "derecha"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "mantequilla de cacahuete": {
@@ -4506,7 +4506,7 @@
       "mermelada",
       "marrón"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "cono de helado": {
@@ -4517,7 +4517,7 @@
       "crujiente",
       "verano"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "perrito caliente": {
@@ -4528,7 +4528,7 @@
       "mostaza",
       "comida rápida"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "patatas fritas": {
@@ -4539,7 +4539,7 @@
       "bolsa",
       "amarillo"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "oso de peluche": {
@@ -4550,7 +4550,7 @@
       "peludo",
       "abrazo"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "camión de bomberos": {
@@ -4561,7 +4561,7 @@
       "agua",
       "bombero"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "coche de policía": {
@@ -4572,7 +4572,7 @@
       "agente",
       "rápido"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "autobús escolar": {
@@ -4583,7 +4583,7 @@
       "mañana",
       "parada"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "montaña rusa": {
@@ -4594,7 +4594,7 @@
       "vía",
       "parque de atracciones"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "tarta de cumpleaños": {
@@ -4605,7 +4605,7 @@
       "deseo",
       "trozo"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "ratoncito pérez": {
@@ -4616,7 +4616,7 @@
       "noche",
       "ratón"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "reyes magos": {
@@ -4627,7 +4627,7 @@
       "estrella",
       "oriente"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "papá noel": {
@@ -4638,7 +4638,7 @@
       "reno",
       "navidad"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "polo norte": {
@@ -4649,7 +4649,7 @@
       "hielo",
       "arriba"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "vía láctea": {
@@ -4660,7 +4660,7 @@
       "cielo",
       "espacio"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "estrella fugaz": {
@@ -4671,7 +4671,7 @@
       "rápido",
       "luz"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "castillo de arena": {
@@ -4682,7 +4682,7 @@
       "mar",
       "construir"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "concha marina": {
@@ -4693,7 +4693,7 @@
       "oreja",
       "duro"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "caballito de mar": {
@@ -4704,7 +4704,7 @@
       "nadar",
       "animal"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "estrella de mar": {
@@ -4715,7 +4715,7 @@
       "brazos",
       "animal"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "casa del árbol": {
@@ -4726,7 +4726,7 @@
       "jardín",
       "secreto"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "hucha de cerdito": {
@@ -4737,7 +4737,7 @@
       "rosa",
       "ranura"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "tebeo de risa": {
@@ -4748,7 +4748,7 @@
       "páginas",
       "humor"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "videojuego de consola": {
@@ -4759,7 +4759,7 @@
       "diversión",
       "tele"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "juego de mesa": {
@@ -4770,7 +4770,7 @@
       "fichas",
       "cartas"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "comba para saltar": {
@@ -4781,7 +4781,7 @@
       "cuerda",
       "pies"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "palo saltarín": {
@@ -4792,7 +4792,7 @@
       "mando",
       "arriba y abajo"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "hula hoop": {
@@ -4803,7 +4803,7 @@
       "círculo",
       "plástico"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "patito de goma": {
@@ -4814,7 +4814,7 @@
       "flotar",
       "pío"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "muñeco de nieve": {
@@ -4825,7 +4825,7 @@
       "construir",
       "blanco"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "selva tropical": {
@@ -4836,7 +4836,7 @@
       "mojado",
       "jungla"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "globo aerostático": {
@@ -4847,7 +4847,7 @@
       "flotar",
       "fuego"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "nave espacial": {
@@ -4858,7 +4858,7 @@
       "luna",
       "astronauta"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "camión de basura": {
@@ -4869,7 +4869,7 @@
       "cubo",
       "ruedas"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "carrito de helados": {
@@ -4880,7 +4880,7 @@
       "frío",
       "calle"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "noria de feria": {
@@ -4891,7 +4891,7 @@
       "girar",
       "atracción"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "tiovivo de caballitos": {
@@ -4902,7 +4902,7 @@
       "feria",
       "atracción"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "tobogán de agua": {
@@ -4913,7 +4913,7 @@
       "nadar",
       "verano"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "piscina de bolas": {
@@ -4924,7 +4924,7 @@
       "saltar",
       "parque infantil"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "parque infantil": {
@@ -4935,7 +4935,7 @@
       "calle",
       "jugar"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "el escondite": {
@@ -4946,7 +4946,7 @@
       "escondido",
       "pillado"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "piedra papel tijera": {
@@ -4957,7 +4957,7 @@
       "tres",
       "puño"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "sillas musicales": {
@@ -4968,7 +4968,7 @@
       "fiesta",
       "parar"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "cepillo del pelo": {
@@ -4979,7 +4979,7 @@
       "mañana",
       "suave"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "reloj de alarma": {
@@ -4990,7 +4990,7 @@
       "hora",
       "sonar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "cuarto de estar": {
@@ -5001,7 +5001,7 @@
       "sentarse",
       "familia"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "comedor de casa": {
@@ -5012,7 +5012,7 @@
       "cena",
       "casa"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "cuarto de baño": {
@@ -5023,7 +5023,7 @@
       "casa",
       "limpio"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "lavadora de ropa": {
@@ -5034,7 +5034,7 @@
       "jabón",
       "girar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "aspiradora de polvo": {
@@ -5045,7 +5045,7 @@
       "polvo",
       "limpiar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "mando a distancia": {
@@ -5056,7 +5056,7 @@
       "sofá",
       "mano"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "teléfono móvil": {
@@ -5067,7 +5067,7 @@
       "pantalla",
       "móvil"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "ordenador portátil": {
@@ -5078,7 +5078,7 @@
       "maletín",
       "trabajar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "tarjeta de crédito": {
@@ -5089,7 +5089,7 @@
       "cartera",
       "pagar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "centro comercial": {
@@ -5100,7 +5100,7 @@
       "grande",
       "cine"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "tienda de animales": {
@@ -5111,7 +5111,7 @@
       "comprar",
       "peces"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "tienda de juguetes": {
@@ -5122,7 +5122,7 @@
       "juegos",
       "muñecas"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "tienda de chuches": {
@@ -5133,7 +5133,7 @@
       "chocolate",
       "colores"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "parque de atracciones": {
@@ -5144,7 +5144,7 @@
       "noria",
       "feria"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "parque acuático": {
@@ -5155,7 +5155,7 @@
       "verano",
       "piscina"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "bombero de fuego": {
@@ -5166,7 +5166,7 @@
       "camión",
       "ayuda"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "agente de policía": {
@@ -5177,7 +5177,7 @@
       "ayuda",
       "coche"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "estrella de cine": {
@@ -5188,7 +5188,7 @@
       "actuar",
       "hollywood"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "estrella del rock": {
@@ -5199,7 +5199,7 @@
       "cantar",
       "concierto"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "súper héroe": {
@@ -5210,7 +5210,7 @@
       "salvar",
       "cómic"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "agente secreto": {
@@ -5221,7 +5221,7 @@
       "listo",
       "pistas"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "cuento de hadas": {
@@ -5232,7 +5232,7 @@
       "reina",
       "érase una vez"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "canción de cuna": {
@@ -5243,7 +5243,7 @@
       "bebé",
       "suave"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "cuento de dormir": {
@@ -5254,7 +5254,7 @@
       "leer",
       "sueño"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "libro de colorear": {
@@ -5265,7 +5265,7 @@
       "páginas",
       "rellenar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "choca esos cinco": {
@@ -5276,7 +5276,7 @@
       "amigo",
       "arriba"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "dedo pulgar arriba": {
@@ -5287,7 +5287,7 @@
       "dedo",
       "señal"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "promesa de meñique": {
@@ -5298,7 +5298,7 @@
       "secreto",
       "mano"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "ombligo de la tripa": {
@@ -5309,7 +5309,7 @@
       "cuerpo",
       "pequeño"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "cubitos de hielo": {
@@ -5320,7 +5320,7 @@
       "congelador",
       "duro"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "patatas de bolsa": {
@@ -5331,7 +5331,7 @@
       "bolsa",
       "patata"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "zumo de manzana": {
@@ -5342,7 +5342,7 @@
       "amarillo",
       "vaso"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "chicle de globo": {
@@ -5353,7 +5353,7 @@
       "dulce",
       "pegajoso"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "palomitas de maíz": {
@@ -5364,7 +5364,7 @@
       "aperitivo",
       "mantequilla"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "pijama de dormir": {
@@ -5375,7 +5375,7 @@
       "suave",
       "cama"
     ],
-    "category": "Clothing",
+    "category": "Ropa",
     "kidsMode": true
   },
   "chubasquero de lluvia": {
@@ -5386,7 +5386,7 @@
       "chaqueta",
       "seco"
     ],
-    "category": "Clothing",
+    "category": "Ropa",
     "kidsMode": true
   },
   "bañador de playa": {
@@ -5397,7 +5397,7 @@
       "verano",
       "ropa"
     ],
-    "category": "Clothing",
+    "category": "Ropa",
     "kidsMode": true
   },
   "gafas de sol": {
@@ -5408,7 +5408,7 @@
       "oscuro",
       "llevar"
     ],
-    "category": "Clothing",
+    "category": "Ropa",
     "kidsMode": true
   },
   "zapatillas de deporte": {
@@ -5419,7 +5419,7 @@
       "cordones",
       "caminar"
     ],
-    "category": "Clothing",
+    "category": "Ropa",
     "kidsMode": true
   },
   "botas de agua": {
@@ -5430,7 +5430,7 @@
       "goma",
       "mojado"
     ],
-    "category": "Clothing",
+    "category": "Ropa",
     "kidsMode": true
   },
   "gorra de béisbol": {
@@ -5441,7 +5441,7 @@
       "deporte",
       "visera"
     ],
-    "category": "Clothing",
+    "category": "Ropa",
     "kidsMode": true
   },
   "redes sociales": {
@@ -5452,7 +5452,7 @@
       "likes",
       "publicar"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "cambio climático": {
@@ -5463,7 +5463,7 @@
       "futuro",
       "verde"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "energía renovable": {
@@ -5474,7 +5474,7 @@
       "luz",
       "limpia"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "panel solar": {
@@ -5485,7 +5485,7 @@
       "energía",
       "cristal"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "libertad de expresión": {
@@ -5496,7 +5496,7 @@
       "ley",
       "decir"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "partido político": {
@@ -5507,7 +5507,7 @@
       "izquierda",
       "derecha"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "presidente del gobierno": {
@@ -5518,7 +5518,7 @@
       "votar",
       "moncloa"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": false
   },
   "política exterior": {
@@ -5529,7 +5529,7 @@
       "hablar",
       "frontera"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "derecho internacional": {
@@ -5540,7 +5540,7 @@
       "legal",
       "tribunal"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "revolución industrial": {
@@ -5551,7 +5551,7 @@
       "cambio",
       "antiguo"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "literatura clásica": {
@@ -5562,7 +5562,7 @@
       "famoso",
       "autor"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "ciencia ficción": {
@@ -5573,7 +5573,7 @@
       "historia",
       "tecnología"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "premio nobel": {
@@ -5584,7 +5584,7 @@
       "ganar",
       "suecia"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "copa del mundo": {
@@ -5595,7 +5595,7 @@
       "juego",
       "trofeo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "juegos olímpicos": {
@@ -5606,7 +5606,7 @@
       "oro",
       "cada cuatro años"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "consejo de administración": {
@@ -5617,7 +5617,7 @@
       "empresa",
       "reunión"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "recursos humanos": {
@@ -5628,7 +5628,7 @@
       "oficina",
       "personal"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "relaciones públicas": {
@@ -5639,7 +5639,7 @@
       "prensa",
       "hablar"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "atención al cliente": {
@@ -5650,7 +5650,7 @@
       "tienda",
       "problema"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "cadena de suministro": {
@@ -5661,7 +5661,7 @@
       "tienda",
       "logística"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "control de calidad": {
@@ -5672,7 +5672,7 @@
       "probar",
       "normas"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "propiedad intelectual": {
@@ -5683,7 +5683,7 @@
       "patente",
       "copiar"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "política de privacidad": {
@@ -5694,7 +5694,7 @@
       "reglas",
       "legal"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "interfaz de usuario": {
@@ -5705,7 +5705,7 @@
       "app",
       "diseño"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "estación espacial": {
@@ -5716,7 +5716,7 @@
       "órbita",
       "astronauta"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "agujero negro": {
@@ -5727,7 +5727,7 @@
       "tragar",
       "estrella"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "selección natural": {
@@ -5738,7 +5738,7 @@
       "evolución",
       "cambio"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "ingeniería genética": {
@@ -5749,7 +5749,7 @@
       "laboratorio",
       "vida"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "sistema inmunitario": {
@@ -5760,7 +5760,7 @@
       "proteger",
       "defensas"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "tensión arterial": {
@@ -5771,7 +5771,7 @@
       "salud",
       "número"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "salud mental": {
@@ -5782,7 +5782,7 @@
       "feliz",
       "médico"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "inteligencia emocional": {
@@ -5793,7 +5793,7 @@
       "listo",
       "mente"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "pensamiento crítico": {
@@ -5804,7 +5804,7 @@
       "hechos",
       "mente"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "gestión del tiempo": {
@@ -5815,7 +5815,7 @@
       "rápido",
       "tarea"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "conciliación laboral": {
@@ -5826,7 +5826,7 @@
       "familia",
       "descanso"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "síndrome del impostor": {
@@ -5837,7 +5837,7 @@
       "miedo",
       "trabajo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "agente inmobiliario": {
@@ -5848,7 +5848,7 @@
       "trabajo",
       "piso"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": false
   },
   "banco de inversión": {
@@ -5859,7 +5859,7 @@
       "rico",
       "empresa"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "seguridad social": {
@@ -5870,7 +5870,7 @@
       "pagar",
       "ayuda"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "salario mínimo": {
@@ -5881,7 +5881,7 @@
       "bajo",
       "ley"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "tasa de paro": {
@@ -5892,7 +5892,7 @@
       "economía",
       "números"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "servicio de streaming": {
@@ -5903,7 +5903,7 @@
       "tele",
       "suscripción"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "motor de búsqueda": {
@@ -5914,7 +5914,7 @@
       "encontrar",
       "web"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "derechos civiles": {
@@ -5925,7 +5925,7 @@
       "derecho",
       "protesta"
     ],
-    "category": "History",
+    "category": "Historia",
     "kidsMode": false
   },
   "naciones unidas": {
@@ -5936,7 +5936,7 @@
       "países",
       "nueva york"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "unión europea": {
@@ -5947,7 +5947,7 @@
       "países",
       "bruselas"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "clase media": {
@@ -5958,7 +5958,7 @@
       "grupo",
       "sociedad"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "transporte público": {
@@ -5969,7 +5969,7 @@
       "viaje",
       "gente"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": false
   },
   "combustibles fósiles": {
@@ -5980,7 +5980,7 @@
       "energía",
       "malo"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "huella de carbono": {
@@ -5991,7 +5991,7 @@
       "tú",
       "verde"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "recursos naturales": {
@@ -6002,7 +6002,7 @@
       "agua",
       "naturaleza"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "crisis de identidad": {
@@ -6013,7 +6013,7 @@
       "cambio",
       "sentirse"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "filosofía moral": {
@@ -6024,7 +6024,7 @@
       "reglas",
       "bueno"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "contrato social": {
@@ -6035,7 +6035,7 @@
       "sociedad",
       "acuerdo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "división de poderes": {
@@ -6046,7 +6046,7 @@
       "juez",
       "líder"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "desobediencia civil": {
@@ -6057,7 +6057,7 @@
       "paz",
       "marcha"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "organización sin ánimo de lucro": {
@@ -6068,7 +6068,7 @@
       "trabajo",
       "bueno"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "responsabilidad social corporativa": {
@@ -6079,7 +6079,7 @@
       "ayuda",
       "deber"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "blanqueo de dinero": {
@@ -6090,7 +6090,7 @@
       "efectivo",
       "banco"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "paraíso fiscal": {
@@ -6101,7 +6101,7 @@
       "bajo",
       "isla"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "conflicto de intereses": {
@@ -6112,7 +6112,7 @@
       "secreto",
       "justo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "fuga de cerebros": {
@@ -6123,7 +6123,7 @@
       "trabajo",
       "mudarse"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "techo de cristal": {
@@ -6134,7 +6134,7 @@
       "arriba",
       "oculto"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "parque de bolas": {
@@ -6145,7 +6145,7 @@
       "saltar",
       "cumpleaños"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "algodón de azúcar": {
@@ -6156,7 +6156,7 @@
       "nube",
       "palo"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "huevo de chocolate": {
@@ -6167,7 +6167,7 @@
       "comer",
       "pascua"
     ],
-    "category": "Food",
+    "category": "Comida",
     "kidsMode": true
   },
   "castillo hinchable": {
@@ -6178,7 +6178,7 @@
       "niños",
       "divertido"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "patinete eléctrico": {
@@ -6189,7 +6189,7 @@
       "batería",
       "pie"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "mochila escolar": {
@@ -6200,7 +6200,7 @@
       "estudiar",
       "cremallera"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "lápices de colores": {
@@ -6211,7 +6211,7 @@
       "arcoíris",
       "punta"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "sacapuntas": {
@@ -6222,7 +6222,7 @@
       "madera",
       "afilar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "goma de borrar": {
@@ -6233,7 +6233,7 @@
       "limpiar",
       "papel"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "tijeras escolares": {
@@ -6244,7 +6244,7 @@
       "colegio",
       "dedos"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "pegamento en barra": {
@@ -6255,7 +6255,7 @@
       "estuche",
       "blanco"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "clase de gimnasia": {
@@ -6266,7 +6266,7 @@
       "ejercicio",
       "patio"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "recreo del cole": {
@@ -6277,7 +6277,7 @@
       "almuerzo",
       "patio"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "excursión escolar": {
@@ -6288,7 +6288,7 @@
       "museo",
       "mochila"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "clase de música": {
@@ -6299,7 +6299,7 @@
       "colegio",
       "sonido"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "asamblea legislativa": {
@@ -6310,7 +6310,7 @@
       "parlamento",
       "gobierno"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "administración pública": {
@@ -6321,7 +6321,7 @@
       "estado",
       "servicio"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "estado de bienestar": {
@@ -6332,7 +6332,7 @@
       "dinero",
       "social"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "política monetaria": {
@@ -6343,7 +6343,7 @@
       "economía",
       "control"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "mercado bursátil": {
@@ -6354,7 +6354,7 @@
       "invertir",
       "riesgo"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "capital de riesgo": {
@@ -6365,7 +6365,7 @@
       "riesgo",
       "invertir"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "balance de situación": {
@@ -6376,7 +6376,7 @@
       "activos",
       "pasivos"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "cuenta de resultados": {
@@ -6387,7 +6387,7 @@
       "empresa",
       "año"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "auditoría externa": {
@@ -6398,7 +6398,7 @@
       "legal",
       "control"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "plan de pensiones": {
@@ -6409,7 +6409,7 @@
       "futuro",
       "viejo"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "fondo de inversión": {
@@ -6420,7 +6420,7 @@
       "banco",
       "gestión"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "hipoteca variable": {
@@ -6431,7 +6431,7 @@
       "pago",
       "deuda"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "derecho de admisión": {
@@ -6442,7 +6442,7 @@
       "prohibido",
       "puerta"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "ordenanza municipal": {
@@ -6453,7 +6453,7 @@
       "reglas",
       "multa"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "presupuestos generales": {
@@ -6464,7 +6464,7 @@
       "estado",
       "gasto"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "libertad de cátedra": {
@@ -6475,7 +6475,7 @@
       "universidad",
       "derecho"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "economía sumergida": {
@@ -6486,7 +6486,7 @@
       "oculto",
       "ilegal"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "conflicto colectivo": {
@@ -6497,7 +6497,7 @@
       "pelea",
       "sindicato"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "convenio sectorial": {
@@ -6508,7 +6508,7 @@
       "sueldo",
       "ley"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "protección de datos": {
@@ -6519,7 +6519,7 @@
       "privacidad",
       "info"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "seguridad vial": {
@@ -6530,7 +6530,7 @@
       "tráfico",
       "conducir"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "educación concertada": {
@@ -6541,7 +6541,7 @@
       "dinero",
       "enseñar"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "turismo sostenible": {
@@ -6552,7 +6552,7 @@
       "medio ambiente",
       "limpio"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "huella ecológica": {
@@ -6563,7 +6563,7 @@
       "humano",
       "verde"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "soberanía energética": {
@@ -6574,7 +6574,7 @@
       "gas",
       "propio"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "economía circular": {
@@ -6585,7 +6585,7 @@
       "verde",
       "reutilizar"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "teletrabajo": {
@@ -6596,7 +6596,7 @@
       "trabajo",
       "internet"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "transformación digital": {
@@ -6607,7 +6607,7 @@
       "moderno",
       "tech"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "brecha digital": {
@@ -6618,7 +6618,7 @@
       "acceso",
       "tech"
     ],
-    "category": "Tech",
+    "category": "Tecnología",
     "kidsMode": false
   },
   "comercio electrónico": {
@@ -6629,7 +6629,7 @@
       "paquete",
       "tienda"
     ],
-    "category": "Business",
+    "category": "Negocios",
     "kidsMode": false
   },
   "bibliotecario": {
@@ -6640,7 +6640,7 @@
       "biblioteca",
       "estante"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "científico": {
@@ -6651,7 +6651,7 @@
       "ciencia",
       "prueba"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "mecánico": {
@@ -6662,7 +6662,7 @@
       "taller",
       "aceite"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "fotógrafo": {
@@ -6673,7 +6673,7 @@
       "sonrisa",
       "lente"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "detective": {
@@ -6684,7 +6684,7 @@
       "resolver",
       "espía"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "jardinero": {
@@ -6695,7 +6695,7 @@
       "jardín",
       "crecer"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "dentista": {
@@ -6706,7 +6706,7 @@
       "silla",
       "boca"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "enfermero": {
@@ -6717,7 +6717,7 @@
       "doctor",
       "medicina"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "panadero": {
@@ -6728,7 +6728,7 @@
       "cocinar",
       "tarta"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "artista": {
@@ -6739,7 +6739,7 @@
       "colores",
       "cuadro"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "músico": {
@@ -6750,7 +6750,7 @@
       "canción",
       "escenario"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "atleta": {
@@ -6761,7 +6761,7 @@
       "ganar",
       "gimnasio"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "reportero": {
@@ -6772,7 +6772,7 @@
       "micrófono",
       "historia"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "capitán": {
@@ -6783,7 +6783,7 @@
       "agua",
       "gorra"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "caballero": {
@@ -6794,7 +6794,7 @@
       "caballo",
       "escudo"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "mago": {
@@ -6805,7 +6805,7 @@
       "hechizo",
       "capa"
     ],
-    "category": "People",
+    "category": "Gente",
     "kidsMode": true
   },
   "dragón": {
@@ -6816,7 +6816,7 @@
       "alas",
       "miedo"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "unicornio": {
@@ -6827,7 +6827,7 @@
       "blanco",
       "arcoíris"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "sirena": {
@@ -6838,7 +6838,7 @@
       "pelo",
       "mar"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "extraterrestre": {
@@ -6849,7 +6849,7 @@
       "nave",
       "ovni"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "monstruo": {
@@ -6860,7 +6860,7 @@
       "grande",
       "peludo"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "dinosaurio": {
@@ -6871,7 +6871,7 @@
       "rugido",
       "t-rex"
     ],
-    "category": "Animals",
+    "category": "Animales",
     "kidsMode": true
   },
   "robot": {
@@ -6882,7 +6882,7 @@
       "batería",
       "futuro"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "castillo": {
@@ -6893,7 +6893,7 @@
       "torre",
       "viejo"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "palacio": {
@@ -6904,7 +6904,7 @@
       "oro",
       "príncipe"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "pirámide": {
@@ -6915,7 +6915,7 @@
       "desierto",
       "viejo"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "cascada": {
@@ -6926,7 +6926,7 @@
       "mojado",
       "alto"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "cueva": {
@@ -6937,7 +6937,7 @@
       "murciélagos",
       "dentro"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "selva": {
@@ -6948,7 +6948,7 @@
       "verde",
       "salvaje"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "valle": {
@@ -6959,7 +6959,7 @@
       "verde",
       "llano"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "cañón": {
@@ -6970,7 +6970,7 @@
       "rojo",
       "paredes"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "pantano": {
@@ -6981,7 +6981,7 @@
       "verde",
       "agua"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "glaciar": {
@@ -6992,7 +6992,7 @@
       "lento",
       "enorme"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "sabana": {
@@ -7003,7 +7003,7 @@
       "seco",
       "animales"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "tundra": {
@@ -7014,7 +7014,7 @@
       "ártico",
       "nieve"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "pradera": {
@@ -7025,7 +7025,7 @@
       "granja",
       "vacas"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "prado": {
@@ -7036,7 +7036,7 @@
       "sol",
       "abejas"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "huerto": {
@@ -7047,7 +7047,7 @@
       "granja",
       "recoger"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "viñedo": {
@@ -7058,7 +7058,7 @@
       "granja",
       "morado"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "faro": {
@@ -7069,7 +7069,7 @@
       "torre",
       "barco"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "rascacielos": {
@@ -7080,7 +7080,7 @@
       "elevado",
       "edificio"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "estadio": {
@@ -7091,7 +7091,7 @@
       "asientos",
       "equipo"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "museo": {
@@ -7102,7 +7102,7 @@
       "edificio",
       "mirar"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "acuario": {
@@ -7113,7 +7113,7 @@
       "cristal",
       "azul"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "planetario": {
@@ -7124,7 +7124,7 @@
       "cúpula",
       "planetas"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "observatorio": {
@@ -7135,7 +7135,7 @@
       "montaña",
       "mirar"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "laboratorio": {
@@ -7146,7 +7146,7 @@
       "cristal",
       "científico"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "universidad": {
@@ -7157,7 +7157,7 @@
       "grande",
       "estudiar"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "fábrica": {
@@ -7168,7 +7168,7 @@
       "trabajo",
       "edificio"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "almacén": {
@@ -7179,7 +7179,7 @@
       "productos",
       "vacío"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "puerto": {
@@ -7190,7 +7190,7 @@
       "muelle",
       "mar"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "aeropuerto": {
@@ -7201,7 +7201,7 @@
       "equipaje",
       "puerta"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "estación": {
@@ -7212,7 +7212,7 @@
       "viaje",
       "parada"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "puente": {
@@ -7223,7 +7223,7 @@
       "sobre",
       "alto"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "túnel": {
@@ -7234,7 +7234,7 @@
       "montaña",
       "através"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "monumento": {
@@ -7245,7 +7245,7 @@
       "piedra",
       "historia"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "fuente": {
@@ -7256,7 +7256,7 @@
       "deseo",
       "chorro"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "retrato": {
@@ -7267,7 +7267,7 @@
       "pintar",
       "persona"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "paisaje": {
@@ -7278,7 +7278,7 @@
       "pintar",
       "vista"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "mural": {
@@ -7289,7 +7289,7 @@
       "grande",
       "ciudad"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "grafiti": {
@@ -7300,7 +7300,7 @@
       "calle",
       "letras"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "mosaico": {
@@ -7311,7 +7311,7 @@
       "patrón",
       "colores"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "origami": {
@@ -7322,7 +7322,7 @@
       "forma",
       "pájaro"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "alfarería": {
@@ -7333,7 +7333,7 @@
       "fuego",
       "manos"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "tejido": {
@@ -7344,7 +7344,7 @@
       "patrón",
       "lana"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "bordado": {
@@ -7355,7 +7355,7 @@
       "patrón",
       "coser"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "punto": {
@@ -7366,7 +7366,7 @@
       "hilo",
       "bucle"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "joyería": {
@@ -7377,7 +7377,7 @@
       "brillante",
       "llevar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "tiara": {
@@ -7388,7 +7388,7 @@
       "corona",
       "oro"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "trofeo": {
@@ -7399,7 +7399,7 @@
       "deporte",
       "primero"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "medalla": {
@@ -7410,7 +7410,7 @@
       "deporte",
       "premio"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "brújula": {
@@ -7421,7 +7421,7 @@
       "mapa",
       "perdido"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "telescopio": {
@@ -7432,7 +7432,7 @@
       "lejos",
       "lente"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "microscopio": {
@@ -7443,7 +7443,7 @@
       "laboratorio",
       "células"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "prismáticos": {
@@ -7454,7 +7454,7 @@
       "pájaros",
       "naturaleza"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "lupa": {
@@ -7465,7 +7465,7 @@
       "grande",
       "pistas"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "mochila": {
@@ -7476,7 +7476,7 @@
       "correas",
       "bolsa"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "maleta": {
@@ -7487,7 +7487,7 @@
       "ruedas",
       "hacer"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "linterna": {
@@ -7498,7 +7498,7 @@
       "batería",
       "rayo"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "farol": {
@@ -7509,7 +7509,7 @@
       "fuego",
       "noche"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "vela": {
@@ -7520,7 +7520,7 @@
       "tarta",
       "quemar"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "cerilla": {
@@ -7531,7 +7531,7 @@
       "palo",
       "luz"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "mechero": {
@@ -7542,7 +7542,7 @@
       "llama",
       "humo"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "hoguera": {
@@ -7553,7 +7553,7 @@
       "madera",
       "noche"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "fogata": {
@@ -7564,7 +7564,7 @@
       "nubes",
       "noche"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "tienda": {
@@ -7575,7 +7575,7 @@
       "tela",
       "bosque"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "saco de dormir": {
@@ -7586,7 +7586,7 @@
       "tienda",
       "cremallera"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "hamaca": {
@@ -7597,7 +7597,7 @@
       "cuerda",
       "fuera"
     ],
-    "category": "Objects",
+    "category": "Objetos",
     "kidsMode": true
   },
   "picnic": {
@@ -7608,7 +7608,7 @@
       "manta",
       "fuera"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "barbacoa": {
@@ -7619,7 +7619,7 @@
       "humo",
       "comer"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "fiesta": {
@@ -7630,7 +7630,7 @@
       "baile",
       "tarta"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "desfile": {
@@ -7641,7 +7641,7 @@
       "público",
       "carrozas"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "feria": {
@@ -7651,7 +7651,7 @@
       "diversión",
       "algodón de azúcar"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "circo": {
@@ -7662,7 +7662,7 @@
       "espectáculo",
       "trapecio"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "teatro": {
@@ -7673,7 +7673,7 @@
       "asientos",
       "telón"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "ópera": {
@@ -7684,7 +7684,7 @@
       "fuerte",
       "teatro"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "ballet": {
@@ -7695,7 +7695,7 @@
       "puntas",
       "zapatillas"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "concierto": {
@@ -7706,7 +7706,7 @@
       "público",
       "escenario"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "festival": {
@@ -7717,7 +7717,7 @@
       "muchos",
       "público"
     ],
-    "category": "Places",
+    "category": "Lugares",
     "kidsMode": true
   },
   "orquesta": {
@@ -7728,7 +7728,7 @@
       "director",
       "tocar"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "sinfonía": {
@@ -7739,7 +7739,7 @@
       "fuerte",
       "bella"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "melodía": {
@@ -7750,7 +7750,7 @@
       "cantar",
       "notas"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "ritmo": {
@@ -7761,7 +7761,7 @@
       "tambor",
       "palmas"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "armonía": {
@@ -7772,7 +7772,7 @@
       "cantar",
       "bien"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "letra": {
@@ -7783,7 +7783,7 @@
       "música",
       "escribir"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": true
   },
   "tempo": {
@@ -7794,7 +7794,7 @@
       "lento",
       "compás"
     ],
-    "category": "Art",
+    "category": "Arte",
     "kidsMode": false
   },
   "volumen": {
@@ -7805,7 +7805,7 @@
       "sonido",
       "girar"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "eco": {
@@ -7816,7 +7816,7 @@
       "voz",
       "pared"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "vibración": {
@@ -7827,7 +7827,7 @@
       "rápido",
       "tocar"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "fricción": {
@@ -7838,7 +7838,7 @@
       "parar",
       "tocar"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "inercia": {
@@ -7849,7 +7849,7 @@
       "parar",
       "reposo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "velocidad": {
@@ -7860,7 +7860,7 @@
       "física",
       "prisa"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "presión": {
@@ -7871,7 +7871,7 @@
       "aire",
       "pesado"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "temperatura": {
@@ -7882,7 +7882,7 @@
       "tiempo",
       "calor"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "evaporación": {
@@ -7893,7 +7893,7 @@
       "arriba",
       "seco"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "condensación": {
@@ -7904,7 +7904,7 @@
       "mojado",
       "frío"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "precipitación": {
@@ -7915,7 +7915,7 @@
       "cielo",
       "caer"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "metamorfosis": {
@@ -7926,7 +7926,7 @@
       "rana",
       "vida"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "respiración": {
@@ -7937,7 +7937,7 @@
       "vida",
       "oxígeno"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "digestión": {
@@ -7948,7 +7948,7 @@
       "cuerpo",
       "proceso"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "circulación": {
@@ -7959,7 +7959,7 @@
       "flujo",
       "vuelta"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "esqueleto": {
@@ -7970,7 +7970,7 @@
       "dentro",
       "duro"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "músculo": {
@@ -7981,7 +7981,7 @@
       "brazo",
       "carne"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "cerebro": {
@@ -7992,7 +7992,7 @@
       "listo",
       "control"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "corazón": {
@@ -8003,7 +8003,7 @@
       "vida",
       "amor"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "pulmones": {
@@ -8014,7 +8014,7 @@
       "oxígeno",
       "humo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "estómago": {
@@ -8025,7 +8025,7 @@
       "hambre",
       "lleno"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "hígado": {
@@ -8036,7 +8036,7 @@
       "sangre",
       "limpiar"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "riñones": {
@@ -8047,7 +8047,7 @@
       "agua",
       "limpiar"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "intestinos": {
@@ -8058,7 +8058,7 @@
       "comida",
       "estómago"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "bacteria": {
@@ -8069,7 +8069,7 @@
       "vida",
       "limpiar"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "virus": {
@@ -8080,7 +8080,7 @@
       "gripe",
       "contagio"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "anticuerpo": {
@@ -8091,7 +8091,7 @@
       "sano",
       "células"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "vacuna": {
@@ -8102,7 +8102,7 @@
       "sano",
       "aguja"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "antibiótico": {
@@ -8113,7 +8113,7 @@
       "pastilla",
       "enfermo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "vitaminas": {
@@ -8124,7 +8124,7 @@
       "bueno",
       "cuerpo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "minerales": {
@@ -8135,7 +8135,7 @@
       "comida",
       "hierro"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "proteínas": {
@@ -8146,7 +8146,7 @@
       "cuerpo",
       "músculo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   },
   "carbohidratos": {
@@ -8157,7 +8157,7 @@
       "azúcar",
       "pasta"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "glucosa": {
@@ -8168,7 +8168,7 @@
       "cuerpo",
       "dulce"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "colesterol": {
@@ -8179,7 +8179,7 @@
       "salud",
       "malo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "hormonas": {
@@ -8190,7 +8190,7 @@
       "sentir",
       "cambio"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "enzimas": {
@@ -8201,7 +8201,7 @@
       "proceso",
       "células"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "evolución": {
@@ -8212,7 +8212,7 @@
       "darwin",
       "crecer"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "herencia": {
@@ -8223,7 +8223,7 @@
       "rasgos",
       "padres"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "conservación": {
@@ -8234,7 +8234,7 @@
       "verde",
       "proteger"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "contaminación": {
@@ -8245,7 +8245,7 @@
       "malo",
       "tierra"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "reciclaje": {
@@ -8256,7 +8256,7 @@
       "verde",
       "reutilizar"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "compostaje": {
@@ -8267,7 +8267,7 @@
       "pudrir",
       "verde"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": false
   },
   "geosfera": {
@@ -8278,7 +8278,7 @@
       "metal",
       "piedra"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "hidrosfera": {
@@ -8289,7 +8289,7 @@
       "río",
       "hielo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "mesosfera": {
@@ -8300,7 +8300,7 @@
       "frío",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "termosfera": {
@@ -8311,7 +8311,7 @@
       "alto",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "exosfera": {
@@ -8322,7 +8322,7 @@
       "borde",
       "capa"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "magnetosfera": {
@@ -8333,7 +8333,7 @@
       "espacio",
       "fuerza"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "ecuador": {
@@ -8344,7 +8344,7 @@
       "línea",
       "globo"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "longitud": {
@@ -8355,7 +8355,7 @@
       "arriba",
       "globo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "latitud": {
@@ -8366,7 +8366,7 @@
       "lado",
       "globo"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "coordenadas": {
@@ -8377,7 +8377,7 @@
       "buscar",
       "punto"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": false
   },
   "topografía": {
@@ -8388,7 +8388,7 @@
       "suelo",
       "altura"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": false
   },
   "navegación": {
@@ -8399,7 +8399,7 @@
       "viaje",
       "barco"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "expedición": {
@@ -8410,7 +8410,7 @@
       "encontrar",
       "grupo"
     ],
-    "category": "Travel",
+    "category": "Viajes",
     "kidsMode": true
   },
   "imaginación": {
@@ -8421,7 +8421,7 @@
       "pensamiento",
       "crear"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "amistad": {
@@ -8432,7 +8432,7 @@
       "jugar",
       "compartir"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "curiosidad": {
@@ -8443,7 +8443,7 @@
       "listo",
       "buscar"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "aventura": {
@@ -8454,7 +8454,7 @@
       "fuera",
       "buscar"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "vacaciones": {
@@ -8465,7 +8465,7 @@
       "verano",
       "descanso"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "mañana": {
@@ -8476,7 +8476,7 @@
       "inicio",
       "luz"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "tarde": {
@@ -8487,7 +8487,7 @@
       "antes de cenar",
       "luz"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "noche": {
@@ -8498,7 +8498,7 @@
       "oscuro",
       "sueño"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "ayer": {
@@ -8509,7 +8509,7 @@
       "hecho",
       "viejo"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "mañana (día)": {
@@ -8520,7 +8520,7 @@
       "próximo",
       "pronto"
     ],
-    "category": "Abstract",
+    "category": "Abstracto",
     "kidsMode": true
   },
   "sombra": {
@@ -8531,7 +8531,7 @@
       "suelo",
       "negro"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "reflejo": {
@@ -8542,7 +8542,7 @@
       "cristal",
       "cara"
     ],
-    "category": "Nature",
+    "category": "Naturaleza",
     "kidsMode": true
   },
   "imán": {
@@ -8553,7 +8553,7 @@
       "pegar",
       "norte"
     ],
-    "category": "Science",
+    "category": "Ciencia",
     "kidsMode": true
   }
 }

@@ -692,6 +692,7 @@ const styles = StyleSheet.create({
     maxWidth: 450,
     alignItems: 'center',
     shadowOffset: { width: 0, height: 0 },
+    backgroundColor: 'transparent',
   },
   neonBtn: {
     paddingVertical: 18,
@@ -704,6 +705,7 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.8,
     shadowRadius: 10,
+    backgroundColor: 'transparent',
   },
   
   title: { fontSize: 40, fontWeight: "900", color: COLORS.primary, marginBottom: 10, textAlign: "center", fontFamily: FONT_FAMILY, textShadowColor: COLORS.primary, textShadowRadius: 15 },
